@@ -1,0 +1,15 @@
+digraph T {
+  graph [fontname="Noto Sans CJK SC", rankdir=TB, pad=0.3, nodesep=0.3, ranksep=0.35, label="图 2　故事大背景时间线（v2.1）", labelloc=t, fontsize=20];
+  node [fontname="Noto Sans CJK SC", shape=box, style="rounded,filled", fillcolor="#F4EDE0", fontsize=12, width=6.8];
+  edge [color="#8A7A5A"];
+  a [label="远古｜达南神族败于人类祖先，退居妖精丘陵地下神域"];
+  b [label="约千年前｜普卡之首觊觎权力，暗中投靠弗魔族，图谋取代女王"];
+  c [label="约千年前｜守门贵族 Ogma 与人类第一代媒介立约：\n人类提供欧甘文字；双方交换名字签下《欧甘契约法典》；两界分隔", fillcolor="#F2E3B3"];
+  d [label="同时｜文字写下了普卡的恶，他从此痛恨文字与契约；Ogma 把女王所赐的圣物铁十字交给媒介作为保险"];
+  e [label="约千年前｜Ogma 在回去见女王的路上被普卡诱杀；普卡假扮成他回到女王身边\n女王从此不知道契约的细节；Ogma 的「钥匙」一半化为符文，在两界流浪", fillcolor="#F6D9D5"];
+  f [label="此后千年｜签约的一方已不在，契约慢慢失效；人们仍看不见文字，也看不见妖精"];
+  g [label="近年｜效力几乎耗尽，文字散落两界：孩子们先看见文字，继而看见文字所定义的妖精\nOgma 的钥匙符文选中了奥伊芯", fillcolor="#F6D9D5"];
+  h [label="故事开始｜女王召唤「钥匙」奥伊芯，想把她留在里世界；\n假贵族趁机在黄昏打开古墓引诱她——奥伊芯被双重吸引", fillcolor="#E3EEEC"];
+  i [label="意外｜妮芙追了进去：两边都没算到媒介后人会出现", fillcolor="#DDEBD9"];
+  a->b->c->d->e->f->g->h->i;
+}

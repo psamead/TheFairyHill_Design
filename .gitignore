@@ -1,0 +1,9 @@
+# 临时 / 系统文件
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
+*.npy
+# 打包副本（解压后的 _build_scripts/ 已在仓库里）
+_build_scripts.zip

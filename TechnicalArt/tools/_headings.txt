@@ -1,0 +1,136 @@
+﻿L1 | Heading 1 | 0. 文档说明与设计原则
+L2 | Heading 2 | 0.1 《概念角色场景设计》三条要求如何落实
+L2 | Heading 2 | 0.2 原稿中概念不清的问题与处理
+L1 | Heading 1 | 1. 世界观与故事背景
+L2 | Heading 2 | 1.1 一句话概念
+L2 | Heading 2 | 1.2 两个世界
+L2 | Heading 2 | 1.3 妖精法则（里世界规则）
+L2 | Heading 2 | 1.4 故事序（开场过场动画）
+L2 | Heading 2 | 1.5 章节结构与关卡对照
+L1 | Heading 1 | 2. 角色设计
+L2 | Heading 2 | 2.1 角色关系总览
+L2 | Heading 2 | 2.2 角色区分与饰物联系（重点改进）
+L2 | Heading 2 | 2.3 妮芙 Niamh（玩家角色）
+L3 | Heading 3 | 设定
+L3 | Heading 3 | 外观（基于原设计图改进）
+L3 | Heading 3 | 动画需求
+L2 | Heading 2 | 2.4 奥伊芯 Oisín（最好的朋友）
+L3 | Heading 3 | 设定
+L3 | Heading 3 | 外观（基于原设计图改进）
+L2 | Heading 2 | 2.5 里世界的居民
+L3 | Heading 3 | 守门贵族 Ogma（普卡之首假扮）
+L3 | Heading 3 | 女妖 Bean Sídhe
+L3 | Heading 3 | 普卡 Púca
+L2 | Heading 2 | 2.6 最终 Boss：荆棘女王（暂定，建议新增）
+L1 | Heading 1 | 3. 特殊能力与核心系统（结合系统成面想象）
+L2 | Heading 2 | 3.1 核心系统：存在值（Existence）
+L2 | Heading 2 | 3.2 四项能力：叙事 → 机制 → 画面 → UI
+L2 | Heading 2 | 3.3 辅助系统
+L3 | Heading 3 | 背包：妮芙的小挎包（2026-10-26 新增）
+L1 | Heading 1 | 4. 武器装备与道具（特殊化、物化视觉化）
+L2 | Heading 2 | 4.1 铁十字架（主装备，改进原设计）
+L2 | Heading 2 | 4.2 其他道具与收集物
+L1 | Heading 1 | 5. 场景设计（拉开画面距离，体现主题特质）
+L2 | Heading 2 | 5.1 场景总表
+L2 | Heading 2 | 5.2 各场景说明
+L3 | Heading 3 | S1 黄昏村庄与丘陵（新手教程）
+L3 | Heading 3 | S2 古墓入口
+L3 | Heading 3 | S3 古墓石廊
+L3 | Heading 3 | S4 藤蔓门厅（贵族之门）
+L3 | Heading 3 | S5 雾中巨石阵
+L3 | Heading 3 | S6 枯萎森林
+L3 | Heading 3 | S7 哀歌之谷
+L3 | Heading 3 | S8 地下璀璨神域
+L3 | Heading 3 | S9 荆棘女王之庭
+L3 | Heading 3 | S10 归途 · 黎明
+L1 | Heading 1 | 6. 美术风格与制作建议
+L2 | Heading 2 | 6.1 美术风格分层
+L2 | Heading 2 | 6.2 制作流程（对应原稿 Production process）
+L2 | Heading 2 | 6.3 待原作者确认的问题
+L2 | Heading 2 | 6.4 音乐与音效（2026-10-26 新增）
+L1 | Heading 1 | 7. 原设计参考图与概念图进展（v1.1 新增）
+L2 | Heading 2 | 7.1 原作者设计图（总览）
+L2 | Heading 2 | 7.2 从原图裁出的参考图（MJ_ref）
+L2 | Heading 2 | 7.3 妮芙 v2 概念图（当前定稿候选）
+L2 | Heading 2 | 7.4 从 v2 中裁出的新参考图
+L2 | Heading 2 | 7.5 奥伊芯 v2 概念图（v1.2 新增，当前定稿候选）
+L3 | Heading 3 | 两人对照（视觉距离 + 饰物联系）
+L2 | Heading 2 | 7.6 下一步（概念图）
+L2 | Heading 2 | 7.7 两位主角 v3 定稿（2026-10）
+L1 | Heading 1 | 8. 故事 v2：欧甘契约法典与两条暗线（2026-10-12，v2.2，以本章为准）
+L2 | Heading 2 | 8.1 一段话版本（用于简介 / 宣传）
+L2 | Heading 2 | 8.2 核心设定：契约法典、文字与「看见」
+L3 | Heading 3 | 8.2.1 铁十字：神族的圣物（v2.2 新增）
+L3 | Heading 3 | 8.2.2 与神话民俗的对照（v2.2）
+L2 | Heading 2 | 8.3 两套人马
+L2 | Heading 2 | 8.4 大背景时间线
+L2 | Heading 2 | 8.5 契约的机制与真结局
+L2 | Heading 2 | 8.6 补齐逻辑的细节
+L2 | Heading 2 | 8.7 章节重排（v2）
+L2 | Heading 2 | 8.8 Demo 中的伏笔（只改台词，不增加美术）
+L2 | Heading 2 | 8.9 确认记录
+L2 | Heading 2 | 8.10 新美术资产与角色对应（v2.2）
+L2 | Heading 2 | 8.11 原作者新稿 L7/66：参考图（2026-10-26 新增）
+L1 | Heading 1 | 附录 A　神话出处与参考链接
+L3 | Heading 3 | A1 妖精丘陵 Sídhe / 贵族妖精 Aos Sí / 达南神族
+L3 | Heading 3 | A2 欧甘字母 Ogham
+L3 | Heading 3 | A3 妮芙与奥伊芯 Niamh & Oisín（青春之国 Tír na nÓg）
+L3 | Heading 3 | A4 报丧女妖 Bean Sídhe（Banshee）
+L3 | Heading 3 | A5 普卡 Púca
+L3 | Heading 3 | A6 铁驱妖精、妖精食物与换生灵
+L3 | Heading 3 | A7 青铜时代黄金饰物（lunula / torc）
+L3 | Heading 3 | A8 纽格莱奇 Newgrange 通道式古墓
+L3 | Heading 3 | A9 山楂树「妖精之树」
+L3 | Heading 3 | A10 三叶草与四叶草（民间象征，非古代妖精神话）
+L3 | Heading 3 | A11 弗魔族 Fomóire
+L3 | Heading 3 | A12 奥格玛 Ogma 与欧甘字母的起源
+L3 | Heading 3 | A13 铁匠神哥布纽 Goibniu、达南神族四宝与第二次莫伊图拉之战
+L1 | Heading 1 | 附录 B　图片资产总览
+L3 | Heading 3 | ORIGINAL_SHEET.png
+L3 | Heading 3 | NIAMH_REF.png
+L3 | Heading 3 | OISIN_REF.png
+L3 | Heading 3 | CROSS_REF.png
+L3 | Heading 3 | LANDSCAPE_REF.png
+L3 | Heading 3 | SKETCH_1.png
+L3 | Heading 3 | SKETCH_2.png
+L3 | Heading 3 | SKETCH_3.png
+L3 | Heading 3 | Niamh_v2.png
+L3 | Heading 3 | NIAMH_REF_v2.png
+L3 | Heading 3 | CIRCLET_REF.png
+L3 | Heading 3 | CROSS_v2.png
+L3 | Heading 3 | Oisin_v2.png
+L3 | Heading 3 | OISIN_REF_v2.png
+L3 | Heading 3 | OISIN_BACK_v2.png
+L3 | Heading 3 | HEART_BUCKLE_REF.png
+L3 | Heading 3 | SunsetWorldEntrance.png
+L3 | Heading 3 | MENU_BG_16x9.png
+L3 | Heading 3 | MENU_LAYOUT_GUIDE.png
+L3 | Heading 3 | POSTER_BG_2x3.png
+L3 | Heading 3 | POSTER_LAYOUT_GUIDE.png
+L3 | Heading 3 | NOBLE_DARK_REF.png
+L3 | Heading 3 | LANTERN_SPIRIT_REF.png
+L3 | Heading 3 | RELIC_CROSS_REF.png
+L3 | Heading 3 | ANCIENT_MEDIATOR_REF.png
+L3 | Heading 3 | ANCIENT_FRIEND_REF.png
+L3 | Heading 3 | BANSHEE_REF.png
+L3 | Heading 3 | FOREST_A_REF.png
+L3 | Heading 3 | FOREST_B_REF.png
+L3 | Heading 3 | VILLAGE_FIELD_REF.png
+L3 | Heading 3 | WOOD_WALL_REF.png
+L3 | Heading 3 | 原作者新稿 L7/66（参考，风格与游戏不同）
+L3 | Heading 3 | S01_VILLAGE_REF.png
+L3 | Heading 3 | S02_TOMB_ENTRANCE_REF.png
+L3 | Heading 3 | S03_TOMB_CORRIDOR_REF.png
+L3 | Heading 3 | S04_VINE_HALL_REF.png
+L3 | Heading 3 | PUCA_REF_1.png
+L3 | Heading 3 | CROSS_AUTHOR_REF.png
+L3 | Heading 3 | S05_STONE_CIRCLE_REF.png
+L3 | Heading 3 | S05_STONE_CIRCLE_OTHERWORLD_REF.png
+L3 | Heading 3 | S06_WITHERED_FOREST_REF.png
+L3 | Heading 3 | PUCA_FORMS_REF.png
+L3 | Heading 3 | THORN_QUEEN_REF.png
+L3 | Heading 3 | S09_THORN_QUEEN_COURT_REF.png
+L3 | Heading 3 | S10_HOMECOMING_DAWN_REF.png
+L3 | Heading 3 | K03_KEYART_REF.png
+PAGES 59
+SHAPES 69

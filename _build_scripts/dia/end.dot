@@ -1,0 +1,13 @@
+digraph E {
+  graph [fontname="Noto Sans CJK SC", rankdir=TB, pad=0.3, nodesep=0.5, ranksep=0.6, label="图 4　结局分支", labelloc=t, fontsize=20];
+  node [fontname="Noto Sans CJK SC", shape=box, style="rounded,filled", fontsize=13];
+  S [label="第四章：与女王的 Boss 战\n女王认出铁的手法并感应到圣物", fillcolor="#E3EEEC"];
+  A [label="女王的方案\n奥伊芯被永远留下，作为不再开启的钥匙\n世界暂时安全，朋友回不了家", fillcolor="#D9D9D9"];
+  B [label="普卡得逞\n媒介的名字被夺、法典被毁\n两界相通，弗魔族乘虚而入（最坏）", fillcolor="#3B3B3B", fontcolor="white"];
+  T [label="重订契约（真结局）\n女王在战斗中认出 Ogma 的手法与圣物而停手；\n以文字写下普卡的真名将其约束；\n新法典生效，两人一起回家", fillcolor="#F2E3B3"];
+  X [label="文字回归法典：妖精过不来，人们又看不见文字\n能力并未失去——若有一天再看见文字，\n说明契约又出了问题（续作入口）", fillcolor="#FFFFFF", style="rounded,dashed"];
+  S -> A [label="放弃，或接受女王的劝说"];
+  S -> B [label="交出名字且未能反制"];
+  S -> T [label="收集足够文字 + 保住名字 + 铁"];
+  T -> X;
+}

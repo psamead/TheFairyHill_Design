@@ -1,0 +1,24 @@
+digraph M {
+  graph [fontname="Noto Sans CJK SC", rankdir=LR, pad=0.3, nodesep=0.4, ranksep=0.8, label="图 3　契约法典的机制：锁、钥匙与散落的文字", labelloc=t, fontsize=20];
+  node [fontname="Noto Sans CJK SC", shape=box, style="rounded,filled", fontsize=13];
+  subgraph cluster_a { label="契约完整（千年间）"; style="rounded"; color="#2F5D3A";
+    C1 [label="法典\n所有欧甘字母都在其中", shape=note, fillcolor="#F2E3B3"];
+    V1 [label="文字属于神族一方\n妖精过不来，人类看不见文字", fillcolor="#DDEBD9"];
+    C1 -> V1;
+  }
+  subgraph cluster_b { label="Ogma 死后，契约慢慢失效（现在）"; style="rounded"; color="#A8322D";
+    C2 [label="法典失效\n文字散落两界", shape=note, fillcolor="#F6D9D5"];
+    S [label="散落的欧甘石牌\n（游戏中的收集物）", fillcolor="#FFFFFF"];
+    V2 [label="先看见文字\n再看见文字定义的妖精", fillcolor="#F6D9D5"];
+    C2 -> S; C2 -> V2;
+  }
+  subgraph cluster_c { label="三种力量"; style="rounded"; color="#1F3D3A";
+    L [label="锁：妮芙（媒介）\n用名字与文字划定边界", fillcolor="#DDEBD9"];
+    K [label="钥匙：奥伊芯\n（Ogma 的钥匙符文选中了她）\n打开或关闭两界之间的门", fillcolor="#F6D9D5"];
+    I [label="铁十字：神族圣物（女王→Ogma→媒介）\n弗魔族与被普卡控制者惧怕；其余妖精敬畏让路", fillcolor="#D6DEE6"];
+  }
+  R [label="重订契约（真结局）\n妮芙收回散落的文字、写下新法典；\n奥伊芯用钥匙把门「锁上」而不是打开；\n女王代替 Ogma 签名；\n两人的半心扣合一，作为新契约的印记", fillcolor="#F2E3B3", shape=box];
+  S -> L [label="收集"];
+  L -> R; K -> R; I -> R [label="压制假贵族"];
+  C1 -> C2 [label="Ogma 被杀，效力慢慢耗尽", style=dashed, color="#A8322D"];
+}
