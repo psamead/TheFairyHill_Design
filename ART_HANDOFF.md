@@ -209,3 +209,4 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
 - 2026-11-05：三叶草光点（ShamrockLight，Demo Must）开始做素材：用户用 Nano Banana 以 CROSS_AUTHOR_REF 的三叶草圆章为参考出图（prompt 见 `CH1_UNITY_REVISION_v3_fix.md` §E），Claude 抠图做光晕与收集特效，再交 Codex。之后用户转去做守灯人。
 - 2026-11-05：三叶草光点素材完成：`TechArtAsset/FX/Shamrock/`（128 / 256 图标 + Additive 光晕），脚本 `tools/make_shamrock.py`。Codex 指令 `CommandForAgentToInitialRun/2026-11-05_Ch1_Shamrock_E.md`（排在 v3 fix D 之后）。
 - 2026-11-05 傍晚：用户确认三叶草引导与荆棘墙湮灭效果。第五轮修正 F：墙从边缘向中心灼烧消失（溶解遮罩 `F_prop_thornwall_v4_burnmask.png`）；栅门音效 v3（按守灯人菜单音效的做法拆段：吱呀 ×3 变体 + 停住/扣上共用一段，`make_gate_sfx_v3.py`，待用户试听）并随音频批次 C 一起接入；十字架移到 x 46.8、星星 Order 30；主星 pivot 改中心，原地呼吸 + 同步 45° 转动 + 间歇闪光。指令 `CommandForAgentToInitialRun/2026-11-05_Ch1_v3_Fix_F.md`。
+- 2026-11-05 傍晚：F 完成并由 Codex 推送 Unity 仓库。第六轮修正 G：烧蚀火线在湮灭前不显示（`_Burn` 从 -0.1 开始）；十字架光晕缩到 1.2u 贴住主星；十字架显现只看距离；audio listener 警告检查。指令 `CommandForAgentToInitialRun/2026-11-05_Ch1_v3_Fix_G.md`。
