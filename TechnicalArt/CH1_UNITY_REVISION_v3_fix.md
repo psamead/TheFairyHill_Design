@@ -101,3 +101,135 @@
 
 **验收**：Console 里没有 Particle 报错；按 Q 后红光熄灭，接着整面墙冒出往上翻腾的紫灰烟雾和红色余烬，墙在 0.6 s 内淡出。
 
+## 第三轮修正 C（2026-11-05，B2/B3 试玩后）
+
+B2 暗场、B3 报错已生效。用户试玩后的 5 条：
+
+### C1. 栅门石柱看起来悬空 → 柱脚加碎石堆
+- 新图（`TechArtAsset/Scenes/S1_Village/props/`，脚本 `TechnicalArt/tools/make_gate_rubble.py`，从矮石墙底部取石块做成小土堆）：
+  - `S1_prop_gate_rubble_L.png`（150×46）：左柱脚下，底边中心 x **24.49**、y **-0.12**，Order **-4**（妮芙后面，和左柱一起）。
+  - `S1_prop_gate_rubble_R.png`（160×50）：右柱脚下，底边中心 x **27.65**、y **-0.15**，Order **6**（妮芙前面，盖在右柱前层上）。
+- 碎石比地面线略低，盖住柱脚与路面的接缝，前面的右柱看起来“踩在地上、离镜头更近”。预览 `TechnicalArt/mock/_gate_rubble_chk.jpg`。
+- 写进村庄布局 JSON 的 gate 块（`rubble` 字段），builder 生成；与开关门无关，始终显示。
+
+### C2. 三叶草光点：运行时只要光，不要看得见的“灯”
+- 去掉光点上的白色小圆点 Sprite（`FX_soft_dot` 0.25u），只保留 Point Light 2D 的淡绿光晕。
+- 注：Scene 视图里的白色灯泡是 Unity 的 Gizmo 图标，游戏画面里不会出现；Game 视图的 Gizmos 按钮关掉即可。
+
+### C3. 铁十字星星：更大、更夸张，原地呼吸 + 间歇旋转
+- **主星**（十字架中心）：**1.6u**（原 0.8u 的 2 倍）。
+  - 呼吸：缩放 0.85–1.15、Alpha 0.6–1.0，周期约 1.2 s，原地一闪一闪（不再快速开关）。
+  - 间歇旋转：每 2.5–4 s 一次，0.4 s 内转 360°，同时放大到 1.4 倍再回落（“叮”一下）。
+  - 背后加一层光晕：`FX_soft_dot`，2.5u，暖金 `#F2D28A`，Alpha 0.35，随呼吸一起明暗。
+- **散星**：**0.8–1.4u**，在十字架周围 1.5u 内随机位置**原地**出现：长大 → 呼吸 1–2 次 → 淡出，每颗约 1.2 s；同时存在 3–5 颗；约 1/3 的散星出现时带一次慢旋转（0.8 s 转 180°）。
+- 颜色暖白偏金，Additive（颜色写 `_BaseColor`，见 B1）。触发规则不变（x > 44.6 后出现，拾起后消失）。
+
+### C4. 荆棘丛移到妮芙后面
+- 荆棘丛 Order 由 12 改为 **-3**（妮芙后面），十字架 **-4**（仍在荆棘丛后面，透过枝条露出）。妮芙走过时不再被挡住。更新 layout v4 的 `sorting_order`。
+
+### C5. 荆棘墙湮灭：暗场里要看得见，加火光亮点和发光烟雾，夸张
+按 Q 后顺序：红光 0.3 s 熄灭 →（同时开始）下列效果，持续约 2 s：
+- **爆闪**：墙中心一盏 Point Light 2D，橙 `#FF6A2A`，半径 **10u**，强度 0.1 s 内升到 **3**，再 1.2 s 降到 0。把周围树、地面和妮芙一起照亮。
+- **墙“烧亮”**：墙 Sprite 颜色 0.2 s 内变成亮橙白 `#FFB070`，然后在 0.6 s 内淡出（原来是直接淡出）。
+- **火星**：Additive（`M_FX_EmberAdditive`），爆发 **150** 颗 + 1.5 s 内每秒 60 颗；大小 0.08–0.25u；颜色 `#FFE6A0` → `#FF5A1F` → 透明；向上 2–6 u/s（60° 锥形散开），Noise 1.0，寿命 0.8–1.8 s；开 Trails（Ratio 0.5、Lifetime 0.15）拉出火星尾巴。
+- **发光烟雾**：在原来暗紫灰烟雾之上再加一层 Additive 烟：爆发 40 颗，大小 2–4u，颜色 `#FF7A3A`（Alpha 0.3）→ `#6A2A80`（Alpha 0.15）→ 透明，向上 1–2 u/s，Noise 0.8，寿命 1.5–2.5 s。原暗烟保留，做“暗底”。
+- 所有特效 Sorting Order **25**（在前景 L4 之上），速度曲线三轴同模式（B3 规则）。
+- 爆闪结束后，出口冷紫光照常 1 s 淡入。
+
+**验收（C）**：右柱脚下有碎石、不再悬空；光点只看到淡绿光晕；十字架主星大而醒目、原地呼吸并时不时转一圈；荆棘丛在妮芙后面；按 Q 后画面被橙光照亮，墙先烧亮再消失，大量火星带尾巴往上飞，暖色发光烟翻腾，暗场里清楚可见。
+
+## 第四轮修正 D（2026-11-05 下午，C 试玩后）
+
+### D1. 右柱碎石要挡住妮芙的脚
+- 左柱碎石保持在妮芙后面（用户确认 OK）。
+- 右柱碎石 `S1_prop_gate_rubble_R`：放大到 **1.4 倍**（约 2.24×0.7u），底边中心移到 (27.55, **-0.35**)，Order 6 不变。这样碎石顶部高过路面约 0.35u，妮芙站到右柱位置时脚被碎石盖住，读起来右柱和碎石在她前面。
+
+### D2. 森林背景里的绿色光斑 → 删掉三叶草光点灯
+- 光斑来自 9 盏三叶草 Point Light 打在中景矮植被上，不是全局光的问题。森林的“暗”已经由全局光（冷蓝 0.28）做到，不需要靠点光。
+- 删除 9 盏 Clover Point Light（layout `light_fx` 里的 clover 项一起删）。妮芙的暖光、十字架金光、荆棘墙红光、出口光保留。
+- 以后真正做三叶草收集物时，光点改用 Additive 小 Sprite（自发光，不照亮环境），不用 Point Light。
+
+### D3. 十字架和星星：放到荆棘丛前面，离红墙远一点
+- 十字架中心 x 由 50.58 改为 **47.8**（仍在荆棘丛范围 45.6–52.3 内、离开红墙和红光），y 不变。走近显现半径 2.5u 不变。
+- 十字架 Order **-2**（荆棘丛 -3 之前、妮芙 0 之后）；星星和光晕 Order **12**（在荆棘墙和红光之上，不被挡住）。十字架金光跟着移到新位置。
+- 触发线 x 44.6 不变。
+
+### D4. 荆棘墙的白边 → 换去白边的新图
+- 白边是抠图残留：半透明边缘像素是浅灰（平均约 146），而墙本身很暗（约 36），暗场里就成了一圈白线。
+- 新图 `TechArtAsset/Scenes/S1b_ForestPath/props/F_prop_thornwall_v4.png`（同尺寸 1079×900，脚本 `TechnicalArt/tools/fix_thornwall_edge.py`）：边缘颜色改用内部颜色外扩填充，最外一圈染暗红，最淡的雾边去掉——看起来是红光透出的光边。对比图 `TechnicalArt/mock/_tw_edge_compare.jpg`（左旧右新）。
+- 红光遮罩 `F_prop_thornwall_v3_glow.png` 不变（同画布）。layout 里 thornwall 的 `sprite` 改为 v4。
+
+**验收（D）**：妮芙站在右柱处脚被碎石挡住；森林背景没有绿色光斑；十字架在荆棘丛前面、离红墙有一段距离，星星完整可见；荆棘墙边缘没有白线，只有暗红光边。
+
+## E. 三叶草光点 ShamrockLight（2026-11-05 定，素材已备）
+
+设计早已有（`DEMO_IMPLEMENTATION_PLAN.md` Must：三叶草光点收集，每 10 个回复 1 点存在值；`handoff.md` ShamrockLight），只是一直没有素材，之前用 Point Light 临时代替（D2 已删）。
+
+**外观**：飘在空中的发光三叶草，作为跳跃引导。约 0.35u（128 px 图）。手绘墨线风格，参考十字架上的三叶草圆章（`MJ_ref/AUTHOR_L7_66/CROSS_AUTHOR_REF.png`）。
+
+**出图（用户用 Nano Banana，参考图 = CROSS_AUTHOR_REF.png）**：
+```
+Using the shamrock emblem on this iron cross as the style reference, draw a single
+three-leaf shamrock as a standalone game collectible icon. Three heart-shaped leaves,
+short curved stem, fresh spring green with a soft pale-gold inner glow and thin dark
+ink outlines, hand-painted storybook style matching the reference. Front view, centered,
+filling about 70% of the frame, plain flat white background, no shadow, no text,
+no frame, no other objects. Square 1:1.
+```
+MJ 备选：`a single glowing three-leaf shamrock, game collectible icon, heart-shaped leaves, spring green with pale gold glow, thin dark ink outline, hand-painted storybook illustration, centered, plain white background, no shadow --ar 1:1 --v 7` + `--sref` 用 CROSS_AUTHOR_REF。
+出 2–4 张，挑一张放进 `MJ_ref/SHAMROCK_01.png`。Claude 负责抠图、缩到 128 px、做光晕图和收集特效。
+
+**表现（Unity，下一轮指令）**：
+- 位置：村庄与森林布局里已有的 `lights` 坐标（沿跳跃弧线）。
+- 浮动：上下 ±0.08u、周期约 2 s，左右轻摆 ±8°；每颗相位随机。
+- 发光：背后一张 Additive 柔光光晕（自发光，**不用 Point Light**，不照亮背景）；暗场里也清楚可见。
+- 收集：妮芙碰到 → 0.25 s 飞向妮芙胸口并缩小消失 + 一圈小绿光粒子 + 计数 +1（`GameState`）。每 10 个存在值 +1 的逻辑等存在值系统做时接入。
+- 音效：先不加（Batch C 音频时一起做）。
+
+**素材（已备，2026-11-05）**：原图 `MJ_ref/SHAMROCK_01.png`（Nano Banana 2.1，参考 CROSS_AUTHOR_REF）。脚本 `TechnicalArt/tools/make_shamrock.py` 抠图、去白边：
+- `TechArtAsset/FX/Shamrock/FX_shamrock_128.png`：游戏内用，显示 **0.35u**（Sprite，PPU 100，pivot 居中，缩放 0.35/1.28）。
+- `FX_shamrock_256.png`：背包 / HUD 图标。
+- `FX_shamrock_glow.png`（384×384）：Additive 光晕，显示约 **1.0u**，颜色写 `_BaseColor` `#CFF0A0`，Alpha 0.6–0.85 随浮动慢呼吸。
+- 收集特效：沿用 `FX_soft_dot`（绿 `#BFE8B0`，Additive，爆发 12 颗、0.06–0.12u、向外 1–2 u/s、寿命 0.4 s）。
+- 暗场预览 `TechnicalArt/mock/_shamrock_chk.jpg`。
+
+## 第五轮修正 F（2026-11-05 傍晚，D + 三叶草 E 试玩后）
+
+用户确认：三叶草引导很好；荆棘墙湮灭（爆闪、火星、发光烟）效果很好。
+
+### F1. 荆棘墙“从边缘向中心灼烧”消失
+- 新遮罩 `TechArtAsset/Scenes/S1b_ForestPath/props/F_prop_thornwall_v4_burnmask.png`（灰度，与墙同画布 1079×900；0 = 外缘最先烧，1 = 中心最后烧；距离场 + 噪声，火线不规则）。脚本 `TechnicalArt/tools/make_thornwall_burnmask.py`，阶段预览 `TechnicalArt/mock/_thornwall_burn_stages.jpg`。
+- 墙改用一个溶解材质（URP 2D Sprite，HLSL 或 Shader Graph）：参数 `_Burn`（0→1）。`mask < _Burn` 的像素丢弃；`_Burn ≤ mask < _Burn + 0.06` 是火线，颜色亮橙 `#FF9A3C`，自发光（不受暗场光照影响），火线内侧 0.03 再加一圈暗红焦黑 `#3A0E08`。
+- 时间线（取代原来的“烧亮 0.2 s + 淡出 0.6 s”）：红光 0.3 s 熄灭 → 爆闪、火星、发光烟照旧开始 → `_Burn` 在 **1.6 s** 内 0 → 1（前快后慢，EaseOut）→ 碰撞关闭 → 出口光淡入。火星发射区域可以跟着火线收缩（可选）。
+
+### F2. 栅门音效
+- 村庄开门 / 关门目前没有声音：音频批次（Batch C）还没交给 Codex，这次一起做。
+- 用户觉得原来合成的开门声不对，并要求像守灯人菜单音效那样**拆段、由代码按事件播放**：门转动的吱呀一段，门停住 / 扣上一段（两者共用）。v3（脚本 `TechnicalArt/tools/make_gate_sfx_v3.py`，“黏滑摩擦脉冲 + 木头共振”合成）：
+  - `TechArtAsset/Audio/SFX/SFX_Gate_Creak_01_v3.ogg` / `_02_v3` / `_03_v3`：合页吱呀三个变体（干声约 0.85 / 0.75 / 0.95 s，后面带约 0.5 s 混响尾）。每次随机取一个，不和上一次相同。
+  - `SFX_Gate_Latch_v3.ogg`：门板撞停的木头闷响 + 门闩“咔”。开门转到头、关门扣上都用它。
+- 播放规则：
+  - **开门**（按 E）：播一个 Creak（pitch 1.0）→ 在 Creak 片段长度 − 0.5 s 时播 Latch（音量 0.6，表示门转到头停住）。
+  - **关门**（离开范围）：播一个 Creak（pitch 0.9，略低、略慢）→ 同样时机播 Latch（音量 0.9，扣上更重）。
+  - 门的图片切换时机不变；Creak 和 Latch 用同一个 AudioSource 的 PlayOneShot。音量总体 0.7。
+- **快速来回开关门**（玩家在门前反复进出 / 连按 E）：
+  - 无加载延迟：四个门音效导入设为 Load Type = **Decompress On Load**、Preload Audio Data 开；场景开始时就引用好，不在触发时 `Resources.Load`。
+  - 两个 AudioSource：`creakSource` 用 `Play()`（可被打断），`latchSource` 用 `PlayOneShot`。
+  - 新的开 / 关事件到来时：取消还没播出的 Latch（停掉计时协程），当前 Creak 在 0.05 s 内淡出并停止，再播新的 Creak。不会出现两段吱呀叠在一起。
+  - 防抖：距离上一次开 / 关事件不足 0.15 s 的事件只切换门的状态与图片，不重播声音。
+  - 已经播出的 Latch 不打断（很短，让它自然结束）。
+- v1、v2 保留不删。用户不满意时可换成真实录音（freesound CC0），按同样文件名替换即可。
+
+### F3. 十字架和星星：再远离红墙，排在所有东西前面
+- 十字架中心 x 由 47.8 改为 **46.8**，y 不变（倒在荆棘丛左侧边缘，离红墙更远）。十字架金光跟着移。
+- 星星（主星、散星、光晕）的 SpriteRenderer **和** ParticleSystemRenderer 的 Sorting Order 都设为 **30**（高于荆棘丛、荆棘墙、红光、前景 L4 的 20）。上一轮只改了一部分，仍被挡住。
+- 主星位置 = 十字架中心上方 **0.8u**（现在落在地面以下）。
+
+### F4. 主星：一颗大星星在原地呼吸、绕自己的中心转
+- 原因：`FX_sparkle_star.png` 导入时 pivot 是 (0, 0)（左下角），所以旋转时整颗星绕角落甩出去。**改为 pivot (0.5, 0.5)**。
+- 主星 1.6u，固定在原地不移动：
+  - 呼吸：缩放 0.85 ↔ 1.15、Alpha 0.6 ↔ 1.0，周期 1.2 s。
+  - 旋转与呼吸同步：每次“吸气”（变大）时绕自身中心顺时针转 **45°**（EaseInOut），“呼气”时停住——一下一下地转。
+  - 间歇闪光：每 3 次呼吸一次，在最亮时放大到 1.5、光晕 Alpha 冲到 0.8，0.15 s 回落。
+- 散星减少为同时 1–2 颗、0.5–0.8u，只在主星周围 1u 内原地闪一下，作为点缀。
+
+**验收（F）**：按 Q 后墙从外缘向中心被一圈不规则的橙色火线吃掉；村庄开门 / 关门有声音（且用户认可）；十字架离红墙有明显距离，星星在所有东西前面完整可见；主星原地呼吸、绕自己中心一下一下地转，间歇闪亮。
