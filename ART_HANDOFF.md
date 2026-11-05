@@ -210,3 +210,6 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
 - 2026-11-05：三叶草光点素材完成：`TechArtAsset/FX/Shamrock/`（128 / 256 图标 + Additive 光晕），脚本 `tools/make_shamrock.py`。Codex 指令 `CommandForAgentToInitialRun/2026-11-05_Ch1_Shamrock_E.md`（排在 v3 fix D 之后）。
 - 2026-11-05 傍晚：用户确认三叶草引导与荆棘墙湮灭效果。第五轮修正 F：墙从边缘向中心灼烧消失（溶解遮罩 `F_prop_thornwall_v4_burnmask.png`）；栅门音效 v3（按守灯人菜单音效的做法拆段：吱呀 ×3 变体 + 停住/扣上共用一段，`make_gate_sfx_v3.py`，待用户试听）并随音频批次 C 一起接入；十字架移到 x 46.8、星星 Order 30；主星 pivot 改中心，原地呼吸 + 同步 45° 转动 + 间歇闪光。指令 `CommandForAgentToInitialRun/2026-11-05_Ch1_v3_Fix_F.md`。
 - 2026-11-05 傍晚：F 完成并由 Codex 推送 Unity 仓库。第六轮修正 G：烧蚀火线在湮灭前不显示（`_Burn` 从 -0.1 开始）；十字架光晕缩到 1.2u 贴住主星；十字架显现只看距离；audio listener 警告检查。指令 `CommandForAgentToInitialRun/2026-11-05_Ch1_v3_Fix_G.md`。
+- 2026-11-05 晚：**第一章 v3 修正（A1–G）全部完成**，用户确认效果基本没问题，场景阶段告一段落。设计仓库 `psamead/TheFairyHill_Design`、Unity 仓库 `psamead/TheFairyHill2D` 均已推送。
+  - 留到后面（未做）：转场过渡（淡入淡出 / 场景切换表现）；内容与任务提示、对话框；Batch C 之外的音效细化；三叶草“每 10 个 +1 存在值”（等存在值系统）。
+  - **下一步：妮芙骨骼动画制作（开新对话）**。先读 `TechnicalArt/NIAMH_RIG_PARTS.md`（拆件 / 骨骼 / 枢轴）、`TechnicalArt/NIAMH_ANIM_LIST_DEMO.md`（Demo 需要的 10 个动作）、`TechnicalArt/SCENE_SCALE_SPEC.md`（2.1u、走跑跳数值）、`MJ_ref/Niamh_v3_turnaround.png` 与 `Niamh_v3_wip.psd`；Unity 里妮芙目前是静态图 `Niamh_side_static_v3.png`，碰撞胶囊 (0.23, 2.08) / (0.08, 1.04) 不变。
