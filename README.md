@@ -45,7 +45,7 @@ What happened recently: `ART_HANDOFF.md` §9, `TechnicalArt/CH1_UNITY_PROGRESS.m
 | `MJ_ref/` | Concept art, generated images, the original designer's artwork (`AUTHOR_L7_66/`), `ASSETS.md` asset list |
 | `TechArtAsset/` | Finished game assets (exported PNG, OGG, layout JSON) |
 | `CommandForAgentToInitialRun/` | Step-by-step instructions given to Codex (dated) |
-| `ForDesign/` | Screenshots from the Unity side for design review |
+| `ForDesignScreenShot/` | Play-test screenshots for design review, one folder per fix round (see its README) |
 | `diagrams/` | Story diagrams |
 | `_build_scripts/` | Node scripts that generate the Word documents |
 | `deprecated/` | Superseded versions and process images (kept for visual history) |

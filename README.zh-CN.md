@@ -49,7 +49,7 @@ git pull
 | `MJ_ref/` | 概念图、生成图、原作者原画（`AUTHOR_L7_66/`）、`ASSETS.md` 资产总表 |
 | `TechArtAsset/` | 做好的游戏资产（PNG、OGG、布局 JSON） |
 | `CommandForAgentToInitialRun/` | 交给 Codex 的分步指令（按日期） |
-| `ForDesign/` | Unity 那边的截图，供设计核对 |
+| `ForDesignScreenShot/` | 试玩截图，按修改轮次分文件夹（见其中 README） |
 | `diagrams/` | 故事关系图、时间线等 |
 | `_build_scripts/` | 生成 Word 文档的 Node 脚本 |
 | `deprecated/` | 被取代的旧版本和过程图（保留视觉演变） |
