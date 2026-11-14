@@ -30,4 +30,6 @@ Prompt 若用于本轮出图，也要保存模型与版本、完整原文、参�
 
 - `2026-11-14_Niamh_Motion_v8_Unity_Trial.md`：**已执行的历史任务单**。用户修订的 Niamh v8 已作为可回退分层角色接入 Unity，编译通过并在 Village / Forest 场景试玩，项目负责人反馈基本可用；实际结果见 Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md`。美术过程与经验见 `../TechArtAsset/Characters/Niamh/Motion_v8/UNITY_TRIAL_README.md` 和 `../TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`。
 
-下一轮章节过渡与动作声音目前是设计方案及未批准的试听稿，见 `../TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`；尚未形成可执行的 Unity 任务单。Demo 范围仍为第一、二章 S1–S4 与结尾卡，想象之眼已提升为 Must；详见 `../DEMO_IMPLEMENTATION_PLAN.md`。
+- `2026-11-14_Niamh_Surface_Audio_Unity_Trial.md`：**可执行的新任务**。负责人已批准声音放入游戏试装；23 条 OGG 已通过共享网络预先复制到 Unity，SHA-256 核对一致。任务单也在 Unity `Docs/References/Niamh_Surface_Audio_v1/`，尚未确认 Unity Codex 已读取或开始执行；接入、编译和游戏内听感待记录。
+
+章节故事画在设计端推进，首批分镜见 `../TechnicalArt/SLIDESHOW_OPENING_v1.md`；MJ 操作受连接故障阻挡，当前没有提交生成。Demo 范围仍为第一、二章 S1–S4 与结尾卡，想象之眼为 Must。

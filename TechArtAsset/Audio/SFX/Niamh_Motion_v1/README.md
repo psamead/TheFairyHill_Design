@@ -1,7 +1,7 @@
 # 妮芙动作声音 v1 试听稿
 
 **日期**：2026-11-14
-**状态**：Python 生成并检查文件格式；尚未由项目负责人试听确认，尚未复制或接入 Unity。此处的 `.ogg` 是试装候选，`.wav` 是可编辑母带。
+**状态**：负责人单独试听后反馈“没有太大问题”，已批准放入游戏试装。23 条独立 OGG 已于 2026-11-14 经共享网络复制到 Unity 并核对 SHA-256；接入与游戏内混音尚待 Unity 端执行。`.wav` 是保留在设计端的母带。
 
 ## 先听
 
@@ -29,6 +29,6 @@ python TechnicalArt/tools/make_niamh_motion_sfx_v1.py
 
 ## 交给 Unity 的条件
 
-先由项目负责人在村庄和森林 BGM 下听，并决定需要保留、修订或替换的声音。确认后只复制需要的 OGG 文件到 Unity 工程的 `Assets/_Project/Audio/SFX/Niamh_Motion_v1/`，通过双方可访问的共享网络传输。设计仓库保留 WAV 母带、脚本和试听盘。Unity 端记录复制清单、声音触发时机、实测画面及仍需确认项。木材音色保留给未来木箱，当前两处可玩场景没有已查到的木箱。
+负责人已批准游戏内试装，现进入在村庄与森林 BGM 下判断混音的阶段。23 条 OGG 已通过共享网络复制到 Unity `Assets/_Project/Audio/SFX/Niamh_Motion_v1/`。任务单见 `CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md`；Unity 内同件和复制清单在 `Docs/References/Niamh_Surface_Audio_v1/`。设计仓库保留 WAV 母带、脚本和试听盘。木材音色留给未来木箱；当前通用 Jump/Land 可轻叠地面 Step 表达材质，尚无每种地面独立制作的 Jump/Land 音频。正式游戏内听感待负责人试玩。
 
 整体设计与接入注意事项见 `TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`（路径相对于设计仓库根目录）。

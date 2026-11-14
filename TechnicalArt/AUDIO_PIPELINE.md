@@ -73,7 +73,7 @@ python make_loop.py MJ_ref/Threshold_of_the_Stone.mp3 TechArtAsset/Audio/MENU_BG
 - [ ] 音效：菜单选中提示音（目前占位）、确认 / 返回、脚步、铁十字冷光、妖怪退散等。
 - [ ] 可选：菜单「首次进入先播前奏再进循环」——从原曲剪 0–11.7 秒做 intro，Unity 里播完 intro 再切循环。
 
-**2026-11-14 进度**：妮芙动作与材质音效已有 Python 合成试听稿，尚未人工听感确认或接入 Unity。脚本 `TechnicalArt/tools/make_niamh_motion_sfx_v1.py`，文件与试听顺序见 `TechArtAsset/Audio/SFX/Niamh_Motion_v1/README.md`，触发/材质方案见 `TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`。上面的“脚步待办”应按此新状态理解；不要把生成试听文件等同于完成游戏内音效。
+**2026-11-14 最新进度**：负责人单独试听后批准游戏内试装；23 条独立 OGG 已经共享网络复制到 Unity，校验一致，接入及游戏内听感待执行。任务单 `CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md`。脚本 `TechnicalArt/tools/make_niamh_motion_sfx_v1.py`，文件与试听顺序见 `TechArtAsset/Audio/SFX/Niamh_Motion_v1/README.md`，触发/材质方案见 `TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`。复制素材不代表游戏内音效已完成。
 
 ## 7. 第一章关卡音频（2026-11-01）
 

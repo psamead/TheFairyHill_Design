@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-14",
+  "project": "The Fairy Hills",
+  "status": "prepared_not_submitted",
+  "blocker": "Chrome extension nodeRepl.fetch request failed; window capture timed out after recovery",
+  "proposed_model": "V8.2 Edit - verify availability before submitting",
+  "planned_parameters": "--ar 16:9 --raw",
+  "references": [
+    {
+      "path": "MJ_ref/NIAMH_REF_v3.png",
+      "sha256": "f9cc4602f74e2a44b05dab46bf4f74130a9640e8f3c53b95f7d3ae749b119a33"
+    },
+    {
+      "path": "MJ_ref/OISIN_REF_v3.png",
+      "sha256": "be9f91bf27289f980811b33a4714a12676a69ce81f3343d31fd94dc136d2a31d"
+    },
+    {
+      "path": "MJ_ref/S1_VILLAGE_KEY_03_pan_empty.png",
+      "sha256": "4af4907895724cd44ac67bca04d0d21af727481e3417b11f8431f37054db7d01"
+    },
+    {
+      "path": "TechnicalArt/mock/FOREST_LIGHTING_TARGET_warm.jpg",
+      "sha256": "1bfcf7e4a273983110df4a2f2763bc2b1f5f756c65da3209efa214c235d03ea1"
+    }
+  ],
+  "reference_roles": {
+    "character_identity": [
+      "MJ_ref/NIAMH_REF_v3.png",
+      "MJ_ref/OISIN_REF_v3.png"
+    ],
+    "environment_and_style": "MJ_ref/S1_VILLAGE_KEY_03_pan_empty.png",
+    "manual_palette_check_only": "TechnicalArt/mock/FOREST_LIGHTING_TARGET_warm.jpg"
+  },
+  "shot_order": [
+    "OP01",
+    "OP02",
+    "OP03"
+  ],
+  "jobs": [],
+  "required_job_fields": [
+    "shot",
+    "date",
+    "actual_model",
+    "actual_prompt",
+    "actual_parameters",
+    "reference_files_and_roles",
+    "job_url_or_id",
+    "downloaded_original_files",
+    "chosen_candidate",
+    "selection_reason"
+  ],
+  "final_art_status": "not_created"
+}
