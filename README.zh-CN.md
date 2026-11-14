@@ -58,7 +58,7 @@ GitHub 用于仓库版本同步、代码审阅和备份，不是 Unity 制作端
 8. `TechnicalArt/UNITY_AGENT_RULES.md` —— Unity 端给 Agent 的规则
 9. `DESIGN_CHANGES.md`、`AGENT_PROCESS_GUIDELINES.md` —— 设定怎么改、怎么记录
 
-角色动画接手请再读 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md` 和对应角色版本目录下的 `UNITY_TRIAL_README.md`；当前 Niamh v8 Unity 试玩任务见 `CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md`。
+角色动画先看给人读的 `TechnicalArt/妮芙动作试做与Unity试玩记录_v8.docx`，再按需要读 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`、`TechArtAsset/Characters/Niamh/Motion_v8/README.md` 与 `UNITY_TRIAL_README.md`。Niamh v8 已在 Unity 试玩；`CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md` 是**已执行的历史任务单**，实际结果以 Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md` 为准。
 
 最近发生了什么：看 `ART_HANDOFF.md` §9、`TechnicalArt/CH1_UNITY_PROGRESS.md`，或 `git log`。
 

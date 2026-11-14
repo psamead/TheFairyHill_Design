@@ -3,7 +3,9 @@
 **Date:** 2026-11-14
 **Project:** The Fairy Hills 2D
 **Audience:** Project owner, students, artists, Unity developers, future Codex or other agents
-**Status:** Motion study and source parts prepared; copied into the Unity repository. Unity rig, Animator, live player hookup, compilation, Play Mode review, and user acceptance are still pending.
+**Current status (2026-11-14):** Unity imported the six parts, built a reversible trial prefab and seven Animator states, connected them to the persistent player, compiled, and observed motion in Village and Forest Play Mode. The owner tried it and said it was basically OK apart from some stutter. Stutter cause, run-speed capture, and individual gate checks remain open. This is a six-part trial, not the full 22-bone rig.
+
+The implementation result and evidence are in Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md` and `Docs/References/Niamh_Motion_v8/Unity_Trial/` (published on Unity `main`; implementation commit `1374a0fa3b982491aa596a2897b25b9a7c8bc93b`). The sections below preserve the original constraints and method so future workers can understand the decision. Do not run the original task as though it were still pending.
 
 ## Start here
 
@@ -15,7 +17,7 @@ The Unity project is separate from this design repository. The six PNGs and JSON
 
 **Transfer route for this task:** the files were copied into the Unity working tree over the shared network before the Unity integration task was handed off. Use the files already in the Unity project; do not fetch them from GitHub. If any staged file is missing or damaged, send the maintainer its exact design-repository relative path, intended Unity destination, and required format. The maintainer will stage the approved copy under `TechnicalArt/unity_drop/<date_task>/` and notify the Unity-side worker. Copy from the shared folder; never move or edit the source copy. Mapped drive letters and computer-specific absolute paths vary by workstation, so resolve the repository-relative path using the shared root available on that machine.
 
-The GIF and contact sheet were copied to `Docs/References/Niamh_Motion_v8/` for review. The executable task is `CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md` in the design repository. The same task is included in the Unity repository at `Docs/Niamh_Motion_v8_Unity_Handoff.md`.
+The GIF and contact sheet were copied to `Docs/References/Niamh_Motion_v8/` for review. The original, now executed task is archived at `CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md` in the design repository. The Unity repository's `Docs/Niamh_Motion_v8_Unity_Handoff.md` contains the actual result below its original brief.
 
 ## What this trial should prove
 
@@ -60,4 +62,9 @@ The GIF uses a 2-second repeating jump-study timeline for side-by-side inspectio
 
 ## Completion record
 
-Update this section only after the Unity task is run. Record separately: assets imported, prefab / clips created, player connected, editor compilation, Play Mode locations and actions reviewed, user feedback, unresolved defects, and the Git commit. Until then, Unity-side items remain pending.
+- **Imported and assembled:** six same-canvas PNGs; one derived far leg/boot; eight SpriteRenderers, prefab, seven Animator states, and a presentation component. The old static renderer remains as rollback.
+- **Compiled:** Unity 6000.3.24f1 Editor compilation passed; no new trial Console errors were observed at inspection.
+- **Play Mode observed:** Village idle, walk, jump phases, landing and the owner's later Village → Forest switch; Forest idle/walk/jump phases, landing and both facings. The first Forest load was invoked directly for inspection, so that action did not validate the exit trigger.
+- **Owner feedback:** “已经试玩结束，除了些卡顿，可能是各种软件一起运行的问题，其他基本ok”. Treat this as basic trial acceptance with an unresolved stutter concern, not a measured diagnosis.
+- **Still open:** 5.6u/s run was not independently captured; gate interaction, all collision routes, foot sliding and stutter cause were not fully verified. No standalone build or full rig was produced.
+- **Published:** Unity `main` implementation commit `1374a0fa3b982491aa596a2897b25b9a7c8bc93b`; the Unity handoff holds the exact rollback and evidence list. Update this summary when later checks produce new evidence.

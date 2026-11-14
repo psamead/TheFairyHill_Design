@@ -1,8 +1,10 @@
 # 2026-11-14 — Niamh Motion v8 Unity Trial
 
+> **已执行的历史任务单，请勿原样重新派发。** Unity 已完成六部件试装、编译及村庄/森林 Play Mode 检查；负责人试玩后总体认为可用，卡顿原因尚未测量。实际实现、证据、未完成检查和回退办法以 Unity 仓库 `Docs/Niamh_Motion_v8_Unity_Handoff.md` 为准。以下正文保留当时的任务要求，供追溯设计意图。Unity 实现提交：`1374a0fa3b982491aa596a2897b25b9a7c8bc93b`。
+
 **Project / readers:** The Fairy Hills; Unity Codex on the project computer, project owner, students, and future agents.
 **Purpose:** Integrate the user-reviewed Niamh v8 motion study into the existing game as a reversible playable trial.
-**Status:** Task ready. Six source PNGs and the JSON spec have been copied to the Unity repository. Unity import, rig, Animator, player hookup, compilation, Play Mode, and user acceptance are pending.
+**Status at handoff:** Task ready; the pending items below describe the state **before** Unity execution, not the current project state.
 **Design source:** `TechArtAsset/Characters/Niamh/Motion_v8/`.
 **Unity target:** `TheFairyHill2D`, `Core_Persistent` player used by `Ch1_S1_Village` and `Ch1_S1b_ForestPath`.
 
@@ -75,9 +77,11 @@ Use the rest of the pivot / motion details and known limitations in the staged J
 
 ## Direct message to the Unity Codex
 
-Paste this task into a new Codex conversation opened on the `TheFairyHill2D` project. The UNC path is only a location on the maintainer's computer; use the project root opened in your workspace. Begin by reading this handoff and the linked project instructions. Then execute the task, not just summarize or rewrite the plan. If the Unity Editor connection or Play Mode is unavailable, complete all safe import/prefab work possible and clearly report the exact remaining checks; never claim a Play Mode pass without one.
+**Historical dispatch text (already executed).** The original instruction was to paste this task into a new Codex conversation opened on `TheFairyHill2D`, then perform the task and report any unavailable checks. For new work, write a new dated task from the current Unity result instead of replaying this one.
 
 ## Result log — fill after Unity work
+
+**Result entered after execution:** six PNGs and JSON imported; reversible prefab, seven Animator states, presentation script and Core hookup created; Unity Editor compilation passed. Village and Forest Play Mode observations and screenshots are recorded in Unity `Docs/References/Niamh_Motion_v8/Unity_Trial/`. The owner gave basic acceptance with a stutter concern. Run-speed and gate checks were not independently captured; the stutter cause was not profiled. Full details, protected work and rollback are in Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md`.
 
 - Imported:
 - Prefab / clips / controller:

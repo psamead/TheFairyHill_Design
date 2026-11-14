@@ -2,7 +2,7 @@
 
 **Started:** 2026-11-14
 **Audience:** Project owner, students, artists, Unity developers, future agents
-**Scope:** Reusable lessons from preparing Niamh's first user-reviewed cutout motion study. This is a growing experience log; it does not replace the art specification or live Unity progress.
+**Scope:** Reusable lessons from preparing and testing Niamh's first user-reviewed cutout motion study. This is a growing experience log; it does not replace the art specification or live Unity progress.
 
 ## Trial 1 — Niamh motion v1–v8
 
@@ -25,6 +25,19 @@ The Unity game already used one static Niamh side-view Sprite. The owner wanted 
 - Rigid dress and cape pixels can hide the arm's missing backdrop and obscure the hand arc. Check against magenta and game backgrounds at the actual 2.1u scale.
 - Preview timing is an art reference, not gameplay timing. The preview's two-second jump loop is longer than the current physical jump. Bind poses to controller ground / vertical-velocity states, then retime in Play Mode.
 - The user-edited `_m` file is authoritative. Export from a snapshot or duplicate; never repair it by painting over the source or reusing an old fill patch.
+
+### What the Unity trial actually established
+
+Unity imported the six PNGs, made a reversible eight-renderer puppet with a derived far leg/boot, built seven Animator states, and connected it to the persistent player without replacing its controls or collider. Editor compilation passed. Village and Forest Play Mode showed idle, walking, jump phases, landing and left/right facing; the owner tried the game and found it basically OK apart from some stutter. The cause of that stutter was not measured. Run at 5.6u/s, gate toggles and every collision route were not separately captured. The full evidence and rollback are in Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md` and `Docs/References/Niamh_Motion_v8/Unity_Trial/` (implementation commit `1374a0fa3b982491aa596a2897b25b9a7c8bc93b`).
+
+1. **Joint pivots.** Same-canvas pieces still shift if rotation uses the wrong origin. The Unity trial put each parent pivot at its converted landmark and offset child art back by the same amount; the static pose stayed aligned. The coordinates and 0.30 scale are specific to Niamh, so inspect each new character's pivots visually.
+2. **Sorting.** Individual renderer orders can accidentally put limbs in front of the scenery. A `SortingGroup` held the puppet at the original actor order, while part orders worked inside the group. Check the foreground order in every level where the character appears.
+3. **Facing.** Flipping individual pieces around separate joints can pull the assembly apart. The trial flipped the whole visual hierarchy and kept the hidden static renderer as the controller's facing reference and rollback. Review both directions in Play Mode.
+4. **Floor contact.** Rotating boots changes the lowest visible pixel. The generator baked a vertical correction from the boot alpha edge into walk/run clips. This is not planted-foot IK; actual foot sliding still needs visual review.
+5. **Preview capture.** A successful magenta image capture initially contained no puppet because the temporary camera lacked the preview scene's culling mask. Apply that mask and inspect the saved image rather than trusting capture success alone.
+6. **Unrelated Editor changes.** TMP font caches can change during Editor work. Compare known dirty files before and after, leave unrelated changes unstaged, and report them. A cache change is not evidence that the animation changed.
+
+For the next action, compare the trial at actual game scale, then decide what new art is required for push-door and cross-raise poses. Do not derive a bendable knee, independent cape or finished interaction animation from these six rigid images.
 
 ### Unity trial method
 
