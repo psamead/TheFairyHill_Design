@@ -189,3 +189,11 @@ Design/production follow-up: user visual comfort review of foreground/parallax; 
 
 - Synced `S1_prop_gate_rubble_L` from the live Unity Inspector: local position `(-1.92, 0.183, 0)` under `Village Gate`, world position `(24.49, 0.183, 0)`, and Sprite Renderer Order in Layer `-6`.
 - Updated the matching `rubble` entry in `S1_Village_layout_v3.json`. The builder already derives the child position and sorting order from the layout. The active Village scene is dirty, so I left it open and did not rebuild or save it. Existing scene and font asset changes remain untouched.
+
+## Niamh Motion v8 art staged for Unity trial — 2026-11-14
+
+- The user's `_m` Photoshop edit was snapshotted and exported as six transparent, same-canvas PNGs (`head`, `hair_back`, `body`, `arm`, `leg`, `boot`) at 327 × 699 px. A JSON spec records the preview pivots/timing and limitations. The v8 GIF and contact sheet are references only.
+- Copied the six PNGs and JSON to `Assets/_Project/Art/Characters/Niamh/Motion_v8_Source/`; copied visual references to `Docs/References/Niamh_Motion_v8/`. The editable Photoshop source and design-side exports were left untouched. File presence was checked from the network share; Unity import settings / `.meta` generation are pending.
+- Prepared `Docs/Niamh_Motion_v8_Unity_Handoff.md` with the full execution brief and `Docs/References/...` review images. The remote Codex task asks for an isolated layered prefab, simple Animator actions, and a narrow live player hookup while retaining the existing Core root, collision, controls, and scene routing.
+- Status: assets copied, not yet confirmed imported; rig / clips / prefab / player hookup not yet done; compilation and Play Mode not yet verified; user acceptance pending. Do not report the offline GIF as a Unity result.
+- Existing Unity worktree had unrelated user changes in the Village scene and TMP font assets plus untracked AI docs at handoff time. The task explicitly protects them and limits any commit/push to its own paths.

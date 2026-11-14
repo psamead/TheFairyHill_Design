@@ -114,7 +114,7 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
 - ☐ 菜单动图录屏（等技术美术的菜单分层与特效完成）
 
 ### 6.3 技术美术（文档：`TechnicalArt/妖精丘陵_技术美术方案_手绘高清与骨骼动画.docx`）
-- ☐ 妮芙拆件 PSB → Unity 绑骨骼 → 待机 / 走 / 跑 / 跳试做，评估每个角色工时（场景完成后再做；动作以 `TechnicalArt/NIAMH_ANIM_LIST_DEMO.md` 为准，目前是草案：10 个片段，删去攀爬、推石）
+- ◐ 妮芙基础动作试做：用户编辑的 `_m` 源已导出六个对齐 PNG 部件；离线动作预览 v1–v8 完成，部件已复制至 Unity 工程。接下来制作简单可回退的分层 Prefab / Animator，试玩 idle / walk / run / jump / land 并评估局限；本轮不等同于完整 22 骨骼 PSB 绑定，Unity 编译、Play Mode 和用户验收待完成。过程与限制见 `TechArtAsset/Characters/Niamh/Motion_v8/UNITY_TRIAL_README.md`、经验见 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`、任务单见 `CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md`。
 - ☐ 菜单背景拆 3 层 + 门洞特效（欧甘字粒子、雾、剪影明暗）
 - ☑ **第一章角色比例与跳跃尺度 v1**（2026-10-26）：`TechnicalArt/SCENE_SCALE_SPEC.md` + 参照图 `TechArtAsset/Scenes/_Scale/SCALE_REF_Ch1_v1.png`；妮芙侧面静态图 `TechArtAsset/Characters/Niamh/Niamh_side_static_v3.png`（骨骼动画做好前用于场景合成与灰盒）
 - ☑ **第一章灰盒布局 v1 + 场景制作计划**（2026-10-26）：`TechnicalArt/CH1_SCENE_PLAN.md`；每个场景 `TechArtAsset/Scenes/<Scene>/<Scene>_graybox_v1.png` + `_layout_v1.json`（S1_Village / S1b_ForestPath / S2_TombEntrance / S3_TombCorridor / S4_VineHall）；脚本 `TechnicalArt/tools/ch1_layout_v1.json`、`make_graybox.py`、`validate_layout.py`、`make_scale_ref.py`
@@ -212,4 +212,5 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
 - 2026-11-05 傍晚：F 完成并由 Codex 推送 Unity 仓库。第六轮修正 G：烧蚀火线在湮灭前不显示（`_Burn` 从 -0.1 开始）；十字架光晕缩到 1.2u 贴住主星；十字架显现只看距离；audio listener 警告检查。指令 `CommandForAgentToInitialRun/2026-11-05_Ch1_v3_Fix_G.md`。
 - 2026-11-05 晚：**第一章 v3 修正（A1–G）全部完成**，用户确认效果基本没问题，场景阶段告一段落。设计仓库 `psamead/TheFairyHill_Design`、Unity 仓库 `psamead/TheFairyHill2D` 均已推送。
   - 留到后面（未做）：转场过渡（淡入淡出 / 场景切换表现）；内容与任务提示、对话框；Batch C 之外的音效细化；三叶草“每 10 个 +1 存在值”（等存在值系统）。
-  - **下一步：妮芙骨骼动画制作（开新对话）**。先读 `TechnicalArt/NIAMH_RIG_PARTS.md`（拆件 / 骨骼 / 枢轴）、`TechnicalArt/NIAMH_ANIM_LIST_DEMO.md`（Demo 需要的 10 个动作）、`TechnicalArt/SCENE_SCALE_SPEC.md`（2.1u、走跑跳数值）、`MJ_ref/Niamh_v3_turnaround.png` 与 `Niamh_v3_wip.psd`；Unity 里妮芙目前是静态图 `Niamh_side_static_v3.png`，碰撞胶囊 (0.23, 2.08) / (0.08, 1.04) 不变。
+  - 历史下一步（2026-10-26）：按 `NIAMH_RIG_PARTS.md` 准备完整骨骼；该条已由本轮用户决定的分阶段动作工作取代。
+- 2026-11-14：用户要求先制作现有 Village / Forest 场景会用到的 Niamh 动作。用户编辑 `_m` PSD 后完成离线预览 v1–v8；v8 强化下落时手向后、腿向前，保留低头与轻微落地。六个 PNG 部件和参数已复制进 Unity 工程新增目录，预览存为对照。现在请 Unity Codex 做可回退的简单分层 Prefab / Animator 试验，不代表完整 22 骨骼绑定。导入、游戏接入、编译与 Play Mode 还未验证；任务、素材来源和边界记录见 `CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md`、`Motion_v8/UNITY_TRIAL_README.md` 与 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`。

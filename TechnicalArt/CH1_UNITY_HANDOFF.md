@@ -1,5 +1,7 @@
 # 第一章 S1 + 森林小径 → Unity 可玩场景交接（给 Claude / Codex，也作课堂演示）
 
+> **接手提示（2026-11-14）**：本文件是 2026-10-29 的首次搭建规格，供人和 Agent 理解场景如何建立。之后已实施 v2、v3 及 A1–G 修正。动手前先看 `../README.zh-CN.md`、Unity 工程根目录 `AGENTS.md`、`CH1_UNITY_PROGRESS.md` 末尾和 `CH1_UNITY_REVISION_v3_fix.md`；与本文件冲突时，以较新的定稿和实际 Unity 场景/布局数据为准。
+
 > 2026-10-29。项目：《妖精丘陵 The Fairy Hills》，2D 手绘高清横版，先做 PC 版，Unity + URP 2D。
 > 先读：`ART_HANDOFF.md`（美术总览）、`handoff.md`（项目与 Demo 范围）、`TechnicalArt/SCENE_SCALE_SPEC.md`（比例与跳跃）、`TechnicalArt/CH1_SCENE_PLAN.md` §5–6（这两个场景的制作经过）。
 > 已有：`MainMenu` 场景（见 `MENU_UNITY_HANDOFF.md` / `MENU_UNITY_PROGRESS_AND_DESIGN_BACKLOG.md`），沿用同一个 Unity 工程与 `Assets/_Project/` 结构。

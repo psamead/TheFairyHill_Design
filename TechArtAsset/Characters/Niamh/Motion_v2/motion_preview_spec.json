@@ -1,0 +1,39 @@
+{
+  "status": "motion study; not integrated or accepted",
+  "fps": 20,
+  "source_canvas": [
+    327,
+    699
+  ],
+  "pivots": {
+    "head": [
+      180,
+      214
+    ],
+    "arm": [
+      219,
+      323
+    ],
+    "hip": [
+      187,
+      532
+    ],
+    "knee": [
+      185,
+      579
+    ]
+  },
+  "clips": {
+    "idle": 2,
+    "walk": 0.8,
+    "run": 0.5,
+    "jump": 2
+  },
+  "limitations": [
+    "single rigid dress/cape",
+    "far leg derived from near leg",
+    "uses user-edited layers; check moving-arm backdrop",
+    "no separate elbow or knee weighting",
+    "no Unity validation"
+  ]
+}

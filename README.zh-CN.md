@@ -17,11 +17,24 @@ git clone https://github.com/psamead/TheFairyHill_Design.git
 git pull
 ```
 
-## 学生怎么用
+## 查阅、接手与复用
+
+这些资料供项目负责人、学生、制作与排版设计人员，以及现在和未来的 Agent 使用。查阅或排版时按需读取相关资料；继续开发时按以下步骤核对工程。
 
 1. 克隆本仓库和 Unity 仓库，放在同一个上级文件夹里。
-2. 让你的 Agent（Claude、Codex 等）先读下面的「Agent 先读」清单，再开始工作。
-3. 想看某个问题是怎么一步步解决的：看 `CommandForAgentToInitialRun/`（每次交给 Codex 的指令）和 `TechnicalArt/LESSONS_SCENE_PIPELINE.md`（踩过的坑）。
+2. 在 Unity 仓库先读根目录 `AGENTS.md`，再按下面的清单让你的 Agent（Claude、Codex 等）读取与任务有关的资料。人和 Agent 应以同一份当前资料为依据。
+3. 先在自己的 Unity 工程运行 `git status --short`，确认是否已有未提交的场景、素材或代码修改；查看 Build Settings 和实际文件，区分设计目标与已经做出的内容。
+4. 想看某个问题是怎么一步步解决的：看 `CommandForAgentToInitialRun/`（当时交给 Codex 的任务单）和 `TechnicalArt/LESSONS_SCENE_PIPELINE.md`（实际踩过的坑）。旧任务单是过程记录，不能不核对现状就重新执行。
+
+## 接手时怎样判断资料
+
+- **设计目标**：故事以 `STORY_BIBLE.md` 为准；本阶段范围以 `DEMO_IMPLEMENTATION_PLAN.md` 为准；具体美术与资产规格看 `ART_HANDOFF.md`、`TechnicalArt/` 和 `MJ_ref/ASSETS.md`。
+- **实际进度**：先看 Unity 工程的场景、脚本、Git 状态及有日期的 `Docs/` 记录，再读本仓库 `TechnicalArt/CH1_UNITY_PROGRESS.md`。文档中的“已接入”“已编译”“Play Mode 已验证”“用户已确认”是不同状态。
+- **历史记录**：`handoff.md` 的早期阶段说明、各轮修正和 `CommandForAgentToInitialRun/` 有助于理解过程；遇到冲突时核对日期、是否被取代和当前工程，不把旧计划当成当前待办。
+- **旧 Prompt**：`StoryDesign/` 的 Prompt 集记录当时的模型、参数与试验。使用前核对对应参考图、已选资产、模型版本与本轮目标；不能只复制旧 Prompt 就视为定稿要求。
+- **自己的交付**：每次给人和 Agent 留下目标、输入文件、改动位置、实测结果、未验证项和下一步。Prompt 要保存模型版本、参考图、参数、原文、选图理由及产出路径。统一写法见 `AGENT_PROCESS_GUIDELINES.md` 的“接手材料写法”。
+
+排版、摘编和再次利用时，保留可编辑源文件、导出成品与来源版本的对应关系，以及图注、字体和已知使用限制。另存整理后的成品，保留原件；具体写法见 `AGENT_PROCESS_GUIDELINES.md` §5.7。游戏按独立游戏 Demo 的定位制作，游戏内文字保持英文。
 
 ## Agent 先读（按顺序，按需）
 
@@ -35,9 +48,11 @@ git pull
 8. `TechnicalArt/UNITY_AGENT_RULES.md` —— Unity 端给 Agent 的规则
 9. `DESIGN_CHANGES.md`、`AGENT_PROCESS_GUIDELINES.md` —— 设定怎么改、怎么记录
 
+角色动画接手请再读 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md` 和对应角色版本目录下的 `UNITY_TRIAL_README.md`；当前 Niamh v8 Unity 试玩任务见 `CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md`。
+
 最近发生了什么：看 `ART_HANDOFF.md` §9、`TechnicalArt/CH1_UNITY_PROGRESS.md`，或 `git log`。
 
-> 指令里的路径：`Z:` = 维护者电脑上的本仓库文件夹，`W:` = Unity 工程。换成你自己的本地路径即可。
+> 指令里的路径：`Z:` = 维护者电脑上的本仓库文件夹，`W:` = Unity 工程。换成你自己的本地路径即可；不要依赖维护者电脑的局域网名称或盘符。
 
 ## 文件夹
 

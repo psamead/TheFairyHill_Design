@@ -1,5 +1,7 @@
 # HANDOFF — 《妖精丘陵 The Fairy Hills》
 
+> **接手提示（2026-11-14）**：下方 2026-10-11 至 10-13 的阶段描述是概念期快照，其中“尚未开始任何代码”已过时。学生和 Agent 要先读本仓库 `README.zh-CN.md`、Unity 工程根目录 `AGENTS.md`，再用 Unity 工程实际文件、Git 状态及 `TechnicalArt/CH1_UNITY_PROGRESS.md` 判断当前实现。本文继续用于理解故事、Demo 范围与设计缘由。
+
 > 交接对象：后续负责游戏开发 / 程序架构的 Agent（如 Codex）。
 > 交接时间：2026-10-11（v1.3：已加入 Demo 实施说明、美术方向、市场定位与前期方案 v2）。2026-10-13 v1.4：同步手绘高清规格、守门贵族改称 Ogma（见 `DESIGN_CHANGES.md`）。阶段：**概念设计完成 v1.1，概念图生成进行中，尚未开始任何代码。**
 > 原作者：YiChun Jiang。本文件是摘要；**以 Word 文档为准**（见 §1）。

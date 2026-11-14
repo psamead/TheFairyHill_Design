@@ -10,11 +10,11 @@
 - 用户在 Unity 里手调过的值（碰撞、偏移）必须写进布局数据，由场景生成工具读取，重建场景不能把它们冲掉。
 - 项目设置保持 **Player → Resolution and Presentation → Run In Background = 开**，否则 Unity 窗口不在前台时 Play Mode 不会推进（之前 `Time.time` 停在 0 就是这个原因）。
 
-## 2. 自动化测试：按任务决定要不要写
+## 2. 自动化测试：历史分类（当前暂停执行）
 
 > **2026-11-01 用户决定：暂停自动测试。** v3 第一次尝试在临时副本工程里跑测试全部通过，但用户实际打开的工程里村庄进不去森林，测试结果和实际对不上。之后的任务不跑自动测试、不建副本工程，改为分小批交付、每批开始前先 git commit、由用户在 Play Mode 里手动确认。本节保留作参考，用户明确要求时再启用。
 
-每次任务开始时，先判断任务属于哪一类，并在进度报告里写明你的判断。
+以下分类保留为历史参考；当前依照上面的用户决定，不运行自动测试、不建临时副本工程。只有用户明确恢复自动测试时，才按任务类型重新决定测试范围并记录判断。
 
 | 任务类型 | 例子 | 测试要求 |
 |---|---|---|
@@ -25,7 +25,7 @@
 
 拿不准就按更严格的一类处理。
 
-## 3. 测试怎么写、怎么跑
+## 3. 测试怎么写、怎么跑（恢复自动测试后参考）
 
 - 用 Unity Test Framework（`com.unity.test-framework`），PlayMode 测试放在 `Assets/_Project/Tests/PlayMode/`，单独一个 asmdef。
 - 测试里直接加载 `Core_Persistent` 和关卡场景，把妮芙放到指定位置，用代码模拟输入（给 PlayerController 一个可注入的输入接口，测试里驱动它，不依赖真实键盘），`yield` 若干帧后检查结果。
@@ -52,3 +52,7 @@
 - 需要角色部分被物件遮挡时，用 Claude 提供的「同画布前层图」放在角色前面，不要自己拆分原图。
 - 粒子：脚本设置 Velocity / Force over Lifetime 时，x / y / z 三轴必须同一种 MinMaxCurve 模式（不用的轴设 `MinMaxCurve(0,0)`），否则每帧报错、粒子不显示。
 - 角色随身光用 Point Light 2D，绝不能用 Global Light（全局光放在哪都照全屏）。
+
+## Character animation trial handoff — 2026-11-14
+
+The Niamh v8 task stages user-edited, same-canvas PNG parts in `Assets/_Project/Art/Characters/Niamh/Motion_v8_Source/`. These are not a ready PSB rig. Keep the design repository read-only; do not trim the transparent canvas or overwrite source art. Read `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md` and the dated task before integrating. Start with a reversible prefab; preserve the Core player root, collider, controls, and scene routing; report import, integration, compilation, Play Mode, and user acceptance as distinct states. Protect pre-existing worktree changes and commit only task-owned paths.
