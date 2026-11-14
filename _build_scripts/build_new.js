@@ -1,3 +1,7 @@
+// Historical generator only. Its embedded content predates later edits to the
+// active DOCX and Markdown files. Do not rerun it on the live repository:
+// it overwrites both. For layout work on the current Demo DOCX, use
+// format_demo_doc_readable.py and inspect the exported pages in Word/PDF.
 const { makeDoc } = require('./lib'); const fs = require('fs'); const toMd = require('./md');
 const O = process.argv[2];
 const MK = require('./doc_market'), PL = require('./doc_plan'), ART = require('./doc_art').C, IM = require('./doc_impl');
