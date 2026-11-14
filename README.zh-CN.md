@@ -19,7 +19,7 @@ git pull
 
 ## Unity 素材交接（优先走共享网络）
 
-**2026-11-14 最新进度**：23 条妮芙动作音效已获准进游戏试装，已通过共享网络复制到 Unity 并核对散列，尚待接入。执行 [音效试装任务单](CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md)。开场故事画已有 [OP01 四组候选及反馈](MJ_ref/Slideshow/Opening_v1/README.md)，另有 [三镜头说明](TechnicalArt/SLIDESHOW_OPENING_v1.md)；尚未定稿或接入。人读 Word 是生图前快照，状态以最新记录为准。
+**2026-11-14 晚间占位交接**：负责人已将 r04 U4 放大图批准用于 Unity 开场与第一章封面占位。新图已按规则命名并保留下载名/散列，正式角色画风未通过。当前人读版为 `TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx`；知识库 `TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md`；下次新对话先读 `STORYBOARD_RESUME.md`。任务与素材包见 `CommandForAgentToInitialRun/2026-11-14_Opening_Chapter1_Placeholder_Unity_Trial.md`，传输/派发事实见对应 unity_drop 的 `dispatch_status.json`。未收到 Unity 反馈前不称已接入/已运行。
 
 设计仓库是源文件和已批准游戏素材的权威位置。Unity 制作端开始任务时，应先检查 Unity 工程中是否已预先放好本任务需要的文件；已放好的文件直接使用，不要为了拿素材再从 GitHub 下载。
 
@@ -62,7 +62,7 @@ GitHub 用于仓库版本同步、代码审阅和备份，不是 Unity 制作端
 
 角色动画先看给人读的 `TechnicalArt/妮芙动作试做与Unity试玩记录_v8.docx`，再按需要读 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`、`TechArtAsset/Characters/Niamh/Motion_v8/README.md` 与 `UNITY_TRIAL_README.md`。Niamh v8 已在 Unity 试玩；`CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md` 是**已执行的历史任务单**，实际结果以 Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md` 为准。
 
-章节过渡与妮芙动作声音的**新提案**见给人读的 `TechnicalArt/妖精丘陵_章节过渡与妮芙动作声音设计_v1.docx`，给 Agent 的详细规格见 `TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`。Python 音效试听稿在 `TechArtAsset/Audio/SFX/Niamh_Motion_v1/`；尚未人工听感确认或接入 Unity。S2–S4 仍是灰盒，正式故事画面需与后续实机场景风格核对。
+章节过渡与妮芙动作声音的**新提案**见给人读的 `TechnicalArt/妖精丘陵_章节过渡与妮芙动作声音设计_v1.docx`，给 Agent 的详细规格见 `TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`。Python 音效试听稿在 `TechArtAsset/Audio/SFX/Niamh_Motion_v1/`；负责人已单独试听并批准游戏内试装，23 条 OGG 已网络预置；Unity 接入和游戏内听感尚待反馈。S2–S4 仍是灰盒，正式故事画面需与后续实机场景风格核对。
 
 **Demo 核心体验（2026-11-14）**：范围仍按 `DEMO_IMPLEMENTATION_PLAN.md` 做第一、二章 S1–S4 与结尾卡。项目负责人明确「想象之眼」切换现实与幻象视野是必须展现的能力：获得后在主线上再次使用，并推动人物互动；它与铁十字架的瞬时脉冲分开。完整五章仍是正式游戏蓝图。
 

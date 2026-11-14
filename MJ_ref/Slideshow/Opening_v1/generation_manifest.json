@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
   "project": "The Fairy Hills",
-  "status": "OP01_four_candidate_grids_user_reviewed_no_final",
+  "status": "OP01_upscale_authorized_as_Unity_placeholder_2026-11-14",
   "blocker": "Browser automation unavailable during generation; owner submitted via Discord",
   "proposed_model": "V8.2 Edit - verify availability before submitting",
   "planned_parameters": "--ar 16:9 --raw",
@@ -94,5 +94,40 @@
     "chosen_candidate",
     "selection_reason"
   ],
-  "final_art_status": "not_created"
+  "final_art_status": "not_approved_placeholder_only",
+  "owner_downloads_2026_11_14": [
+    {
+      "original_download_name": "psamead_A_gentle_hand-painted_story_illustration_for_The_Fairy__95a12e36-46aa-43e9-9d41-5c5ea9888e99.png",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_candidate_v1.png",
+      "dimensions": [
+        1456,
+        816
+      ],
+      "sha256": "9e1d37b995c0e8d0ebb90dd000bcf6b57803c6d2e2139df9f605fec8ca5d8f9d",
+      "provenance": "Owner downloaded from Discord; composition matches r04 U4. Original filename UUID is not asserted to be the parent generation job ID."
+    },
+    {
+      "original_download_name": "psamead_A_gentle_hand-painted_story_illustration_for_The_Fairy__36b2593f-0c39-4b78-aff4-db5cc7017613.png",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png",
+      "dimensions": [
+        2912,
+        1632
+      ],
+      "sha256": "556d74b13b65abc123ebc88020ab506aac11b4ab04c73398ca501cb0fdf26aa3",
+      "provenance": "Owner downloaded from Discord; composition matches r04 U4. Original filename UUID is not asserted to be the parent generation job ID."
+    }
+  ],
+  "placeholder": {
+    "file": "TechArtAsset/Storyboards/Opening_v1/placeholder/OP01_friends_dusk_placeholder_v1.png",
+    "source": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png",
+    "sha256": "556d74b13b65abc123ebc88020ab506aac11b4ab04c73398ca501cb0fdf26aa3",
+    "pixel_processing": "none; lossless file copy; retain native aspect 2912:1632",
+    "approval": "Owner explicitly authorized temporary Unity trial, not final character art approval",
+    "known_issues": [
+      "Characters too chibi and outer contours too strong",
+      "Niamh eyes green rather than reference grey",
+      "Costume and relic continuity require final-art review"
+    ],
+    "OP02_OP03": "No dedicated final images. Reuse OP01 temporarily with separate text beats; never claim three completed illustrations."
+  }
 }

@@ -32,4 +32,11 @@ Prompt 若用于本轮出图，也要保存模型与版本、完整原文、参�
 
 - `2026-11-14_Niamh_Surface_Audio_Unity_Trial.md`：**可执行的新任务**。负责人已批准声音放入游戏试装；23 条 OGG 已通过共享网络预先复制到 Unity，SHA-256 核对一致。任务单也在 Unity `Docs/References/Niamh_Surface_Audio_v1/`，尚未确认 Unity Codex 已读取或开始执行；接入、编译和游戏内听感待记录。
 
-章节故事画在设计端推进，首批分镜见 `../TechnicalArt/SLIDESHOW_OPENING_v1.md`；MJ 操作受连接故障阻挡，当前没有提交生成。Demo 范围仍为第一、二章 S1–S4 与结尾卡，想象之眼为 Must。
+章节故事画的首批分镜见 `../TechnicalArt/SLIDESHOW_OPENING_v1.md`；晚间已批准 OP01 候选放大图作为占位进入 Unity。Demo 范围仍为第一、二章 S1–S4 与结尾卡，想象之眼为 Must。
+
+## 2026-11-14 晚间新增可执行任务
+
+- `2026-11-14_Opening_Chapter1_Placeholder_Unity_Trial.md`：负责人已授权 OP01 放大图占位，要求加开场故事引入、第一章封面并运行。图片/数据/任务包通过网络预放，实际状态看 unity_drop 的 dispatch_status.json 与 Unity Handoff。包含先核对已有动作音任务、未完成则分批执行的要求。
+- `../STORYBOARD_RESUME.md` 是本地新对话续接说明，不是另一台机器的执行命令。
+
+本索引较早的“MJ 未提交生成”描述已被晚间记录取代：已产生候选，已批准占位，正式 OP02/OP03 尚未制作。

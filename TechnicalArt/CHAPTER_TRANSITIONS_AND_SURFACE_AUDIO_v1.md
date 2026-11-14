@@ -90,3 +90,5 @@
 3. **下一过渡批**：先在已有可玩路线试村庄→森林短淡入/地点提示；完成 S2/S3 场景画面后做第二章边界的标题和故事序列；开场故事画先用布局动画稿，定稿 MJ 图单独审核后替换。
 
 学生或后续 Agent 接手时，应先验证日期、Git 状态、场景与代码；不得把这份提案当作已实现清单。交接任务单须列允许改动范围、受保护的场景人工微调、测试证据与用户试听结果，遵守 `TechnicalArt/UNITY_AGENT_RULES.md`。视觉素材优先经共享网络复制，Unity 端不默认从 GitHub 下载。
+
+**2026-11-14 晚间占位交接**：负责人已将 r04 U4 放大图批准用于 Unity 开场与第一章封面占位。新图已按规则命名并保留下载名/散列，正式角色画风未通过。当前人读版为 `TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx`；知识库 `TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md`；下次新对话先读 `STORYBOARD_RESUME.md`。任务与素材包见 `CommandForAgentToInitialRun/2026-11-14_Opening_Chapter1_Placeholder_Unity_Trial.md`，传输/派发事实见对应 unity_drop 的 `dispatch_status.json`。未收到 Unity 反馈前不称已接入/已运行。

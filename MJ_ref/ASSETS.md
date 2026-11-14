@@ -74,3 +74,15 @@
 - 2026-10-29：森林小径关键帧 `FOREST_KEY_01.png`（备选 `_b`）、扩图 `FOREST_KEY_01_pan.png`、远景试作 `FOREST_FAR_01.png`（未采用）；物件 `FOREST_PROP_BRAMBLE_01.png`（备选 `_b`）、`FOREST_PROP_THORNWALL_01.png`；S1 物件 `S1_PROP_WALL_LOW_01.png`、`S1_PROP_HAY_01.png`（备选 `_b`、`_c`）、`S1_PROP_GATE_01.png`。铁十字游戏道具取自 `AUTHOR_L7_66/CROSS_AUTHOR_REF.png`。
 - 2026-10-30：（不在 MJ_ref）新素材：`TechArtAsset/FX/FX_sparkle_star.png`、`FX_soft_dot.png`（脚本生成）；栅门三块、森林物件 v2、S1 前景 v2、森林草土边（均由已有图生成）。待 Nano Banana：UI 边框、荆棘墙边缘。
 - 2026-10-30：`UI_frame_celtic_stone.png`（Nano Banana 2.1，带石底的凯尔特边框，留作参考；游戏用副本在 `TechArtAsset/UI/Frame/`，另有白底版与透明版）。
+
+## 2026-11-14 开场故事画占位补充
+
+| 文件（MJ_ref 相对路径） | 用途与状态 |
+| --- | --- |
+| `Slideshow/Opening_v1/OP01_MJ_r04_U4_candidate_v1.png` | 原 r04 U4 单图，1456×816；候选存档 |
+| `Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png` | 用户放大下载，2912×1632；批准 Unity 占位，正式画风未通过 |
+| `Slideshow/Opening_v1/evidence/` | 后续提示词、遮罩和失败结果截图；仅过程证据 |
+
+原下载名与散列见同目录 generation_manifest.json。游戏使用像素不变的副本 `TechArtAsset/Storyboards/Opening_v1/placeholder/OP01_friends_dusk_placeholder_v1.png`。人物偏 Q、轮廓较重、妮芙眼色需校正；OP02/OP03 无专门图片。
+
+变更：2026-11-14 晚间重命名并归档两个用户下载文件，建立占位授权与生成失败记录。Word 当前资产补充、Prompt 与经验索引收在 `TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx` 第 2、3、5 页，作为旧概念说明附录 B 与 Prompt 集第 7 章的本轮补充；旧文档保留原件。

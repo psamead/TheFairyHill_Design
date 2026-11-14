@@ -131,3 +131,7 @@
 | StoryDesign/妖精丘陵_市场定位玩家画像与可行性_v2.docx / 妖精丘陵_前期方案_平台类型内容策略_v2.docx | v1 的改写版 |
 | MJ_ref\ | 参考图与生成结果（共 16 张），清单见 MJ_ref\ASSETS.md |
 | StoryDesign/妖精丘陵_概念设计说明.docx / 妖精丘陵_Midjourney_Prompt集.docx | v1.0 原始版本（保留备查） |
+
+## 2026-11-14 晚间：故事画接手与实测补充
+
+本地续接摘要放根目录 `STORYBOARD_RESUME.md`；远程可执行任务放 `CommandForAgentToInitialRun/`，两者用途分开。故事画的可迁移经验与失败边界集中在 `TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md`。用户已批准 OP01 候选图占位试装，必须保留 placeholder 身份、来源和未通过问题；复制到 Unity 不等于自动派发或实际运行。Vary(Subtle)没有出现编辑框时，不把建议追加的提示词记为已测试；完整人物遮罩重绘曾导致身份漂移与人物消失，不再当作可靠的线条修正步骤。

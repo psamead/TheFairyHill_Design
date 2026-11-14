@@ -33,3 +33,5 @@ The saved scene has one enabled AudioListener, and both the BGM and hover-chime 
 ## Append future design work here
 
 Keep this list open for additions. Add new work as unchecked bullets under “Design and asset backlog”; do not remove completed history. When a task is completed, update the relevant `ART_HANDOFF.md` section 6 checkbox and append a dated entry in section 9. Update this note with implementation status and validation limits. Preserve the established rule that art-detail changes may be recorded directly, while story-meaning changes are first proposed in the root `DESIGN_CHANGES.md` for confirmation.
+
+**2026-11-14 晚间占位交接**：负责人已将 r04 U4 放大图批准用于 Unity 开场与第一章封面占位。新图已按规则命名并保留下载名/散列，正式角色画风未通过。当前人读版为 `TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx`；知识库 `TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md`；下次新对话先读 `STORYBOARD_RESUME.md`。任务与素材包见 `CommandForAgentToInitialRun/2026-11-14_Opening_Chapter1_Placeholder_Unity_Trial.md`，传输/派发事实见对应 unity_drop 的 `dispatch_status.json`。未收到 Unity 反馈前不称已接入/已运行。

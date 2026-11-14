@@ -220,3 +220,5 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
   - 留到后面（未做）：转场过渡（淡入淡出 / 场景切换表现）；内容与任务提示、对话框；Batch C 之外的音效细化；三叶草“每 10 个 +1 存在值”（等存在值系统）。
   - 历史下一步（2026-10-26）：按 `NIAMH_RIG_PARTS.md` 准备完整骨骼；该条已由本轮用户决定的分阶段动作工作取代。
 - 2026-11-14（移交当时状态，已被本节较新的试玩记录取代）：用户要求先制作现有 Village / Forest 场景会用到的 Niamh 动作。用户编辑 `_m` PSD 后完成离线预览 v1–v8；v8 强化下落时手向后、腿向前，保留低头与轻微落地。六个 PNG 部件和参数已复制进 Unity 工程新增目录，预览存为对照。当时导入、接入、编译与 Play Mode 尚未验证；后来的 Unity 试玩结果见本节 2026-11-14 的更新及 Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md`。
+
+**2026-11-14 晚间占位交接**：负责人已将 r04 U4 放大图批准用于 Unity 开场与第一章封面占位。新图已按规则命名并保留下载名/散列，正式角色画风未通过。当前人读版为 `TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx`；知识库 `TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md`；下次新对话先读 `STORYBOARD_RESUME.md`。任务与素材包见 `CommandForAgentToInitialRun/2026-11-14_Opening_Chapter1_Placeholder_Unity_Trial.md`，传输/派发事实见对应 unity_drop 的 `dispatch_status.json`。未收到 Unity 反馈前不称已接入/已运行。
