@@ -357,3 +357,5 @@
 - [Goibniu（维基百科）](https://en.wikipedia.org/wiki/Goibniu)
 - [Four Treasures of the Tuatha Dé Danann（维基百科）](https://en.wikipedia.org/wiki/Four_Treasures_of_the_Tuatha_D%C3%A9_Danann)
 - [Cath Maige Tuired（维基百科）](https://en.wikipedia.org/wiki/Cath_Maige_Tuired)
+
+**2026-11-14 晚间占位交接**：负责人已将 r04 U4 放大图批准用于 Unity 开场与第一章封面占位。新图已按规则命名并保留下载名/散列，正式角色画风未通过。当前人读版为 `TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx`；知识库 `TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md`；下次新对话先读 `STORYBOARD_RESUME.md`。任务与素材包见 `CommandForAgentToInitialRun/2026-11-14_Opening_Chapter1_Placeholder_Unity_Trial.md`，传输/派发事实见对应 unity_drop 的 `dispatch_status.json`。未收到 Unity 反馈前不称已接入/已运行。
