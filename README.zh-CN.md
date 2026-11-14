@@ -60,6 +60,10 @@ GitHub 用于仓库版本同步、代码审阅和备份，不是 Unity 制作端
 
 角色动画先看给人读的 `TechnicalArt/妮芙动作试做与Unity试玩记录_v8.docx`，再按需要读 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`、`TechArtAsset/Characters/Niamh/Motion_v8/README.md` 与 `UNITY_TRIAL_README.md`。Niamh v8 已在 Unity 试玩；`CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md` 是**已执行的历史任务单**，实际结果以 Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md` 为准。
 
+章节过渡与妮芙动作声音的**新提案**见给人读的 `TechnicalArt/妖精丘陵_章节过渡与妮芙动作声音设计_v1.docx`，给 Agent 的详细规格见 `TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`。Python 音效试听稿在 `TechArtAsset/Audio/SFX/Niamh_Motion_v1/`；尚未人工听感确认或接入 Unity。S2–S4 仍是灰盒，正式故事画面需与后续实机场景风格核对。
+
+**Demo 核心体验（2026-11-14）**：范围仍按 `DEMO_IMPLEMENTATION_PLAN.md` 做第一、二章 S1–S4 与结尾卡。项目负责人明确「想象之眼」切换现实与幻象视野是必须展现的能力：获得后在主线上再次使用，并推动人物互动；它与铁十字架的瞬时脉冲分开。完整五章仍是正式游戏蓝图。
+
 最近发生了什么：看 `ART_HANDOFF.md` §9、`TechnicalArt/CH1_UNITY_PROGRESS.md`，或 `git log`。
 
 > 指令里的路径：`Z:` = 维护者电脑上的本仓库文件夹，`W:` = Unity 工程。换成你自己的本地路径即可；不要依赖维护者电脑的局域网名称或盘符。

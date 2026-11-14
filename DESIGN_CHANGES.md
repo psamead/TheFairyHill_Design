@@ -41,6 +41,7 @@
 | 2026-10-16 | 妮芙靴子：「绿色绑带短靴」→「绿色绑带中筒靴」 | MJ 生成的短靴偏重，改短需手绘，用户决定接受中筒 | ART_HANDOFF；概念设计说明 Word（用户手动替换，旧版存为 deprecated/`妖精丘陵_概念设计说明_m_故事v2.2更新_m.docx`）；MJ_ref/ASSETS.md | 已完成（2026-10-17） |
 | 2026-10-26 | 原作者新稿 L7/66 不直接作为游戏画面；画面风格沿用现有，新稿作参考、按需简化借用 | 用户判断：原稿单张精细，但放在一起互相争抢、缺主次层次 | ART_HANDOFF §5.1；MJ_ref/ASSETS.md；评估表 TechnicalArt/L7_66_新原画评估.xlsx | 已完成 |
 | 2026-10-26 | 新增背包系统（妮芙的小挎包）：随时查看圣物、石牌、记忆碎片、名字与存在值上限；特殊情况禁用；不做配装 | 用户提出并确认；整合已有收集物，显示交易代价 | 新建 INVENTORY_SYSTEM_DESIGN.md；handoff.md §3.3 / §8；DEMO_IMPLEMENTATION_PLAN.md §2 Must / §5 / §6.3；ART_HANDOFF §6 | 已确认，文档已完成；待制作 |
+| 2026-11-14 | Demo「想象之眼」从 Could 提升为 Must，解锁点由原定第三章提前至第一章 S3；获得后切换现实/幻象视野，并在后续主线再次使用；第一、二章 S1–S4 与结尾卡范围不变 | 项目负责人明确“切换状态”是想象之眼，Demo 应呈现获得能力、用能力推进剧情及人物互动 | DEMO_IMPLEMENTATION_PLAN.md 与同源 Word；handoff.md §3.2；ART_HANDOFF；TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md；README.zh-CN.md | 已确认，设计文档已更新；Unity 待制作 |
 
 ## 5. 影响清单（改设定时逐项检查）
 

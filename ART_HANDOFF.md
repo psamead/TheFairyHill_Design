@@ -153,6 +153,8 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
 
 ## 9. 变更记录
 
+- 2026-11-14：章节过渡与妮芙动作音效新提案见 `TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`，人读版见 `TechnicalArt/妖精丘陵_章节过渡与妮芙动作声音设计_v1.docx`。Python 生成的 23 条单次音效和 1 条试听盘在 `TechArtAsset/Audio/SFX/Niamh_Motion_v1/`，尚未人工听感确认或接入 Unity。Demo 仍按第一、二章 S1–S4 与结尾卡执行；「想象之眼」切换现实/幻象视野已提升为 Must，须展示获得、后续主线再次使用和人物互动，与铁十字脉冲分开。S2–S4 仍是灰盒，正式过场新图应待相关实机画面定稿后再逐张比对风格。
+
 - 2026-11-14：妮芙 v8 六部件动作已在 Unity 试装并由负责人试玩；基本可用，有未诊断的卡顿。同步人读 Word `TechnicalArt/妮芙动作试做与Unity试玩记录_v8.docx`、美术目录 README、动作清单、经验库和 Unity 进度。原任务单标为已执行。证据与回退见 Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md`；这不代表完整骨骼或推门、举十字架动作已完成。
 
 - 2026-10-30：用户手动微调并保存 Unity 场景 Ch1_S1_Village 中 StoneWall_Tall_1.8u 的 BoxCollider2D：Offset (2.0378294, 0.9)，Size (3.1901226, 1.8)，对象位置 (16.8, 0, 0)。碰撞体比 4.19u 图片窄，以贴合石墙外形；Chapter1SceneBuilder 仍按完整物件宽度生成，重建会覆盖此手动值。详见 TechnicalArt/CH1_UNITY_PROGRESS.md。
