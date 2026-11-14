@@ -1,8 +1,8 @@
 {
   "date": "2026-11-14",
   "project": "The Fairy Hills",
-  "status": "prepared_not_submitted",
-  "blocker": "Chrome extension nodeRepl.fetch request failed; window capture timed out after recovery",
+  "status": "OP01_four_candidate_grids_user_reviewed_no_final",
+  "blocker": "Browser automation unavailable during generation; owner submitted via Discord",
   "proposed_model": "V8.2 Edit - verify availability before submitting",
   "planned_parameters": "--ar 16:9 --raw",
   "references": [
@@ -36,7 +36,52 @@
     "OP02",
     "OP03"
   ],
-  "jobs": [],
+  "jobs": [
+    {
+      "shot": "OP01",
+      "round": 1,
+      "date": "2026-11-14",
+      "actual_model": "not verified from Discord",
+      "actual_prompt": "see conversation; exact full prompt and parameters pending verification",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r01_7d1e4ed7_grid.webp",
+      "sha256": "4b954e95733712d0d32610c5a0b12f61e15f988433639a19828518ff7bf089a4",
+      "job_id": "not verified; short filename identifier preserved",
+      "chosen_candidate": "none final; r04 U1 and U4 retained for comparison"
+    },
+    {
+      "shot": "OP01",
+      "round": 2,
+      "date": "2026-11-14",
+      "actual_model": "not verified from Discord",
+      "actual_prompt": "see conversation; exact full prompt and parameters pending verification",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r02_cf6816ac_grid.webp",
+      "sha256": "0806f292e82dcfdd114fd52bf6122e0efcc061232ccdee2e9aa67a8d7f144316",
+      "job_id": "not verified; short filename identifier preserved",
+      "chosen_candidate": "none final; r04 U1 and U4 retained for comparison"
+    },
+    {
+      "shot": "OP01",
+      "round": 3,
+      "date": "2026-11-14",
+      "actual_model": "not verified from Discord",
+      "actual_prompt": "see conversation; exact full prompt and parameters pending verification",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r03_6ef7f1dd_grid.webp",
+      "sha256": "1c284f08d559eedda10b214e5bf8e06d48ac31f27967b31e9a6db20dc6967256",
+      "job_id": "not verified; short filename identifier preserved",
+      "chosen_candidate": "none final; r04 U1 and U4 retained for comparison"
+    },
+    {
+      "shot": "OP01",
+      "round": 4,
+      "date": "2026-11-14",
+      "actual_model": "not verified from Discord",
+      "actual_prompt": "see conversation; exact full prompt and parameters pending verification",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_8c5a8263_grid.webp",
+      "sha256": "39a7db944f058dc248575b1b5e1d8165fb1c5327c44120e6f9c8bd48d5d52f9e",
+      "job_id": "not verified; short filename identifier preserved",
+      "chosen_candidate": "none final; r04 U1 and U4 retained for comparison"
+    }
+  ],
   "required_job_fields": [
     "shot",
     "date",

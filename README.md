@@ -21,7 +21,7 @@ git pull
 
 ## Using these materials
 
-**2026-11-14 update:** The owner approved the 23 Niamh movement sounds for an in-game trial. They were copied to the Unity project over the shared network and hash-checked; integration is pending. Use [the Unity audio task](CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md). The opening slideshow has a [three-shot brief](TechnicalArt/SLIDESHOW_OPENING_v1.md), a [readable Word guide](TechnicalArt/妖精丘陵_开场故事画制作单_v1.docx), and [MJ prompts](MJ_ref/Slideshow/Opening_v1/README.md). No MJ jobs or finished story images exist yet.
+**2026-11-14 update:** The owner approved the 23 Niamh movement sounds for an in-game trial. They were copied to the Unity project over the shared network and hash-checked; integration is pending. Use [the Unity audio task](CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md). For the opening slideshow, [four OP01 candidate grids and feedback](MJ_ref/Slideshow/Opening_v1/README.md) are available alongside the [three-shot brief](TechnicalArt/SLIDESHOW_OPENING_v1.md). No image is final or integrated; the Word guide is a pre-generation snapshot.
 
 These materials support the project owner, students, production and layout designers, and any current or future agent. Read relevant sources for reference or layout work; follow the steps below when continuing development.
 

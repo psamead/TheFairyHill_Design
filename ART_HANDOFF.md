@@ -154,7 +154,7 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
 ## 9. 变更记录
 
 - 2026-11-14（本轮最新）：负责人单独试听后允许妮芙动作声音进游戏试装。23 条独立 OGG 已经共享网络复制至 Unity `Assets/_Project/Audio/SFX/Niamh_Motion_v1/` 并核验 SHA-256，尚未确认接入、编译或游戏内听感。任务见 `CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md`；设计端复制证据见 `TechnicalArt/references/Niamh_Surface_Audio_v1_transfer_manifest.json`。同一任务单已放入 Unity `Docs/References/Niamh_Surface_Audio_v1/`，未确认远端 Agent 已开始执行。
-- 2026-11-14（开场画准备）：首批 3 镜头为玩耍、召唤、追向树林，接在菜单与 S1 村庄之间。人读版 `TechnicalArt/妖精丘陵_开场故事画制作单_v1.docx`，执行说明 `TechnicalArt/SLIDESHOW_OPENING_v1.md`，完整 prompt 与参考散列 `MJ_ref/Slideshow/Opening_v1/`。Chrome 已打开，但连接与窗口读取失败，**尚未提交 MJ，无候选或定稿**。妮芙参考立绘佩戴十字架，开场须去掉；圣物此时由奥伊芯保管。S2–S4 近景结构等相关实机美术确定后再定稿。
+- 2026-11-14（开场画）：首批 3 镜头为玩耍、召唤、追向树林，接在菜单与 S1 村庄之间。负责人通过 Discord 生成 OP01 四组并下载，已按轮次命名归档至 `MJ_ref/Slideshow/Opening_v1/`；第 4 轮左上与右下的具体反馈见其中 `OP01_比较与反馈_2026-11-14.md`。尚无定稿或 Unity 接入，OP02/03 尚未生成。执行说明 `TechnicalArt/SLIDESHOW_OPENING_v1.md`；人读 Word 是生图前快照，状态以本记录为准。妮芙开场不佩戴十字架，圣物已交奥伊芯保管。
 - 2026-11-14（早先提案快照）：章节过渡与妮芙动作音效提案见 `TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`，当时人读版为 `TechnicalArt/妖精丘陵_章节过渡与妮芙动作声音设计_v1.docx`；其中“未试听”等状态已由上方更新取代。Demo 仍按第一、二章 S1–S4 与结尾卡执行；「想象之眼」切换现实/幻象视野为 Must，须展示获得、后续主线再次使用和人物互动，与铁十字脉冲分开。
 
 - 2026-11-14：妮芙 v8 六部件动作已在 Unity 试装并由负责人试玩；基本可用，有未诊断的卡顿。同步人读 Word `TechnicalArt/妮芙动作试做与Unity试玩记录_v8.docx`、美术目录 README、动作清单、经验库和 Unity 进度。原任务单标为已执行。证据与回退见 Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md`；这不代表完整骨骼或推门、举十字架动作已完成。

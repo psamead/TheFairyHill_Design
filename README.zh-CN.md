@@ -19,7 +19,7 @@ git pull
 
 ## Unity 素材交接（优先走共享网络）
 
-**2026-11-14 最新进度**：23 条妮芙动作音效已获准进游戏试装，已通过共享网络复制到 Unity 并核对散列，尚待接入。执行 [音效试装任务单](CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md)。开场故事画已准备 [三镜头说明](TechnicalArt/SLIDESHOW_OPENING_v1.md)、[人读 Word 制作单](TechnicalArt/妖精丘陵_开场故事画制作单_v1.docx) 和 [MJ 提示词包](MJ_ref/Slideshow/Opening_v1/README.md)；浏览器连接受阻，未提交生成，暂无故事画成品。
+**2026-11-14 最新进度**：23 条妮芙动作音效已获准进游戏试装，已通过共享网络复制到 Unity 并核对散列，尚待接入。执行 [音效试装任务单](CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md)。开场故事画已有 [OP01 四组候选及反馈](MJ_ref/Slideshow/Opening_v1/README.md)，另有 [三镜头说明](TechnicalArt/SLIDESHOW_OPENING_v1.md)；尚未定稿或接入。人读 Word 是生图前快照，状态以最新记录为准。
 
 设计仓库是源文件和已批准游戏素材的权威位置。Unity 制作端开始任务时，应先检查 Unity 工程中是否已预先放好本任务需要的文件；已放好的文件直接使用，不要为了拿素材再从 GitHub 下载。
 

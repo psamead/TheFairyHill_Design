@@ -2,7 +2,7 @@
 
 **日期**：2026-11-14。**对象**：负责人、学生、美术、Unity 制作人员和后续 Agent。
 **目标**：制作菜单 Play 后、S1 村庄可玩段之前的 3 张故事画；保持角色 v3 与现有实机场景风格，交代奥伊芯被召唤、妮芙追赶的动机。
-**当前状态**：分镜、英文字幕草稿、参考清单和完整 MJ prompt 已准备；**未提交 MJ、没有生成候选图、未接入 Unity**。Chrome Create 窗口存在，但扩展报 `nodeRepl.fetch request failed`，窗口截取两次超时；不盲输或猜测提交结果。
+**当前状态**：负责人已通过 Discord 为 OP01 生成并下载四组候选，正在比较，尚无定稿、尚未接入 Unity。原图、分轮记录与负责人对第 4 轮左上和右下的评价见 `MJ_ref/Slideshow/Opening_v1/`。OP02、OP03 尚未生成。浏览器控制曾因连接和读取超时受阻，后续由负责人手动操作。
 **依据**：`STORY_BIBLE.md` §8.7–8.9、`DEMO_IMPLEMENTATION_PLAN.md` §3、`ART_HANDOFF.md` §2/4，以及本轮用户要求在 MJ 制作与游戏风格一致的 slideshow。镜头安排和字幕属于制作建议，不新增人物或改变剧情。
 
 **人读版**：[开场故事画制作单](妖精丘陵_开场故事画制作单_v1.docx)，按一镜头一页排版，配现有角色与环境参考；所有参考均明确标为非成片。
@@ -64,4 +64,4 @@
 
 - [Midjourney Edit Model](https://docs.midjourney.com/hc/en-us/articles/48495453462797-Edit-Model)：多图参考、画幅和 Raw；2026-11-14 查阅。
 - [Midjourney Style Reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)：用于颜色、媒介、纹理和光照一致性；2026-11-14 查阅。
-- 生成阻碍：Chrome 扩展连接失败，随后已打开 Chrome Create 窗口的截图重试仍超时。没有输入 prompt、上传图或提交 MJ 任务。需要恢复可读取的浏览器连接后继续，不需要重新批准故事画制作。
+- 操作记录：此前 Chrome 扩展连接与窗口读取失败；后来负责人在 Discord 上传三张参考并提交 OP01 四组，已下载并归档。实际模型与完整生成参数待从 Discord 核对，不能将先前计划设置当作实际结果。
