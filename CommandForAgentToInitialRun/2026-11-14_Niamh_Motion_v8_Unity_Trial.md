@@ -15,6 +15,13 @@
 
 Design repo is read-only for students and agents. Do not alter or move its Photoshop source, snapshots, original PNG parts, user references, or previews. The files already copied to Unity are the only source parts for this task.
 
+## Asset transfer (network-first)
+
+- First use the six PNGs and JSON already present under `Assets/_Project/Art/Characters/Niamh/Motion_v8_Source/`. They were pre-copied into the Unity working tree through the shared network for this task; do not download them from GitHub or copy them a second time.
+- If a required file is missing or corrupt, message the project maintainer with the exact source-relative filename, purpose, intended Unity destination, and required format. The maintainer will stage approved files in the shared design repository under `TechnicalArt/unity_drop/2026-11-14_Niamh_Motion_v8/` (or a clearly named dated task folder) and notify the Unity worker.
+- Resolve `TechnicalArt/unity_drop/...` from the shared repository root available on the Unity machine. Drive letters and computer-specific absolute paths vary. Copy only the listed files into the Unity project; leave the shared source intact. Record the copied file list and source version in the result log.
+- GitHub is for repository version sync, review, and backup; it is not the default channel for requesting or fetching art files. The Unity repository may still be pushed normally for code/project versioning.
+
 ## Goal
 
 Create a reversible layered Niamh prefab with a basic Animator trial and hook it to the existing persistent player so the owner can try idle, walk, run, jump ascent / descent, and landing in Village and Forest. The current root remains authoritative for gameplay. This trial should let the owner judge the art and motion in the real character scale, lighting, and controls.

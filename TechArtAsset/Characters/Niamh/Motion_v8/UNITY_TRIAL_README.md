@@ -13,6 +13,8 @@ The Unity project is separate from this design repository. The six PNGs and JSON
 
 `Assets/_Project/Art/Characters/Niamh/Motion_v8_Source/`
 
+**Transfer route for this task:** the files were copied into the Unity working tree over the shared network before the Unity integration task was handed off. Use the files already in the Unity project; do not fetch them from GitHub. If any staged file is missing or damaged, send the maintainer its exact design-repository relative path, intended Unity destination, and required format. The maintainer will stage the approved copy under `TechnicalArt/unity_drop/<date_task>/` and notify the Unity-side worker. Copy from the shared folder; never move or edit the source copy. Mapped drive letters and computer-specific absolute paths vary by workstation, so resolve the repository-relative path using the shared root available on that machine.
+
 The GIF and contact sheet were copied to `Docs/References/Niamh_Motion_v8/` for review. The executable task is `CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md` in the design repository. The same task is included in the Unity repository at `Docs/Niamh_Motion_v8_Unity_Handoff.md`.
 
 ## What this trial should prove

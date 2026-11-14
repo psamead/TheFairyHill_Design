@@ -197,3 +197,9 @@ Design/production follow-up: user visual comfort review of foreground/parallax; 
 - Prepared `Docs/Niamh_Motion_v8_Unity_Handoff.md` with the full execution brief and `Docs/References/...` review images. The remote Codex task asks for an isolated layered prefab, simple Animator actions, and a narrow live player hookup while retaining the existing Core root, collision, controls, and scene routing.
 - Status: assets copied, not yet confirmed imported; rig / clips / prefab / player hookup not yet done; compilation and Play Mode not yet verified; user acceptance pending. Do not report the offline GIF as a Unity result.
 - Existing Unity worktree had unrelated user changes in the Village scene and TMP font assets plus untracked AI docs at handoff time. The task explicitly protects them and limits any commit/push to its own paths.
+
+## Niamh v8 asset transfer route — 2026-11-14
+
+- The six parts and JSON were copied into the Unity project over the shared network before handoff. Unity-side work should use those staged files directly; no GitHub download is needed for this task.
+- Reusable rule: Unity tasks check for pre-copied project assets first. If an asset is missing, the Unity worker sends the maintainer an exact source-relative path, purpose, destination, and format. The maintainer stages approved material under `TechnicalArt/unity_drop/<date_task>/`; the Unity worker copies from the shared network and records the list/version. Do not move or edit shared source files. GitHub remains the repo sync/review/backup route, not the default art transfer route.
+- Shared drive mappings and absolute paths vary across machines. Use the network share available on the current workstation and repository-relative paths; do not encode a specific host name as a universal dependency.
