@@ -73,6 +73,8 @@ Explore the hand and arm pose needed for Niamh's cross-raising interaction while
 
 ### Limits and next action
 
+- Later owner feedback on 2026-11-16 rejected the newly generated chest-hold, mid-raise, overhead and isolated-arm studies: duplicated hands/arms, too many fingers, incorrect arm connections and missing chest costume details. Preserve these for diagnosis only; they are not approved cutouts or Unity input. The earlier approval covers the concept's style and pose direction, not its hand anatomy. Start the next chat by fixing one chest-hold still, tracing two shoulder-elbow-wrist chains and exactly two hands, retaining the original neckline, chest fastenings and cape opening. File status and owner-marked screenshots are indexed in the study folder README.
+
 - ImageGen's exact backend model/version and the complete prompt were not preserved in the record. Do not label it Google Imagen or invent missing metadata.
 - The image is a static, generated whole-character concept. It does not contain aligned character parts, a repaired arm-backdrop, usable pivots, a motion cycle, or Unity import settings.
 - Next, prepare a non-destructive layered pose using the user-edited source and Motion_v8 as the basis. Plan arm/hand/cross overlap and fill hidden regions; keep the rest of the character anchored to the existing art. Make an offline pose/GIF preview, inspect seams and the full in-game scale, and ask the owner to approve it before writing a separate Unity task.

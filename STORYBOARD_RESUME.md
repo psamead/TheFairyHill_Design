@@ -4,6 +4,10 @@
 
 ## 下次从这里开始
 
+**2026-11-16 最新接续：文档整理已完成；接下来在新对话修正妮芙动作。** 统一版式批次为 9 份 Word 加 1 份交付包副本，已渲染检查，本地提交 `8833916`；截至这条记录尚未 push，按负责人安排在休息/收工时推送大文件。LibreOffice 与 Git LFS 已安装。
+
+文档之后生成的妮芙胸前捧持、中段、高举和手臂隔离图被负责人指出多手、多指、连接错误和胸前细节缺失。**全部新候选仅作失败记录，禁止作为定稿、拆件或 Unity 输入。** 研究目录 `TechArtAsset/Characters/Niamh/Interaction_Study_2026-11-16/README.md` 保存逐图状态、负责人四张批注截图与修正要求。旧的胸前概念方向认可仍有效，但不代表手部已验收。下一轮先修一张保留原胸前衣装细节、肩肘腕连接正确且只有两只手的胸前静帧，再推进举起和离线动画。用户现场 WIP PSD/PNG 保持原件。
+
 1. 读本文件 → `TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md` → `ART_HANDOFF.md` 最新记录，先看可读版 `TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx`。
 2. 通过共享网络查 Unity `Docs/Opening_Chapter1_Placeholder_Unity_Handoff.md` 和 `Docs/Niamh_Surface_Audio_Unity_Handoff.md`，以及实际工程 git status/HEAD；记录哪些反馈真实存在。文件尚无时先查本地派发记录，不假设任务已运行。
 3. 看三节拍、第一章封面、字幕/Skip、小分辨率和进村庄截图，再核对试玩记录。反馈有缺陷先修；用户下次人工确认画面和听感。素材复制/提交不代表实际运行。

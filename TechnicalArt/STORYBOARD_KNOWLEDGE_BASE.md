@@ -60,6 +60,8 @@ Unity 反馈约定：`Docs/Opening_Chapter1_Placeholder_Unity_Handoff.md`；没�
 
 ## 妮芙双手捧十字架动作参考（2026-11-16）
 
+同日后续反馈：负责人退回文档整理后生成的胸前/中段/高举候选，指出多手、多指、手臂连接错误及胸前衣装细节丢失。候选、对照板和隔离手臂图只保存为失败研究，禁止作成品输入。旧概念获认可的是风格与姿势方向；手部仍须检查。下一轮先修一张胸前静帧，保留原胸前系带/饰件、领口与披风开口，明确两条肩肘腕连接及恰好两只手，再推进后续姿势。文件和截图见研究目录 `README.md`。
+
 负责人认可静态概念图 `TechArtAsset/Characters/Niamh/Interaction_Study_2026-11-16/Niamh_two_hands_pose_study_v1.png` 的姿势与游戏风格贴合度，可据此继续制作离线动作预览。现有游戏内妮芙侧面图是身份与画风基准；Unity 里的十字架资产是道具基准。Discord 的 Midjourney U2 只提供双臂弯曲和双手持物姿势；最终整合图由 Codex 内置 ImageGen 参考原角色、MJ 姿势图、原十字架资产生成。不能把工具称作 Google Imagen：本轮实际使用的是 Codex 内置 ImageGen，服务端具体模型版本未显示。
 
 认可范围：静态图看起来能接近现有游戏角色，双手捧十字架这个姿势可继续。未认可/未验证：像素作为成品、拆件质量、遮挡和关节补画、连续动作、栅门动作、Unity 导入或 Play Mode。接下来先制作可分层姿势和离线 GIF，由负责人审看后再派新的 Unity 任务。细节与文件索引见 `TechnicalArt/妮芙双手捧十字架动作参考_2026-11-16.md`、`TechnicalArt/LESSONS_CHARACTER_ANIMATION.md` 的 Trial 2。
