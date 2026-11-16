@@ -8,7 +8,7 @@
 - 新对话开始时先读：本文件 → `STORY_BIBLE.md` → `MJ_ref/ASSETS.md` → `AGENT_PROCESS_GUIDELINES.md`（第 5 章的 Midjourney 实操经验）。做场景前再读 `TechnicalArt/SCENE_SCALE_SPEC.md`（比例与跳跃尺度）和 `TechnicalArt/CH1_SCENE_PLAN.md`（第一章场景计划）。把场景放进 Unity 时读 `TechnicalArt/CH1_UNITY_HANDOFF.md`，再读 `TechnicalArt/CH1_UNITY_REVISION_v2.md`（试玩后的 7 条修改）；做新场景前先读经验库 `TechnicalArt/LESSONS_SCENE_PIPELINE.md`；给另一台电脑上 Codex 的任务指令在 `CommandForAgentToInitialRun/`。
 - **设定可以改，但要走流程**：故事设定仍会影响美术，美术中也可能发现需要修改设定。任何修改先登记到根目录 `DESIGN_CHANGES.md`。只改美术细节的可以直接改并登记；涉及故事含义的只登记为「提议」，等用户确认后再改 `STORY_BIBLE.md`。需要查原因时回到故事框架对话项的记录。
 - 每完成一项，在第 6 节的待办前把 ☐ 改为 ☑，并在第 9 节「变更记录」写一行。
-- 人读 Word 的统一视觉规则：`TechnicalArt/人读Word文档统一版式规范.md`；版式参考 `TechnicalArt/妖精丘陵_美术方向_关键场景标题字体.docx`。
+- 人读文档统一标准：`TechnicalArt/人读Word文档统一版式规范.md`；主要参照 `TechnicalArt/妖精丘陵_技术美术方案_手绘高清与骨骼动画.docx` 的 3.1 场景清单。统一编号标题、深绿白字表头、白/浅灰绿交替行、细网格与跨页重复表头；清单与对照用表格、长说明保留段落。现行及今后人读 Word/PDF 均遵守，不能仅更换字体和颜色。
 - **同步给人读的 Word 文档**（用户 2026-10-26 要求）：改动 md 时，也同步到对应 Word——概念设计说明（`StoryDesign/妖精丘陵_概念设计说明_m_故事v2.2更新.docx`）、Demo 实施说明（由 `DEMO_IMPLEMENTATION_PLAN.md` 用 pandoc 重新生成）、`TechnicalArt/` 的技术美术方案与美术方向。改前先把旧版复制进 `deprecated/`（重名加 `_m` / `_m2`…）。Word 自动修改脚本在 `TechnicalArt/tools/`（PowerShell + Word COM）。
 
 ## 0.1 妮芙交互动作：双手捧十字架（2026-11-16）

@@ -132,5 +132,7 @@
     }
   ],
   "pagination_evidence": "Native Word PDF page count used; Word COM ComputeStatistics can report stale values. Corrected files are also rendered with the packaged render_docx.py.",
-  "backup_policy": "Originals retained under deprecated. All existing text, media bytes and relationships checked against backups."
+  "backup_policy": "Originals retained under deprecated. All existing text, media bytes and relationships checked against backups.",
+  "record_status": "Historical font-fix verification before subsequent table reflow; document hashes and page counts in this report describe that earlier snapshot.",
+  "current_layout_validation": "TechnicalArt/references/human_word_table_validation_2026-11-16.json"
 }

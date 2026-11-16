@@ -53,6 +53,8 @@
 
 ## 状态与资料索引
 
+人读资料的统一版式按 `TechnicalArt/人读Word文档统一版式规范.md`：以技术美术方案 3.1 场景清单为主要样本，标题统一编号，规格、步骤、状态与检查清单排成深绿表头、白/浅灰绿交替行的表格；长说明保留为段落。只换字体和标题颜色不能算套用完成。跨页重复表头、图片与图注同页，并使用 Word/LibreOffice 实际页面核对。此为 2026-11-16 负责人确认的现行及今后人读文档标准。
+
 人读当前版：`TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx`。v1 制作单保留为生图前历史快照。
 Unity 执行任务：`CommandForAgentToInitialRun/2026-11-14_Opening_Chapter1_Placeholder_Unity_Trial.md`。
 本地续接：`STORYBOARD_RESUME.md`。素材包：`TechnicalArt/unity_drop/2026-11-14_Opening_Chapter1_Placeholder/`。

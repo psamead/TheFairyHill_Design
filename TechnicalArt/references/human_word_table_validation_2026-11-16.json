@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-16",
+  "scope": "Human-facing document standard and four table reflows only. No Niamh artwork production or Unity changes.",
+  "reference": "TechnicalArt/妖精丘陵_技术美术方案_手绘高清与骨骼动画.docx",
+  "reference_sha256": "efc5f53d2299445ab88bd48cceaef7ba2fdbc3a3936987d33a2c8cf69a422d99",
+  "reference_unchanged": true,
+  "documents": [
+    {
+      "path": "TechnicalArt/妮芙动作试做与Unity试玩记录_v8.docx",
+      "tables": 3,
+      "source_sha256": "9dfb77749c7999af621ab15734a0531f632e02a83b9557b4778c3e0cb0a22e67",
+      "sha256": "ba27bab98fb22a92063409c3c448cf03495a568a61f728015e3001788aec7a43",
+      "backup": "deprecated/妮芙动作试做与Unity试玩记录_v8_pre_table_layout_2026-11-16.docx",
+      "all_substantive_paragraphs_preserved": true,
+      "media_and_relationships_unchanged": true,
+      "table_rows": 13,
+      "word_pdf_pages": 3,
+      "libreoffice_pdf_pages": 3,
+      "word_version": "15.0",
+      "title_font": "微软雅黑",
+      "normal_font": "微软雅黑",
+      "repeated_headers": true,
+      "rows_not_split": true,
+      "alternating_shading": true,
+      "numbered_headings": true,
+      "visual_review": "All page PNGs inspected; no clipping, blank pages, orphan captions or broken rows."
+    },
+    {
+      "path": "TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx",
+      "tables": 6,
+      "source_sha256": "8f178a245c76d6be8e1f7ef029afdd12244dbcc9f43da5c99a26863573e15a63",
+      "sha256": "504380c71e3c1ac210fad1d1710d171ef3bc8963701a4c54ece0bc8d14df5f91",
+      "backup": "deprecated/妖精丘陵_开场故事画与章节过渡交接_v2_pre_table_layout_2026-11-16.docx",
+      "all_substantive_paragraphs_preserved": true,
+      "media_and_relationships_unchanged": true,
+      "table_rows": 24,
+      "word_pdf_pages": 5,
+      "libreoffice_pdf_pages": 5,
+      "word_version": "15.0",
+      "title_font": "微软雅黑",
+      "normal_font": "微软雅黑",
+      "repeated_headers": true,
+      "rows_not_split": true,
+      "alternating_shading": true,
+      "numbered_headings": true,
+      "visual_review": "All page PNGs inspected; no clipping, blank pages, orphan captions or broken rows."
+    },
+    {
+      "path": "TechnicalArt/妖精丘陵_开场故事画制作单_v1.docx",
+      "tables": 4,
+      "source_sha256": "75f577e7debc5a2d3a78969312e45b0618ebb646f39baec523d6bad6823528f5",
+      "sha256": "06b8af225164f158ffd4138613d903ccd7ff686ea79af94bd0bd352473808486",
+      "backup": "deprecated/妖精丘陵_开场故事画制作单_v1_pre_table_layout_2026-11-16.docx",
+      "all_substantive_paragraphs_preserved": true,
+      "media_and_relationships_unchanged": true,
+      "table_rows": 22,
+      "word_pdf_pages": 3,
+      "libreoffice_pdf_pages": 3,
+      "word_version": "15.0",
+      "title_font": "微软雅黑",
+      "normal_font": "微软雅黑",
+      "repeated_headers": true,
+      "rows_not_split": true,
+      "alternating_shading": true,
+      "numbered_headings": true,
+      "visual_review": "All page PNGs inspected; no clipping, blank pages, orphan captions or broken rows."
+    },
+    {
+      "path": "TechnicalArt/妖精丘陵_章节过渡与妮芙动作声音设计_v1.docx",
+      "tables": 3,
+      "source_sha256": "8ae3357adee28dd76f30695dba6c95d11fa1593edcf163c071fd12a57b249345",
+      "sha256": "d8310f641d783402e60126e113e5ec13c84918cfab3693a659d26d5d2a6cdc70",
+      "backup": "deprecated/妖精丘陵_章节过渡与妮芙动作声音设计_v1_pre_table_layout_2026-11-16.docx",
+      "all_substantive_paragraphs_preserved": true,
+      "media_and_relationships_unchanged": true,
+      "table_rows": 14,
+      "word_pdf_pages": 3,
+      "libreoffice_pdf_pages": 3,
+      "word_version": "15.0",
+      "title_font": "微软雅黑",
+      "normal_font": "微软雅黑",
+      "repeated_headers": true,
+      "rows_not_split": true,
+      "alternating_shading": true,
+      "numbered_headings": true,
+      "visual_review": "All page PNGs inspected; no clipping, blank pages, orphan captions or broken rows."
+    }
+  ],
+  "mirror": "TechnicalArt/unity_drop/2026-11-14_Opening_Chapter1_Placeholder/Docs/妖精丘陵_开场故事画与章节过渡交接_v2.docx",
+  "mirror_identical": true,
+  "existing_table_documents_audited": [
+    {
+      "path": "StoryDesign/妖精丘陵_Demo设计与开发实施说明.docx",
+      "sha256": "f2f09e8a43b2965fc15f826555ec53484525d0d38224395c22cb88cd5d61c6d1",
+      "record_tables": 6,
+      "header_repeat_and_cant_split_pass": true,
+      "action": "Existing table structure audited; file not modified. Business identifiers, dated historical updates and subordinate explanatory headings retained."
+    },
+    {
+      "path": "StoryDesign/妖精丘陵_Midjourney_Prompt集_m_故事v2.2.docx",
+      "sha256": "e9d6d214a03f9549b4438120a25b77ae52db010cfd9a049a2be231b205375f49",
+      "record_tables": 37,
+      "header_repeat_and_cant_split_pass": true,
+      "action": "Existing table structure audited; file not modified. Business identifiers, dated historical updates and subordinate explanatory headings retained."
+    },
+    {
+      "path": "StoryDesign/妖精丘陵_前期方案_平台类型内容策略_v2.docx",
+      "sha256": "7ef99cf3fbcfcc89b3785fb893bbaafccad54b915a78995eb39a1bb1a4506338",
+      "record_tables": 8,
+      "header_repeat_and_cant_split_pass": true,
+      "action": "Existing table structure audited; file not modified. Business identifiers, dated historical updates and subordinate explanatory headings retained."
+    },
+    {
+      "path": "StoryDesign/妖精丘陵_市场定位玩家画像与可行性_v2.docx",
+      "sha256": "4f0492296a1065dca6854206423ae896120c63c326b81ee50f85e194dcf33cf9",
+      "record_tables": 11,
+      "header_repeat_and_cant_split_pass": true,
+      "action": "Existing table structure audited; file not modified. Business identifiers, dated historical updates and subordinate explanatory headings retained."
+    },
+    {
+      "path": "StoryDesign/妖精丘陵_概念设计说明_m_故事v2.2更新.docx",
+      "sha256": "8b35c2ff27430e398b4c3ba1aa70395636af062476615988043c849f8d6af1ad",
+      "record_tables": 57,
+      "header_repeat_and_cant_split_pass": true,
+      "action": "Existing table structure audited; file not modified. Business identifiers, dated historical updates and subordinate explanatory headings retained."
+    },
+    {
+      "path": "TechnicalArt/妖精丘陵_技术美术方案_手绘高清与骨骼动画.docx",
+      "sha256": "efc5f53d2299445ab88bd48cceaef7ba2fdbc3a3936987d33a2c8cf69a422d99",
+      "record_tables": 13,
+      "header_repeat_and_cant_split_pass": true,
+      "action": "Existing table structure audited; file not modified. Business identifiers, dated historical updates and subordinate explanatory headings retained."
+    }
+  ],
+  "qa_evidence_directory": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\human_table_layout_20261116",
+  "renderers": "Native Word 2013 PDF export and bundled render_docx.py using LibreOffice; all page PNGs visually reviewed. Native PDF page counts used because Word ComputeStatistics can be stale.",
+  "git_push": "Deferred to owner rest/end-of-day window."
+}

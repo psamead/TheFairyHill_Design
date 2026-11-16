@@ -6,6 +6,8 @@
 > 交接时间：2026-10-11（v1.3：已加入 Demo 实施说明、美术方向、市场定位与前期方案 v2）。2026-10-13 v1.4：同步手绘高清规格、守门贵族改称 Ogma（见 `DESIGN_CHANGES.md`）。本文主体保留概念期历史快照；**当前实现与美术进度以本仓库的 `STORYBOARD_RESUME.md`、`ART_HANDOFF.md`、`TechnicalArt/CH1_UNITY_PROGRESS.md` 和各项 Unity handoff 为准。**
 > 原作者：YiChun Jiang。本文件是摘要；**以 Word 文档为准**（见 §1）。
 
+> 人读文档版式统一按 `TechnicalArt/人读Word文档统一版式规范.md`：参照技术美术方案 3.1 的编号标题与绿色表格，适用于现行及今后人读 Word/PDF。具体制作、状态和交接清单用表格，长说明保留段落，交付前逐页检查。完成用户指定文档后报告并停下。
+
 ---
 
 ## 1. 必读文件（ShareWorkFolder）
