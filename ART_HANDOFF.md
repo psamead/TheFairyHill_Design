@@ -8,6 +8,7 @@
 - 新对话开始时先读：本文件 → `STORY_BIBLE.md` → `MJ_ref/ASSETS.md` → `AGENT_PROCESS_GUIDELINES.md`（第 5 章的 Midjourney 实操经验）。做场景前再读 `TechnicalArt/SCENE_SCALE_SPEC.md`（比例与跳跃尺度）和 `TechnicalArt/CH1_SCENE_PLAN.md`（第一章场景计划）。把场景放进 Unity 时读 `TechnicalArt/CH1_UNITY_HANDOFF.md`，再读 `TechnicalArt/CH1_UNITY_REVISION_v2.md`（试玩后的 7 条修改）；做新场景前先读经验库 `TechnicalArt/LESSONS_SCENE_PIPELINE.md`；给另一台电脑上 Codex 的任务指令在 `CommandForAgentToInitialRun/`。
 - **设定可以改，但要走流程**：故事设定仍会影响美术，美术中也可能发现需要修改设定。任何修改先登记到根目录 `DESIGN_CHANGES.md`。只改美术细节的可以直接改并登记；涉及故事含义的只登记为「提议」，等用户确认后再改 `STORY_BIBLE.md`。需要查原因时回到故事框架对话项的记录。
 - 每完成一项，在第 6 节的待办前把 ☐ 改为 ☑，并在第 9 节「变更记录」写一行。
+- 人读 Word 的统一视觉规则：`TechnicalArt/人读Word文档统一版式规范.md`；版式参考 `TechnicalArt/妖精丘陵_美术方向_关键场景标题字体.docx`。
 - **同步给人读的 Word 文档**（用户 2026-10-26 要求）：改动 md 时，也同步到对应 Word——概念设计说明（`StoryDesign/妖精丘陵_概念设计说明_m_故事v2.2更新.docx`）、Demo 实施说明（由 `DEMO_IMPLEMENTATION_PLAN.md` 用 pandoc 重新生成）、`TechnicalArt/` 的技术美术方案与美术方向。改前先把旧版复制进 `deprecated/`（重名加 `_m` / `_m2`…）。Word 自动修改脚本在 `TechnicalArt/tools/`（PowerShell + Word COM）。
 
 ## 0.1 妮芙交互动作：双手捧十字架（2026-11-16）
@@ -162,6 +163,7 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
 
 ## 9. 变更记录
 
+- 2026-11-16（人读文档版式）：负责人提供《妖精丘陵_美术方向_关键场景标题字体.docx》作为 Word 版式参考。新增 `TechnicalArt/人读Word文档统一版式规范.md`，并在 Agent 指南与本 handoff 中记录复用规则；妮芙 v8 人读记录已按深绿标题、细横线与微软雅黑正文调整并渲染复核，原文件备份在 `deprecated/`。
 - 2026-11-14（本轮最新）：负责人单独试听后允许妮芙动作声音进游戏试装。23 条独立 OGG 已经共享网络复制至 Unity `Assets/_Project/Audio/SFX/Niamh_Motion_v1/` 并核验 SHA-256，尚未确认接入、编译或游戏内听感。任务见 `CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md`；设计端复制证据见 `TechnicalArt/references/Niamh_Surface_Audio_v1_transfer_manifest.json`。同一任务单已放入 Unity `Docs/References/Niamh_Surface_Audio_v1/`，未确认远端 Agent 已开始执行。
 - 2026-11-16（妮芙交互动作概念）：负责人认可双手捧十字架概念图的姿势与游戏内风格贴合度。MJ U2 只作姿势来源，Codex 内置 ImageGen 参考现有妮芙侧面图、姿势图和游戏十字架资产生成概念图。文件与来源说明见 `TechnicalArt/妮芙双手捧十字架动作参考_2026-11-16.md`，并已同步更新人读 Word `TechnicalArt/妮芙动作试做与Unity试玩记录_v8.docx`。未拆件、未制作 GIF、未进 Unity；下一步做离线动作预览并由负责人确认，再决定新的 Unity 任务。图像生成工作方法补入 `AGENT_PROCESS_GUIDELINES.md` 与 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`。
 - 2026-11-14（开场画）：首批 3 镜头为玩耍、召唤、追向树林，接在菜单与 S1 村庄之间。负责人通过 Discord 生成 OP01 四组并下载，已按轮次命名归档至 `MJ_ref/Slideshow/Opening_v1/`；第 4 轮左上与右下的具体反馈见其中 `OP01_比较与反馈_2026-11-14.md`。尚无定稿或 Unity 接入，OP02/03 尚未生成。执行说明 `TechnicalArt/SLIDESHOW_OPENING_v1.md`；人读 Word 是生图前快照，状态以本记录为准。妮芙开场不佩戴十字架，圣物已交奥伊芯保管。
