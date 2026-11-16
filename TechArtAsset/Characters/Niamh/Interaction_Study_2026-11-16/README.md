@@ -10,12 +10,12 @@
 | `MJ_two_hands_U2_original.png` | 负责人从 Discord 提供的 MJ 姿势参考整图，右上 U2 只供借姿势。 |
 | `grip_imagegen_2026-11-15_reference.png` | 较早手臂研究记录，未作成品认可。 |
 | `Niamh_cross_hold_side_candidate_v1.png` | 新胸前候选已退回：握持手指及远近手遮挡须修正。 |
-| `Niamh_cross_raise_mid_candidate_v1.png` | 新中段候选已退回：负责人指出多出手的形状；手臂连接和握持须重做。 |
+| `Niamh_cross_raise_mid_candidate_v1.png` | 新中段候选已退回：负责人再次明确指出“多了一双手”，见 `owner_feedback/feedback_05.png`；须重做手臂连接和握持遮挡，不能直接沿用现有手形。 |
 | `Niamh_cross_raise_overhead_candidate_v1.png` | 新高举候选已退回：多手/手臂连接及指头错误，胸前衣装细节丢失。实际文件为 RGB 黑底，未提供可直接使用的透明部件。 |
 | `Niamh_cross_pose_stage_comparison_v1.png` | 静态研究拼板，包含已退回候选；未验证动作连续性或游戏实际尺寸，不作有效动作预览。 |
 | `Niamh_cross_pose_stage_comparison_v2.png` | 增加高举候选的静态研究拼板，状态同上。 |
 | `rejected/` | 本聊天其他隔离手臂/高举试验，存在透视、手指、连接或光晕问题，只作查错记录。 |
-| `owner_feedback/` | 负责人本轮四张圈注截图，按发送顺序编号。 |
+| `owner_feedback/` | 负责人圈注截图，按发送顺序编号；第 5 张再次明确中段候选多出一双手。 |
 
 ## 新对话先做什么
 
