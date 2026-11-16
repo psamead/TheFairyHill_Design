@@ -1,7 +1,7 @@
 # 开场故事画与章节过渡知识库
 
-更新：2026-11-14。项目：The Fairy Hills。对象：负责人、学生、美术、制作与排版人员及任意后续 Agent。
-用途：独立于聊天保留来源、审美判断、失败经验和 Unity 接手依据。当前任务是占位试装；正式美术和用户游戏内验收未完成。
+更新：2026-11-16。项目：The Fairy Hills。对象：负责人、学生、美术、制作与排版人员及任意后续 Agent。
+用途：独立于聊天保留来源、审美判断、失败经验和 Unity 接手依据。故事画占位试装与妮芙动作概念各有独立状态；逐项看下文，不能把一个项目的批准套用到另一项。
 
 ## 先看当前决定
 
@@ -57,3 +57,9 @@
 Unity 执行任务：`CommandForAgentToInitialRun/2026-11-14_Opening_Chapter1_Placeholder_Unity_Trial.md`。
 本地续接：`STORYBOARD_RESUME.md`。素材包：`TechnicalArt/unity_drop/2026-11-14_Opening_Chapter1_Placeholder/`。
 Unity 反馈约定：`Docs/Opening_Chapter1_Placeholder_Unity_Handoff.md`；没有此反馈或实际场景证据时，不能把素材复制说成已接入/已运行。
+
+## 妮芙双手捧十字架动作参考（2026-11-16）
+
+负责人认可静态概念图 `TechArtAsset/Characters/Niamh/Interaction_Study_2026-11-16/Niamh_two_hands_pose_study_v1.png` 的姿势与游戏风格贴合度，可据此继续制作离线动作预览。现有游戏内妮芙侧面图是身份与画风基准；Unity 里的十字架资产是道具基准。Discord 的 Midjourney U2 只提供双臂弯曲和双手持物姿势；最终整合图由 Codex 内置 ImageGen 参考原角色、MJ 姿势图、原十字架资产生成。不能把工具称作 Google Imagen：本轮实际使用的是 Codex 内置 ImageGen，服务端具体模型版本未显示。
+
+认可范围：静态图看起来能接近现有游戏角色，双手捧十字架这个姿势可继续。未认可/未验证：像素作为成品、拆件质量、遮挡和关节补画、连续动作、栅门动作、Unity 导入或 Play Mode。接下来先制作可分层姿势和离线 GIF，由负责人审看后再派新的 Unity 任务。细节与文件索引见 `TechnicalArt/妮芙双手捧十字架动作参考_2026-11-16.md`、`TechnicalArt/LESSONS_CHARACTER_ANIMATION.md` 的 Trial 2。

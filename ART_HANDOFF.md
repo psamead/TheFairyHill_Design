@@ -10,6 +10,14 @@
 - 每完成一项，在第 6 节的待办前把 ☐ 改为 ☑，并在第 9 节「变更记录」写一行。
 - **同步给人读的 Word 文档**（用户 2026-10-26 要求）：改动 md 时，也同步到对应 Word——概念设计说明（`StoryDesign/妖精丘陵_概念设计说明_m_故事v2.2更新.docx`）、Demo 实施说明（由 `DEMO_IMPLEMENTATION_PLAN.md` 用 pandoc 重新生成）、`TechnicalArt/` 的技术美术方案与美术方向。改前先把旧版复制进 `deprecated/`（重名加 `_m` / `_m2`…）。Word 自动修改脚本在 `TechnicalArt/tools/`（PowerShell + Word COM）。
 
+## 0.1 妮芙交互动作：双手捧十字架（2026-11-16）
+
+负责人已认可静态概念图的动作与风格方向。图像把现有游戏内妮芙、Midjourney 的双手姿势候选和游戏内十字架资产结合；它是动作研究图，不是角色新定稿、拆件素材、动画或 Unity 结果。
+
+- 人读预览与来龙去脉：`TechnicalArt/妮芙双手捧十字架动作参考_2026-11-16.md`。
+- 源图、候选和概念图：`TechArtAsset/Characters/Niamh/Interaction_Study_2026-11-16/`。
+- 下一步：围绕现有 Motion_v8 源部件与用户编辑稿，设计可分层的手臂、手和十字架遮挡；制作离线姿势/GIF 供负责人审看。通过后再写独立 Unity 任务。栅门推门动作仍需单独制作与审看。
+
 ## 1. 项目速览
 
 - 游戏：《The Fairy Hills》（中文工作名《妖精丘陵》），2D 横版叙事解谜，爱尔兰神话题材。原作者：YiChun Jiang；协作：Psamead。
@@ -75,6 +83,7 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
 | 原始设计稿（ORIGINAL_SHEET、SKETCH_1–3、LANDSCAPE_REF 等） | 参考 | — |
 | **第一章场景：S1 黄昏村庄**（`TechArtAsset/Scenes/S1_Village/`） | **背景五层 + 可行走物件 v1 通过**（2026-10-29） | 放进 Unity（`CH1_UNITY_HANDOFF.md`） |
 | **第一章场景：森林小径**（`TechArtAsset/Scenes/S1b_ForestPath/`） | **背景 + 地沟 + 荆棘丛 / 铁十字 / 荆棘墙 v1 通过**（2026-10-29） | 放进 Unity；荆棘墙红光与驱散特效在 Unity 做 |
+| **妮芙双手捧十字架动作** | **静态概念图经负责人认可**（2026-11-16）；参考游戏内风格与姿势 | 先做可分层部件和离线动作预览；未进入 Unity |
 | S2–S4 场景 | 只有灰盒与计划（`CH1_SCENE_PLAN.md`） | 下一步：S2 出图 |
 
 ### 5.1 原作者新稿 L7/66（2026-10-26，**只作参考，不直接用**）
@@ -154,6 +163,7 @@ TechArtAsset/FX/   TechArtAsset/UI/   TechArtAsset/Menu/
 ## 9. 变更记录
 
 - 2026-11-14（本轮最新）：负责人单独试听后允许妮芙动作声音进游戏试装。23 条独立 OGG 已经共享网络复制至 Unity `Assets/_Project/Audio/SFX/Niamh_Motion_v1/` 并核验 SHA-256，尚未确认接入、编译或游戏内听感。任务见 `CommandForAgentToInitialRun/2026-11-14_Niamh_Surface_Audio_Unity_Trial.md`；设计端复制证据见 `TechnicalArt/references/Niamh_Surface_Audio_v1_transfer_manifest.json`。同一任务单已放入 Unity `Docs/References/Niamh_Surface_Audio_v1/`，未确认远端 Agent 已开始执行。
+- 2026-11-16（妮芙交互动作概念）：负责人认可双手捧十字架概念图的姿势与游戏内风格贴合度。MJ U2 只作姿势来源，Codex 内置 ImageGen 参考现有妮芙侧面图、姿势图和游戏十字架资产生成概念图。文件与来源说明见 `TechnicalArt/妮芙双手捧十字架动作参考_2026-11-16.md`。未拆件、未制作 GIF、未进 Unity；下一步做离线动作预览并由负责人确认，再决定新的 Unity 任务。图像生成工作方法补入 `AGENT_PROCESS_GUIDELINES.md` 与 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`。
 - 2026-11-14（开场画）：首批 3 镜头为玩耍、召唤、追向树林，接在菜单与 S1 村庄之间。负责人通过 Discord 生成 OP01 四组并下载，已按轮次命名归档至 `MJ_ref/Slideshow/Opening_v1/`；第 4 轮左上与右下的具体反馈见其中 `OP01_比较与反馈_2026-11-14.md`。尚无定稿或 Unity 接入，OP02/03 尚未生成。执行说明 `TechnicalArt/SLIDESHOW_OPENING_v1.md`；人读 Word 是生图前快照，状态以本记录为准。妮芙开场不佩戴十字架，圣物已交奥伊芯保管。
 - 2026-11-14（早先提案快照）：章节过渡与妮芙动作音效提案见 `TechnicalArt/CHAPTER_TRANSITIONS_AND_SURFACE_AUDIO_v1.md`，当时人读版为 `TechnicalArt/妖精丘陵_章节过渡与妮芙动作声音设计_v1.docx`；其中“未试听”等状态已由上方更新取代。Demo 仍按第一、二章 S1–S4 与结尾卡执行；「想象之眼」切换现实/幻象视野为 Must，须展示获得、后续主线再次使用和人物互动，与铁十字脉冲分开。
 

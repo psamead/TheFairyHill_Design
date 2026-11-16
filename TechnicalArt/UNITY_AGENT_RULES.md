@@ -58,3 +58,7 @@
 ## Character animation trial handoff — 2026-11-14
 
 The Niamh v8 task stages user-edited, same-canvas PNG parts in `Assets/_Project/Art/Characters/Niamh/Motion_v8_Source/`. These are not a ready PSB rig. Keep the design repository read-only; do not trim the transparent canvas or overwrite source art. Read `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md` and the dated task before integrating. Start with a reversible prefab; preserve the Core player root, collider, controls, and scene routing; report import, integration, compilation, Play Mode, and user acceptance as distinct states. Protect pre-existing worktree changes and commit only task-owned paths.
+
+## Niamh interaction poses — current boundary (2026-11-16)
+
+The approved two-handed cross-holding image is a static concept reference only. It has not been separated into aligned parts, reviewed as an offline motion preview, staged for Unity, or tested in Play Mode. Do not import it as a finished sprite or treat the reference approval as Unity approval. The art owner will first prepare and review the offline pose/animation preview; only a separately approved task packet should authorize Unity changes. See `TechnicalArt/妮芙双手捧十字架动作参考_2026-11-16.md` and the interaction-study directory under `TechArtAsset/Characters/Niamh/`.

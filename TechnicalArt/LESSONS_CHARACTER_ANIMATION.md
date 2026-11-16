@@ -57,3 +57,33 @@ For future art-to-Unity animation work, keep the following next to the versioned
 6. A completion note that distinguishes prepared assets, imported assets, implementation, compilation, Play Mode evidence, and user approval.
 
 See `TechArtAsset/Characters/Niamh/Motion_v8/UNITY_TRIAL_README.md`, `TechnicalArt/NIAMH_RIG_PARTS.md`, `TechnicalArt/NIAMH_ANIM_LIST_DEMO.md`, and `CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md`.
+
+## Trial 2 — Niamh holding the iron cross with both hands (2026-11-16)
+
+### Goal and accepted result
+
+Explore the hand and arm pose needed for Niamh's cross-raising interaction while retaining the existing in-game character design. The owner accepted the resulting still as a **pose and style direction**: the generated Niamh reads as close to the game's current art, and both hands hold the cross against her chest. This approval is limited to the static concept image. It does not approve its pixels as final game art, a cutout, an animation, or a Unity integration.
+
+### Method that worked
+
+1. Keep the existing side-view game image as the identity/style anchor and the in-game cross sprite as the prop anchor.
+2. Use Midjourney in the owner's Discord conversation to obtain a four-pose character sheet; select U2 (upper-right) for the bent arms and two-handed grip. Treat the MJ character as pose reference only; its face, eyes, proportions, cape, and other details are not replacements for the game asset.
+3. Generate an integrated Niamh still with Codex built-in ImageGen, referencing the original Niamh, MJ U2, and the Unity cross image. This retained the current character identity and brought the rendered treatment closer to the in-game still.
+4. Ask the owner to judge the result beside the actual in-game side sprite. The owner accepted the direction on 2026-11-16.
+
+### Limits and next action
+
+- ImageGen's exact backend model/version and the complete prompt were not preserved in the record. Do not label it Google Imagen or invent missing metadata.
+- The image is a static, generated whole-character concept. It does not contain aligned character parts, a repaired arm-backdrop, usable pivots, a motion cycle, or Unity import settings.
+- Next, prepare a non-destructive layered pose using the user-edited source and Motion_v8 as the basis. Plan arm/hand/cross overlap and fill hidden regions; keep the rest of the character anchored to the existing art. Make an offline pose/GIF preview, inspect seams and the full in-game scale, and ask the owner to approve it before writing a separate Unity task.
+- The gate-push pose remains a separate action. Do not imply either interaction is implemented by v8's seven existing states.
+
+### Evidence and files
+
+- Study folder: `TechArtAsset/Characters/Niamh/Interaction_Study_2026-11-16/`.
+- Selected still: `Niamh_two_hands_pose_study_v1.png` (Codex built-in ImageGen; whole-character concept, not an aligned export of animation parts).
+- MJ pose sheet: `MJ_two_hands_U2_original.png` (U2 is the upper-right pose; full sheet preserved).
+- Earlier grip-only ImageGen result: `grip_imagegen_2026-11-15_reference.png` (retained only as an arm/hand study).
+- Human-readable decision record: `TechnicalArt/妮芙双手捧十字架动作参考_2026-11-16.md`.
+
+This trial also informs the generation workflow in `AGENT_PROCESS_GUIDELINES.md` §5.8: try ImageGen with in-game references first; use MJ for pose exploration if needed; then have ImageGen integrate the closest pose with the original character and prop references. The owner approves the offline animation as a distinct stage before Unity work.

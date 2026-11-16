@@ -34,3 +34,7 @@
 - `UNITY_TRIAL_README.md`：Unity 实现约束、尺寸、风险和结果入口。
 
 完整的制作经验见 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`；原始 Unity 任务单见 `CommandForAgentToInitialRun/2026-11-14_Niamh_Motion_v8_Unity_Trial.md`，该任务已执行，不能当作未开始的指令重新运行。
+
+## 后续交互动作状态（2026-11-16）
+
+负责人已认可妮芙双手捧十字架的静态概念方向。概念图和 MJ 姿势参考存于 `TechArtAsset/Characters/Niamh/Interaction_Study_2026-11-16/`，详细记录见 `TechnicalArt/妮芙双手捧十字架动作参考_2026-11-16.md`。此图尚未拆件或动画化，也没有进入 Unity。下一步是依照用户编辑稿与 v8 同画布部件准备离线姿势/GIF，完成负责人审看后再单独安排 Unity 工作。

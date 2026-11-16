@@ -3,7 +3,7 @@
 > **接手提示（2026-11-14）**：下方 2026-10-11 至 10-13 的阶段描述是概念期快照，其中“尚未开始任何代码”已过时。学生和 Agent 要先读本仓库 `README.zh-CN.md`、Unity 工程根目录 `AGENTS.md`，再用 Unity 工程实际文件、Git 状态及 `TechnicalArt/CH1_UNITY_PROGRESS.md` 判断当前实现。本文继续用于理解故事、Demo 范围与设计缘由。
 
 > 交接对象：后续负责游戏开发 / 程序架构的 Agent（如 Codex）。
-> 交接时间：2026-10-11（v1.3：已加入 Demo 实施说明、美术方向、市场定位与前期方案 v2）。2026-10-13 v1.4：同步手绘高清规格、守门贵族改称 Ogma（见 `DESIGN_CHANGES.md`）。阶段：**概念设计完成 v1.1，概念图生成进行中，尚未开始任何代码。**
+> 交接时间：2026-10-11（v1.3：已加入 Demo 实施说明、美术方向、市场定位与前期方案 v2）。2026-10-13 v1.4：同步手绘高清规格、守门贵族改称 Ogma（见 `DESIGN_CHANGES.md`）。本文主体保留概念期历史快照；**当前实现与美术进度以本仓库的 `STORYBOARD_RESUME.md`、`ART_HANDOFF.md`、`TechnicalArt/CH1_UNITY_PROGRESS.md` 和各项 Unity handoff 为准。**
 > 原作者：YiChun Jiang。本文件是摘要；**以 Word 文档为准**（见 §1）。
 
 ---
@@ -29,6 +29,8 @@
 | `ART_DIRECTION.md` | 关键场景 K1–K4、英文标题（排字 + Retexture）、字体系统（含授权）、菜单动图、短片分镜 | 做 UI / 标题 / 菜单 / 宣传时 |
 | `StoryDesign/妖精丘陵_市场定位玩家画像与可行性_v2.docx`、`StoryDesign/妖精丘陵_前期方案_平台类型内容策略_v2.docx` | v1（结合前作 2DBattleCarArea 编写）的改写版：短周期垂直切片定位、验证对象、平台、内容划分、后续开发路线 | 了解项目定位 |
 | `AGENT_PROCESS_GUIDELINES.md` | 之前 Agent 的工作过程与准则 | 了解协作约定 |
+| `STORYBOARD_RESUME.md`、`ART_HANDOFF.md` | 当前工作入口、美术状态与交接 | **接手时先读** |
+| `TechnicalArt/妮芙双手捧十字架动作参考_2026-11-16.md` | 人读动作概念、参考图来源、当前状态和下一步 | 制作妮芙推门/举十字架动作时 |
 | `MJ_ref/ASSETS.md` | 图片资产清单：每张图的来源、版本、状态，以及变更记录 | **使用或新增图片前必读**，新增图片时同步更新 |
 | `MJ_ref/*.png` | 角色 / 道具 / 场景参考图。各文件用途见 Prompt 集 6.6 | 美术资产制作参考。两名主角的当前定稿是 `NIAMH_REF_v2.png` 和 `OISIN_REF_v2.png` |
 | `../`（Animation_yichun 根目录）`YiCun_Development.xlsx`、`YiCun_Animate_Prologue.docx`、`L1`–`L6/`、`HW_Doc/` | 用户其他课程 / 开发资料，**之前的 Agent 未读取**，接手时请先查看 | 开始开发前 |
