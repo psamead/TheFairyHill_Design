@@ -30,7 +30,7 @@ Prompt 若用于本轮出图，也要保存模型与版本、完整原文、参�
 
 ## 任务单状态
 
-- `2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`：**当前待实机检查**。开场铺满/叠加字幕、按键下划线和终段红墙Q直接举高已写入实际工程，离线C#类型检查通过。任务沿本目录与共享网络副本交接，并写入UnityProjectContext待办；远程Codex进程未启动，Editor/Play Mode未验证。反馈后设计端更新相关文档并按用户授权push。旧11月14日开场、音频与v8已有实现报告，不要原样重跑。
+- `2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`：**当前待实机检查**。开场铺满/叠加字幕、按键下划线和终段红墙Q直接举高已写入实际工程，离线C#类型检查通过。任务沿本目录与共享网络副本交接，并写入UnityProjectContext待办；负责人已发给网络电脑Codex执行，Editor/Play Mode结果待回报。反馈后设计端更新相关文档并按用户授权push。旧11月14日开场、音频与v8已有实现报告，不要原样重跑。
 
 - `2026-11-14_Niamh_Motion_v8_Unity_Trial.md`：**已执行的历史任务单**。用户修订的 Niamh v8 已作为可回退分层角色接入 Unity，编译通过并在 Village / Forest 场景试玩，项目负责人反馈基本可用；实际结果见 Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md`。美术过程与经验见 `../TechArtAsset/Characters/Niamh/Motion_v8/UNITY_TRIAL_README.md` 和 `../TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`。
 

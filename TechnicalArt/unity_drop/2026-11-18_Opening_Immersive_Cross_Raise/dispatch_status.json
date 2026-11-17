@@ -35,5 +35,6 @@
   "agent_start_evidence": "Owner explicitly reported sending the task and having the network Codex run it",
   "agent_process_observed_by_design": false,
   "execution_status": "owner started network Codex; awaiting actual-project feedback",
-  "updated_utc": "2026-11-17T18:27:48.799400+00:00"
+  "updated_utc": "2026-11-17T18:27:48.799400+00:00",
+  "local_followup": "Finish local docs and approved push, then stop; wait for owner morning review before further changes"
 }

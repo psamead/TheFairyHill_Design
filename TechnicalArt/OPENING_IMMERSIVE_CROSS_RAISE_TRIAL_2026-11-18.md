@@ -6,7 +6,9 @@
 
 **负责人休息前追加授权：** 可先推送当前源码、美术和全部保留的发展记录等大文件；保持本轮实机检查待验身份。网络端回报后再同步运行结论。当前Unity源码checkpoint `cc815f8`；出版/推送散列另见任务包的publication记录。
 
-已把代码和举高姿势放入网络电脑的实际 TheFairyHill2D 工程，并使用该工程真实 Unity DLL 完成离线 C# 类型检查。已沿既有 `CommandForAgentToInitialRun/` 与共享文件交接方式送达实机检查任务、散列和启动文字。**没有可用的远程 Codex 对话或执行连接，尚未启动远程进程；Editor 导入、Play Mode 和用户画面认可均未验证。** 文件交付、离线检查、运行结果分别记录。
+已把代码和举高姿势放入网络电脑的实际 TheFairyHill2D 工程，并使用该工程真实 Unity DLL 完成离线 C# 类型检查。已沿既有 `CommandForAgentToInitialRun/` 准备实机检查任务、散列和启动文字。**负责人已确认将任务发给网络电脑Codex执行；Editor导入、Play Mode和用户画面认可仍待回报。** 本机此前连接失败的尝试是历史过程，不能据此再判断对方尚未启动。文件交付、离线检查、运行结果分别记录。
+
+负责人最新安排：本地完成文档和推送后停下，等明早查看效果，再决定怎样修改。设计端不自动根据后续回报追加外观或动作方案。
 
 任务单唯一入口：共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，无需复制任务单到另一台电脑。Unity 内 `Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/` 仅保存实施散列和运行证据。反馈入口：`Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md` 和同参考目录 `Unity_Trial/result.json`。
 

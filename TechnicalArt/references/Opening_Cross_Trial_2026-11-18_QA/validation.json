@@ -4,10 +4,11 @@
   "word_pre_export_statistics": 4,
   "title_font": "微软雅黑",
   "normal_font": "微软雅黑",
-  "source_sha256": "a85eae792413b2aa15a024b15f497dd80a2e280ab5403a9b89e3846bb7c41fe2",
+  "source_sha256": "65c56e4903a89f069b5664deb3c1b36444c1777c3f57e1dd9830d0457e5613cd",
   "libreoffice_final_pages": 2,
   "word_render_status": "passed",
   "word_pdf_pages": 2,
   "libreoffice_pdf_pages": 2,
-  "visual_inspection": "passed; both final Word and LibreOffice pages inspected: clean glyphs, tables, headings and pagination"
+  "second_pages_unchanged_from_previous_visual_review": true,
+  "visual_inspection": "passed; final first pages inspected in both renderers, both unchanged second pages match previously inspected images"
 }

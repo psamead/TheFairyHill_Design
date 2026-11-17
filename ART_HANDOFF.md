@@ -6,7 +6,7 @@
 
 **2026-11-18 开场界面、按键下划线与举高动作试装：** 已参考双方新导入Claude记录和守灯人实际界面，给现有开场加入保持比例的铺满故事画、柔和底部字幕区与轻量导航；按键字母／名称加下划线。终段受控红墙Q事件采用B直接举高，使用用户原画与新花纹，原墙体消解结束恢复v8。代码和资源已放实际工程，离线C#类型检查通过；Editor导入、Play Mode和用户画面认可仍待验证，没有新增大光束或胸前普通战斗功能。
 
-任务单唯一入口为共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，对方直接读取，无需复制任务单到Unity工程。当前远程Codex进程尚未启动；反馈以Unity `Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md` 为准。人读版 `TechnicalArt/妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`，完整状态/经验 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。用户已授权当前项完成后整理文档并git push，尚未运行的项目继续明确标注待验。
+任务单唯一入口为共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，对方直接读取，无需复制任务单到Unity工程。负责人已将任务发给网络电脑Codex执行；反馈以Unity `Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md` 为准。人读版 `TechnicalArt/妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`，完整状态/经验 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。用户已授权当前项完成后整理文档并git push，尚未运行的项目继续明确标注待验。
 
 # ART_HANDOFF：《The Fairy Hills》美术宣传 + 技术美术交接
 

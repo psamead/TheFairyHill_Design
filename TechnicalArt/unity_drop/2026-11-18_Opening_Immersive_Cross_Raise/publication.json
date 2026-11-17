@@ -5,5 +5,6 @@
   "pushes_succeeded": true,
   "design_includes": "Niamh editable sources, retained GIFs, ornament sync, references, shared task, human/agent/rules records",
   "unity_includes": "ornament checkpoint and interface/key underline/raised pose source trial",
-  "runtime": "owner has started network Codex; feedback pending; publication is not runtime acceptance"
+  "runtime": "owner has started network Codex; feedback pending; publication is not runtime acceptance",
+  "local_followup": "Finish local docs and approved push, then stop; wait for owner morning review before further changes"
 }
