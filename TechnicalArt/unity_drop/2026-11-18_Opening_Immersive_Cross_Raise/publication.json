@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-18",
+  "design_payload_commit": "dfb61d28bb7476b170bdd2037fbd174663afa99d",
+  "unity_payload_commit": "7bf41607e05881a4c737f64c38b3547ea7a7ebe6",
+  "pushes_succeeded": true,
+  "design_includes": "Niamh editable sources, retained GIFs, ornament sync, references, shared task, human/agent/rules records",
+  "unity_includes": "ornament checkpoint and interface/key underline/raised pose source trial",
+  "runtime": "owner has started network Codex; feedback pending; publication is not runtime acceptance"
+}

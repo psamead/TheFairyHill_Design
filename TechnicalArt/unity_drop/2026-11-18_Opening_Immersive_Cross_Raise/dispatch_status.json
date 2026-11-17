@@ -7,7 +7,7 @@
   "files_transferred_and_sha256_verified": true,
   "source_implementation_applied": true,
   "offline_csharp_typecheck": "passed",
-  "agent_process_started": false,
+  "agent_process_started": true,
   "editor_import_verified": false,
   "playmode_verified": false,
   "attempts": [
@@ -31,5 +31,9 @@
   "expected_feedback": "Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md",
   "owner_acceptance": "pending",
   "task_ready_for_execution": true,
-  "source_checkpoint_commit": "cc815f831399db54056ac7b59186166b2f1e101d"
+  "source_checkpoint_commit": "cc815f831399db54056ac7b59186166b2f1e101d",
+  "agent_start_evidence": "Owner explicitly reported sending the task and having the network Codex run it",
+  "agent_process_observed_by_design": false,
+  "execution_status": "owner started network Codex; awaiting actual-project feedback",
+  "updated_utc": "2026-11-17T18:27:48.799400+00:00"
 }
