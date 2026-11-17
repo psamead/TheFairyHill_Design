@@ -1,0 +1,16 @@
+[
+  {
+    "mode": "baseline",
+    "source_files": 22,
+    "references": 285,
+    "exit_code": 0,
+    "method": "Roslyn C#9 type-check against actual Unity assemblies; not an Editor compile or Play Mode test"
+  },
+  {
+    "mode": "staged",
+    "source_files": 23,
+    "references": 285,
+    "exit_code": 0,
+    "method": "Roslyn C#9 type-check against actual Unity assemblies; not an Editor compile or Play Mode test"
+  }
+]

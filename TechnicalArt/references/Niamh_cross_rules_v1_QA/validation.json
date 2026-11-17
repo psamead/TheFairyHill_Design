@@ -1,0 +1,12 @@
+{
+  "renderer": "Microsoft Word 2013 PDF export after packaged render_docx could not find bundled soffice",
+  "final_pdf_pages": 2,
+  "visual_review": "all two pages inspected after title border removal",
+  "font_verified": "Microsoft YaHei / 微软雅黑",
+  "asset_canvas": [
+    350,
+    699
+  ],
+  "source_relocations_sha256_verified": true,
+  "front_ornament_revision_reviewed": true
+}

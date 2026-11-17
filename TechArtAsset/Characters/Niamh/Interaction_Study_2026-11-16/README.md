@@ -1,6 +1,16 @@
-# 妮芙十字架动作研究与退回记录
+# 妮芙早期动作研究归档
+
+当前两动作及图层编辑入口已迁至 [Cross_Actions](../Cross_Actions/README.md)。用户源稿、旧 PSD 试验和旧预览已分类，旧名到新名见 `../Cross_Actions/file_manifest.json`。本目录仅保留早期概念、失败研究和批注，不作为当前 PSD 工作目录。
+
+## 历史研究与退回记录
 
 日期：2026-11-16。新图由 Codex 内置 ImageGen 在文档版式整理之后生成，属于妮芙动作探索；后端模型版本未显示。负责人要求保留，改在新对话修正。
+
+## 2026-11-17 最新补充
+
+负责人在本聊天认可 `Niamh_cross_hold_revision_v2.png` 胸前修正版作为后续参考。`Niamh_raise_mid_study_v2.png`、`Niamh_raise_overhead_study_v2.png` 以及去掉上臂横线的 `Niamh_raise_overhead_study_v3_armfix.png` 均为后续研究图，未作分层或动画验收，旧表中失败候选继续维持退回状态。
+
+负责人随后亲自在 Discord 生成完整人物，选取胸前和举手的手形参考。五张下载原图已按规则归档至 `../../../../MJ_ref/Characters/Niamh/Interaction_Study_2026-11-17/`（仓库根路径：`MJ_ref/Characters/Niamh/Interaction_Study_2026-11-17/`）。下一 task 按该目录 README 做 Photoshop 合成：举手 r01 U1、U2 组合双臂，r02 U4 留备用；十字架用现有游戏素材合成。尚未开始合成。
 
 ## 当前文件状态
 

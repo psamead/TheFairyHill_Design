@@ -1,7 +1,7 @@
 # MJ_ref 图片资产清单（ASSETS）
 
 > 用途：给 Codex 等 Agent 读取，并用于追踪美术资产的版本。和 Word 版「附录 B / Prompt 集第 7 章」使用同一份数据。
-> 位置：`ShareWorkFolder/MJ_ref/`。最后更新：2026-10-18。
+> 位置：`ShareWorkFolder/MJ_ref/`。最后更新：2026-11-17（妮芙动作参考原图归档）。
 
 ## 约定
 
@@ -13,6 +13,14 @@
 
 | 文件 | 类别 | 对象 | 版本 | 来源 | 生成 / 裁切方式 | 用途 | 状态 |
 |---|---|---|---|---|---|---|---|
+| ../TechArtAsset/Characters/Niamh/Cross_Actions/current/Niamh_cross_chest_local_v1.png | 动作静帧 | 妮芙胸前局部使用 | v1 | 用户胸前修订 PSD | 图层命名分组，右侧补透明画布至350×699，像素验证通过 | 关卡小怪、小障碍、小剧情；同名PSD为当前入口 | 当前静帧 |
+| ../TechArtAsset/Characters/Niamh/Cross_Actions/current/Niamh_cross_raised_story_v1.png | 动作静帧 | 妮芙举起剧情释放 | v1 | 用户第二稿PSD | 图层命名分组，右裁全透明区至350×699，像素验证通过 | 剧情大光线、大型障碍湮灭的姿势；尚无光束特效 | 当前静帧 |
+| ../TechArtAsset/Characters/Niamh/Cross_Actions/archive/psd_trials/Niamh_chest_hold_organized_v1.png | 动作静帧 | 妮芙胸前捧十字架 | v1 | 用户 `clean_wip_v1_m.psd` | 完整人物参考剪贴，用户手绘袖口及裁切游戏十字架；Agent 仅整理图层并导出 | 历史胸前命名稿；已由 Cross_Actions/current 中两动作取代 | 参考 |
+| Characters/Niamh/Interaction_Study_2026-11-17/Niamh_raise_hands_MJ_r01_U1_raw_v1.png | 动作参考 | 妮芙举手，朝左 | v1 | 负责人下载的 MJ 保留轮 r01 U1 | 原图重命名归档，内容未修改 | 与 U2 组合双臂的参考 | 参考 |
+| Characters/Niamh/Interaction_Study_2026-11-17/Niamh_raise_hands_MJ_r01_U2_raw_v1.png | 动作参考 | 妮芙举手，朝左 | v1 | 负责人下载的 MJ 保留轮 r01 U2 | 原图重命名归档，内容未修改 | 与 U1 组合双臂的参考 | 参考 |
+| Characters/Niamh/Interaction_Study_2026-11-17/Niamh_raise_hands_MJ_r02_U4_raw_v1.png | 动作参考 | 妮芙举手握拳，朝左 | v1 | 负责人下载的 MJ 角度补跑轮 r02 U4 | 原图重命名归档，内容未修改 | 举手备用参考，十字架留到 PS 合成 | 参考 |
+| Characters/Niamh/Interaction_Study_2026-11-17/Niamh_chest_hands_MJ_U1_raw_v1.png | 动作参考 | 妮芙胸前手势，朝右 | v1 | 负责人从 Discord 下载的 MJ U1 | 原图重命名归档，内容未修改 | 胸前手形与弯臂参考，握柄待检查 | 参考 |
+| Characters/Niamh/Interaction_Study_2026-11-17/Niamh_chest_hands_MJ_U4_raw_v1.png | 动作参考 | 妮芙抬手，朝左 | v1 | 负责人从 Discord 下载的 MJ U4 | 原图重命名归档，内容未修改 | 抬起手的握拳参考，另一手垂下 | 参考 |
 | ORIGINAL_SHEET.png | 原设计 | 总图 | v0 | 原作者 | 原作者提供的设计总图（对话中上传） | 全部设计的出发点 | 存档 |
 | NIAMH_REF.png | 角色 | 妮芙 | v0 | 原设计总图裁切 | 裁左上主视图，白底方形，放大到 1024 | C01 首轮 Character Reference | 已被 v2 取代 |
 | OISIN_REF.png | 角色 | 奥伊芯 | v0 | 原设计总图裁切 | 裁左下主视图，白底方形，1024 | C05 首轮 Character Reference（--cw 40） | 已被 v2 取代 |
@@ -55,6 +63,16 @@
 | WOOD_WALL_REF.png | 场景 | 木墙、火把与刻痕符号 | v0-作者新稿 | 原作者新稿裁切（场景第一部分.jpg） | 从原图裁切，原尺寸 | 媒介小屋内部（回忆）或改石墙作 S3 欧甘字谜墙 | 参考（v2.2） |
 
 ## 变更记录
+
+- 2026-11-17 前襟花纹：将用户第二动作新增金色花纹同步胸前PSD/PNG、当前Motion_v8身体和静态备用图；保持尺寸、原点与alpha，用户原PSD保留。Unity对应两张PNG已复制且meta不变；导入与运行画面未验证。补片与版本记录见 `TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v1/`。
+
+- 2026-11-17 晚：用户完成第二动作，确认只需胸前局部使用、举起剧情释放两动作。当前PSD/PNG统一命名迁入 `Cross_Actions/current/`，源稿、旧PSD和旧GIF分类归档，路径映射与SHA256见 `Cross_Actions/file_manifest.json`。画布统一350×699，人物像素保持；人读使用说明新增双动作规则文档。
+
+- 2026-11-17：登记用户胸前衔接与道具修订的整理版静帧 `Niamh_chest_hold_organized_v1.png`；原 `_m` 保留，整理前后像素一致。旧 `Cross_Raise_Preview_v1` GIF 未采用此次最新道具修订，仅作粗测试。
+
+- 2026-11-17（举手补充）：归档举手 r01 U1、U2 和角度补跑 r02 U4 三张原图，同目录现共五张 MJ 动作参考；移动前后 SHA256 一致，原下载名见 `source_manifest.json`。负责人明确 U1、U2 手臂可组合，U4 留备用，十字架在 Photoshop 合成，本轮不再继续追求 MJ 完整持物图。
+
+- 2026-11-17：将负责人下载的两张妮芙 MJ 单人物原图重命名为 `Niamh_chest_hands_MJ_U1_raw_v1.png`、`Niamh_chest_hands_MJ_U4_raw_v1.png`，移至 `Characters/Niamh/Interaction_Study_2026-11-17/`；原文件名与 SHA256 见目录内 `source_manifest.json`。负责人认可圈出的手形可参考，未确认为完整双手持十字架成品。
 
 | 日期 | 变更 |
 |---|---|

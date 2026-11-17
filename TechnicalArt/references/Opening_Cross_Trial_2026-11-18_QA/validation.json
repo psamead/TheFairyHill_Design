@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-18",
+  "word_version": "15.0",
+  "word_pre_export_statistics": 4,
+  "title_font": "微软雅黑",
+  "normal_font": "微软雅黑",
+  "source_sha256": "a85eae792413b2aa15a024b15f497dd80a2e280ab5403a9b89e3846bb7c41fe2",
+  "libreoffice_final_pages": 2,
+  "word_render_status": "passed",
+  "word_pdf_pages": 2,
+  "libreoffice_pdf_pages": 2,
+  "visual_inspection": "passed; both final Word and LibreOffice pages inspected: clean glyphs, tables, headings and pagination"
+}

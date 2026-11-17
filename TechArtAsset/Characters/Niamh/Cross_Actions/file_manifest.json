@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-17",
+  "canvas_origin": "top-left; no character scaling or translation",
+  "validation": [
+    {
+      "pose": "chest_local",
+      "source": "Niamh_chest_composite_clean_wip_v1_m.psd",
+      "source_sha256": "73c70f91bf04e74825ffed2d28860486e4454b28e20442ceaf424c302589a443",
+      "source_canvas": [
+        327,
+        699
+      ],
+      "current_canvas": [
+        350,
+        699
+      ],
+      "source_alpha_bounds": [
+        0,
+        0,
+        325,
+        699
+      ],
+      "pixel_identical_after_canvas_adjustment": true,
+      "current_psd": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\current\\Niamh_cross_chest_local_v1.psd"
+    },
+    {
+      "pose": "raised_story",
+      "source": "Niamh_chest_composite_clean_wip_v1_m2.psd",
+      "source_sha256": "e3d78f86647ebf670d9bb4a16601b055331be35555f3f9b22b73ef65d17fbf7e",
+      "source_canvas": [
+        450,
+        699
+      ],
+      "current_canvas": [
+        350,
+        699
+      ],
+      "source_alpha_bounds": [
+        0,
+        0,
+        337,
+        699
+      ],
+      "pixel_identical_after_canvas_adjustment": true,
+      "current_psd": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\current\\Niamh_cross_raised_story_v1.psd"
+    }
+  ],
+  "relocations": [
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_composite_clean_wip_v1_m.psd",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\sources\\user\\Niamh_cross_chest_local_user_source_2026-11-17.psd",
+      "sha256": "73c70f91bf04e74825ffed2d28860486e4454b28e20442ceaf424c302589a443"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_composite_clean_wip_v1_m2.psd",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\sources\\user\\Niamh_cross_raised_story_user_source_2026-11-17.psd",
+      "sha256": "e3d78f86647ebf670d9bb4a16601b055331be35555f3f9b22b73ef65d17fbf7e"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_composite_preparation_wip_m.psd",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\sources\\user\\Niamh_cross_chest_transition_user_source_2026-11-17.psd",
+      "sha256": "05e3484b4e97d18a995dc729c0818d00c3d33c532d9e8f94d2c0a5803e601952"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_composite_clean_wip_v1.png",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\archive\\psd_trials\\Niamh_chest_composite_clean_wip_v1.png",
+      "sha256": "73d747c19fa1ed3e9b4e5c3dad11cfae32af955fb3288f89211ccce2d72825b7"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_composite_clean_wip_v1.psd",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\archive\\psd_trials\\Niamh_chest_composite_clean_wip_v1.psd",
+      "sha256": "6c77584f13d611a738ad322dcfa0f3161f88d23cded9e368efbcc486e5649917"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_composite_preparation_wip.psd",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\archive\\psd_trials\\Niamh_chest_composite_preparation_wip.psd",
+      "sha256": "3035585d8f84609540b990559555ff5ceaa1ef40cd15440ca06da794e61c81e1"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_hold_organized_v1.png",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\archive\\psd_trials\\Niamh_chest_hold_organized_v1.png",
+      "sha256": "103c3168643bdbafeb3bbaab0c2e7c08e21637a4dfd46faa0108f9261ea333e8"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_hold_organized_v1.psd",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\archive\\psd_trials\\Niamh_chest_hold_organized_v1.psd",
+      "sha256": "1ce5a17a3251f33ad052a3a5fde26d0063531870388995751783c7eb8ef92b84"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_hold_organized_v1_validation.json",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\archive\\psd_trials\\Niamh_chest_hold_organized_v1_validation.json",
+      "sha256": "33c0c987a54ab2d0202cf360d180c0bd8def68d659290a35451933643ca7a407"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Interaction_Study_2026-11-16\\Niamh_chest_transition_mask_trial_v1.psd",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\archive\\psd_trials\\Niamh_chest_transition_mask_trial_v1.psd",
+      "sha256": "45de7e9cb456746fbb01a09cc3a6994d452262de4547b86285bb09d3814067d1"
+    },
+    {
+      "old": "TechArtAsset\\Characters\\Niamh\\Cross_Raise_Preview_v1",
+      "new": "TechArtAsset\\Characters\\Niamh\\Cross_Actions\\archive\\Cross_Raise_Preview_v1",
+      "sha256": null
+    }
+  ],
+  "later_appearance_revision": {
+    "date": "2026-11-17",
+    "target": "current/Niamh_cross_chest_local_v1.psd",
+    "note": "After initial pixel-identical grouping/canvas validation, owner authorized front ornament patch from raised pose. Initial validation entries are historical, not a claim that current chest art equals original without the patch.",
+    "validation_manifest": "../Motion_v8/appearance_front_ornament_v1/sync_manifest.json"
+  }
+}

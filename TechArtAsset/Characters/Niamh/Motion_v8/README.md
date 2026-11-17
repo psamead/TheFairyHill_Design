@@ -1,12 +1,14 @@
 # 妮芙动作试做 v8
 
+**2026-11-17 前襟花纹更新：** 用户举起十字架第二稿新增的金色前襟花纹已局部同步到当前 `parts/body.png`，本目录离线预览已按当前部件重新生成。尺寸仍为 327×699，alpha 逐字节不变，动画参数未改。原 `Niamh_user_revision_source.psd` 为历史用户快照，未覆盖；如需重导出当前身体，读取 `appearance_front_ornament_v1/body_front_ornament_source.psd`，不要直接从旧快照覆盖当前 PNG。源补片、修改前 PNG 与校验记录均在该目录。Unity 身体及静态备用图已复制更新，`.meta` 未变；此次外观更新的 Editor 导入和 Play Mode 尚未验证。
+
 **日期**：2026-11-14
 
 **给谁读**：项目负责人、学生、美术制作人员和接手的 Agent。
 
 **当前结论**：六部件动作已接入《妖精丘陵》的 Unity 试玩版，在村庄和森林进行了 Play Mode 检查。项目负责人试玩后认为“除了一些卡顿，其他基本 ok”。卡顿原因未测量；这也不是完整的 22 骨骼角色绑定。
 
-> 本目录保存**美术来源与离线预览**。Unity 中实际运行的 prefab、动画、截图和检查记录在另一仓库 `TheFairyHill2D/Assets/_Project/Art/Characters/Niamh/Motion_v8_Trial/` 与 `TheFairyHill2D/Docs/Niamh_Motion_v8_Unity_Handoff.md`。下图上的 “NOT IN UNITY” 是制作预览时的历史标注，不能代表目前的接入状态。
+> 本目录保存**美术来源与离线预览**。Unity 中实际运行的 prefab、动画、截图和检查记录在另一仓库 `TheFairyHill2D/Assets/_Project/Art/Characters/Niamh/Motion_v8_Trial/` 与 `TheFairyHill2D/Docs/Niamh_Motion_v8_Unity_Handoff.md`。当前离线预览已刷新前襟花纹，标为 OFFLINE PREVIEW；历史预览中的 “NOT IN UNITY” 不能代表目前的接入状态。此次贴图更新尚未作新的游戏内画面检查。
 
 ![待机、走、跑、跳的离线姿势预览](previews/Niamh_motion_v8_still.png)
 

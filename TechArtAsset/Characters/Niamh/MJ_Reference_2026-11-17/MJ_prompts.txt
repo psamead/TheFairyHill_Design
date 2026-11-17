@@ -1,0 +1,11 @@
+Niamh full-character pose references - 2026-11-17
+
+Generate two separate full-body characters. Use 01 for the chest pose and 02 for the overhead pose. Upload each PNG to Discord, copy its image link, and place that link before the corresponding prompt in /imagine. Do not paste local file paths as URLs.
+
+01 CHEST HOLD
+Full-body 2D fantasy game character illustration, a small blonde girl in right-facing side profile, long flowing golden hair with a green hair ornament and a delicate Celtic headband, green cloak with gold Celtic embroidery, ivory short-sleeved dress with pale green embroidery, green lace-up boots. She gently holds one ornate dark blue and gold cross upright against her chest with both hands. Two naturally bent arms connected to the shoulders, relaxed elbows, clear wrists and coherent fingers wrapped around the handle. Visible neckline, red chest ties, small clasp and layered cloak opening. Soft painted shading, warm brown outlines, proportions and costume closely matching the reference. One complete character, head and boots fully visible, plain light background.
+
+02 OVERHEAD RAISE
+Full-body 2D fantasy game character illustration, a small blonde girl in right-facing side profile, long flowing golden hair with a green hair ornament and a delicate Celtic headband, green cloak with gold Celtic embroidery, ivory short-sleeved dress with pale green embroidery, green lace-up boots. She raises one ornate dark blue and gold cross upright above her head with both hands gripping its handle. Two anatomically connected arms extending from their shoulders through natural elbows to wrists, continuous bare skin between sleeve cuffs and wrists, coherent fingers around the handle. Visible neckline, red chest ties, small clasp and layered cloak opening beneath the raised arms. Soft painted shading, warm brown outlines, proportions and costume closely matching the reference. One complete character with the entire cross, head and boots fully visible, plain light background.
+
+Review the generated full characters before extracting arm, hand and cross regions for compositing onto the original artwork. These references are pose studies, not validated animation parts.

@@ -1,0 +1,16 @@
+{
+  "fps": 20,
+  "duration": 4.5,
+  "status": "rough pose and timing preview",
+  "sources": [
+    "user chest PSD _m",
+    "raise r01 U1 lower supporting arm",
+    "raise r01 U2 upper arm",
+    "existing game cross v2"
+  ],
+  "limitations": [
+    "pose switch at middle of lift is visible",
+    "grip and shoulder seams require further painting",
+    "not production animation or Unity input"
+  ]
+}

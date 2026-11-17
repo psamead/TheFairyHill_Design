@@ -1,5 +1,11 @@
 <!-- 美术交接文件：给新对话（美术宣传 + 技术美术）、Codex 和日后追踪用。2026-10-12 由故事框架对话拆出。 -->
 
+**2026-11-18 休息期间推送授权：** 负责人明确可以传大文件，当前源码、美术、PSD及全部保留GIF发展记录先提交推送；本轮Editor/Play Mode仍待网络电脑执行，回报后再同步运行结论。任务单仍只在共享设计目录。
+
+**2026-11-18 开场界面、按键下划线与举高动作试装：** 已参考双方新导入Claude记录和守灯人实际界面，给现有开场加入保持比例的铺满故事画、柔和底部字幕区与轻量导航；按键字母／名称加下划线。终段受控红墙Q事件采用B直接举高，使用用户原画与新花纹，原墙体消解结束恢复v8。代码和资源已放实际工程，离线C#类型检查通过；Editor导入、Play Mode和用户画面认可仍待验证，没有新增大光束或胸前普通战斗功能。
+
+任务单唯一入口为共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，对方直接读取，无需复制任务单到Unity工程。当前远程Codex进程尚未启动；反馈以Unity `Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md` 为准。人读版 `TechnicalArt/妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`，完整状态/经验 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。用户已授权当前项完成后整理文档并git push，尚未运行的项目继续明确标注待验。
+
 # ART_HANDOFF：《The Fairy Hills》美术宣传 + 技术美术交接
 
 ## 0. 怎么用这份文件
@@ -12,6 +18,24 @@
 - **同步给人读的 Word 文档**（用户 2026-10-26 要求）：改动 md 时，也同步到对应 Word——概念设计说明（`StoryDesign/妖精丘陵_概念设计说明_m_故事v2.2更新.docx`）、Demo 实施说明（由 `DEMO_IMPLEMENTATION_PLAN.md` 用 pandoc 重新生成）、`TechnicalArt/` 的技术美术方案与美术方向。改前先把旧版复制进 `deprecated/`（重名加 `_m` / `_m2`…）。Word 自动修改脚本在 `TechnicalArt/tools/`（PowerShell + Word COM）。
 
 ## 0.1 妮芙交互动作：双手捧十字架（2026-11-16）
+
+**2026-11-18 已选定 B：** 第二种十字架动作采用 idle 直接举高，无胸前中间姿势。当前预览 `TechArtAsset/Characters/Niamh/Cross_Actions/previews/raised_fast_v3/Niamh_raised_fast_direct_v3.gif`，循环2秒（idle 300ms、举高1080ms、idle 620ms）。用户选择覆盖起手方式和预览节奏；不是技能冷却、光束时序或 Unity 运行验收。A、慢版、过渡试做和持势 GIF 全部保留作为发展记录。
+
+
+
+**2026-11-17 衣装一致性更新：** 第二稿新增金色前襟花纹已同步到胸前动作、基础 `Motion_v8/parts/body.png` 与静态备用图；两动作画布仍350×699，基础角色仍327×699，alpha保持。新增可编辑修订源和备份见 `TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v1/`。Unity实际身体和静态备用PNG已网络复制，`.meta`不变；本次未连接Editor或验证Play Mode。当前源用户PSD不覆盖，重导出基础身体须使用新增修订源。
+
+
+
+**2026-11-17 晚间最新决定：两个动作足够，不再制作第三个动作。** 第一个 `cross_chest_local`（胸前）用于关卡内小怪、小障碍和小剧情；第二个 `cross_raised_story`（举起）用于剧情触发的大光线、湮灭大型障碍等事件。当前文件统一放 `TechArtAsset/Characters/Niamh/Cross_Actions/current/`，使用语义名 PSD/PNG；画布均为 350×699，保留左上原点与人物像素。用户原稿、旧试验和旧粗 GIF 已分类，路径变更及像素校验见该目录 `file_manifest.json`。
+
+Agent 使用原则见 `TechnicalArt/NIAMH_ANIM_LIST_DEMO.md`，人读说明见 `TechnicalArt/妮芙十字架双动作使用规则与制作交接_v1.docx`，机器规则见 `TechArtAsset/Characters/Niamh/Cross_Actions/action_usage_rules.json`。两张用户绘画已准备和整理；连续动画、大光线特效及 Unity 接入尚未完成。该使用原则不自动扩大当前 Demo 的战斗系统范围。以下较早的“等待第二姿势 / 制作高举或第三姿势 / 当前仅胸前”记录只作历史，不再是任务要求。
+
+
+
+**2026-11-17 当前状态（优先）：** 用户已在 `Niamh_chest_composite_clean_wip_v1_m.psd` 手工修好胸前袖口并调整、裁切游戏十字架。当前编辑入口：`TechArtAsset/Characters/Niamh/Cross_Actions/archive/psd_trials/Niamh_chest_hold_organized_v1.psd`，仅命名分组，源稿保留，渲染逐像素一致。用户接下来亲自做下一个姿势；本轮整理图层、状态文档与方法后停下。当前方法与已知限制见 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md` 最新工作流及研究目录 `README.md`。
+
+已有 `Cross_Raise_Preview_v1` 4.5 秒粗 GIF，只抬到面前，有中段跳变和接缝；未采用最新用户道具修订，未验收为正式动画，未接入 Unity。白边试清理未彻底解决。以下为 11-16 历史反馈，不能再据此判断「尚未开始合成」。
 
 **最新退回反馈：** 文档整理后生成的新动作图均有待修正问题：多手、多指、手臂连接错误、胸前衣装细节丢失。负责人要求保留并在新对话修正，不得用于成品、拆件或 Unity。逐图状态与批注见研究目录 `README.md`；下一轮先修胸前捧持静帧，再展开中段/高举和分层。下文的早先认可只覆盖风格和姿势方向，手部与细节没有获准。
 

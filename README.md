@@ -1,5 +1,7 @@
 # The Fairy Hills · Design Repository
 
+**2026-11-18 当前试装：** Immersive story frames/captions, underlined key hints and the direct raised-cross red-wall presentation are in the actual Unity project; offline C# type-check passed, Editor/Play Mode pending. Read the task in shared `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`; do not copy the task into Unity. See `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`.
+
 **English** | [简体中文](README.zh-CN.md)
 
 Design and art documentation for **The Fairy Hills (妖精丘陵)**, a hand-painted 2D side-scrolling adventure demo based on Irish mythology: story, gameplay plan, art specs, Unity handoff notes, and finished art / audio assets.
@@ -70,3 +72,11 @@ What happened recently: `ART_HANDOFF.md` §9, `TechnicalArt/CH1_UNITY_PROGRESS.m
 - Fonts: SIL Open Font License.
 - Music generated with Google Lyria; sound effects synthesized in code (`TechnicalArt/tools/make_sfx.py`).
 - All design documents and art are original work of this project (YiChun Jiang and collaborators), shared for course / project collaboration only. Please do not reuse them outside the course without permission.
+
+
+## Imported context and lessons — 2026-11-18
+
+[Claude context and reusable lessons](CLAUDE_CONTEXT_2026-11-18.md) preserves historical rationale and points to newer decisions in STORYBOARD_RESUME.md. It does not replace current design or validation rules. The shared Obsidian vault now has a separate TheFairyHill2D project index and a matching reference note.
+
+
+For practical prompt writing, reference selection and iteration, read [Midjourney project lessons](MIDJOURNEY_PROJECT_LESSONS.md). It includes historical outcomes and clearly labelled untested templates.

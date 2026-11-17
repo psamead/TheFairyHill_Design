@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-18",
+  "status": "idle-to-action cutout motion studies; not final rigged animation",
+  "old_hold_loops_preserved": true,
+  "fps": 20,
+  "source_canvas": [
+    350,
+    699
+  ],
+  "working_canvas": [
+    420,
+    699
+  ],
+  "limitations": [
+    "open-hand to gripping-hand uses a brief aligned blend",
+    "garment transition uses blended user paint layers",
+    "not elbow skinning or a production rig",
+    "no beam, damage, game integration or Play Mode validation"
+  ],
+  "clips": [
+    {
+      "action": "chest_local",
+      "source_psd": "current\\Niamh_cross_chest_local_v1.psd",
+      "source_sha256": "1b2ca4fa26b91577879aa179c67d96ffd8b7542f83016ea2225e28e0921027a8",
+      "gif": "Niamh_idle_to_chest_local_v1.gif",
+      "duration_ms": 4000,
+      "idle_endpoint_exact": true,
+      "user_hold_endpoint_exact": true,
+      "feet_unchanged": true,
+      "motion": "two-segment arm mesh, separate wrist-following rigid prop, small open-to-grip blend"
+    },
+    {
+      "action": "raised_story",
+      "source_psd": "current\\Niamh_cross_raised_story_v1.psd",
+      "source_sha256": "3d617fa93a054623aea6c4ab46737f1f699d94edb995051c68b74434bcd80408",
+      "gif": "Niamh_idle_to_raised_story_v1.gif",
+      "duration_ms": 4500,
+      "idle_endpoint_exact": true,
+      "user_hold_endpoint_exact": true,
+      "feet_unchanged": true,
+      "motion": "two-segment arm mesh, separate wrist-following rigid prop, small open-to-grip blend"
+    }
+  ]
+}

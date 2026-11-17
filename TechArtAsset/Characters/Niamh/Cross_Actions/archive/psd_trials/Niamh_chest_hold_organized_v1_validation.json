@@ -1,0 +1,17 @@
+{
+  "source": "Niamh_chest_composite_clean_wip_v1_m.psd",
+  "source_sha256": "73c70f91bf04e74825ffed2d28860486e4454b28e20442ceaf424c302589a443",
+  "output": "Niamh_chest_hold_organized_v1.psd",
+  "canvas": [
+    327,
+    699
+  ],
+  "pixel_identical_to_source": true,
+  "original_layer_count": 13,
+  "groups": [
+    "01_CHEST_HOLD_current",
+    "02_CHARACTER_base",
+    "90_REFERENCES_BACKUPS_hidden"
+  ],
+  "note": "Layer naming/grouping only. User PSD retained. No new pose or animation."
+}

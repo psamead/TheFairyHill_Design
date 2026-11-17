@@ -1,0 +1,30 @@
+{
+  "unity_root": "\\\\haoxi-rtx\\C\\Users\\Administrator\\Documents\\UnityProject\\TheFairyHill2D",
+  "head": "633a1a774d9d4881b85218b5e7376289f3485381",
+  "files": [
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/OpeningSequencePlayer.cs",
+      "sha256": "eaf603befb07e842a7b7e2fb9d348b82b256092db0c1c0dffc7bf0ee5d82537b"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/OpeningSequenceData.cs",
+      "sha256": "8b05ab153eaba14fe4d5ad451a5dd4444a638d68165a0645c1737c42c9b9675c"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/NiamhMotionV8Presentation.cs",
+      "sha256": "baf59d09029ec762439324070c0a4e1db2280297c71aff1b44b5c1bdeb06eed9"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/PlayerController2D.cs",
+      "sha256": "2ec279e9875d46357758bfbd4be11f192915b6ffcd4ce82e52ca55813c6aa8ca"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/ThornWall.cs",
+      "sha256": "f857b002dff38253c6d70e245141e977fd6567f51752ce3058279b4da5b67777"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Gameplay/ChapterHUD.cs",
+      "sha256": "7b515625bc4fc083145043b02158f2021834fb24ff3eee331275e9de5f1d0bd6"
+    }
+  ]
+}

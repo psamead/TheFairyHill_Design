@@ -1,5 +1,7 @@
 # 妖精丘陵 The Fairy Hills · 设计仓库
 
+**2026-11-18 当前试装：** 开场铺满与叠加字幕、按键下划线和红墙前B直接举高已放实际工程，离线C#检查通过；实机待验。任务从共享 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md` 读取，无需复制到对方工程。详见 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。
+
 [English](README.md) | **简体中文**
 
 以爱尔兰神话为背景的 2D 手绘横版冒险 Demo 的**设计与美术文档**：故事、玩法方案、美术规格、Unity 交接记录、已完成的美术 / 音频资产。
@@ -90,3 +92,11 @@ GitHub 用于仓库版本同步、代码审阅和备份，不是 Unity 制作端
 - 字体：SIL Open Font License。
 - 音乐由 Google Lyria 生成；音效由代码合成（`TechnicalArt/tools/make_sfx.py`）。
 - 其余设计文档与美术为本项目作品（YiChun Jiang 与协作者），仅供本课程 / 项目协作使用；未经许可请勿用于课程以外。
+
+
+## 历史上下文与经验导入 — 2026-11-18
+
+[Claude 上下文与可复用经验](CLAUDE_CONTEXT_2026-11-18.md) 保留历史设计理由，并指向 STORYBOARD_RESUME.md 的较新决定，不替代当前设计或验收规则。共享 Obsidian 知识库已新增独立 TheFairyHill2D 项目入口及对应参考笔记。
+
+
+Midjourney 提示词、参考图和迭代方法见[项目经验指南](MIDJOURNEY_PROJECT_LESSONS.md)：保留实测结果与失败边界，新增模板明确标注为未测试。

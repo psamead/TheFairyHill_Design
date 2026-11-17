@@ -59,5 +59,14 @@
     "uses user-edited layers; check moving-arm backdrop",
     "no separate elbow or knee weighting",
     "no Unity validation"
-  ]
+  ],
+  "appearance_revision": {
+    "date": "2026-11-17",
+    "change": "shared front ornament patch from raised-cross pose",
+    "source": "appearance_front_ornament_v1/body_front_ornament_source.psd",
+    "body_canvas_unchanged": true,
+    "animation_parameters_changed": false,
+    "unity_texture_files_copied": true,
+    "unity_import_and_playmode_verified": false
+  }
 }

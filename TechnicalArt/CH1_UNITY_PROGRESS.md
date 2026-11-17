@@ -213,3 +213,9 @@ Unity 6000.3.24f1 Editor compilation passed. Village and Forest Play Mode observ
 The owner completed the trial and said “已经试玩结束，除了些卡顿，可能是各种软件一起运行的问题，其他基本ok”. Treat this as basic trial acceptance with unresolved stutter, not proof of a specific cause. Run at 5.6u/s, gate toggles, every collision route and foot sliding were not independently documented. This is a six-part transform puppet, not the planned 22-bone rig; push-door and cross-raise actions remain future work. The unrelated dirty Village scene and TMP assets were excluded from the Unity task commit.
 
 **2026-11-14 晚间占位交接**：负责人已将 r04 U4 放大图批准用于 Unity 开场与第一章封面占位。新图已按规则命名并保留下载名/散列，正式角色画风未通过。当前人读版为 `TechnicalArt/妖精丘陵_开场故事画与章节过渡交接_v2.docx`；知识库 `TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md`；下次新对话先读 `STORYBOARD_RESUME.md`。任务与素材包见 `CommandForAgentToInitialRun/2026-11-14_Opening_Chapter1_Placeholder_Unity_Trial.md`，传输/派发事实见对应 unity_drop 的 `dispatch_status.json`。未收到 Unity 反馈前不称已接入/已运行。
+
+## 2026-11-18 开场界面 按键下划线与举高动作试装
+
+**2026-11-18 开场界面、按键下划线与举高动作试装：** 已参考双方新导入Claude记录和守灯人实际界面，给现有开场加入保持比例的铺满故事画、柔和底部字幕区与轻量导航；按键字母／名称加下划线。终段受控红墙Q事件采用B直接举高，使用用户原画与新花纹，原墙体消解结束恢复v8。代码和资源已放实际工程，离线C#类型检查通过；Editor导入、Play Mode和用户画面认可仍待验证，没有新增大光束或胸前普通战斗功能。
+
+任务单唯一入口为共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，对方直接读取，无需复制任务单到Unity工程。当前远程Codex进程尚未启动；反馈以Unity `Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md` 为准。人读版 `TechnicalArt/妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`，完整状态/经验 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。用户已授权当前项完成后整理文档并git push，尚未运行的项目继续明确标注待验。

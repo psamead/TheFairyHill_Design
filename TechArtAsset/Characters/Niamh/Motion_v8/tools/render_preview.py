@@ -64,7 +64,7 @@ def pose(kind,t):
 
 def frame(t):
     im=Image.new('RGB',(1120,490),'#e8e4db');d=ImageDraw.Draw(im)
-    d.text((24,16),'NIAMH | Motion study v8 | User-revised artwork | NOT IN UNITY',fill='#37453c')
+    d.text((24,16),'NIAMH | Motion v8 | Front ornament update | OFFLINE PREVIEW',fill='#37453c')
     for i,kind in enumerate(('idle','walk','run','jump')):
         x=i*280
         d.rectangle((x+8,49,x+272,470),fill='#a5b9a4')
@@ -87,5 +87,6 @@ if __name__=='__main__':
     for row,idx in enumerate((4,12,20)):strip.paste(frames[idx],(0,490*row))
     strip.save(out/'Niamh_motion_v8_contact.png')
     data={'status':'motion study; not integrated or accepted','fps':FPS,'source_canvas':[W,H],'pivots':{'head':[180,214],'arm':[219,323],'hip':[187,532],'knee':[185,579]},'clips':{'idle':2,'walk':.8,'run':.5,'jump':2},'jump_pose':{'far_leg_backward_degrees':30,'near_leg_backward_degrees':19,'arm_forward_degrees':30,'head_up_degrees':6,'descent_head_down_degrees':6,'descent_arm_backward_degrees':34,'descent_near_leg_forward_degrees':30,'descent_far_leg_forward_degrees':22,'fall_swing_start_seconds':.8,'fall_swing_peak_seconds':1.025,'fall_swing_end_seconds':1.25},'landing':{'start_seconds':1.25,'duration_seconds':.30,'body_and_hair_down_px':3,'head_and_arm_down_px':4,'hair_left_px':1,'arm_right_px':1,'foot_stays_fixed':True,'whole_body_landing_scale':1.0,'takeoff_min_scale':.98},'limitations':['single rigid dress/cape','far leg derived from near leg','uses user-edited layers; check moving-arm backdrop','no separate elbow or knee weighting','no Unity validation']}
+    data['appearance_revision']={'date':'2026-11-17','change':'shared front ornament patch from raised-cross pose','source':'appearance_front_ornament_v1/body_front_ornament_source.psd','body_canvas_unchanged':True,'animation_parameters_changed':False,'unity_texture_files_copied':True,'unity_import_and_playmode_verified':False}
     (ROOT/'motion_preview_spec.json').write_text(json.dumps(data,indent=2),encoding='utf-8')
     print(out/'Niamh_motion_v8.gif')

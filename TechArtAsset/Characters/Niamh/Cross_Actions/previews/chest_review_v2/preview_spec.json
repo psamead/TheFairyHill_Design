@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-18",
+  "action": "cross_chest_local",
+  "review_scope": "first action prepared; owner clarified second may continue using the chest drawing as intermediate",
+  "direct_gif": "Niamh_idle_to_chest_direct_v2.gif",
+  "duration_ms": 3000,
+  "sequence": [
+    {
+      "pose": "idle",
+      "ms": 650
+    },
+    {
+      "pose": "exact user chest hold",
+      "ms": 1700
+    },
+    {
+      "pose": "idle",
+      "ms": 650
+    }
+  ],
+  "interpolation": false,
+  "source_psd_sha256": "1b2ca4fa26b91577879aa179c67d96ffd8b7542f83016ea2225e28e0921027a8",
+  "transition_trial": "Niamh_idle_to_chest_transition_trial_v1.gif",
+  "transition_trial_visual_review": "sleeve distortion and unnatural arm connection; retained only for comparison, not a final action",
+  "previous_hold_loops": "preserved unchanged",
+  "raised_action_next_direction": "completed separate key-pose review in previews/raised_via_chest_v2; owner review pending",
+  "vfx": false,
+  "unity_changed": false
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "original_filename": "psamead_httpss.mj.runPoXfpCuna1c_side_profile_view_of_the_same__f94e20a2-bf17-4245-9fcf-b6f5985009e3.png",
+    "archived_filename": "Niamh_chest_hands_MJ_U1_raw_v1.png",
+    "selection": "U1",
+    "facing": "right",
+    "sha256": "D4C4B442B3370BB4D6DA036CA8845FDAE836F55A49117CA02E73313D75226F0A",
+    "bytes": 5908838,
+    "status": "pose_reference_raw",
+    "date": "2026-11-17"
+  },
+  {
+    "original_filename": "psamead_httpss.mj.runPoXfpCuna1c_side_profile_view_of_the_same__cd016677-bbf7-485b-a8b7-8770419361ea.png",
+    "archived_filename": "Niamh_chest_hands_MJ_U4_raw_v1.png",
+    "selection": "U4",
+    "facing": "left",
+    "sha256": "BCD9C26B73A3D74B12FF41C52D2ADA99ACF3C620954C6F40CF47C769A3146A4D",
+    "bytes": 5208758,
+    "status": "pose_reference_raw",
+    "date": "2026-11-17"
+  },
+  {
+    "original_filename": "psamead_Full_body_right-facing_side_profile_of_Niamh_lifting_a__a0122317-0ff9-48c1-8313-6c4705e1ab42.png",
+    "archived_filename": "Niamh_raise_hands_MJ_r01_U1_raw_v1.png",
+    "selection": "U1",
+    "round": "r01",
+    "facing": "left",
+    "sha256": "4897F85AB14EF4873E7F7952589C0A546DE62E226AFF31D147E0B1AC34E09560",
+    "bytes": 5618115,
+    "status": "pose_reference_raw",
+    "date": "2026-11-17"
+  },
+  {
+    "original_filename": "psamead_Full_body_right-facing_side_profile_of_Niamh_lifting_a__6fe582a2-ee5f-4057-85a4-b709285d7607.png",
+    "archived_filename": "Niamh_raise_hands_MJ_r01_U2_raw_v1.png",
+    "selection": "U2",
+    "round": "r01",
+    "facing": "left",
+    "sha256": "F9CCD87F87C15724A860C543336C90C60914A4F70C4F0D55E27617A06B501771",
+    "bytes": 3101529,
+    "status": "pose_reference_raw",
+    "date": "2026-11-17"
+  },
+  {
+    "original_filename": "psamead_A_little_girl_holding_a_clearly_visible_dark_iron_cross_45ac897f-7cde-4514-95c2-a2ef917f344d.png",
+    "archived_filename": "Niamh_raise_hands_MJ_r02_U4_raw_v1.png",
+    "selection": "U4",
+    "round": "r02",
+    "facing": "left",
+    "sha256": "0BDD92773D0A7BA1E85335EB1868C31377008D4B4B40193EA8F01955C7EAD27F",
+    "bytes": 5457126,
+    "status": "pose_reference_raw",
+    "date": "2026-11-17"
+  }
+]

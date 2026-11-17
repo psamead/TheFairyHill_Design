@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-17",
+  "decision_source": "project owner explicit instruction",
+  "pose_count": 2,
+  "third_pose_required": false,
+  "canvas": {
+    "width": 350,
+    "height": 699,
+    "origin": "top-left",
+    "scale_changed": false,
+    "character_translated": false
+  },
+  "actions": [
+    {
+      "id": "cross_chest_local",
+      "pose": "chest hold",
+      "scope": [
+        "small enemies in levels",
+        "small obstacles",
+        "small story interactions"
+      ],
+      "asset": "current/Niamh_cross_chest_local_v1.psd"
+    },
+    {
+      "id": "cross_raised_story",
+      "pose": "raised cross",
+      "trigger": "story event",
+      "scope": [
+        "large light beam",
+        "annihilation of large obstacles",
+        "major story events"
+      ],
+      "asset": "current/Niamh_cross_raised_story_v1.psd",
+      "beam_vfx_in_asset": false
+    }
+  ],
+  "design_principles": [
+    "choose pose by encounter and event scale",
+    "preserve the original character and costume",
+    "keep the cross as an existing game prop with intentional grip occlusion",
+    "two user drawings are current static sources",
+    "old preview is historical and does not validate current actions"
+  ],
+  "implementation_status": {
+    "static_user_poses": "prepared",
+    "organized_psds": "prepared and pixel-checked",
+    "continuous_animation": "not validated",
+    "large_beam_vfx": "not implemented by this task",
+    "unity_integration": "raised story pose wired to existing controlled-thorn-wall Q event; source and resource applied; Editor import and Play Mode pending"
+  },
+  "unspecified": [
+    "damage",
+    "cooldown",
+    "range",
+    "input controls",
+    "beam timing",
+    "target list",
+    "combat system implementation"
+  ],
+  "demo_scope_note": "Action usage rules do not automatically promote combat into the current Demo implementation scope.",
+  "appearance_consistency": {
+    "front_ornament": "shared from raised pose to chest, base body and static fallback",
+    "patch_bounds": [
+      253,
+      372,
+      292,
+      453
+    ],
+    "unity_texture_files_updated": true,
+    "unity_import_and_playmode_verified": false
+  },
+  "separate_hold_previews": {
+    "date": "2026-11-18",
+    "folder": "previews/hold_loops_v1",
+    "duration_seconds_each": 3,
+    "status": "gentle pose-hold loops; full action transitions and VFX not implemented"
+  },
+  "idle_to_action_previews": {
+    "date": "2026-11-18",
+    "folder": "previews/idle_to_actions_v1",
+    "durations_seconds": [
+      4,
+      4.5
+    ],
+    "status": "rough idle-to-chest and idle-to-raised cutout motion studies",
+    "hold_loops_preserved": true,
+    "vfx_included": false,
+    "unity_integrated": false
+  },
+  "current_review_previews": {
+    "date": "2026-11-18",
+    "first": "previews/chest_review_v2/Niamh_idle_to_chest_direct_v2.gif",
+    "first_method": "idle directly switches to the original chest hold after distorted sleeve in-betweens failed visual review",
+    "second": "previews/raised_fast_v3/Niamh_raised_fast_direct_v3.gif",
+    "second_sequence": [
+      "idle",
+      "user raised hold",
+      "idle"
+    ],
+    "second_method": "B: direct raised pose; no chest intermediate",
+    "approval": "second B selected by owner; first preview has no separate final approval recorded",
+    "old_gifs_preserved": true,
+    "third_drawn_action_required": false,
+    "second_timing_ms": [
+      300,
+      1080,
+      620
+    ]
+  },
+  "raised_timing_review": {
+    "date": "2026-11-18",
+    "owner_preference": "faster overall action; chest pose only briefly or direct raised pose if better",
+    "folder": "previews/raised_fast_v3",
+    "variants": [
+      "Niamh_raised_fast_via_chest_v3.gif",
+      "Niamh_raised_fast_direct_v3.gif"
+    ],
+    "duration_ms_each": 2000,
+    "chest_pass_ms": [
+      80,
+      60
+    ],
+    "prior_versions_retained_as_development_records": true,
+    "final_variant": "B / fast_direct",
+    "selected_gif": "previews/raised_fast_v3/Niamh_raised_fast_direct_v3.gif",
+    "owner_selected_date": "2026-11-18",
+    "approval_scope": "pose switching and preview rhythm only; not beam VFX or Unity runtime acceptance"
+  },
+  "selected_raised_preview": {
+    "variant": "B",
+    "file": "previews/raised_fast_v3/Niamh_raised_fast_direct_v3.gif",
+    "sha256": "0650b7d3f4d972d10bddbab10484e8b96117ee64a5bccb6080718e5370b42dce",
+    "sequence": [
+      "idle",
+      "raised",
+      "idle"
+    ],
+    "duration_ms": 2000,
+    "timing_ms": [
+      300,
+      1080,
+      620
+    ],
+    "selection_date": "2026-11-18",
+    "old_versions_preserved": true,
+    "unity_runtime_verified": false
+  },
+  "runtime_trial_2026_11_18": {
+    "action": "cross_raised_story",
+    "variant": "B direct raised; no chest intermediate",
+    "trigger": "existing Q IronPulse on a nearby controlled ThornWall with the iron cross",
+    "presentation_seconds": 1.9,
+    "timing_source": "existing wall glow 0.3s plus dissolve 1.6s; not GIF timing or a cooldown",
+    "new_beam_vfx": false,
+    "chest_combat_system_added": false,
+    "sprite_resource": "Assets/_Project/Resources/Niamh/CrossRaisedStory.png",
+    "ppu": 100,
+    "pivot_px": [
+      163.5,
+      0
+    ],
+    "source_and_resource_applied": true,
+    "offline_csharp_typecheck": "passed",
+    "editor_import_verified": false,
+    "playmode_verified": false,
+    "owner_runtime_acceptance": "pending",
+    "shared_task": "CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md",
+    "task_copy_to_unity_required": false
+  }
+}

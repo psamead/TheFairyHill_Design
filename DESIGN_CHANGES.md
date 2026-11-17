@@ -30,6 +30,7 @@
 
 | 日期 | 变更 | 原因 / 来源 | 影响的文件 | 状态 |
 |---|---|---|---|---|
+| 2026-11-17 | 妮芙十字架采用两个动作：胸前用于小怪、小障碍、小剧情；举起用于剧情大光线、湮灭大型障碍。不再制作第三个动作 | 用户明确确认并完成第二稿 | NIAMH_ANIM_LIST_DEMO、规则、知识库、双动作人读说明、Cross_Actions 资产 | 设计与资产整理完成；动画、光束 VFX、Unity 未完成 |
 | 2026-10-11 | 故事 v2 / v2.1：欧甘契约法典、锁与钥匙、普卡之首为真 Boss、Ogma | 原作者提出新的故事大背景 | STORY_BIBLE、概念设计说明第 8 章、handoff、Demo 计划、diagrams | 已完成 |
 | 2026-10-12 | 故事 v2.2：铁十字改为神族圣物；只有被普卡控制的妖怪怕铁；女王感应圣物 | 原作者新稿（铁十字设计）+ 用户提议 | STORY_BIBLE §8.2.1–8.2.2、概念设计说明（共同饰物、能力表、4.1）、Demo 计划、handoff、refs A6 / A13 | 已完成 |
 | 2026-10-12 | 十字架开场：妮芙交给奥伊芯保管 → 被荆棘扯断挂绳 → 妮芙在森林捡回 | 保留原稿「朋友给的铁十字」 | STORY_BIBLE、概念设计说明、Demo 计划、handoff | 已完成 |
@@ -53,3 +54,9 @@
 - [ ] 神话出处附录（refs A1–A13）与 STORY_BIBLE §8.2.2 民俗对照
 - [ ] 美术：`ART_HANDOFF.md` 第 4 节故事约束、`MJ_ref/ASSETS.md`、相关 prompt、已做好的资产
 - [ ] Demo 对白脚本（如已写）
+
+## 2026-11-18 开场界面 按键下划线与举高动作试装
+
+**2026-11-18 开场界面、按键下划线与举高动作试装：** 已参考双方新导入Claude记录和守灯人实际界面，给现有开场加入保持比例的铺满故事画、柔和底部字幕区与轻量导航；按键字母／名称加下划线。终段受控红墙Q事件采用B直接举高，使用用户原画与新花纹，原墙体消解结束恢复v8。代码和资源已放实际工程，离线C#类型检查通过；Editor导入、Play Mode和用户画面认可仍待验证，没有新增大光束或胸前普通战斗功能。
+
+任务单唯一入口为共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，对方直接读取，无需复制任务单到Unity工程。当前远程Codex进程尚未启动；反馈以Unity `Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md` 为准。人读版 `TechnicalArt/妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`，完整状态/经验 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。用户已授权当前项完成后整理文档并git push，尚未运行的项目继续明确标注待验。

@@ -79,3 +79,6 @@
 | jump 跳 | 起跳 / 滞空 / 下落 / 落地 4 段 | 落地有压缩 | |
 
 工时 = 拆件 + 绑骨 + 4 个动画的总时长，用来估算奥伊芯、贵族等其他角色。
+# 2026-11-17 十字架双动作补充
+
+当前十字架采用 `cross_chest_local`（胸前，关卡小怪、小障碍、小剧情）和 `cross_raised_story`（举起，剧情大光线及大型障碍湮灭）两种用户静帧，不再制作第三个动作。使用范围和状态以 `NIAMH_ANIM_LIST_DEMO.md` 为准；当前图层、统一画幅与文件索引见 `TechArtAsset/Characters/Niamh/Cross_Actions/README.md`（相对 ShareWorkFolder）。两张静帧整理不代表本文件的完整骨骼方案、连续动画、光束特效或 Unity 已完成。以下骨骼和部件说明仍属于原规划，不能据此覆盖用户当前两稿。

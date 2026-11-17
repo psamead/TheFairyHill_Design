@@ -1,9 +1,31 @@
 # 开场故事画与章节过渡知识库
 
+**2026-11-18 休息期间推送授权：** 负责人明确可以传大文件，当前源码、美术、PSD及全部保留GIF发展记录先提交推送；本轮Editor/Play Mode仍待网络电脑执行，回报后再同步运行结论。任务单仍只在共享设计目录。
+
+**2026-11-18 开场界面、按键下划线与举高动作试装：** 已参考双方新导入Claude记录和守灯人实际界面，给现有开场加入保持比例的铺满故事画、柔和底部字幕区与轻量导航；按键字母／名称加下划线。终段受控红墙Q事件采用B直接举高，使用用户原画与新花纹，原墙体消解结束恢复v8。代码和资源已放实际工程，离线C#类型检查通过；Editor导入、Play Mode和用户画面认可仍待验证，没有新增大光束或胸前普通战斗功能。
+
+任务单唯一入口为共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，对方直接读取，无需复制任务单到Unity工程。当前远程Codex进程尚未启动；反馈以Unity `Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md` 为准。人读版 `TechnicalArt/妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`，完整状态/经验 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。用户已授权当前项完成后整理文档并git push，尚未运行的项目继续明确标注待验。
+
 更新：2026-11-16。项目：The Fairy Hills。对象：负责人、学生、美术、制作与排版人员及任意后续 Agent。
 用途：独立于聊天保留来源、审美判断、失败经验和 Unity 接手依据。故事画占位试装与妮芙动作概念各有独立状态；逐项看下文，不能把一个项目的批准套用到另一项。
 
 ## 先看当前决定
+
+**2026-11-18 已选定 B：** 第二种十字架动作采用 idle 直接举高，无胸前中间姿势。当前预览 `TechArtAsset/Characters/Niamh/Cross_Actions/previews/raised_fast_v3/Niamh_raised_fast_direct_v3.gif`，循环2秒（idle 300ms、举高1080ms、idle 620ms）。用户选择覆盖起手方式和预览节奏；不是技能冷却、光束时序或 Unity 运行验收。A、慢版、过渡试做和持势 GIF 全部保留作为发展记录。
+
+
+
+**2026-11-17 衣装一致性更新：** 第二稿新增金色前襟花纹已同步到胸前动作、基础 `Motion_v8/parts/body.png` 与静态备用图；两动作画布仍350×699，基础角色仍327×699，alpha保持。新增可编辑修订源和备份见 `TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v1/`。Unity实际身体和静态备用PNG已网络复制，`.meta`不变；本次未连接Editor或验证Play Mode。当前源用户PSD不覆盖，重导出基础身体须使用新增修订源。
+
+
+
+**2026-11-17 晚间最新决定：两个动作足够，不再制作第三个动作。** 第一个 `cross_chest_local`（胸前）用于关卡内小怪、小障碍和小剧情；第二个 `cross_raised_story`（举起）用于剧情触发的大光线、湮灭大型障碍等事件。当前文件统一放 `TechArtAsset/Characters/Niamh/Cross_Actions/current/`，使用语义名 PSD/PNG；画布均为 350×699，保留左上原点与人物像素。用户原稿、旧试验和旧粗 GIF 已分类，路径变更及像素校验见该目录 `file_manifest.json`。
+
+Agent 使用原则见 `TechnicalArt/NIAMH_ANIM_LIST_DEMO.md`，人读说明见 `TechnicalArt/妮芙十字架双动作使用规则与制作交接_v1.docx`，机器规则见 `TechArtAsset/Characters/Niamh/Cross_Actions/action_usage_rules.json`。两张用户绘画已准备和整理；连续动画、大光线特效及 Unity 接入尚未完成。该使用原则不自动扩大当前 Demo 的战斗系统范围。以下较早的“等待第二姿势 / 制作高举或第三姿势 / 当前仅胸前”记录只作历史，不再是任务要求。
+
+
+
+**妮芙动作独立状态更新（2026-11-17）：** 用户已从完整人物参考剪贴胸前动作，手绘袖口过渡，并在最新 `_m` 调整和裁切现有游戏十字架。图层整理入口为 `TechArtAsset/Characters/Niamh/Cross_Actions/archive/psd_trials/Niamh_chest_hold_organized_v1.psd`；文件状态见该目录 `README.md`，方法集中于 `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md` 最新工作流。较早的举十字 GIF 仅是面前高度粗测试，未采用最新道具修订，不能当成完成动画。此轮整理后停下，下一姿势由用户制作。以下故事画占位决定保持独立。
 
 负责人选择 r04 U4 的双人黄昏草坡图放大，批准临时用于开场与第一章封面。背景色彩、草地和人物神态较接近；人物仍偏 Q、外轮廓过强、妮芙眼睛偏绿。批准占位不等于角色或画风定稿，不回写角色 v3 基准。
 

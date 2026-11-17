@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-18",
+  "status": "user key-pose timing preview, awaiting review",
+  "action": "cross_raised_story",
+  "sequence": [
+    {
+      "pose": "IDLE",
+      "duration_ms": 650
+    },
+    {
+      "pose": "CHEST HOLD",
+      "duration_ms": 850
+    },
+    {
+      "pose": "RAISED HOLD",
+      "duration_ms": 1600
+    },
+    {
+      "pose": "CHEST HOLD",
+      "duration_ms": 650
+    },
+    {
+      "pose": "IDLE",
+      "duration_ms": 750
+    }
+  ],
+  "duration_ms": 4500,
+  "middle_pose": "the exact current user-painted chest hold, replacing the two distorted intermediate poses",
+  "between_pose_interpolation": false,
+  "source_psds": {
+    "current\\Niamh_cross_chest_local_v1.psd": "1b2ca4fa26b91577879aa179c67d96ffd8b7542f83016ea2225e28e0921027a8",
+    "current\\Niamh_cross_raised_story_v1.psd": "3d617fa93a054623aea6c4ab46737f1f699d94edb995051c68b74434bcd80408"
+  },
+  "feet_fixed": true,
+  "old_gif_hashes_verified_unchanged": {
+    "previews\\hold_loops_v1\\Niamh_cross_chest_local_hold_v1.gif": "31c41b934a0d3518aa5b262bba92299fd4cf612c6dfbce3e82fc513331deb12f",
+    "previews\\hold_loops_v1\\Niamh_cross_raised_story_hold_v1.gif": "e1f81d14b412479b099859275c2b8fa028f57f285891236d2ee962d052b88722",
+    "previews\\idle_to_actions_v1\\Niamh_idle_to_chest_local_v1.gif": "4c1f5c620c343eb10045d0d9c09f0916f8ef233dfa77d644e9707a5360c0abb0",
+    "previews\\idle_to_actions_v1\\Niamh_idle_to_raised_story_v1.gif": "0e2b494158ace3f9f052b68486016c52477396be9d5c5444aa9e3a477dae0f49",
+    "previews\\chest_review_v2\\Niamh_idle_to_chest_direct_v2.gif": "9165b5fceaf2f3765c26854588b52524fe55a6c2b416f8655de589232ea4bcab",
+    "previews\\chest_review_v2\\Niamh_idle_to_chest_transition_trial_v1.gif": "4c1f5c620c343eb10045d0d9c09f0916f8ef233dfa77d644e9707a5360c0abb0"
+  },
+  "limitations": [
+    "direct key-pose changes; no smooth in-between limb animation",
+    "no beam or VFX",
+    "no Unity integration or runtime validation"
+  ]
+}

@@ -4,6 +4,8 @@
 
 旧任务单中的 `Z:` 是设计仓库根目录，`W:` 是 Unity 工程根目录；换成自己电脑的路径。不要依赖维护者电脑的盘符或局域网名称。设计仓库对学生和协作者只读，源素材只复制到自己的 Unity 工程。
 
+**2026-11-18 负责人明确：** 发给另一台电脑 Agent 的任务文件留在本共享目录，由对方直接读取；无需再复制一份任务单到对方工程。素材和运行证据仍按对应交接规则放置。目录中存在任务文件不表示远程进程已启动。
+
 ## 新任务单模板
 
 把下面字段写在新任务单的开头，再写具体步骤。中英文均可，文件路径和验收条件要明确。
@@ -27,6 +29,8 @@
 Prompt 若用于本轮出图，也要保存模型与版本、完整原文、参数、参考图及用途、选图理由、输出路径；详细规范见 `../AGENT_PROCESS_GUIDELINES.md` §5.7。
 
 ## 任务单状态
+
+- `2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`：**当前待实机检查**。开场铺满/叠加字幕、按键下划线和终段红墙Q直接举高已写入实际工程，离线C#类型检查通过。任务沿本目录与共享网络副本交接，并写入UnityProjectContext待办；远程Codex进程未启动，Editor/Play Mode未验证。反馈后设计端更新相关文档并按用户授权push。旧11月14日开场、音频与v8已有实现报告，不要原样重跑。
 
 - `2026-11-14_Niamh_Motion_v8_Unity_Trial.md`：**已执行的历史任务单**。用户修订的 Niamh v8 已作为可回退分层角色接入 Unity，编译通过并在 Village / Forest 场景试玩，项目负责人反馈基本可用；实际结果见 Unity `Docs/Niamh_Motion_v8_Unity_Handoff.md`。美术过程与经验见 `../TechArtAsset/Characters/Niamh/Motion_v8/UNITY_TRIAL_README.md` 和 `../TechnicalArt/LESSONS_CHARACTER_ANIMATION.md`。
 

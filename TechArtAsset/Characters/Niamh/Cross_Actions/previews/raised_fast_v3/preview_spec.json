@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-18",
+  "status": "B fast_direct selected by owner on 2026-11-18",
+  "previous_duration_ms": 4500,
+  "new_duration_ms": 2000,
+  "source_psds": {
+    "current\\Niamh_cross_chest_local_v1.psd": "1b2ca4fa26b91577879aa179c67d96ffd8b7542f83016ea2225e28e0921027a8",
+    "current\\Niamh_cross_raised_story_v1.psd": "3d617fa93a054623aea6c4ab46737f1f699d94edb995051c68b74434bcd80408"
+  },
+  "clips": [
+    {
+      "variant": "fast_via_chest",
+      "gif": "Niamh_raised_fast_via_chest_v3.gif",
+      "sequence": [
+        {
+          "pose": "IDLE",
+          "duration_ms": 300
+        },
+        {
+          "pose": "PASSING CHEST",
+          "duration_ms": 80
+        },
+        {
+          "pose": "RAISED",
+          "duration_ms": 1000
+        },
+        {
+          "pose": "RETURN",
+          "duration_ms": 60
+        },
+        {
+          "pose": "IDLE",
+          "duration_ms": 560
+        }
+      ],
+      "duration_ms": 2000,
+      "owner_selection": "retained development alternative"
+    },
+    {
+      "variant": "fast_direct",
+      "gif": "Niamh_raised_fast_direct_v3.gif",
+      "sequence": [
+        {
+          "pose": "IDLE",
+          "duration_ms": 300
+        },
+        {
+          "pose": "RAISED",
+          "duration_ms": 1080
+        },
+        {
+          "pose": "IDLE",
+          "duration_ms": 620
+        }
+      ],
+      "duration_ms": 2000,
+      "owner_selection": "selected"
+    }
+  ],
+  "all_prior_gifs_preserved": {
+    "previews\\chest_review_v2\\Niamh_idle_to_chest_direct_v2.gif": "9165b5fceaf2f3765c26854588b52524fe55a6c2b416f8655de589232ea4bcab",
+    "previews\\chest_review_v2\\Niamh_idle_to_chest_transition_trial_v1.gif": "4c1f5c620c343eb10045d0d9c09f0916f8ef233dfa77d644e9707a5360c0abb0",
+    "previews\\hold_loops_v1\\Niamh_cross_chest_local_hold_v1.gif": "31c41b934a0d3518aa5b262bba92299fd4cf612c6dfbce3e82fc513331deb12f",
+    "previews\\hold_loops_v1\\Niamh_cross_raised_story_hold_v1.gif": "e1f81d14b412479b099859275c2b8fa028f57f285891236d2ee962d052b88722",
+    "previews\\idle_to_actions_v1\\Niamh_idle_to_chest_local_v1.gif": "4c1f5c620c343eb10045d0d9c09f0916f8ef233dfa77d644e9707a5360c0abb0",
+    "previews\\idle_to_actions_v1\\Niamh_idle_to_raised_story_v1.gif": "0e2b494158ace3f9f052b68486016c52477396be9d5c5444aa9e3a477dae0f49",
+    "previews\\raised_via_chest_v2\\Niamh_idle_chest_raised_keyposes_v2.gif": "c76129d5ce53c066fe29bba6256d13d15ea0ab233ef6e8ab4f5e37e616482a4c"
+  },
+  "interpolated_frames": false,
+  "feet_fixed": true,
+  "source_psds_changed": false,
+  "vfx_or_unity_work": false,
+  "selected_variant": "fast_direct",
+  "selected_gif_sha256": "0650b7d3f4d972d10bddbab10484e8b96117ee64a5bccb6080718e5370b42dce",
+  "approval_scope": "preview pose switch and rhythm; not Unity or VFX"
+}

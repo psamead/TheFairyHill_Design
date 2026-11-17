@@ -1,0 +1,1 @@
+请直接读取共享设计目录里的 CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md，继续已放入实际Unity工程的开场界面、按键下划线和最终红障碍举高十字架改动。无需复制任务单。按任务在真实 Editor 编译、Play Mode 检查并修复，保存截图和 Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md；保留已有用户修改，不重建场景、不跑自动测试、不建副本工程。本地提交仅包含任务文件，暂不 push，完成后设计端汇总文档再 push。
