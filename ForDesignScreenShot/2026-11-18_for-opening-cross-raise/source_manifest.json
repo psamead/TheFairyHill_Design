@@ -1,0 +1,259 @@
+{
+  "task_date": "2026-11-18",
+  "archived_date": "2026-11-19",
+  "timezone": "Asia/Shanghai",
+  "source_project_head_at_copy": "7bf41607e05881a4c737f64c38b3547ea7a7ebe6",
+  "source_root_example": "\\\\haoxi-rtx\\C\\Users\\Administrator\\Documents\\UnityProject\\TheFairyHill2D",
+  "source_paths_are_relative_to_unity_root": true,
+  "screenshot_count": 20,
+  "rule": "ForDesignScreenShot/YYYY-MM-DD_for-<round>/NN_original-name.png",
+  "method": "copies only; no crops, resizing, annotations or source moves",
+  "runtime_evidence": "tool-driven actual Unity Editor Play Mode; not a physical-input full-route playtest",
+  "owner_acceptance": {
+    "status": "pending",
+    "visual": "pending",
+    "audio": "pending",
+    "performance": "not measured"
+  },
+  "raw_console_and_driver": "remain in the source Unity_Trial directory",
+  "files": [
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/opening_0_1920.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/01_opening_0_1920.png",
+      "sha256": "0f10bcd05aaa959d33127aa7cc7e2eb5d8ae78ad7c74e6c9d20a60fff533b35e",
+      "bytes": 3002952,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/opening_0_1280.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/02_opening_0_1280.png",
+      "sha256": "e480ae88bdc63b89d26ca02e9203fe18d8aa5b92716a239ba0a9a3b6994a566c",
+      "bytes": 1451606,
+      "source_bytes_preserved": true,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/opening_1_1920.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/03_opening_1_1920.png",
+      "sha256": "abeee56338f7bbb0c3dc16e5ecae80a3bca1adc530d025bd85831cb78a6b1514",
+      "bytes": 3003571,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/opening_1_1280.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/04_opening_1_1280.png",
+      "sha256": "15d8f5ac2e8e1f28b8972ebd659996c9bcffb123e63f7ed3dc709d132de481b6",
+      "bytes": 1451874,
+      "source_bytes_preserved": true,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/opening_2_1920.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/05_opening_2_1920.png",
+      "sha256": "e642be6066f458d7c3edf8f38571ac4599ab92698e1efe3cb4120d14830d036c",
+      "bytes": 3003774,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/opening_2_1280.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/06_opening_2_1280.png",
+      "sha256": "0db1155762e9ad9edfc4799d1f3c7b85b286622d2eb626270059d2f1c9c95e99",
+      "bytes": 1451932,
+      "source_bytes_preserved": true,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/opening_3_1920.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/07_opening_3_1920.png",
+      "sha256": "bd8d9a2e62b03d7bd0a785ad148330a3c384722a6778adf160789373bdfe7d8a",
+      "bytes": 2670870,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/opening_3_1280.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/08_opening_3_1280.png",
+      "sha256": "dbad67d10be2167bb585b4b327ebcce346440a6790367f7b3d285e6d2a9b2b49",
+      "bytes": 1304293,
+      "source_bytes_preserved": true,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/hud_underlines.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/09_hud_underlines.png",
+      "sha256": "48b8114354ca1fc6c27d949fe771fb014cbd3d4380efed853fc576597d09551a",
+      "bytes": 3143957,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/hud_cross_acquired.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/10_hud_cross_acquired.png",
+      "sha256": "25d9c54ed4d8d3b378f51a5419726e37f6f472ccf9802d67e9581710e8884bbd",
+      "bytes": 2359117,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/hud_missing_cross.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/11_hud_missing_cross.png",
+      "sha256": "5b0e50f7f92c393c6ceebe2fcc057291f6cf5d130cbecdb250d19f36bb71e8b7",
+      "bytes": 2171923,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/hud_no_target.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/12_hud_no_target.png",
+      "sha256": "00a6f9ead245dd60f696b382b7cc5da74cf10a2ba5e8ba1d523860f615293d13",
+      "bytes": 1974600,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/cross_raise_right.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/13_cross_raise_right.png",
+      "sha256": "a51bc0bbbe7b93449169935f49172a5a4dedb985dfa646f663ea7238497f493c",
+      "bytes": 2329516,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/cross_raise_left.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/14_cross_raise_left.png",
+      "sha256": "9024e21524174ac68ec744589e19aaa6853527bdeba3797e2fee3f247f5738cb",
+      "bytes": 2273159,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/cross_restore_right.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/15_cross_restore_right.png",
+      "sha256": "780214f0e99697ceba30147e80c024e0e6af57a5a7d25f1cef1f0cb6e6729f62",
+      "bytes": 2012019,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/cross_restore_left.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/16_cross_restore_left.png",
+      "sha256": "4ee930334b4cd29623a5f750cd5aa4ed9d164b4a8f0332d62743c9c30101ee5c",
+      "bytes": 1950279,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/cross_dissolving.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/17_cross_dissolving.png",
+      "sha256": "f80b373bf6d3987bdb27eb7aae32e25d2c98e31b1ca846b9e043a173993a99c8",
+      "bytes": 2107741,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/cross_raise_wall.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/18_cross_raise_wall.png",
+      "sha256": "7e1f1412e0f0a952d192ccec5489f75e80b1318885132421710b9e549cf779e4",
+      "bytes": 2357877,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/cross_restore.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/19_cross_restore.png",
+      "sha256": "0c797b8568279317c7c636a6d7bbd16655f69a6a6631eaf7a9aeb66be0722af4",
+      "bytes": 1989527,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "native_game_view_capture",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/skip_chapter.png",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/20_skip_chapter.png",
+      "sha256": "bd8d9a2e62b03d7bd0a785ad148330a3c384722a6778adf160789373bdfe7d8a",
+      "bytes": 2670870,
+      "source_bytes_preserved": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "kind": "original_unity_feedback_report",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/Opening_Immersive_Cross_Raise_Unity_Handoff.md",
+      "sha256": "8d920a3432c9cd6e99bf524274d36ca4337290c5bd000f6c3d4732f5fb9eac11",
+      "bytes": 5032,
+      "source_bytes_preserved": true
+    },
+    {
+      "kind": "original_validation_result",
+      "source_project": "TheFairyHill2D",
+      "source": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/result.json",
+      "destination": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/result.json",
+      "sha256": "d7a3047fa955549edd469304dd8fb8198469af50dfe96e24b4a8d0be58c17e48",
+      "bytes": 3030,
+      "source_bytes_preserved": true
+    }
+  ]
+}

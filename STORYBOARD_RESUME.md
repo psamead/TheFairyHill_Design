@@ -1,5 +1,7 @@
 # 妖精丘陵：新对话接续入口
 
+**2026-11-19 实机截图已归档：** 网络电脑本轮Unity反馈及20张原生截图已复制到 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/`，源图保留，SHA256一致。该目录README提供开场、按键下划线、左右举高与恢复的图片入口，并附原Handoff/result及验收边界。报告记录Editor编译和工具驱动Play Mode检查；用户视觉／声音认可与完整人工路线仍待确认。此轮只整理截图和规则，不修改Unity代码或场景。
+
 **2026-11-18 本地收尾后停下：** 负责人已让网络电脑Codex运行共享任务单；本地完成相关文档和git push后停止，等负责人明早查看效果，再决定怎样修改。后续续接先读Unity回报，不自动追加新方案或重复派发。
 
 **2026-11-18 已推送并开始实机检查：** 设计/美术payload `dfb61d2` 与Unity源码payload `7bf4160` 已push成功。负责人已告知任务发给网络电脑Codex并让其运行，当前等待Handoff和实机截图；覆盖下文较早的“尚未启动”快照。完整执行状态及发布散列见当前unity_drop的dispatch_status.json、publication.json；回报后统一更新最终文档。

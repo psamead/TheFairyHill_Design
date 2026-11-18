@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-18",
+  "baseline_head": "7bf4160",
+  "checked_paths": [
+    "MainMenu.StartGame -> three opening beats -> Chapter I -> Village",
+    "1920x1080 and 1280x720 opening captures",
+    "duplicate advance, wired Skip/Next, injected held Enter release",
+    "HUD controls, E/Q message, prose replacement, re-enable, dynamic first rendered frame",
+    "existing forest loader, runtime reposition, normal physics cross pickup",
+    "injected Q, repeat Q, movement/jump suppression, both facing directions, dissolve and v8 recovery",
+    "presentation disable/re-enable and tool-triggered scene interruption"
+  ],
+  "failures": [
+    {
+      "issue": "Underline canvas rebuild errors",
+      "status": "fixed and rechecked"
+    },
+    {
+      "issue": "Facing used offset wall root",
+      "status": "fixed using collider center; both directions rechecked"
+    }
+  ],
+  "evidence": {
+    "directory": "Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/Unity_Trial/",
+    "console": "console_final.json",
+    "runtime": "editor_runtime.log",
+    "driver": "trial_driver.cs.txt",
+    "preferred_cross": [
+      "cross_raise_right.png",
+      "cross_raise_left.png",
+      "cross_restore_right.png",
+      "cross_restore_left.png"
+    ]
+  },
+  "editor_compile": {
+    "passed": true,
+    "scriptCompilationFailed": false,
+    "final_console_errors": 0,
+    "notes": [
+      "Unity AI Account API warning",
+      "transient no-listener informational messages while loading; one stable listener"
+    ]
+  },
+  "playmode": {
+    "performed": true,
+    "method": "Tool calls and Input System queued keyboard events; normal physics pickup with runtime reposition",
+    "physical_keyboard_mouse": "unverified",
+    "manual_full_route": "unverified",
+    "first_render_links": 4,
+    "first_render_enabled_lines": 4,
+    "final_state": "[Log] path=C:/Users/Administrator/Documents/UnityProject/TheFairyHill2D/Assets playing=False compiling=False failed=False timescale=1 scenes=1\n[Log] MainMenu dirty=False"
+  },
+  "owner_acceptance": {
+    "status": "pending",
+    "visual": "pending",
+    "audio": "pending",
+    "performance": "not measured"
+  },
+  "protected_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "D0769511B4B36A1E862BD5B62D7AE423F68EA63B85B6BA2F6516CC6F5D2C6F67",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Scenes/Ch1_S1_Village.unity",
+      "sha256": "8BAEAE09FC8CB2A9EB24651A7D8B4721B7F8049FC3521805B42698947F175ADB",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "sha256": "F53586850A70C4F308E7E71B99B63881A49F38DE4BD40F4EDB7FE7AE6ECF8A52",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/_Project/Fonts/Fondamento SDF.asset",
+      "sha256": "877ADD5FD5F66283E9693670CEED50B0DA4840091A6BF1CB56303403483D2C36",
+      "unchanged": true
+    }
+  ],
+  "publication": "No commit or push"
+}
