@@ -1,14 +1,14 @@
 # 开场界面与举高十字架试装
 
-2026-11-18。给负责人、制作人员和后续 Agent 的当前说明。人读版见同目录 `妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`。
+2026-11-18试装，2026-11-19按网络端报告更新。给负责人、制作人员和后续 Agent 的当前说明。人读版见同目录 `妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`。
 
 ## 当前结果
 
-**负责人休息前追加授权：** 可先推送当前源码、美术和全部保留的发展记录等大文件；保持本轮实机检查待验身份。网络端回报后再同步运行结论。当前Unity源码checkpoint `cc815f8`；出版/推送散列另见任务包的publication记录。
+**2026-11-19实机回报已归档：** Unity Editor导入和编译通过；网络端用Editor工具及Input System模拟输入检查了1920×1080、1280×720开场、字幕/章节卡、Next/Skip、按键下划线、正常十字架拾取、左右朝向的B直接举高、红墙消解与姿势恢复等。原生20张截图、Handoff、result.json和散列清单在 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/`。本轮不是负责人亲自完整跑关；完整人工路线、视觉/声音/手感与性能仍待负责人审看。
 
-已把代码和举高姿势放入网络电脑的实际 TheFairyHill2D 工程，并使用该工程真实 Unity DLL 完成离线 C# 类型检查。已沿既有 `CommandForAgentToInitialRun/` 准备实机检查任务、散列和启动文字。**负责人已确认将任务发给网络电脑Codex执行；Editor导入、Play Mode和用户画面认可仍待回报。** 本机此前连接失败的尝试是历史过程，不能据此再判断对方尚未启动。文件交付、离线检查、运行结果分别记录。
+设计端曾按实际Unity DLL完成离线C#类型检查；随后网络端完成Editor与工具驱动Play Mode验证。两阶段分开记录：离线检查不能代替Unity运行，工具驱动运行也不能代替完整人工游玩或负责人审美/听感确认。
 
-负责人最新安排：本地完成文档和推送后停下，等明早查看效果，再决定怎样修改。设计端不自动根据后续回报追加外观或动作方案。
+负责人最新安排：本地完成相关文档和推送后停下，等负责人查看效果并提交具体设计问题；故事图生图在新对话继续。设计端不自动根据当前截图问题自行调整界面、动作或其他设计。
 
 任务单唯一入口：共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，无需复制任务单到另一台电脑。Unity 内 `Docs/References/Opening_Immersive_Cross_Raise_2026-11-18/` 仅保存实施散列和运行证据。反馈入口：`Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md` 和同参考目录 `Unity_Trial/result.json`。
 
@@ -52,7 +52,10 @@
 | --- | --- |
 | 实施与复制 | 实际工程7份脚本、资源及导入设置已放置；来源/目标SHA256核对。4个既有用户修改文件字节保持。 |
 | 离线编译 | 基线22份与试装23份Gameplay源码，285个实际工程程序集引用均通过；最终源码散列和日志见任务包 `compile/final_validation.json` 与 `final.log`。原有3个序列化字段警告仍存在。 |
-| 实机待办 | Editor导入/编译、1920与1280布局、下划线动态显示、推进/跳过/按住键、红墙前Q举高/朝向/恢复、重复触发和无目标提示。 |
-| 完成后 | 网络端写Handoff及截图，设计端读取反馈再更新人读/Agent/机器规则和Git。用户已授权此项完成后git push；推送时仍要保留尚未验收项的真实状态。 |
+| Unity工具驱动验证 | 网络端报告Editor编译；1920与1280开场截图；下划线动态更新与启停；Skip/推进输入保护；正常拾取十字架；左右朝向举高、红墙消解、恢复与重复触发保护。证据索引在上述截图归档目录。 |
+| 有限证据 | 使用Editor工具和Input System模拟输入；森林段含运行时定位，不是完整人工路线。保存的最终Console采样79条Info、1条Warning、0条Error；Warning为Unity AI账户接口可访问性。性能、物理键鼠操作和完整流程未测。 |
+| 待负责人审看 | Next/Skip在明亮天空上对比偏弱，是截图观察、尚未确认要改；动作观感、字幕/按键可读性、声音与手感、完整关卡路线仍待负责人反馈。故事画仍是占位图。 |
+| 需要复核的数据 | 报告称恢复后移动/跳跃速度为`(3.2,11.4)`，保存的最终Console/运行日志仅记`(0,0)`。不能把3.2/11.4写成已确认结果；后续如需动用该数据，应先重新复测并保留对应日志。 |
+| 文档同步 | 本轮把报告结论和边界同步到人读说明、Agent指南、知识库、Resume与美术交接；截图原件及反馈报告留在设计仓库。Unity代码或场景未由本轮改动。 |
 
-实现包：`TechnicalArt/unity_drop/2026-11-18_Opening_Immersive_Cross_Raise/`。其中 `dispatch_status.json` 是派发事实，`implementation_manifest.json` 是文件事实，不能当作运行验收。
+实现包：`TechnicalArt/unity_drop/2026-11-18_Opening_Immersive_Cross_Raise/`。其中 `dispatch_status.json` 是派发事实，`implementation_manifest.json` 是文件事实，不能当作运行验收。截图目录 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/README.md` 记录本轮原生截图、来源、SHA256、反馈副本与复核事项。

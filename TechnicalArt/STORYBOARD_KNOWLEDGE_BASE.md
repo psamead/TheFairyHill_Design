@@ -1,10 +1,12 @@
 # 开场故事画与章节过渡知识库
 
-**2026-11-18 休息期间推送授权：** 负责人明确可以传大文件，当前源码、美术、PSD及全部保留GIF发展记录先提交推送；本轮Editor/Play Mode仍待网络电脑执行，回报后再同步运行结论。任务单仍只在共享设计目录。
+**2026-11-19 Unity反馈经验：** Unity报告和20张原生截图的设计端入口为 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/README.md`。本轮证据是Unity Editor工具驱动与Input System模拟输入：可证明指定状态与保护逻辑被触发，不能替代真实键鼠、完整人工路线、声音、性能或负责人主观验收。报告中移动/跳跃恢复速度与保存日志不一致，引用数值前应复测。亮天空上的Next/Skip对比偏弱暂列待审观察，不自动改稿。日期/轮次目录、编号原图、源名映射与SHA256能让后续设计核图而不破坏Unity源证据；排版QA和美术候选仍放各自目录。详见 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。
 
-**2026-11-18 开场界面、按键下划线与举高动作试装：** 已参考双方新导入Claude记录和守灯人实际界面，给现有开场加入保持比例的铺满故事画、柔和底部字幕区与轻量导航；按键字母／名称加下划线。终段受控红墙Q事件采用B直接举高，使用用户原画与新花纹，原墙体消解结束恢复v8。代码和资源已放实际工程，离线C#类型检查通过；Editor导入、Play Mode和用户画面认可仍待验证，没有新增大光束或胸前普通战斗功能。
+**2026-11-18 休息期间推送授权（历史快照）：** 负责人明确可以传大文件，源码、美术、PSD及保留GIF发展记录随后完成推送。此处记录的是任务执行前的当时状态；后续Unity回报见本文件顶部2026-11-19经验条目。
 
-任务单唯一入口为共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，对方直接读取，无需复制任务单到Unity工程。负责人已将任务发给网络电脑Codex执行；反馈以Unity `Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md` 为准。人读版 `TechnicalArt/妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`，完整状态/经验 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。用户已授权当前项完成后整理文档并git push，尚未运行的项目继续明确标注待验。
+**2026-11-18 开场界面、按键下划线与举高动作试装（派发时记录）：** 已参考双方新导入Claude记录和守灯人实际界面，给现有开场加入保持比例的铺满故事画、柔和底部字幕区与轻量导航；按键字母／名称加下划线。终段受控红墙Q事件采用B直接举高，使用用户原画与新花纹，原墙体消解结束恢复v8。代码和资源已放实际工程，离线C#类型检查通过；“Editor导入、Play Mode和用户画面认可仍待验证”是当时的派发状态，Unity运行反馈见本文顶部2026-11-19记录。没有新增大光束或胸前普通战斗功能。
+
+任务单唯一入口为共享设计目录 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`，对方直接读取，无需复制任务单到Unity工程。网络端回报保存在Unity `Docs/Opening_Immersive_Cross_Raise_Unity_Handoff.md`；设计端归档见 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/`。人读版 `TechnicalArt/妖精丘陵_开场界面与举高动作试装_2026-11-18.docx`，完整状态/经验 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。初始待运行状态由2026-11-19实测记录替代；尚待负责人审看的项目继续标注待确认。
 
 更新：2026-11-16。项目：The Fairy Hills。对象：负责人、学生、美术、制作与排版人员及任意后续 Agent。
 用途：独立于聊天保留来源、审美判断、失败经验和 Unity 接手依据。故事画占位试装与妮芙动作概念各有独立状态；逐项看下文，不能把一个项目的批准套用到另一项。
