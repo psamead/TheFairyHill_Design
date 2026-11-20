@@ -421,5 +421,6 @@
   ],
   "file_count": 69,
   "total_bytes": 138062441,
-  "note": "Media and historical Word backups remain local and uncommitted. Future transfer method must account for the current plain-Git media tracking. No LFS upload performed."
+  "note": "Owner authorized LFS transfer on 2026-11-20. All listed files are now tracked by exact LFS paths; hashes describe the original content.",
+  "transfer_status": "included_in_LFS_media_commit_2026_11_20"
 }
