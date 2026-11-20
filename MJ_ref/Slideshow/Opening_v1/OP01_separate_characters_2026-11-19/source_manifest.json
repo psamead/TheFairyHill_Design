@@ -1,0 +1,23 @@
+{
+  "status": "prompt_templates_prepared_unsubmitted",
+  "selected_candidate": null,
+  "evidence": [
+    {
+      "file": "evidence/01_discord_previous_pose_prompt.png",
+      "source": "Owner attached to chat 2026-11-19",
+      "role": "Evidence only",
+      "sha256": "fdad2017ed75f18fcdc5c1c63e7594cc48c16caf2240eb2cbe1f1c3ba2d0ccef",
+      "original_filename": "codex-clipboard-7f2ebf66-9583-483c-906d-61b389c142be.png"
+    },
+    {
+      "file": "evidence/02_owner_opening_screenshot.png",
+      "source": "Owner attached to chat 2026-11-19",
+      "role": "Evidence only",
+      "sha256": "494fae0aa0e813c46295b1c892d84a905eb4fac33038a4be7403c3fd9a33aaff",
+      "original_filename": "codex-clipboard-ccdcfbb1-7443-4c41-b9f5-b608ebcb9975.png"
+    }
+  ],
+  "date": "2026-11-19",
+  "actual_model": null,
+  "actual_job_id": null
+}

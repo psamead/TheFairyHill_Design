@@ -1,0 +1,42 @@
+{
+  "issued_prompt_file": "Niamh_MJ_r01_ready_prompt.txt",
+  "evidence": "ForDesignScreenShot/2026-11-19_for-niamh-story-r01/01_owner_r01_U4_selection.png",
+  "owner_feedback": "比较接近；头发过长，饰物细节不足，允许后续Photoshop处理；保留候选，再跑一轮",
+  "lessons_applied": [
+    "CLAUDE_CONTEXT_2026-11-18.md identity preservation and portable records",
+    "MIDJOURNEY_PROJECT_LESSONS.md reference roles and one-objective iteration",
+    "Retain selected candidate, use Photoshop for local costume and ornament corrections"
+  ],
+  "clean_original_file": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r01_U4_upscale.png",
+  "evidence_sha256": "e6fbb51f7882761ff801c9c46e2607adf39c1f8afb74efa86505d84a8e362753",
+  "round": "r01",
+  "agent_observations": [
+    "U4脸部和柔和线条接近本轮方向；发尾垂到鞋旁；前襟、头饰和包的细节仍需对照原设计；双手细节需用干净放大原图检查",
+    "开场妮芙已将十字架交给奥伊芯，本轮no cross为剧情连续性要求，非遗漏"
+  ],
+  "date": "2026-11-19",
+  "next_round": {
+    "prompt_file": "Niamh_MJ_r02_ready_prompt.txt",
+    "status": "grid_received_owner_reports_costume_drift",
+    "reference_and_parameter_changes": "none relative to issued r01 prompt",
+    "single_objective": "发梢收至裙摆附近，露出靴子并离地",
+    "change": "Only inserted hair-length sentence",
+    "round": "r02"
+  },
+  "actual_complete_submitted_prompt": null,
+  "actual_job_id": null,
+  "status": "owner_selected_U4_upscale_archived",
+  "selected_candidate": "U4 bottom right",
+  "owner_download_confirmation": "负责人已放大下载。已在MJ_ref找到，并依据右下候选的姿势、发型、披风和靴子核对归档。",
+  "archive_verification": {
+    "dimensions": [
+      1792,
+      2688
+    ],
+    "original_download_name": "psamead_Niamh_a_blonde_girl_with_soft_grey_eyes_a_silver_circle_817fda2c-e51e-47fe-b4b7-acd115703f04.png",
+    "sha256": "7477db9f4e78ecaff202cd50d1821fc0c7067f101ed5ecde4f5440e007bb18ca",
+    "renamed_download_file": "MJ_ref/Niamh_OP01_MJ_r01_U4_upscale.png"
+  },
+  "canonical_current_file": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r01_U4_upscale.png",
+  "root_duplicate_consolidated_2026_11_20": true
+}

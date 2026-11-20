@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-20",
+  "shot": "OP02",
+  "round": 1,
+  "status": "three_upscale_downloads_archived",
+  "prepared_prompt_file": "OP02_r01_discord_ready.txt",
+  "reference_images": [
+    {
+      "role": "character identity --cref",
+      "local_file": "MJ_ref/OISIN_REF_v3.png",
+      "url": "https://cdn.discordapp.com/attachments/1556337295244926996/1573046126364590140/kde4jAgIf6Ph2VlDijFASSUBECcMCTbuCROPPvN5Jr9i2JXdSH4Ug3snOxp2nOrXgvO8PGmbna2vdjP7dD8AgOEf35UhYUAAAAASUVORK5CYII.png?ex=6b0094de&is=6aff435e&hm=4adde4361a2edabe9e8a86c4018b46a6032879a4fb1a5a96336caa7f3419748e&",
+      "mapping_basis": "owner labelled oisin",
+      "verification": {
+        "fetch_result": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "role": "story rendering --sref",
+      "local_file": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png",
+      "url": "https://cdn.discordapp.com/attachments/1556337295244926996/1573046127127822406/fwE2vOMJ2NF3QAAAABJRU5ErkJggg.png?ex=6b0094de&is=6aff435e&hm=e0dedb0919e8333069be11925d41582cdeb1c062bd47d641bf451ad2cd77c9f1&",
+      "mapping_basis": "second URL supplied after requested OP01 style image",
+      "verification": {
+        "fetch_result": "HTTP Error 403: Forbidden"
+      }
+    }
+  ],
+  "proposed_parameters": {
+    "niji": 6,
+    "ar": "16:9",
+    "cw": 100,
+    "sw": 100,
+    "s": 100
+  },
+  "actual_submitted_prompt": null,
+  "actual_model_and_parameters": null,
+  "job_id": null,
+  "outputs": [],
+  "grid_preview": "OP02_r01_owner_grid_preview.png",
+  "review_file": "OP02_r01_review_r02_plan.md",
+  "additional_grid_previews": [
+    {
+      "round_by_conversation_order": 2,
+      "file": "OP02_r02_owner_grid_preview.png",
+      "actual_prompt_and_parameters": null,
+      "recommended_expression_reference": "U4; owner selection pending"
+    },
+    {
+      "round_by_conversation_order": 3,
+      "file": "OP02_r03_owner_grid_preview.png",
+      "actual_prompt_and_parameters": null,
+      "suggested_candidate": "U4; single-image inspection pending"
+    }
+  ],
+  "latest_prepared_prompt": "OP02_r03_cw40_discord_ready.txt",
+  "r03_proposed_change": {
+    "cw": {
+      "from": 100,
+      "to": 40
+    },
+    "purpose": "test whether existing rightward acting description can emerge with weaker character costume conditioning",
+    "actual_result": null
+  },
+  "download_date": "2026-11-20",
+  "downloaded_original_files": [
+    {
+      "round": 1,
+      "candidate": "U2",
+      "original_download_name": "psamead_A_hand-painted_opening_story_illustration_at_golden_dus_215369a4-a8b9-4687-b4eb-2beb1c635fc3.png",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_MJ_r01_U2_upscale_candidate_v1.png",
+      "dimensions": [
+        2912,
+        1632
+      ],
+      "sha256": "9fdb6025bda69f8cb8bc13c1d58f2bab3d1808eaa34262bf9b0c263f1c61ddec",
+      "image_guid": "215369a4-a8b9-4687-b4eb-2beb1c635fc3",
+      "grid_evidence": "OP02_r01_owner_grid_preview.png",
+      "role": "表情参考；微张嘴，背景仍为陡崖"
+    },
+    {
+      "round": 2,
+      "candidate": "U4",
+      "original_download_name": "psamead_Wide_hand-painted_story_illustration_at_golden_dusk._A__c60b1026-6e53-4333-a864-047a02784db9.png",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_MJ_r02_U4_upscale_candidate_v1.png",
+      "dimensions": [
+        2912,
+        1632
+      ],
+      "sha256": "f8da7f944d74be153fe6163b7ffcb7a6c004b05945044126c357e845156b1eb1",
+      "image_guid": "c60b1026-6e53-4333-a864-047a02784db9",
+      "grid_evidence": "OP02_r02_owner_grid_preview.png",
+      "role": "听声停顿参考；面部仍偏正"
+    },
+    {
+      "round": 3,
+      "candidate": "U4",
+      "original_download_name": "psamead_Wide_hand-painted_story_illustration_at_golden_dusk._A__c90b8537-6524-496a-8efd-881c372d3211.png",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_MJ_r03_U4_upscale_candidate_v1.png",
+      "dimensions": [
+        2912,
+        1632
+      ],
+      "sha256": "2072ac46c0349a990f84b743103170eb06d1c82b8f86da88fd2fb80667c8374b",
+      "image_guid": "c90b8537-6524-496a-8efd-881c372d3211",
+      "grid_evidence": "OP02_r03_owner_grid_preview.png",
+      "role": "本阶段优先保留候选；转头与目光更偏右"
+    }
+  ],
+  "owner_download_confirmation": "ok，都已经放大下载，根据规则改名字和放到相应文件夹归档",
+  "final_art_status": "candidate_retained_identity_costume_and_distant_door_details_pending",
+  "download_notes": "原字节移动；文件名 GUID 为图像标识，未验证为父生成任务 ID。实际提交参数继续按各轮生成消息核对。"
+}

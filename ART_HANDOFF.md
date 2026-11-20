@@ -1,5 +1,10 @@
 <!-- 美术交接文件：给新对话（美术宣传 + 技术美术）、Codex 和日后追踪用。2026-10-12 由故事框架对话拆出。 -->
 
+**2026-11-20 故事画接续。** [本轮进度与经验](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md)与[人读汇总](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.docx)为最新入口。BG01 r02 U4、OP02 r03 U4 优先保留；BG02 构图按 r03 U4，丘体与笔触仍待修。下一镜 OP03 为两人向右跑向树林。11 张环境及 OP02 下载图已存，最终画面验收继续按各条记录。图片与源稿列入本地待传清单，本次先同步文档。
+
+
+**2026-11-19 游戏内故事插画画风。** 负责人选定开场黄昏草坡双人画为视觉基准。画风、无界面参考原图及单人合成与描摹方法见 [故事画知识库](TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md#2026-11-19-故事画风格基准与制作方法)。角色身份与服装细节继续查 v3 原设。
+
 **2026-11-19 Unity反馈与接续边界：** 网络端Editor与工具驱动Play Mode结果及20张原生截图已归档。检视入口为 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/README.md`，技术结论与复核项见 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md` 和故事画知识库。报告速度数字与保存日志不一致，先复测；亮天空上的Next/Skip对比偏弱只是观察，等负责人审看。当前仅更新设计仓文档；Unity之后的设计问题由负责人另行提供，故事生图在新对话进行。
 
 **2026-11-19 实机截图已归档：** 网络电脑本轮Unity反馈及20张原生截图已复制到 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/`，源图保留，SHA256一致。该目录README提供开场、按键下划线、左右举高与恢复的图片入口，并附原Handoff/result及验收边界。报告记录Editor编译和工具驱动Play Mode检查；用户视觉／声音认可与完整人工路线仍待确认。此轮只整理截图和规则，不修改Unity代码或场景。

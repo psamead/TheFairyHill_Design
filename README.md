@@ -1,5 +1,8 @@
 # The Fairy Hills · Design Repository
 
+**2026-11-20 story art handoff.** Read [the current production summary](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md) and [the illustrated Word handoff](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.docx) for BG01, BG02, OP02, prompt trials and OP03 next steps. New media are retained locally for a later transfer; see TechnicalArt/STORYBOARD_PENDING_MEDIA_2026-11-20.json.
+
+
 **2026-11-18 当前试装：** Immersive story frames/captions, underlined key hints and the direct raised-cross red-wall presentation are in the actual Unity project; offline C# type-check passed, Editor/Play Mode pending. Read the task in shared `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md`; do not copy the task into Unity. See `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`.
 
 **English** | [简体中文](README.zh-CN.md)

@@ -1,0 +1,28 @@
+{
+  "review": "原姿势保留，腰带、两条前襟和浅绿裙摆绣纹可见。发尾仍偏长且贴左边。脸、披风纹样和笔触仍多来自 U4；本稿是入景前的角色初稿。",
+  "status": "妮芙单人合成初稿待审",
+  "files": [
+    {
+      "sha256": "7477db9f4e78ecaff202cd50d1821fc0c7067f101ed5ecde4f5440e007bb18ca",
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r01_U4_upscale.png"
+    },
+    {
+      "sha256": "f9cc4602f74e2a44b05dab46bf4f74130a9640e8f3c53b95f7d3ae749b119a33",
+      "path": "MJ_ref/NIAMH_REF_v3.png"
+    },
+    {
+      "sha256": "be9b5e4260a1e51675379fa9c76e3e314bcf7ef318255c5f04ecfedcc3818be9",
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_composite_v01.psd"
+    },
+    {
+      "sha256": "6cc174b7ae93bce2dc464bb666a3f6794129e8971b0ce24fa63e23dfe7bc6814",
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_composite_v01.png"
+    }
+  ],
+  "date": "2026-11-19",
+  "canvas": [
+    1792,
+    2688
+  ],
+  "method": "以 U4 为姿势底图。原正面裙料经过变形，近侧绿金前襟作为远侧前襟的纹样来源。独立绘制绿腰带，并在 PhotoCraft 中置入为可编辑的图层。"
+}

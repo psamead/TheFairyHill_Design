@@ -1,0 +1,14 @@
+{
+  "actual_complete_submitted_prompt": null,
+  "original_screenshot": "codex-clipboard-c5858b58-676b-4854-86d3-42669d616f78.png",
+  "agent_review": "U2 右上的肩线和披风形成轻微右转，手伸向右侧，脸和下身仍近正面；其余三张脸和躯干也偏正面。整组仍缺原设计由腰带向下的双条绿金前襟。",
+  "round": "r05",
+  "screenshot_sha256": "b2c31bf51f673e1d7a89cf268d6047fe18e52daaae5ce30a19676b37ebca8445",
+  "status": "grid_reviewed",
+  "agent_recommendation": "OP01 朝右姿势参考沿用 r01 U4，衣装依据 NIAMH_REF_v3.png。第五轮 U2 可供看披风在侧转时的铺开方式，未选作合成候选。单次测试显示加姿势图仍未达到目标，具体参考权重的影响未验证。",
+  "evidence": "ForDesignScreenShot/2026-11-19_for-niamh-story-r05/01_owner_r05_grid.png",
+  "owner_selected_candidate": null,
+  "actual_job_id": null,
+  "issued_prompt": "Niamh_MJ_r05_pose_reference_prompt.txt",
+  "date": "2026-11-19"
+}

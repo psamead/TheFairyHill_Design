@@ -1,0 +1,26 @@
+{
+  "prompt_file": "Niamh_MJ_r01_ready_prompt.txt",
+  "shot": "OP01_Niamh_separate",
+  "actual_job_id": null,
+  "references": [
+    {
+      "url": "https://cdn.discordapp.com/attachments/1556337295244926996/1572918420662526034/K8m34ZvoAAAAAElFTkSuQmCC.png?ex=6b001dee&is=6afecc6e&hm=23ebce3d2215cdc7fbe1e765e5f0b9350de929b4d444a72d7844940944180a37",
+      "file": "TechArtAsset/Characters/Niamh/Niamh_side_static_v3.png",
+      "role": "cref identity and facing",
+      "verification": "Remote image visually inspected in chat; corrected arm occlusion visible; remote PNG hash differs from local export"
+    },
+    {
+      "url": "https://cdn.discordapp.com/attachments/1556337295244926996/1572928168267096094/NIAMH_REF_v3.png?ex=6b002702&is=6afed582&hm=8f01055b143c8733e21b22a0ce62875981b88b2fc5d6594212496ae3f923331c",
+      "file": "MJ_ref/NIAMH_REF_v3.png",
+      "role": "sref rendering style",
+      "verification": "Owner supplied media URL and Discord image screenshot"
+    }
+  ],
+  "selected_candidate": null,
+  "round": "r01",
+  "planned_parameters": "--niji 6 --ar 2:3 --s 150 --cw 100 --no cross",
+  "outputs": [],
+  "actual_model": null,
+  "date": "2026-11-19",
+  "status": "prepared_owner_to_submit"
+}

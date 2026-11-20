@@ -1,0 +1,14 @@
+{
+  "screenshot_sha256": "21A32D9962862C0BCA5163EB475A2AC505F3630F4399C34399AAD123A45157CB",
+  "r03_status": "prepared_unsubmitted",
+  "actual_job_id": null,
+  "r03_proposal": "可选对照，单独将cref从侧面换为同一角色正面，sref继续用正面。成图还需核对朝向。",
+  "evidence": "ForDesignScreenShot/2026-11-19_for-niamh-story-r02/01_owner_r02_costume_feedback.png",
+  "review": "配色接近。独立腰带与两条金纹绿色前襟缺失或被简化，裙摆连续刺绣被零散花草替代。左下人物朝左。",
+  "date": "2026-11-19",
+  "owner_feedback": "这轮的衣服差得有点远",
+  "round": "r02",
+  "original_screenshot": "codex-clipboard-8a2dbe20-b3a9-4b84-9880-671c85d296a7.png",
+  "issued_prompt": "Niamh_MJ_r02_ready_prompt.txt",
+  "selected_candidate": null
+}

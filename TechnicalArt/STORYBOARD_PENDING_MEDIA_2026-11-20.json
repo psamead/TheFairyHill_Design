@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-20",
+  "request": "先推文档；LFS及大素材按负责人稍后安排传输",
+  "git_lfs_tracking_observed": "No tracked LFS files; current PNG/PSD/DOCX filter attributes unspecified",
+  "current_push_scope": "Markdown, prompt TXT, JSON metadata and four current Word documents",
+  "pending_files": [
+    {
+      "path": "TechArtAsset/Characters/Niamh/Niamh_side_static_v3.png",
+      "git_status_at_inventory": " M",
+      "bytes": 260403,
+      "sha256": "64d3639f2552dd2c57051a6d23693f91d32e8c887ccd5ae5cc04e4f841dfea53"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-nano-banana-r01/01_owner_ai_studio_result.png",
+      "git_status_at_inventory": "??",
+      "bytes": 293728,
+      "sha256": "1edff1f13542e773efe67117bc276898ae9e3dad0e23613c93070572677fefc0"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-nano-banana-r01/02_owner_result_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 492035,
+      "sha256": "2b372e901b7c5f296494a4735370d4682c8fb8a2bb5dd07d9f12745ca2534a1b"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-ornament-occlusion/01_owner_ornament_over_hand.png",
+      "git_status_at_inventory": "??",
+      "bytes": 322921,
+      "sha256": "7f35f605fa36ee02b4e661a143fba0a83d00422f82ea4acf777167c7f631ef5d"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-story-r01/01_owner_r01_U4_selection.png",
+      "git_status_at_inventory": "??",
+      "bytes": 913596,
+      "sha256": "e6fbb51f7882761ff801c9c46e2607adf39c1f8afb74efa86505d84a8e362753"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-story-r02/01_owner_r02_costume_feedback.png",
+      "git_status_at_inventory": "??",
+      "bytes": 897821,
+      "sha256": "21a32d9962862c0bca5163eb475a2ac505f3630f4399c34399aad123a45157cb"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-story-r03/01_owner_r03_costume_feedback.png",
+      "git_status_at_inventory": "??",
+      "bytes": 907020,
+      "sha256": "85350c51cb1b8e5e31c006b16d6c50e0ab5e510b6f369f5cabf485575c763161"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-story-r03/02_owner_U1_download_location.png",
+      "git_status_at_inventory": "??",
+      "bytes": 238033,
+      "sha256": "61d79b69b0c59ea0c0c842fa6aebf2b8464a0b60d164f4a17eee8384e4aa5b5b"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-story-r04/01_owner_r04_grid.png",
+      "git_status_at_inventory": "??",
+      "bytes": 936848,
+      "sha256": "ee3b1eb63c4dc983948ed9839bd2b26788dcd263559f9595a0c746d9d4a76c8a"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-story-r04/02_owner_U4_download_location.png",
+      "git_status_at_inventory": "??",
+      "bytes": 184222,
+      "sha256": "4a31bedddfc6834d08546af289e7c6643ed3a23b6e8a651df77c25aad49cee4f"
+    },
+    {
+      "path": "ForDesignScreenShot/2026-11-19_for-niamh-story-r05/01_owner_r05_grid.png",
+      "git_status_at_inventory": "??",
+      "bytes": 922765,
+      "sha256": "b2c31bf51f673e1d7a89cf268d6047fe18e52daaae5ce30a19676b37ebca8445"
+    },
+    {
+      "path": "MJ_ref/Characters/Niamh/Turnaround_v3/Niamh_v3_turnaround_facing_left.png",
+      "git_status_at_inventory": "??",
+      "bytes": 351371,
+      "sha256": "cadfa337769a721a7bb6e573b1717156d248deea8c9abbfd6eeab5333cea483b"
+    },
+    {
+      "path": "MJ_ref/Characters/Niamh/Turnaround_v3/Niamh_v3_turnaround_facing_right.png",
+      "git_status_at_inventory": "??",
+      "bytes": 346794,
+      "sha256": "f1e7024d8d836609041d59d970b6ddd73842aa677dec3f548b44b012637f9568"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r01_U3_upscale_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 5753751,
+      "sha256": "00bb7ec9963bf2c5dec1a2c54b93bcd580621398c3a583c9e3c4594f592ba72e"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r01_U4_upscale_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 5997188,
+      "sha256": "6fcf74a6e65018f1b81fedba58144f96a9f02833044219a7ddbfcb7c8c88aad7"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r02_U1_upscale_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 4731770,
+      "sha256": "e05da818eefda8741634e492acc12ecb8fe1a73182b49929a9f84a312350da3a"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r02_U4_upscale_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 5119623,
+      "sha256": "5c37b76780bf7822f48bf9322d8f494e6a8fed72e1ab53121901cc82974925bb"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r01_U4_discord_upscale_feedback.png",
+      "git_status_at_inventory": "??",
+      "bytes": 772460,
+      "sha256": "fc40617d4b8c50bbfa8d34d2ae4e2cb8c586ae71bff337d4f96f59fa7875149a"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r01_discord_screenshot.png",
+      "git_status_at_inventory": "??",
+      "bytes": 882691,
+      "sha256": "1477081c0703d496b5bb1a712ae1470de8c12d97183e40a5585afc221a420da0"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r02_U1_discord_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2384322,
+      "sha256": "7a718ca51d592c98b568c21a2b1c546fbb504d3f2df0c937e20a8c3cd9787823"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r02_U4_discord_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2430312,
+      "sha256": "1c7bc3afc2a75efe6ddb0b26577a70d5cde2abd8fd0f9a57a0f7739850dfda24"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r02_owner_download_location.png",
+      "git_status_at_inventory": "??",
+      "bytes": 142466,
+      "sha256": "d28e01d81b1c681511dcebac489beca2ad1624ec0a4edbe7b9b1784ae728930b"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r02_owner_grid_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2632889,
+      "sha256": "29c07d9fdba006c2f91b46ed85821a26241c1ae38a5d4833ff30718f69394de4"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r01_U4_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1809460,
+      "sha256": "da94c5efde51ec96fb052bf514212da4232e253a1e33032170f97c1e04e5ccc4"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r03_U4_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1467843,
+      "sha256": "3d1e2e8922dda6ddfa0672d3caa2d42191044bc6286e4d875ee11e7b86b79104"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r06_U2_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1382170,
+      "sha256": "c8ae37f7b78c6ef8224aa5aa401ee25e8fabb057790b58ba6306948c4454fee4"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r06_U4_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1513376,
+      "sha256": "2f04cc5ebbd13b851cc556e7499cd271c552fa063dc6aa08a28c032ad25b16ff"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_hill_edit_01_discord_results.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1489948,
+      "sha256": "d7ec09fdfccc147c84bcecf2c16cfc03e0da28a9930d9cb9043b9902c2381e80"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_hill_shape_guide_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 18344,
+      "sha256": "433fe980527fc218243d31da26864bee4ff2719fc62dd8dc3eb31e0ac18a2ac3"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_owner_distant_ridge_sky_ref.png",
+      "git_status_at_inventory": "??",
+      "bytes": 11489,
+      "sha256": "ab7f431e263f0a2a49a571124a188b299bd6994b1bc7b61342362cb76cfff3a0"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r01_discord_grid_screenshot.png",
+      "git_status_at_inventory": "??",
+      "bytes": 843503,
+      "sha256": "3e34c7d9396a1f9c9c5dc67d02ddaaaec2942c546c2f4555000391776e6a9ae4"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r02_discord_grid_screenshot.png",
+      "git_status_at_inventory": "??",
+      "bytes": 934155,
+      "sha256": "bd4472e6f2f3dfa9f5d4844134b0008a7354f4ea0fbdea44bd2c222a04522fbd"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r03_U4_hill_edit_mask_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1350072,
+      "sha256": "0b9dfbe5736418fe8fcf7540b90728c2df5006af2556868791b5809a41ac8c52"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r03_U4_hill_edit_settings_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 499087,
+      "sha256": "7092be3920be0c0efbcce1cc1304d5d56deb930784ae9b5a6d44b0bfd70d3c07"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r03_U4_hill_guide_editor_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1472354,
+      "sha256": "df28ec5fb735442ff96e287dd826a780f4297c5d2b7b51baad1cf8d9259d0b1b"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r03_U4_owner_brushwork_feedback.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2189547,
+      "sha256": "5a1cad3efcf709a2a57182fce58a908b3bc74f1acfed4081d677536964cdf96a"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r03_U4_owner_hill_outline.png",
+      "git_status_at_inventory": "??",
+      "bytes": 874682,
+      "sha256": "31bed19cdde6b38b7170c5ec0ee9e1b4fde84b0ee1528770f4b309d566a587dc"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r03_discord_grid_screenshot.png",
+      "git_status_at_inventory": "??",
+      "bytes": 922319,
+      "sha256": "0173a08f2990e0231c114d7103bd66eff1a347c1569152e616ddaf2e70e99266"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r04_U4_owner_heavy_strokes.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1924811,
+      "sha256": "5a5497173d4fe491ce8ce4ae07ccfb52281a6cd24b84acac4b786973e5bd1fe3"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r04_discord_grid_screenshot.png",
+      "git_status_at_inventory": "??",
+      "bytes": 745817,
+      "sha256": "27a66191904995a05ccf09233f5c95971725ebbac0ba34b77edcee838b71bcd5"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r04_owner_approved_brushwork.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2091420,
+      "sha256": "d8a693b23497daa8d307b91f91209281206f23281dd3a2069b1df90e29716677"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r05_owner_grid_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2250481,
+      "sha256": "de0aca34abd19bbb3f9731620fe7d73162185ac2534faa97b808ae6655e18af4"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r06_U2_discord_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2179686,
+      "sha256": "862191850ec129e249926bdbb98f33628785a8091e2a214b287ce6b003ca61e3"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r06_U4_discord_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2347222,
+      "sha256": "7bb6a45e63b177eab477b439f5de24ad60a8ef1cd6af827991ce00a7146a9bff"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r06_owner_grid_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2209402,
+      "sha256": "76f4361b794a2ca3d568ec7eab247bf54bdd596529c106d8ff022cf4805e6902"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/OP01_grass_brushwork_owner_detail.png",
+      "git_status_at_inventory": "??",
+      "bytes": 189360,
+      "sha256": "537f29788c937b2e34d5557e318e0cd908a3976f9e7848c837ad78d5a6b40df4"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/OP01_grass_slope_sref_crop_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 547839,
+      "sha256": "97010d733f1b3aad923c95f0f3ab0f0aa4243d6a702f12a15009e630999efa4d"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_contour_2026-11-19/OP01_ImageGen_contour_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 2278627,
+      "sha256": "cc9323d689aa733cdb49d30e7d87486d9e2c55710551f0107f9c2877ae2f26de"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_ImageGen_style_trace_v01.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1963539,
+      "sha256": "7e7dde084379ad90dd67793ed13b1b8c2a94f7879eca97d70a07c97237be1e69"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r01_U4_upscale.png",
+      "git_status_at_inventory": "??",
+      "bytes": 4460919,
+      "sha256": "7477db9f4e78ecaff202cd50d1821fc0c7067f101ed5ecde4f5440e007bb18ca"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r03_U1_upscale.png",
+      "git_status_at_inventory": "??",
+      "bytes": 5474033,
+      "sha256": "4451ecd2191247bdb839d33c85cee85c86aab0483be684af74a193d387959c05"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r04_U4_upscale.png",
+      "git_status_at_inventory": "??",
+      "bytes": 5663450,
+      "sha256": "91ecd1860b16d99d1b5536efd912aa0396625bba0e6df8c3a7249ce9ebd22932"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_composite_v01.png",
+      "git_status_at_inventory": "??",
+      "bytes": 4550415,
+      "sha256": "6cc174b7ae93bce2dc464bb666a3f6794129e8971b0ce24fa63e23dfe7bc6814"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_composite_v01.psd",
+      "git_status_at_inventory": "??",
+      "bytes": 16710564,
+      "sha256": "be9b5e4260a1e51675379fa9c76e3e314bcf7ef318255c5f04ecfedcc3818be9"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/evidence/01_discord_previous_pose_prompt.png",
+      "git_status_at_inventory": "??",
+      "bytes": 343318,
+      "sha256": "fdad2017ed75f18fcdc5c1c63e7594cc48c16caf2240eb2cbe1f1c3ba2d0ccef"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/evidence/02_owner_opening_screenshot.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1338503,
+      "sha256": "494fae0aa0e813c46295b1c892d84a905eb4fac33038a4be7403c3fd9a33aaff"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_MJ_r01_U2_upscale_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 5595289,
+      "sha256": "9fdb6025bda69f8cb8bc13c1d58f2bab3d1808eaa34262bf9b0c263f1c61ddec"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_MJ_r02_U4_upscale_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 6089573,
+      "sha256": "f8da7f944d74be153fe6163b7ffcb7a6c004b05945044126c357e845156b1eb1"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_MJ_r03_U4_upscale_candidate_v1.png",
+      "git_status_at_inventory": "??",
+      "bytes": 4258413,
+      "sha256": "2072ac46c0349a990f84b743103170eb06d1c82b8f86da88fd2fb80667c8374b"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_owner_download_location_2026-11-20.png",
+      "git_status_at_inventory": "??",
+      "bytes": 344920,
+      "sha256": "9dd06b975fca73ee77e072d4a8009bcd7b2ecf2fbf1d82a43147c3f9cf27896a"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_r01_owner_grid_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1708656,
+      "sha256": "deba1f65edb346ea5d95824a3532b7abf7123cf72e06b4608c74dcfdc1b8e339"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_r02_owner_grid_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1670503,
+      "sha256": "34ad12988b41934d0e90574f2aeec3e624c493aaa62451cca39872706c77939a"
+    },
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_r03_owner_grid_preview.png",
+      "git_status_at_inventory": "??",
+      "bytes": 1729813,
+      "sha256": "659d4428ab0fca049a376bf33aa1bab19237e10f045b674d6eaec375d330892f"
+    },
+    {
+      "path": "TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v2/Niamh_side_static_v3_ornament_fix_v2.png",
+      "git_status_at_inventory": "??",
+      "bytes": 260403,
+      "sha256": "64d3639f2552dd2c57051a6d23693f91d32e8c887ccd5ae5cc04e4f841dfea53"
+    },
+    {
+      "path": "TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v2/static_before_v2.png",
+      "git_status_at_inventory": "??",
+      "bytes": 295590,
+      "sha256": "f57004b7112bcffdb5f994d49f6bb6e385093110020bf98656e651ca1ce79694"
+    },
+    {
+      "path": "TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v2/static_front_ornament_source_v2.psd",
+      "git_status_at_inventory": "??",
+      "bytes": 895630,
+      "sha256": "165504dbdaa5a8ee7596821dd94b6f63896ce03e9bd5c0dbd0239356ea84631b"
+    },
+    {
+      "path": "deprecated/BG01_BG02_2026-11-19_before_BG01_r02_downloads_v3.docx",
+      "git_status_at_inventory": "??",
+      "bytes": 1749322,
+      "sha256": "4420d0313782ade8a1d50714ef70849e4b3d0eb9ed66035b9fa081cea35f7750"
+    },
+    {
+      "path": "deprecated/BG01_BG02_2026-11-19_before_BG02_downloads_v2.docx",
+      "git_status_at_inventory": "??",
+      "bytes": 1249305,
+      "sha256": "5b47da2b345c8ca4e206ab4494a82b5912be527c9389dd6be2c99718fe86d18d"
+    },
+    {
+      "path": "deprecated/BG01_BG02_2026-11-19_pre_human_layout.docx",
+      "git_status_at_inventory": "??",
+      "bytes": 252240,
+      "sha256": "4c502fdd5f8f63cb53b90292fb24072cd3f279880f94ac1728f6fa04fcbc9b3b"
+    }
+  ],
+  "file_count": 69,
+  "total_bytes": 138062441,
+  "note": "Media and historical Word backups remain local and uncommitted. Future transfer method must account for the current plain-Git media tracking. No LFS upload performed."
+}

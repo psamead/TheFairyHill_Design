@@ -1,0 +1,27 @@
+{
+  "status": "U1_downloaded_archived_costume_reference_candidate",
+  "owner_feedback": "这次更接近点",
+  "evidence": "ForDesignScreenShot/2026-11-19_for-niamh-story-r03/01_owner_r03_costume_feedback.png",
+  "original_screenshot": "codex-clipboard-aa456673-35ab-40e4-9788-542024ded238.png",
+  "owner_selected_candidate": "U1 (top left), downloaded for retention",
+  "issued_prompt": "Niamh_MJ_r03_costume_trial_prompt.txt",
+  "agent_review": "四张都偏正面。左上U1的绿腰线、画面右侧的斜挎包及绿靴可作衣装参考；发带偏宽且裙面中心出现大纹章。原设计两条纵向绿金前襟仍需对照正面原图。第一轮U4保留作朝右互动姿势参考。",
+  "round": "r03",
+  "screenshot_sha256": "85350C51CB1B8E5E31C006B16D6C50E0AB5E510B6F369F5CABF485575C763161",
+  "date": "2026-11-19",
+  "actual_complete_submitted_prompt": null,
+  "actual_job_id": null,
+  "archive_verification": {
+    "download_evidence": "ForDesignScreenShot/2026-11-19_for-niamh-story-r03/02_owner_U1_download_location.png",
+    "dimensions": [
+      1792,
+      2688
+    ],
+    "archived_file": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r03_U1_upscale.png",
+    "sha256": "4451ecd2191247bdb839d33c85cee85c86aab0483be684af74a193d387959c05",
+    "renamed_download_file": "MJ_ref/Niamh_OP01_MJ_r03_U1_upscale.png",
+    "original_download_name": "psamead_Niamh_a_blonde_girl_with_soft_grey_eyes_a_silver_circle_ceacdf66-a3e1-4754-91eb-c90c2c37e8fd.png"
+  },
+  "canonical_current_file": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r03_U1_upscale.png",
+  "root_duplicate_consolidated_2026_11_20": true
+}

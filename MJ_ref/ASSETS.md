@@ -1,5 +1,25 @@
 # MJ_ref 图片资产清单（ASSETS）
 
+## 2026-11-20 OP02 三轮放大图归档
+
+[r01 U2、r02 U4、r03 U4](Slideshow/Opening_v1/OP02_listening_2026-11-20/README.md) 均已按原下载像素归档，2912 × 1632。对应原名与 SHA-256 见 [生成清单](Slideshow/Opening_v1/OP02_listening_2026-11-20/generation_record.json)。人读补页见 [OP02 三轮选图](../TechnicalArt/OP02_REFERENCE_ARCHIVE_2026-11-20.docx)。
+
+
+## 2026-11-20 BG01 第二轮放大原图
+
+[BG01_MJ_r02_U4_upscale_candidate_v1.png](Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r02_U4_upscale_candidate_v1.png) 与 [BG01_MJ_r02_U1_upscale_candidate_v1.png](Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r02_U1_upscale_candidate_v1.png) 已归档。均为 2912 × 1632，保留原下载像素与元数据。对应原名和 SHA-256 见 [生成清单](Slideshow/Opening_v1/generation_manifest.json)。人读附录与 Prompt 参考索引补页已同步到 [开场选图文档](../TechnicalArt/BG01_BG02_2026-11-19.docx)。
+
+
+## 2026-11-20 妮芙五张参考图归档
+
+三张 OP01 单人试验图统一位于 [单人制作试验目录](Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/README.md)，两张左右侧视图位于 [Turnaround_v3](Characters/Niamh/Turnaround_v3/README.md)。原路径、当前路径、尺寸及 SHA-256 见 [五图清单](Characters/Niamh/archive_manifest_2026-11-20.json)。人读资产附录及 Prompt 集参考索引补页为 [妮芙参考图归档](../TechnicalArt/NIAMH_REFERENCE_ARCHIVE_2026-11-20.docx)。
+
+
+## 2026-11-19 BG02 丘陵传说
+
+新归档 r01 U4、r03 U4、r06 U2、r06 U4 四张 PNG 原图。逐图链接、设计用途和状态见[BG02 下载原图表](Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r01_r02_record.md)，原下载名与 SHA-256 见[生成清单](Slideshow/Opening_v1/generation_manifest.json)。[选图补页](../TechnicalArt/BG01_BG02_2026-11-19.docx) 收录图像、用途与提示词入口。
+
+
 > 用途：给 Codex 等 Agent 读取，并用于追踪美术资产的版本。和 Word 版「附录 B / Prompt 集第 7 章」使用同一份数据。
 > 位置：`ShareWorkFolder/MJ_ref/`。最后更新：2026-11-17（妮芙动作参考原图归档）。
 
@@ -92,6 +112,10 @@
 - 2026-10-29：森林小径关键帧 `FOREST_KEY_01.png`（备选 `_b`）、扩图 `FOREST_KEY_01_pan.png`、远景试作 `FOREST_FAR_01.png`（未采用）；物件 `FOREST_PROP_BRAMBLE_01.png`（备选 `_b`）、`FOREST_PROP_THORNWALL_01.png`；S1 物件 `S1_PROP_WALL_LOW_01.png`、`S1_PROP_HAY_01.png`（备选 `_b`、`_c`）、`S1_PROP_GATE_01.png`。铁十字游戏道具取自 `AUTHOR_L7_66/CROSS_AUTHOR_REF.png`。
 - 2026-10-30：（不在 MJ_ref）新素材：`TechArtAsset/FX/FX_sparkle_star.png`、`FX_soft_dot.png`（脚本生成）；栅门三块、森林物件 v2、S1 前景 v2、森林草土边（均由已有图生成）。待 Nano Banana：UI 边框、荆棘墙边缘。
 - 2026-10-30：`UI_frame_celtic_stone.png`（Nano Banana 2.1，带石底的凯尔特边框，留作参考；游戏用副本在 `TechArtAsset/UI/Frame/`，另有白底版与透明版）。
+
+## 2026-11-19 BG01 黄昏村庄
+
+本次归档两张负责人下载的 MJ 原图（2912 × 1632）。[U4](Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r01_U4_upscale_candidate_v1.png) 建议用于衔接下一镜，[U3](Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r01_U3_upscale_candidate_v1.png) 为备选。原名、编号与 SHA-256 见 [生成清单](Slideshow/Opening_v1/generation_manifest.json)。人读版附录 B 和 Prompt 集第 7 章补页见 [BG01 候选与 BG02 提示词索引](../TechnicalArt/BG01_BG02_2026-11-19.docx)。
 
 ## 2026-11-14 开场故事画占位补充
 

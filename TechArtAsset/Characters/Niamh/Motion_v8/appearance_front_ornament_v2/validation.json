@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-19",
+  "visible_change_bounds": [
+    253,
+    372,
+    276,
+    432
+  ],
+  "visible_changed_pixels": 628,
+  "visible_changes_outside_ornament_patch": 0,
+  "alpha_equal": true,
+  "note": "PhotoCraft changes RGB stored under fully transparent pixels. Visible pixels outside original ornament patch match."
+}

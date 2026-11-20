@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-19",
+  "status": "proposal_awaiting_owner_review",
+  "reason": "负责人询问人物出现前是否需介绍背景、村庄和传说。Agent建议新增两张环境画，合计五张。",
+  "basis": [
+    "TechnicalArt/SLIDESHOW_OPENING_v1.md",
+    "STORY_BIBLE.md sections 8.4,8.7,8.8",
+    "DEMO_IMPLEMENTATION_PLAN.md section 3",
+    "AGENT_PROCESS_GUIDELINES.md sections 5.7,5.8",
+    "MIDJOURNEY_PROJECT_LESSONS.md"
+  ],
+  "current": {
+    "planned_unique_images": 3,
+    "available_placeholder_unique_images": 1,
+    "caption_beats": 3,
+    "chapter_card_seconds": 2,
+    "archive_evidence": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/"
+  },
+  "proposal": {
+    "unique_images": 5,
+    "display_pages_including_chapter_card": 6,
+    "chapter_card_art": "Reuse a story illustration with separately rendered title text; no sixth unique illustration required.",
+    "seconds": [
+      5,
+      5,
+      6,
+      7,
+      6
+    ],
+    "chapter_card_seconds": 2,
+    "order": [
+      "BG01",
+      "BG02",
+      "OP01",
+      "OP02",
+      "OP03"
+    ],
+    "caption_status": "以下两条为Agent新拟草稿",
+    "captions": {
+      "BG01": "Our village lay among the hills.",
+      "BG02": "They said another world lay beneath them."
+    },
+    "narrative": "村庄建立地点；丘陵配传说字幕建立神秘感；随后朋友玩耍、召唤、追向树林。契约内幕、Ogma死亡与替身、锁钥关系按后续章节揭示。",
+    "estimated_duration": "约33秒，含四次0.4秒过渡与2秒章节卡，实际可读性待验。"
+  },
+  "references": [
+    {
+      "file": "MJ_ref/S1_VILLAGE_KEY_03_pan_empty.png",
+      "role": "色彩、笔触、丘陵轮廓；此图为空景，未提供房屋造型"
+    },
+    {
+      "file": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/",
+      "role": "生成村庄前选含房屋的现有实机图核对建筑；具体图片待核对"
+    }
+  ],
+  "jobs": [
+    {
+      "shot": "BG01",
+      "prompt_file": "BG01_village_prompt_draft.txt",
+      "objective": "建立村庄与丘陵的空间关系",
+      "status": "r02_upscale_downloads_archived_u4_retained",
+      "actual_model": "7.0",
+      "job_id": null,
+      "output": [
+        "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r01_U4_upscale_candidate_v1.png",
+        "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r01_U3_upscale_candidate_v1.png"
+      ],
+      "round_record": "BG01_r01_record.md",
+      "latest_prepared_prompt": "BG01_r02_brushwork_discord_ready.txt",
+      "next_round_status": "r02_two_downloads_archived",
+      "r02_grid_preview": "BG01_r02_owner_grid_preview.png",
+      "r02_downloads": [
+        "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r02_U4_upscale_candidate_v1.png",
+        "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r02_U1_upscale_candidate_v1.png"
+      ]
+    },
+    {
+      "shot": "BG02",
+      "prompt_file": "BG02_hills_legend_prompt_draft.txt",
+      "objective": "建立丘陵下另有世界的传说氛围",
+      "status": "four_downloads_archived_final_art_pending",
+      "r06_grid_preview": "BG02_r06_owner_grid_preview.png",
+      "hill_edit_01": {
+        "base": "r03 U4",
+        "result_screenshot": "BG02_hill_edit_01_discord_results.png",
+        "displayed_model": "v7",
+        "displayed_aspect_ratio": "91:51",
+        "shape_guide": "BG02_hill_shape_guide_v1.png"
+      },
+      "r05_grid_preview": "BG02_r05_owner_grid_preview.png",
+      "approved_brushwork": {
+        "round": 4,
+        "scope": "overall direction at grid scale; U4 background strokes require softening at full size",
+        "evidence": "BG02_r04_owner_approved_brushwork.png",
+        "full_size_feedback": "BG02_r04_U4_owner_heavy_strokes.png"
+      },
+      "proposed_local_edit_base": "r03 U4 for approved composition; r05 U4 as hill lighting reference only",
+      "r04_grid_screenshot": "BG02_r04_discord_grid_screenshot.png",
+      "r05_local_edit_prompt": "BG02_r05_local_edit_prompt.txt",
+      "hill_outline_feedback": "BG02_r03_U4_owner_hill_outline.png",
+      "latest_prepared_prompt": "BG02_r06_brushwork_v2_discord_ready.txt",
+      "owner_distant_ridge_sky_visual_target": "BG02_owner_distant_ridge_sky_ref.png",
+      "approved_composition": {
+        "round": 3,
+        "candidate": "U4",
+        "scope": "composition only",
+        "evidence": "BG02_r03_U4_owner_brushwork_feedback.png"
+      },
+      "r04_prepared_prompt": "BG02_r04_prompt.txt",
+      "r04_style_reference": "OP01_grass_slope_sref_crop_v1.png",
+      "r03_grid_screenshot": "BG02_r03_discord_grid_screenshot.png",
+      "r02_grid_screenshot": "BG02_r02_discord_grid_screenshot.png",
+      "r03_prepared_prompt": "BG02_r03_discord_ready.txt",
+      "actual_model": "7.0 (r01 screenshot)",
+      "review_record": "BG02_r01_r02_record.md",
+      "r02_prepared_prompt": "BG02_r02_discord_ready.txt",
+      "job_id": null,
+      "output": [
+        "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r01_U4_candidate_v1.png",
+        "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r03_U4_candidate_v1.png",
+        "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r06_U4_candidate_v1.png",
+        "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r06_U2_candidate_v1.png"
+      ],
+      "round_prompt_file": "BG02_r01_prompt.txt",
+      "reference_image": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r01_U4_upscale_candidate_v1.png",
+      "reference_status": "provisional_continuity_reference",
+      "style_reference": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png"
+    }
+  ],
+  "workflow": "优先MJ。先试BG01一组并核对现有房屋与风格，再用选中结果延续BG02。记录实际模型、参数、参考用途、完整提示词、job和下载原文件、选中及退回理由。原OP01至OP03编号保留。"
+}

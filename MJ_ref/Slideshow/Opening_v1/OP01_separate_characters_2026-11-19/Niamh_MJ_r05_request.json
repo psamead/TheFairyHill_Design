@@ -1,0 +1,25 @@
+{
+  "status": "grid_received_reviewed",
+  "date": "2026-11-19",
+  "references": [
+    {
+      "role": "pose image prompt",
+      "file": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r01_U4_upscale.png",
+      "url": "https://cdn.discordapp.com/attachments/1556337295244926996/1572929992885796864/psamead_Niamh_a_blonde_girl_with_soft_grey_eyes_a_silver_circle_817fda2c-e51e-47fe-b4b7-acd115703f04.png?ex=6b0028b5&is=6afed735&hm=0d81c86bb23f1bd68ddef367e98e6b394836f7e60989c0676f6f003a30c4c8af",
+      "verification": "与第一轮下载原名一致，且负责人提供的截图与第一轮 U4 相符。"
+    },
+    {
+      "role": "character and style references",
+      "file": "MJ_ref/NIAMH_REF_v3.png",
+      "input": "延用第四轮参数中的 cref 与 sref"
+    }
+  ],
+  "single_change": "把第一轮 U4 的图片 URL 放到提示词开头，以图像提示提供朝右三分之四姿势。",
+  "actual_job_id": null,
+  "baseline_prompt": "Niamh_MJ_r04_facing_right_prompt.txt",
+  "round": "r05",
+  "prompt_template": "Niamh_MJ_r05_pose_reference_prompt_template.txt",
+  "selected_candidate": null,
+  "issued_prompt": "Niamh_MJ_r05_pose_reference_prompt.txt",
+  "review_file": "Niamh_MJ_r05_review.json"
+}

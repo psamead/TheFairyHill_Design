@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-20",
+  "purpose": "归档负责人指定的五张妮芙参考图",
+  "entries": [
+    {
+      "original_path": "MJ_ref/Niamh_OP01_MJ_r01_U4_upscale.png",
+      "current_path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r01_U4_upscale.png",
+      "sha256": "7477db9f4e78ecaff202cd50d1821fc0c7067f101ed5ecde4f5440e007bb18ca",
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "role": "朝右互动姿势参考，发长与衣装待核",
+      "action": "consolidated_identical_root_copy"
+    },
+    {
+      "original_path": "MJ_ref/Niamh_OP01_MJ_r03_U1_upscale.png",
+      "current_path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r03_U1_upscale.png",
+      "sha256": "4451ecd2191247bdb839d33c85cee85c86aab0483be684af74a193d387959c05",
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "role": "衣装参考，原前襟与纹样继续对照 v3",
+      "action": "consolidated_identical_root_copy"
+    },
+    {
+      "original_path": "MJ_ref/Niamh_OP01_MJ_r04_U4_upscale.png",
+      "current_path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r04_U4_upscale.png",
+      "sha256": "91ecd1860b16d99d1b5536efd912aa0396625bba0e6df8c3a7249ce9ebd22932",
+      "dimensions": [
+        1792,
+        2688
+      ],
+      "role": "伸手姿势与衣装参考",
+      "action": "consolidated_identical_root_copy"
+    },
+    {
+      "original_path": "MJ_ref/Niamh_v3_turnaround_facing_left.png",
+      "current_path": "MJ_ref/Characters/Niamh/Turnaround_v3/Niamh_v3_turnaround_facing_left.png",
+      "sha256": "cadfa337769a721a7bb6e573b1717156d248deea8c9abbfd6eeab5333cea483b",
+      "dimensions": [
+        350,
+        728
+      ],
+      "role": "v3 多视图中的朝左侧面裁图",
+      "action": "moved"
+    },
+    {
+      "original_path": "MJ_ref/Niamh_v3_turnaround_facing_right.png",
+      "current_path": "MJ_ref/Characters/Niamh/Turnaround_v3/Niamh_v3_turnaround_facing_right.png",
+      "sha256": "f1e7024d8d836609041d59d970b6ddd73842aa677dec3f548b44b012637f9568",
+      "dimensions": [
+        350,
+        728
+      ],
+      "role": "v3 多视图中的朝右侧面裁图",
+      "action": "moved"
+    }
+  ],
+  "status": "reference_and_study_assets",
+  "original_generation_metadata": "见各轮既有 review JSON；本次只整理存储与引用"
+}

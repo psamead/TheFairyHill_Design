@@ -1,0 +1,16 @@
+{
+  "issued_prompt": "Niamh_MJ_r04_facing_right_prompt.txt",
+  "date": "2026-11-19",
+  "selected_candidate": null,
+  "reference_and_parameter_changes": "none",
+  "baseline_prompt": "Niamh_MJ_r03_costume_trial_prompt.txt",
+  "actual_job_id": null,
+  "comparison": [
+    "r03 U1 用于比较衣装结构与画风",
+    "r01 U4 用于比较朝右伸手的姿势"
+  ],
+  "status": "grid_received_reviewed",
+  "objective": "用肩、胯、鼻尖、视线以及手势明确三分之四朝右。",
+  "round": "r04",
+  "review_file": "Niamh_MJ_r04_review.json"
+}

@@ -117,6 +117,16 @@
       "provenance": "Owner downloaded from Discord; composition matches r04 U4. Original filename UUID is not asserted to be the parent generation job ID."
     }
   ],
+  "story_illustration_style_decision": {
+    "date": "2026-11-19",
+    "status": "owner_confirmed_visual_style",
+    "scope": "In-game story illustrations",
+    "visual_evidence": "ForDesignScreenShot/2026-11-18_for-opening-cross-raise/01_opening_0_1920.png",
+    "visual_evidence_sha256": "0f10bcd05aaa959d33127aa7cc7e2eb5d8ae78ad7c74e6c9d20a60fff533b35e",
+    "source_art": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png",
+    "source_art_sha256": "556d74b13b65abc123ebc88020ab506aac11b4ab04c73398ca501cb0fdf26aa3",
+    "method_notes": "TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md"
+  },
   "placeholder": {
     "file": "TechArtAsset/Storyboards/Opening_v1/placeholder/OP01_friends_dusk_placeholder_v1.png",
     "source": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png",
@@ -129,5 +139,188 @@
       "Costume and relic continuity require final-art review"
     ],
     "OP02_OP03": "No dedicated final images. Reuse OP01 temporarily with separate text beats; never claim three completed illustrations."
+  },
+  "BG01_r01": {
+    "date": "2026-11-19",
+    "record": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r01_record.md",
+    "actual_model": "7.0",
+    "original_grid": null,
+    "parent_job_id": null,
+    "owner_selection": null,
+    "downloaded_original_files": [
+      {
+        "candidate": "U4",
+        "original_download_name": "psamead_Wide_establishing_shot_from_a_grassy_rise_overlooking_a_6646b801-f27c-4940-a090-2780e391070c.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r01_U4_upscale_candidate_v1.png",
+        "dimensions": [
+          2912,
+          1632
+        ],
+        "sha256": "6fcf74a6e65018f1b81fedba58144f96a9f02833044219a7ddbfcb7c8c88aad7",
+        "image_guid": "6646b801-f27c-4940-a090-2780e391070c"
+      },
+      {
+        "candidate": "U3",
+        "original_download_name": "psamead_Wide_establishing_shot_from_a_grassy_rise_overlooking_a_966b091c-df60-41fe-8ea7-81b80d98bdc3.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r01_U3_upscale_candidate_v1.png",
+        "dimensions": [
+          2912,
+          1632
+        ],
+        "sha256": "00bb7ec9963bf2c5dec1a2c54b93bcd580621398c3a583c9e3c4594f592ba72e",
+        "image_guid": "966b091c-df60-41fe-8ea7-81b80d98bdc3"
+      }
+    ]
+  },
+  "BG02_owner_downloads_2026_11_19": {
+    "date": "2026-11-19",
+    "status": "four_originals_archived_final_art_pending",
+    "record": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r01_r02_record.md",
+    "downloaded_original_files": [
+      {
+        "round": 1,
+        "candidate": "U4",
+        "original_download_name": "psamead_A_quiet_grassy_mound_above_the_fields_of_an_Irish_villa_445efdb1-5b33-480c-8606-ec83f087fb44.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r01_U4_candidate_v1.png",
+        "dimensions": [
+          1456,
+          816
+        ],
+        "sha256": "da94c5efde51ec96fb052bf514212da4232e253a1e33032170f97c1e04e5ccc4",
+        "image_guid": "445efdb1-5b33-480c-8606-ec83f087fb44",
+        "grid_evidence": "BG02_r01_discord_grid_screenshot.png",
+        "role": "首轮草丘和坡脚埋石的早期参考"
+      },
+      {
+        "round": 3,
+        "candidate": "U4",
+        "original_download_name": "psamead_Wide_landscape_view_across_an_open_Irish_valley_at_dusk_ee13cd37-7136-4cbe-82ed-ec7f5c9bd1d5.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r03_U4_candidate_v1.png",
+        "dimensions": [
+          1456,
+          816
+        ],
+        "sha256": "3d1e2e8922dda6ddfa0672d3caa2d42191044bc6286e4d875ee11e7b86b79104",
+        "image_guid": "ee13cd37-7136-4cbe-82ed-ec7f5c9bd1d5",
+        "grid_evidence": "BG02_r03_discord_grid_screenshot.png",
+        "role": "负责人确认的远景构图；丘体按红线加大"
+      },
+      {
+        "round": 6,
+        "candidate": "U4",
+        "original_download_name": "psamead_Wide_view_across_an_Irish_valley_at_dusk._A_single_roun_1cec9760-8653-46e0-be46-6b391eab73c1.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r06_U4_candidate_v1.png",
+        "dimensions": [
+          1456,
+          816
+        ],
+        "sha256": "2f04cc5ebbd13b851cc556e7499cd271c552fa063dc6aa08a28c032ad25b16ff",
+        "image_guid": "1cec9760-8653-46e0-be46-6b391eab73c1",
+        "grid_evidence": "BG02_r06_owner_grid_preview.png",
+        "role": "灰绿远山色块参考；中央独立丘形不明显"
+      },
+      {
+        "round": 6,
+        "candidate": "U2",
+        "original_download_name": "psamead_Wide_view_across_an_Irish_valley_at_dusk._A_single_roun_83a5c644-1bff-43e2-bb3b-762365248b54.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r06_U2_candidate_v1.png",
+        "dimensions": [
+          1456,
+          816
+        ],
+        "sha256": "c8ae37f7b78c6ef8224aa5aa401ee25e8fabb057790b58ba6306948c4454fee4",
+        "image_guid": "83a5c644-1bff-43e2-bb3b-762365248b54",
+        "grid_evidence": "BG02_r06_owner_grid_preview.png",
+        "role": "丘顶受光和阴面参考；右坡脚融入远坡"
+      }
+    ],
+    "actual_prompt_note": "r06 filenames agree with the v2 opening words; exact submitted text and parameters unverified. Image GUIDs are not verified parent job IDs."
+  },
+  "BG01_r02": {
+    "date": "2026-11-20",
+    "status": "two_upscale_downloads_archived",
+    "downloaded_original_files": [
+      {
+        "candidate": "U4",
+        "round": 2,
+        "original_download_name": "psamead_Wide_storybook_view_of_a_small_Irish_village_at_dusk._A_129718b6-fefc-4764-920f-f804616ff75c.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r02_U4_upscale_candidate_v1.png",
+        "dimensions": [
+          2912,
+          1632
+        ],
+        "sha256": "5c37b76780bf7822f48bf9322d8f494e6a8fed72e1ab53121901cc82974925bb",
+        "image_guid": "129718b6-fefc-4764-920f-f804616ff75c",
+        "role": "本轮优先保留候选，村口、田野和谷地关系清楚；远丘田界线条仍需复核"
+      },
+      {
+        "candidate": "U1",
+        "round": 2,
+        "original_download_name": "psamead_Wide_storybook_view_of_a_small_Irish_village_at_dusk._A_da5f1477-052f-4ca7-91ec-2f2015fe2524.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_MJ_r02_U1_upscale_candidate_v1.png",
+        "dimensions": [
+          2912,
+          1632
+        ],
+        "sha256": "e05da818eefda8741634e492acc12ecb8fe1a73182b49929a9f84a312350da3a",
+        "image_guid": "da5f1477-052f-4ca7-91ec-2f2015fe2524",
+        "role": "近草斜向笔触参考，屋角及山脊勾线较重"
+      }
+    ],
+    "owner_feedback": "ok，已经放大下载，根据规则改名字和放到相应文件夹归档",
+    "selection_scope": "U4 retained as the preferred candidate; U1 retained as grass-stroke reference. Final-art approval pending.",
+    "prepared_prompt_file": "MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r02_brushwork_discord_ready.txt",
+    "actual_submitted_prompt": null,
+    "actual_parameters": null,
+    "parent_job_id": null,
+    "provenance_note": "Candidate positions verified against owner grid screenshot. Filename UUIDs recorded as image identifiers; parent generation job IDs unverified."
+  },
+  "OP02_download_archive_2026_11_20": {
+    "record": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/generation_record.json",
+    "status": "three_upscale_candidates_archived",
+    "downloaded_original_files": [
+      {
+        "round": 1,
+        "candidate": "U2",
+        "original_download_name": "psamead_A_hand-painted_opening_story_illustration_at_golden_dus_215369a4-a8b9-4687-b4eb-2beb1c635fc3.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_MJ_r01_U2_upscale_candidate_v1.png",
+        "dimensions": [
+          2912,
+          1632
+        ],
+        "sha256": "9fdb6025bda69f8cb8bc13c1d58f2bab3d1808eaa34262bf9b0c263f1c61ddec",
+        "image_guid": "215369a4-a8b9-4687-b4eb-2beb1c635fc3",
+        "grid_evidence": "OP02_r01_owner_grid_preview.png",
+        "role": "表情参考；微张嘴，背景仍为陡崖"
+      },
+      {
+        "round": 2,
+        "candidate": "U4",
+        "original_download_name": "psamead_Wide_hand-painted_story_illustration_at_golden_dusk._A__c60b1026-6e53-4333-a864-047a02784db9.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_MJ_r02_U4_upscale_candidate_v1.png",
+        "dimensions": [
+          2912,
+          1632
+        ],
+        "sha256": "f8da7f944d74be153fe6163b7ffcb7a6c004b05945044126c357e845156b1eb1",
+        "image_guid": "c60b1026-6e53-4333-a864-047a02784db9",
+        "grid_evidence": "OP02_r02_owner_grid_preview.png",
+        "role": "听声停顿参考；面部仍偏正"
+      },
+      {
+        "round": 3,
+        "candidate": "U4",
+        "original_download_name": "psamead_Wide_hand-painted_story_illustration_at_golden_dusk._A__c90b8537-6524-496a-8efd-881c372d3211.png",
+        "file": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_MJ_r03_U4_upscale_candidate_v1.png",
+        "dimensions": [
+          2912,
+          1632
+        ],
+        "sha256": "2072ac46c0349a990f84b743103170eb06d1c82b8f86da88fd2fb80667c8374b",
+        "image_guid": "c90b8537-6524-496a-8efd-881c372d3211",
+        "grid_evidence": "OP02_r03_owner_grid_preview.png",
+        "role": "本阶段优先保留候选；转头与目光更偏右"
+      }
+    ]
   }
 }

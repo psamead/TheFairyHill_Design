@@ -1,5 +1,18 @@
 # Midjourney prompting — lessons from Lantern Keeper and Fairy Hills
 
+## 2026-11-20 Fairy Hills environment and listening trials
+
+Current evidence is in [the dated production summary](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md), BG01/BG02 round records, and OP02_listening_2026-11-20. Earlier shared-project examples below retain their original dates.
+
+1. Describe the visible spatial relationship before texture. “From the foot of the mound” produced a close view; an open meadow before a complete middle-distance hill produced more space. Check the selected image against the owner-marked outline.
+2. Give each reference a job. OP01 supplies overall rendering, v3 supplies identity, BG02 r03 U4 supplies composition, and the grass crop supplies near-ground strokes. A grass-only crop contains little evidence for distant clouds or ridges.
+3. Assess stroke strength at full size. Dense dark contours around distant hills and clouds became much stronger in single-image views than in grids. Describe nearby tapered grass, middle-distance light and shadow, and low-contrast distant shapes separately.
+4. A three-colour shape guide can supply the hill outline while introducing smooth bands. Separate silhouette review from paint review, and record the influence of each reference. The resulting image prompt still allowed changes in hill scale and placement.
+5. Erasing the whole mound in the tested V7 editor returned continuous meadow or distant slopes in all four outputs. Preserve that mask and output as a failed trial. Local upload and URL import of an external composite also failed in this session; record the specific surface and error.
+6. OP02 repeatedly faced the viewer. Put the listening action and shoulder, head and eye direction first. The third prepared prompt changed cw 100 to 40, but the result screenshot omits settings, so the weight effect remains unverified. Costume drift continued.
+7. Keep ready-to-submit text distinct from the actual submitted job. Save original downloads, dimensions, SHA-256, candidate index and reasons. Treat filename UUIDs as image identifiers until the parent job is verified. A retained candidate has a narrower evidence state than final approval.
+
+
 Compiled 2026-11-18 for agents continuing these projects. Purpose: reuse the reasoning and evidence behind prompts, not blindly replay old parameter strings. This guide adds no new art decision and ran no generations.
 
 ## Before writing a prompt

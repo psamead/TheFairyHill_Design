@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-19",
+  "tool": "Codex ImageGen",
+  "model_version": null,
+  "status": "候选待审",
+  "references": [
+    {
+      "path": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_composite_v01.png",
+      "role": "改绘底图及姿势、构图、衣装位置"
+    },
+    {
+      "path": "MJ_ref/NIAMH_REF_v3.png",
+      "role": "身份、原版笔触、头饰与服装细节"
+    }
+  ],
+  "prompt": "Redraw the single full-body Niamh character in image 1 in the exact delicate hand-painted storybook treatment of image 2, for the user's original game. Image 1 is the edit target and composition guide. Retain her leg and foot placement, her three-quarter turn to screen right, quiet smile and gaze to the right, the relaxed open hand reaching toward the right and the other arm lowered, and the placement of each garment and the brown crossbody satchel. Use image 2 for her identity and rendering: the soft grey irises, the silver openwork circlet with its small green clover at the center, the original fringe and gentle hair waves, thin warm brown outlines, soft matte paint, restrained shading and delicate fabrics. The green cape has muted gold interlaced detailing and a dark teal lining. Preserve the separate green belt and the two distinct narrow green panels of fine interlaced gold embroidery that run vertically from the waist to the hem. The pale cream skirt between them bears fine, sparse pale-green vine embroidery near the hem. Keep the face, proportions and treatment close to the original design. The long golden hair ends near the skirt hem with a visible margin between hair and canvas edge. Niamh has bare hands and wears no cross in this opening scene. One figure only, full body including the complete circlet, hair, all hand gestures and soles, with white margin on each side. Pure white flat background, portrait 2:3, no text, no ornament around the figure.",
+  "transparent_background": false,
+  "output": {
+    "filename": "Niamh_OP01_ImageGen_style_trace_v01.png",
+    "original_filename": "exec-e5110cac-22bc-484c-b118-5fc14c7e7dc2.png",
+    "sha256": "7e7dde084379ad90dd67793ed13b1b8c2a94f7879eca97d70a07c97237be1e69",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  "review": "保住朝右伸手、绿腰带和双条绿金前襟，补回头饰三叶草、棕包、披风金纹和深青内衬。比原设计纸面颗粒及阴影更重，发尾仍垂到靴筒附近，需审看。"
+}

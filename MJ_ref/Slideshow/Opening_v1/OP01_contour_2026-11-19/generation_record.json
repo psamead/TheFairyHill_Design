@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-19",
+  "shot": "OP01",
+  "objective": "减轻双人外轮廓的贴纸感",
+  "imagegen": {
+    "file": "OP01_ImageGen_contour_v1.png",
+    "original": "exec-dfae30ef-3146-43c3-90a1-5bc1629b12f4.png",
+    "sha256": "cc9323d689aa733cdb49d30e7d87486d9e2c55710551f0107f9c2877ae2f26de",
+    "references": [
+      {
+        "path": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_candidate_v1.png",
+        "role": "edit target"
+      },
+      {
+        "path": "MJ_ref/NIAMH_REF_v3.png",
+        "role": "identity and linework"
+      },
+      {
+        "path": "MJ_ref/OISIN_REF_v3.png",
+        "role": "identity and linework"
+      }
+    ],
+    "prompt": "Edit the first supplied full-bleed wide illustration, OP01 of The Fairy Hills, as a closely registered alternative of the exact same frame. Single study: soften the heavy continuous ink around the two figures into delicate hand-drawn local-colour contours like the character sheets. Particularly the backlit blonde hair tips against the sky, green cloak against blue hills, and curved edge of the red shawl. Let lit edges intermittently dissolve into adjoining colour, retain crisp eyes, embroidery and expressive faces. No global blur or veil. References 2 and 3 are solely identity and linework guides, do not transpose the frontal poses. Keep framing, proportions, gestures, distance between hands, horizon, clouds, field, lighting, and palette of image 1. Niamh at left with long blonde hair, grey eyes, circlet, green cloak; no cross on Niamh in the opening. Oisin at right with amber eyes, red hair, roses and daisies and red shawl. Keep the pair looking at one another happily. Wide 16:9 single story illustration, no text, margins, or labels.",
+    "transparent_background": false,
+    "model_version": null,
+    "review": "对照试稿。人物深色外线减轻，但发梢和披肩出现连续金色亮边；妮芙眼色仍偏绿。待负责人审看。"
+  },
+  "midjourney": {
+    "status": "prepared_unsubmitted",
+    "prompt_file": "MJ_edit_prompt.txt",
+    "edit_target": "../OP01_MJ_r04_U4_candidate_v1.png",
+    "notes": "手动在可输入编辑指令的 MJ 入口使用原始 OP01 作为底图；对照两张 v3 校对人物。",
+    "job_id": null,
+    "actual_model": null
+  }
+}

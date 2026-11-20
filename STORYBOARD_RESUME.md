@@ -1,5 +1,28 @@
 # 妖精丘陵：新对话接续入口
 
+## 2026-11-20 当前接续
+
+先读 [本轮进度与经验](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md)。BG01 r02 U4 与 OP02 r03 U4 为优先候选，原图及备选已归档。BG02 构图取 r03 U4，丘体与远景线条仍待修。下一张新画面为 OP03 两人向右跑向树林。人读汇总见 [开场故事画进度与经验](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.docx)。本次先推文档，媒体待晚些传输，清单见 TechnicalArt/STORYBOARD_PENDING_MEDIA_2026-11-20.json。
+
+以下各日期段落保留当时准备、回图与归档状态。
+
+
+**2026-11-20 OP02 三张放大图归档完成。** [r01 U2、r02 U4、r03 U4](MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/README.md) 已逐图核对，均 2912 × 1632。r03 U4 作为本阶段优先候选，人物衣装、远处门缝与冷光继续待审。
+
+
+**2026-11-20 下一张 OP02 已准备。** 已核对原分镜，首轮图稿与参考分工见 [奥伊芯听见召唤](MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/README.md)。待取得奥伊芯 v3 身份图与 OP01 无界面风格图的媒体链接，再由负责人提交。BG02 待审项沿用原记录。
+
+**2026-11-20 BG01 第二轮放大图已归档。** [U4 为本轮保留候选、U1 为草地笔向参考](MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r01_record.md)，两张均 2912 × 1632。远丘及田界的连续深线保留为待审项。BG02 的四张既有下载图继续按原记录保存。
+
+
+**2026-11-20 妮芙参考图存储已整理。** 三张 OP01 单人试验图归入原试验目录，左右侧视裁图归入 MJ_ref/Characters/Niamh/Turnaround_v3/。入口见 [五图归档清单](MJ_ref/Characters/Niamh/archive_manifest_2026-11-20.json)。BG01 村庄笔触第二轮继续按上一条任务推进。
+
+
+**2026-11-19 开场背景进度。** BG02 [四张下载原图已归档](MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_r01_r02_record.md)，构图以 r03 U4 为准，最终成图待选。当前返回 [BG01 黄昏村庄笔触修订](MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG01_r02_brushwork_discord_ready.txt)，r02 双参考提示词待提交。
+
+
+**2026-11-19 游戏内故事画风格已确认。** 负责人选定 [OP01 黄昏草坡实机截图](ForDesignScreenShot/2026-11-18_for-opening-cross-raise/01_opening_0_1920.png) 所示插画的画风。后续故事画使用 [无界面放大原图](MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png) 对齐笔触和画面层次，并用 v3 原设核对人物身份、衣装和饰物。单人 MJ 姿势、PhotoCraft 分层合成、Nano Banana 与 ImageGen 试验的实测经验已写入 [故事画知识库](TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md#2026-11-19-故事画风格基准与制作方法)。本条为当前故事画接续入口。
+
 **2026-11-19 Unity反馈已整理并推送后停止：** 网络端完成Editor编译与工具驱动Play Mode检查；20张原生Game view截图、Handoff、result.json与SHA256清单归档于 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/`。验证覆盖开场两种尺寸、按键下划线、Skip/输入保护、正常拾取、B直接举高左右朝向及红墙消解恢复。它不是负责人亲自完整跑关；画面、声音、手感、性能与路线仍待负责人审看。报告的恢复速度`(3.2,11.4)`与保存日志`(0,0)`不一致，先复核再引用。Next/Skip在亮天空上对比偏弱只是设计端观察，未改动。Unity端后续设计问题等负责人补充；故事生图在新对话继续。本窗口完成文档同步与推送后停下，不自动改Unity或界面。
 
 **2026-11-19 实机截图已归档：** 网络电脑本轮Unity反馈及20张原生截图已复制到 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/`，源图保留，SHA256一致。该目录README提供开场、按键下划线、左右举高与恢复的图片入口，并附原Handoff/result及验收边界。报告记录Editor编译和工具驱动Play Mode检查；用户视觉／声音认可与完整人工路线仍待确认。此轮只整理截图和规则，不修改Unity代码或场景。
@@ -77,7 +100,7 @@ Agent 使用原则见 `TechnicalArt/NIAMH_ANIM_LIST_DEMO.md`，人读说明见 `
 
 ## 当前决定与保留问题
 
-用户批准 r04 U4 放大图占位，正式人物仍需改善偏 Q、重轮廓和眼色。背景整体可用，暂不继续整人物区域重绘：两人重绘变成偏写实背影，单人重绘使妮芙消失。Vary(Subtle)两次未出现提示词框，建议追加的词没有被确认提交。这些是实测结果，根因未隔离。原图、失败提示词和截图已归档；不把占位图当角色定稿。
+2026-11-14 占位与试验记录：用户批准 r04 U4 放大图占位。当时记录偏 Q、重轮廓和眼色问题。整人物区域重绘曾把两人变成偏写实背影，单人重绘曾使妮芙消失。Vary(Subtle) 两次未出现提示词框，追加词的提交待核实。原图、失败提示词和截图已归档。当前画风方向见本文顶部 2026-11-19 决定。
 
 2026-11-16 妮芙动作状态：负责人认可双手捧十字架的概念姿势与当前生成图的游戏内风格贴合度。Midjourney 的 U2 仅提供手臂姿势参考；最终概念图通过 Codex 内置 ImageGen，以现有妮芙侧面图、MJ 姿势图和 Unity 十字架资产为参考生成。现阶段仅是静态动作概念，尚未拆件、动画化、放入 Unity 或验收运行。先完成离线动作预览，再交负责人确认。方法和图片路径见上述人读说明与角色动作经验文档。
 

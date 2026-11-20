@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-19",
+  "screenshot_sha256": "ee3b1eb63c4dc983948ed9839bd2b26788dcd263559f9595a0c746d9d4a76c8a",
+  "actual_complete_submitted_prompt": null,
+  "agent_review": "右伸手在 U1、U3、U4 可见。四张脸和躯干仍整体偏正面，本轮朝右三分之四姿势目标未达。U3 左下有单条绿底金纹纵向前襟，可作局部参考。原设计两条从绿腰带垂下的前襟仍需依照正面原设计。",
+  "issued_prompt": "Niamh_MJ_r04_facing_right_prompt.txt",
+  "original_screenshot": "codex-clipboard-b9b64849-438e-437f-9806-6056d3855065.png",
+  "status": "U4_downloaded_archived_candidate",
+  "agent_recommendation": "保留 r01 U4 作朝右互动姿势参考，r03 U1 作衣装轮廓对照。如继续试验，优先评估带朝右姿势图的参考方案。",
+  "actual_job_id": null,
+  "evidence": "ForDesignScreenShot/2026-11-19_for-niamh-story-r04/01_owner_r04_grid.png",
+  "owner_selected_candidate": "U4 (bottom right), downloaded for retention",
+  "round": "r04",
+  "archive_verification": {
+    "archived_file": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r04_U4_upscale.png",
+    "download_evidence_sha256": "4a31bedddfc6834d08546af289e7c6643ed3a23b6e8a651df77c25aad49cee4f",
+    "download_evidence": "ForDesignScreenShot/2026-11-19_for-niamh-story-r04/02_owner_U4_download_location.png",
+    "download_evidence_original_name": "codex-clipboard-d2beed2e-3112-4d4b-b178-10af1318fb1f.png",
+    "dimensions": [
+      1792,
+      2688
+    ],
+    "renamed_download_file": "MJ_ref/Niamh_OP01_MJ_r04_U4_upscale.png",
+    "original_download_name": "psamead_Full-body_right-facing_three-quarter_view._Niamh_turns__b31ada0a-7530-461e-bfdd-65d457694db7.png",
+    "sha256": "91ecd1860b16d99d1b5536efd912aa0396625bba0e6df8c3a7249ce9ebd22932"
+  },
+  "canonical_current_file": "MJ_ref/Slideshow/Opening_v1/OP01_separate_characters_2026-11-19/Niamh_OP01_MJ_r04_U4_upscale.png",
+  "root_duplicate_consolidated_2026_11_20": true
+}
