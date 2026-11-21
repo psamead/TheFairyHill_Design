@@ -1,5 +1,19 @@
 # 妖精丘陵：新对话接续入口
 
+## 2026-11-22 OP03 局部修订候选已归档
+
+[OP03 归档](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/README.md) 已收录第二轮 r02 U2 的三次局部修改，以及去挂件后选出的 U4 放大原图。首轮 U4 保留为跑姿参考。先用原图核对双人朝右追赶的步态，再按[修订版妮芙侧身图](TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v2/Niamh_side_static_v3_ornament_fix_v2.png)补绿色前襟与金纹，按手臂位置处理遮挡。绿靴、银叶额饰、右侧树线和字幕留白继续待审。
+
+人读见 [OP03 候选与提示词](TechnicalArt/OP03_REFERENCE_ARCHIVE_2026-11-22.docx)。局部选区、四宫格、原下载名和校验值可从归档目录进入。当前仍处于设计候选阶段。
+
+## 2026-11-21 OP03 首轮起点
+
+负责人已确认开始 OP03。上一批开场素材已通过 Git LFS 推送，媒体提交为 `1167de3`。BG01 r02 U4 与 OP02 r03 U4 是优先候选；BG02 r03 U4 保留构图，丘形待修。阶段详情见[上轮进度](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md)。
+
+首轮看动作。奥伊芯在右前方跑向树线，妮芙在左后方追赶，两人都朝右。地点在村外草地，左侧仍有村庄暖光，右侧出现较冷的树影。缩小图后应能看出谁领跑、谁追赶。底部约五分之一留给后加字幕 “Oisín ran towards the trees. Niamh followed.”
+
+参考分工：用 [OP01 无界面原图](MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png) 对齐整幅笔触，用 [奥伊芯 v3](MJ_ref/OISIN_REF_v3.png) 和 [妮芙 v3](MJ_ref/NIAMH_REF_v3.png) 核对身份与衣装。十字架此时由奥伊芯携带。按[提示词经验](MIDJOURNEY_PROJECT_LESSONS.md)处理双人参考；[旧 OP03 草稿](MJ_ref/Slideshow/Opening_v1/OP03_prompt.txt)仅供核对分镜。交接时 OP03 尚待首轮提交。下一步由新对话准备 Discord 提示词和配图说明，负责人提交后回传四宫格。
+
 ## 2026-11-20 当前接续
 
 先读 [本轮进度与经验](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md)。BG01 r02 U4 与 OP02 r03 U4 为优先候选，原图及备选已归档。BG02 构图取 r03 U4，丘体与远景线条仍待修。下一张新画面为 OP03 两人向右跑向树林。人读汇总见 [开场故事画进度与经验](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.docx)。本次先推文档，媒体待晚些传输，清单见 TechnicalArt/STORYBOARD_PENDING_MEDIA_2026-11-20.json。

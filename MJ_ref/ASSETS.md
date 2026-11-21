@@ -1,5 +1,9 @@
 # MJ_ref 图片资产清单（ASSETS）
 
+## 2026-11-22 OP03 去挂件候选归档
+
+[U4 放大原图及参考](Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/README.md) 已归档。原图 2912 × 1632，保留为去挂件后的设计候选。原下载名和 SHA-256 见 [生成清单](Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/generation_record.json)。人读附录 B 与 Prompt 第 7 章补页见 [OP03 候选与提示词](../TechnicalArt/OP03_REFERENCE_ARCHIVE_2026-11-22.docx)。
+
 ## 2026-11-20 OP02 三轮放大图归档
 
 [r01 U2、r02 U4、r03 U4](Slideshow/Opening_v1/OP02_listening_2026-11-20/README.md) 均已按原下载像素归档，2912 × 1632。对应原名与 SHA-256 见 [生成清单](Slideshow/Opening_v1/OP02_listening_2026-11-20/generation_record.json)。人读补页见 [OP02 三轮选图](../TechnicalArt/OP02_REFERENCE_ARCHIVE_2026-11-20.docx)。
@@ -21,7 +25,7 @@
 
 
 > 用途：给 Codex 等 Agent 读取，并用于追踪美术资产的版本。和 Word 版「附录 B / Prompt 集第 7 章」使用同一份数据。
-> 位置：`ShareWorkFolder/MJ_ref/`。最后更新：2026-11-17（妮芙动作参考原图归档）。
+> 位置：`ShareWorkFolder/MJ_ref/`。最后更新：2026-11-22（OP03 去挂件候选归档）。
 
 ## 约定
 
@@ -33,6 +37,9 @@
 
 | 文件 | 类别 | 对象 | 版本 | 来源 | 生成 / 裁切方式 | 用途 | 状态 |
 |---|---|---|---|---|---|---|---|
+| Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_MJ_r02_region03_U4_upscale_candidate_v1.png | 故事画 | OP03 两人跑向树林 | v1 | r02 U2 经三次局部修改 | 去挂件 U4 放大下载原图 | 衣装与构图修订底图 | 候选 |
+| Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/references/OP03_r02_v3_side_reference.png | 角色参考 | 双人朝右侧面 | r02 | 两张 v3 侧视图 | 妮芙左、奥伊芯右并排 | 追溯本轮双人参考 | 历史 |
+| Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/references/OP03_v3_side_reference_front_ornament_v2.png | 角色参考 | 双人朝右侧面 | v2 | 11 月 19 日修订妮芙侧视与奥伊芯 v3 | 以修订妮芙图替换左半 | 核对绿色前襟与金纹 | 当前参考 |
 | ../TechArtAsset/Characters/Niamh/Cross_Actions/current/Niamh_cross_chest_local_v1.png | 动作静帧 | 妮芙胸前局部使用 | v1 | 用户胸前修订 PSD | 图层命名分组，右侧补透明画布至350×699，像素验证通过 | 关卡小怪、小障碍、小剧情；同名PSD为当前入口 | 当前静帧 |
 | ../TechArtAsset/Characters/Niamh/Cross_Actions/current/Niamh_cross_raised_story_v1.png | 动作静帧 | 妮芙举起剧情释放 | v1 | 用户第二稿PSD | 图层命名分组，右裁全透明区至350×699，像素验证通过 | 剧情大光线、大型障碍湮灭的姿势；尚无光束特效 | 当前静帧 |
 | ../TechArtAsset/Characters/Niamh/Cross_Actions/archive/psd_trials/Niamh_chest_hold_organized_v1.png | 动作静帧 | 妮芙胸前捧十字架 | v1 | 用户 `clean_wip_v1_m.psd` | 完整人物参考剪贴，用户手绘袖口及裁切游戏十字架；Agent 仅整理图层并导出 | 历史胸前命名稿；已由 Cross_Actions/current 中两动作取代 | 参考 |
@@ -83,6 +90,8 @@
 | WOOD_WALL_REF.png | 场景 | 木墙、火把与刻痕符号 | v0-作者新稿 | 原作者新稿裁切（场景第一部分.jpg） | 从原图裁切，原尺寸 | 媒介小屋内部（回忆）或改石墙作 S3 欧甘字谜墙 | 参考（v2.2） |
 
 ## 变更记录
+
+- 2026-11-22：将 OP03 去挂件 U4 放大原图移入镜头专用目录，校验原图散列一致。归档双人参考、三次局部选区与回传四宫格，更新人读补页和知识库。
 
 - 2026-11-17 前襟花纹：将用户第二动作新增金色花纹同步胸前PSD/PNG、当前Motion_v8身体和静态备用图；保持尺寸、原点与alpha，用户原PSD保留。Unity对应两张PNG已复制且meta不变；导入与运行画面未验证。补片与版本记录见 `TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v1/`。
 

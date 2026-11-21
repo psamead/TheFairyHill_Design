@@ -67,3 +67,14 @@ deprecated/BG01_BG02_2026-11-19_pre_human_layout.docx filter=lfs diff=lfs merge=
 ForDesignScreenShot/2026-11-19_for-niamh-story-r04/01_owner_r04_grid.png filter=lfs diff=lfs merge=lfs -text
 MJ_ref/Characters/Niamh/Turnaround_v3/Niamh_v3_turnaround_facing_right.png filter=lfs diff=lfs merge=lfs -text
 MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r06_U4_candidate_v1.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/evidence/08_region03_pendant_owner_grid.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/references/OP03_r02_v3_side_reference.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/references/OP03_v3_side_reference_front_ornament_v2.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_MJ_r02_region03_U4_upscale_candidate_v1.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/evidence/01_r01_owner_grid.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/evidence/04_region01_head_owner_grid.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/evidence/05_region02_circlet_mask_prompt.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/evidence/07_region03_pendant_mask_prompt.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/evidence/02_r02_owner_grid.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/evidence/03_region01_head_mask_prompt.png filter=lfs diff=lfs merge=lfs -text
+MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/evidence/06_region02_circlet_owner_grid.png filter=lfs diff=lfs merge=lfs -text

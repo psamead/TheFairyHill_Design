@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-22",
+  "shot": "OP03",
+  "status": "upscaled design candidate archived",
+  "generation_rounds": [
+    {
+      "round": 1,
+      "prepared_prompt_file": "../OP03_r01_discord.md",
+      "actual_submitted_prompt": null,
+      "actual_model_and_parameters": null,
+      "grid": "evidence/01_r01_owner_grid.png",
+      "selected_for_comparison": "U4 for running pose"
+    },
+    {
+      "round": 2,
+      "prepared_prompt_file": "../OP03_r02_discord.md",
+      "actual_submitted_prompt": null,
+      "actual_model_and_parameters": null,
+      "grid": "evidence/02_r02_owner_grid.png",
+      "selected_for_region_edit": "U2",
+      "character_reference": "references/OP03_r02_v3_side_reference.png",
+      "style_reference": "../OP01_MJ_r04_U4_upscale_candidate_v1.png"
+    }
+  ],
+  "region_edits": [
+    {
+      "step": 1,
+      "base": "r02 U2",
+      "target": "Niamh's head and hood",
+      "selected": "U4",
+      "prompt_visible_in_screenshot": "Right-facing side profile of Niamh, a soft round face, a light grey eye, long golden-blonde hair with a side-swept fringe and a small silver leaf circlet across her exposed forehead. Hair uncovered, hood down behind the shoulders. Hand-painted warm dusk light.",
+      "mask_and_prompt": "evidence/03_region01_head_mask_prompt.png",
+      "grid": "evidence/04_region01_head_owner_grid.png"
+    },
+    {
+      "step": 2,
+      "base": "r02 region01 U4",
+      "target": "braided band above Niamh's forehead",
+      "selected": "U2",
+      "prompt_visible_in_screenshot": "A thin silver metal circlet with small silver leaf ornaments, resting on smooth golden-blonde hair, seen from the right side. Fine silver highlights on the leaves.",
+      "mask_and_prompt": "evidence/05_region02_circlet_mask_prompt.png",
+      "grid": "evidence/06_region02_circlet_owner_grid.png"
+    },
+    {
+      "step": 3,
+      "base": "r02 region02 U2",
+      "target": "Niamh's cross-shaped pendant and long hanging ornament",
+      "selected": "U4",
+      "prompt_visible_in_screenshot": "Cream linen bodice with soft folds, a clean forest-green cloak edge at the neckline, and warm dusk shading.",
+      "mask_and_prompt": "evidence/07_region03_pendant_mask_prompt.png",
+      "grid": "evidence/08_region03_pendant_owner_grid.png"
+    }
+  ],
+  "downloaded_original": {
+    "file": "OP03_MJ_r02_region03_U4_upscale_candidate_v1.png",
+    "original_download_name": "psamead_Cream_linen_bodice_with_soft_folds_a_clean_forest-green_6c9c7884-6175-4da2-9b54-cbd64d22e2a4.png",
+    "dimensions_px": [
+      2912,
+      1632
+    ],
+    "size_bytes": 5688159,
+    "sha256": "cf48afd42bd63e13ccbc996f738757dc43da29b3010b1f1f98e6b5ea445de699",
+    "image_guid_from_filename": "6c9c7884-6175-4da2-9b54-cbd64d22e2a4",
+    "parent_job_id": null,
+    "upscale_workflow": "Upscale (Subtle), requested workflow followed by owner-reported download; no backend settings verified"
+  },
+  "updated_reference": {
+    "file": "references/OP03_v3_side_reference_front_ornament_v2.png",
+    "sha256": "4da3968d2725bcdd8d5b0bd75b04f2a33823251bc9dd91ca140066de8f911a46"
+  }
+}

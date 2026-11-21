@@ -1,5 +1,12 @@
 # Midjourney prompting — lessons from Lantern Keeper and Fairy Hills
 
+## 2026-11-22 Fairy Hills OP03 two-character trial
+
+1. Review identity and motion separately. In r01 the chase read well while clothing crossed between the characters. The r02 paired side-view reference coincided with clearer clothing ownership and more upright strides. Keep the strongest motion reference and compare against the current model sheets.
+2. Work from one small region at a time. Removing the hood led to usable hair continuity. A narrow circlet mask produced mostly braids, with one leaf-shaped result that still needs colour correction. The pendant mask, paired with a short linen-and-cloak description, produced a clean neckline in U4.
+3. Verify the source revision before making a character board. The older Niamh turnaround missed the gold scrollwork added to the green front panel. The November 19 static revision has the current decoration and corrected hand overlap. Fit that ornament after the running pose is set.
+4. Keep prepared Discord prompts, visible Inpaint text, parent selections, owner screenshots and downloaded image identifiers traceable in the [OP03 archive](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/README.md). The downloaded file UUID identifies the image. The parent job ID remains unverified.
+
 ## 2026-11-20 Fairy Hills environment and listening trials
 
 Current evidence is in [the dated production summary](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md), BG01/BG02 round records, and OP02_listening_2026-11-20. Earlier shared-project examples below retain their original dates.
