@@ -1,5 +1,7 @@
 <!-- 美术交接文件：给新对话（美术宣传 + 技术美术）、Codex 和日后追踪用。2026-10-12 由故事框架对话拆出。 -->
 
+2026-11-23 · [五页开场故事画与 OP03 手调 v4 接续](STORYBOARD_RESUME.md)。
+
 **2026-11-20 故事画接续。** [本轮进度与经验](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md)与[人读汇总](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.docx)为最新入口。BG01 r02 U4、OP02 r03 U4 优先保留；BG02 构图按 r03 U4，丘体与笔触仍待修。下一镜 OP03 为两人向右跑向树林。11 张环境及 OP02 下载图已存，最终画面验收继续按各条记录。图片与源稿列入本地待传清单，本次先同步文档。
 
 

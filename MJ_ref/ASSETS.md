@@ -1,5 +1,7 @@
 # MJ_ref 图片资产清单（ASSETS）
 
+2026-11-23 · [五页开场故事画与 OP03 手调 v4 接续](../STORYBOARD_RESUME.md)。
+
 ## 2026-11-22 OP03 去挂件候选归档
 
 [U4 放大原图及参考](Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/README.md) 已归档。原图 2912 × 1632，保留为去挂件后的设计候选。原下载名和 SHA-256 见 [生成清单](Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/generation_record.json)。人读附录 B 与 Prompt 第 7 章补页见 [OP03 候选与提示词](../TechnicalArt/OP03_REFERENCE_ARCHIVE_2026-11-22.docx)。
@@ -37,6 +39,11 @@
 
 | 文件 | 类别 | 对象 | 版本 | 来源 | 生成 / 裁切方式 | 用途 | 状态 |
 |---|---|---|---|---|---|---|---|
+| Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_BG_MJ_r02_U3_upscale_candidate_v1.png | 场景 | OP03 | v1 | 本轮归档 | 双人试排背景 | 构图与动作复核 | 候选 |
+| Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_BG_MJ_r02_U4_upscale_candidate_v1.png | 场景 | OP03 | v1 | 本轮归档 | 开阔构图备选 | 构图与动作复核 | 候选 |
+| Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_U3_duo_layout_v1.psd | 分层源文件 | OP03 | v1 | 本轮归档 | 妮芙手臂可单独调整 | 构图与动作复核 | 候选 |
+| Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_U3_duo_layout_v1.png | 故事画 | OP03 | v1 | 本轮归档 | 双人跑向树林试排 | 构图与动作复核 | 候选 |
+| Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/references/OP03_Niamh_run_arm_mirror_v1.png | 角色参考 | OP03 | v1 | 本轮归档 | 原画手臂水平镜像 | 构图与动作复核 | 候选 |
 | Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_MJ_r02_region03_U4_upscale_candidate_v1.png | 故事画 | OP03 两人跑向树林 | v1 | r02 U2 经三次局部修改 | 去挂件 U4 放大下载原图 | 衣装与构图修订底图 | 候选 |
 | Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/references/OP03_r02_v3_side_reference.png | 角色参考 | 双人朝右侧面 | r02 | 两张 v3 侧视图 | 妮芙左、奥伊芯右并排 | 追溯本轮双人参考 | 历史 |
 | Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/references/OP03_v3_side_reference_front_ornament_v2.png | 角色参考 | 双人朝右侧面 | v2 | 11 月 19 日修订妮芙侧视与奥伊芯 v3 | 以修订妮芙图替换左半 | 核对绿色前襟与金纹 | 当前参考 |
@@ -91,6 +98,7 @@
 
 ## 变更记录
 
+- 2026-11-22：归档 OP03 草地 U3、U4 及双人分层试排；妮芙手臂采用原图层水平镜像。
 - 2026-11-22：将 OP03 去挂件 U4 放大原图移入镜头专用目录，校验原图散列一致。归档双人参考、三次局部选区与回传四宫格，更新人读补页和知识库。
 
 - 2026-11-17 前襟花纹：将用户第二动作新增金色花纹同步胸前PSD/PNG、当前Motion_v8身体和静态备用图；保持尺寸、原点与alpha，用户原PSD保留。Unity对应两张PNG已复制且meta不变；导入与运行画面未验证。补片与版本记录见 `TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v1/`。

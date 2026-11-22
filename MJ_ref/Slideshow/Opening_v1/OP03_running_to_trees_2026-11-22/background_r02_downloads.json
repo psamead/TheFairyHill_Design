@@ -1,0 +1,24 @@
+[
+  {
+    "cell": "U3",
+    "file": "OP03_BG_MJ_r02_U3_upscale_candidate_v1.png",
+    "original_name": "psamead_Side-on_view_across_an_open_village_meadow_at_sunset._A_e41ea207-af77-4ffe-86ce-94f325ea6e86.png",
+    "dimensions": [
+      2912,
+      1632
+    ],
+    "sha256": "3B10570DECBA14B3FDCCC66FBF3F9B87726C09024AE36D7183FD3685D1D038B8",
+    "bytes": 5008689
+  },
+  {
+    "cell": "U4",
+    "file": "OP03_BG_MJ_r02_U4_upscale_candidate_v1.png",
+    "original_name": "psamead_Side-on_view_across_an_open_village_meadow_at_sunset._A_67615890-caf8-400e-857e-bbb4b79e74fd.png",
+    "dimensions": [
+      2912,
+      1632
+    ],
+    "sha256": "F3008E9B08B550FE44ECF92B65A85072F489EE5292CCFF9AB1778CCCB89C7053",
+    "bytes": 4763411
+  }
+]

@@ -1,5 +1,11 @@
 # OP03 奥伊芯与妮芙跑向树林
 
+## 村外草地与双人试排
+
+[U3](OP03_BG_MJ_r02_U3_upscale_candidate_v1.png) 用于试排，[U4](OP03_BG_MJ_r02_U4_upscale_candidate_v1.png) 留作构图备选。两份原图均为 2912 × 1632，下载名与 SHA-256 见[校验清单](background_r02_downloads.json)。
+
+[双人试排](OP03_U3_duo_layout_v1.png) · [分层 PSD](OP03_U3_duo_layout_v1.psd) · [妮芙透明原画翻手版](references/OP03_Niamh_run_arm_mirror_v1.png)。妮芙取自 Motion_v8 跑步帧，沿袖口水平镜像近侧手臂，PSD 保留独立手臂层。奥伊芯取自去挂件 U4 的右侧人物。当前只供检查间距、字幕空间和手形；步态与画风衔接待审。
+
 2026-11-22 已归档 [去挂件 U4 放大原图](OP03_MJ_r02_region03_U4_upscale_candidate_v1.png)。原图 2912 × 1632，重命名前后 SHA-256 一致。保留作后续构图和衣装修改的候选。人读图文补页见 [OP03 候选与提示词](../../../../TechnicalArt/OP03_REFERENCE_ARCHIVE_2026-11-22.docx)。
 
 | 阶段 | 观察与取舍 | 证据 |
@@ -12,7 +18,26 @@
 
 ## 参考图与接续
 
+第四次局部修改覆盖妮芙躯干、衣装和双腿。回图出现披风缩短或消失、裙型重画、靴子缺失与脚部断接。负责人指出这轮问题过多，并反馈当前背景风格完全不对。保留去挂件 U4 作为衣装过程参考。跑姿可回到首轮 U4 和[现有 Motion_v8 离线跑步预览](../../../../TechArtAsset/Characters/Niamh/Motion_v8/previews/Niamh_motion_v8_still.png)对照。
+
+无人物背景[首轮](OP03_background_r01_discord.md)已回图。负责人反馈整体偏脏，色调与用色不合适，右上 U2 的笔触较接近。[第二轮](OP03_background_r02_palette.md)以 S1 村庄横卷校色，U3、U4 放大原图均已下载。
+
 - [r02 当时使用的拼图](references/OP03_r02_v3_side_reference.png) 保留为试验参考。负责人随后指出左侧妮芙参考漏了新版的金色前襟纹样。
 - [更新后的双人参考](references/OP03_v3_side_reference_front_ornament_v2.png) 左侧为[修订侧视图](../../../../TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v2/Niamh_side_static_v3_ornament_fix_v2.png)，右侧仍是[奥伊芯 v3](../../../Oisin_Side_v3_wip.png)。用于后续衣装修订。
 - 后续先核对双人跑姿及间距，再贴合绿色前襟与金纹，按实际手臂位置处理遮挡。同时核对妮芙的绿靴和银叶额饰、左暖村光到右冷树林的衔接，以及底部五分之一的字幕空间。十字架由奥伊芯携带。
 - 当前为设计候选。成图验收与 Unity 接入均待后续。原下载名、图像标识、SHA-256 和实际可核对的编辑词见 [归档清单](generation_record.json)。
+
+## 2026-11-23 双人合成 v2
+
+[分层 PSD](OP03_U3_duo_layout_v2.psd) · [预览](OP03_U3_duo_layout_v2.png) · [两份下载原名与校验值](solo_downloads_2026-11-23.json)。妮芙取单人第二轮 U1，保留欲叫停的抬手和张口；奥伊芯取单人首轮 U4，领跑向右。U3 草地背景，底部约五分之一留作字幕。奥伊芯的披肩改色及瞳孔高光修订保存在独立图层。原图边缘裁到靴尖和花冠，妮芙金纹前襟与人物比例待审。
+
+根据负责人红线调整人物比例：[v3 预览](OP03_U3_duo_layout_v3.png) · [分层 PSD](OP03_U3_duo_layout_v3.psd)。两人分别以脚底中心为锚点等比缩至 v2 高度的 50%，远景比例待审。
+
+## OP03 手调构图 v4
+
+[手调源稿](OP03_U3_duo_layout_v3_manual_source.psd) 来自负责人保存的 v3_m。整理后按角色归组，[分层 PSD](OP03_U3_duo_layout_v4.psd) 与 [PNG 预览](OP03_U3_duo_layout_v4.png) 使用同一版本号。导出尺寸 2912 × 1632，RGB 像素与手调源稿合成画面一致。
+
+## 2026-11-23 OP03 表演选图
+
+双人整图套 OP01 风格时，花冠、靴色和领跑位置发生互换。单人试验用 OP01 裁图作角色参考，整幅 OP01 作风格参考。妮芙第二轮 U1 的张口抬手符合叫停，U3 更像跟跑。奥伊芯局部重绘披肩丢了肩头布面，眼内选区太小被 MJ 拒绝，随后在合成图层修正。选表演先核对剧情，再按单人设定校衣装。
+

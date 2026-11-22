@@ -107,3 +107,8 @@ Status: proposed / submitted / reference selected / asset prepared / integrated 
 - Fairy Hills: `AGENT_PROCESS_GUIDELINES.md` sections 5.3–5.8; `TechnicalArt/LESSONS_CHARACTER_ANIMATION.md` latest complete-character/compositing method; `TechnicalArt/STORYBOARD_KNOWLEDGE_BASE.md` failed edit/variation evidence; `MJ_ref/Characters/Niamh/Interaction_Study_2026-11-17/README.md` and `source_manifest.json`; `MJ_ref/Slideshow/Opening_v1/evidence/` for failed prompts/screenshots; `STORYBOARD_RESUME.md` for current decisions.
 
 Do not present a newly composed template as an original tested prompt. Read the exact source record when reproducing a historical trial. This guide is shared between the two projects; paths above are relative to the named repository, not all present in both.
+
+## 2026-11-23 OP03 表演选图
+
+双人整图套 OP01 风格时，花冠、靴色和领跑位置发生互换。单人试验用 OP01 裁图作角色参考，整幅 OP01 作风格参考。妮芙第二轮 U1 的张口抬手符合叫停，U3 更像跟跑。奥伊芯局部重绘披肩丢了肩头布面，眼内选区太小被 MJ 拒绝，随后在合成图层修正。选表演先核对剧情，再按单人设定校衣装。
+

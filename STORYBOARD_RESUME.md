@@ -1,5 +1,17 @@
 # 妖精丘陵：新对话接续入口
 
+## 2026-11-23 五页开场故事画交接
+
+从 [五页 GIF](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_preview_v1.gif) 开始。当前五页都有候选图，按 BG01 黄昏村庄 r02 U4、BG02 丘陵传说 r03 U4、OP01 双人玩耍 r04 U4、OP02 听到召唤 r03 U4、OP03 追向树林 v4 播放。GIF 为无声预览，27.4 秒，四次 0.4 秒叠化。正式音乐、五页 Unity 接入与实机验收待做。
+
+OP03 从[手调分层稿](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_U3_duo_layout_v4.psd)继续。v3_manual_source 是负责人保存的原稿。奥伊芯 U4 受召唤，眼内高光压暗、玫瑰红披肩；妮芙 U1 疑惑地张嘴抬手叫停。保留手调大小与间距。
+
+下一轮先并排审五页，以 OP01 统一人物比例、暖色轮廓、夕照和草地笔触，以 S1 村庄横卷核对场景颜色。复核 BG02 丘形、OP02 门缝冷光、妮芙绿前襟金纹和银叶额饰、奥伊芯花冠及披肩细金纹。再制作音乐，按玩耍、听见召唤、追赶安排声音变化。入 Unity 后检查字幕可读性、按钮与键盘输入、章节卡和 S1 交接。右上角移除 Next、Skip。记录实际 Play Mode 结果后再更新验收状态。
+
+## 2026-11-22 OP03 双人分层试排
+
+[试排与源文件](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/README.md) 已收录两张草地背景。试排采用 U3；妮芙用 Motion_v8 原画，近侧手臂绕袖口水平翻转，奥伊芯领跑。继续从 PSD 核对步态与两人画风。
+
 ## 2026-11-22 OP03 局部修订候选已归档
 
 [OP03 归档](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/README.md) 已收录第二轮 r02 U2 的三次局部修改，以及去挂件后选出的 U4 放大原图。首轮 U4 保留为跑姿参考。先用原图核对双人朝右追赶的步态，再按[修订版妮芙侧身图](TechArtAsset/Characters/Niamh/Motion_v8/appearance_front_ornament_v2/Niamh_side_static_v3_ornament_fix_v2.png)补绿色前襟与金纹，按手臂位置处理遮挡。绿靴、银叶额饰、右侧树线和字幕留白继续待审。
@@ -119,3 +131,9 @@ Agent 使用原则见 `TechnicalArt/NIAMH_ANIM_LIST_DEMO.md`，人读说明见 `
 2026-11-16 妮芙动作状态：负责人认可双手捧十字架的概念姿势与当前生成图的游戏内风格贴合度。Midjourney 的 U2 仅提供手臂姿势参考；最终概念图通过 Codex 内置 ImageGen，以现有妮芙侧面图、MJ 姿势图和 Unity 十字架资产为参考生成。现阶段仅是静态动作概念，尚未拆件、动画化、放入 Unity 或验收运行。先完成离线动作预览，再交负责人确认。方法和图片路径见上述人读说明与角色动作经验文档。
 
 不因用户切换项目而扩大本轮任务到新场景或完整人物骨骼。现有 WIP 拆件 PSD/PNG 是用户现场，保持原件。设计仓库与 Unity 仓库分开提交；素材优先网络，不从 GitHub 默认下载。
+
+## 2026-11-23 开场预览与界面要求
+
+[五画面 GIF 预览](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_preview_v1.gif) 顺序为 BG01 r02 U4、BG02 r03 U4、OP01 r04 U4、OP02 r03 U4、OP03 手调 v4。前两句环境字幕及 5/5/6/7/6 秒时长沿用提案，淡化 0.4 秒。预览使用 Georgia，正式字体仍需按项目规格处理。
+
+负责人明确要求开场画面右上角不显示 Next、Skip 两个按钮，后续 Unity 制作也遵照此要求。保留键盘提示和输入的具体表现待游戏内复核。GIF 为静态画面与字幕过渡预览，尚未代表 Unity 接入或验收。
