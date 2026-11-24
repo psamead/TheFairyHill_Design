@@ -1,5 +1,15 @@
 # MJ_ref 图片资产清单（ASSETS）
 
+## 2026-11-24 开场资产选版
+
+五个运行用 PNG 的源位置、尺寸、图像用途与散列见[清单](../TechnicalArt/unity_drop/2026-11-24_Opening_Five_Scenes_v9/manifest.json)。[附录 B / Prompt 集第 7 章本轮图解补页](../TechnicalArt/开场五镜制作复盘与Unity交接_v9.docx)与[制作复盘](../TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md)配套。
+
+
+## 2026-11-24 OP03 冷暮背景与 BG02 手调稿
+
+OP03 已用 U1 高清前景与确认的圆云、色块远山合成[无人物背景 v1](Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_BG_U1_cool_dusk_composite_v1.png)。BG02 手调静帧通过，顶部 8 px 已补齐，接续[分层稿 v4](../TechnicalArt/references/opening_review_2026-11-23/BG02_MJ_trial/BG02_U4_PhotoCraft_foreshadow_v4.psd)及[背景 PNG](../TechnicalArt/references/opening_review_2026-11-23/BG02_MJ_trial/BG02_U4_PhotoCraft_foreshadow_v4.png)。 [附录 B 与 Prompt 集第 7 章补页](../TechnicalArt/OP03_BG02_BACKGROUND_ARCHIVE_2026-11-24.docx)。
+
+
 2026-11-23 · [五页开场故事画与 OP03 手调 v4 接续](../STORYBOARD_RESUME.md)。
 
 ## 2026-11-22 OP03 去挂件候选归档

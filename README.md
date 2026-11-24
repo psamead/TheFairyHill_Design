@@ -1,5 +1,8 @@
 # The Fairy Hills · Design Repository
 
+2026-11-24 · [五镜开场与 v9 已选配乐](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md) · [人读图解](TechnicalArt/开场五镜制作复盘与Unity交接_v9.docx) · [Unity 接入任务](CommandForAgentToInitialRun/2026-11-24_Opening_Five_Scenes_v9_Unity.md)。
+
+
 2026-11-23 · [五页开场故事画与 OP03 手调 v4 接续](STORYBOARD_RESUME.md)。
 
 **2026-11-20 story art handoff.** Read [the current production summary](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md) and [the illustrated Word handoff](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.docx) for BG01, BG02, OP02, prompt trials and OP03 next steps. New media are retained locally for a later transfer; see TechnicalArt/STORYBOARD_PENDING_MEDIA_2026-11-20.json.

@@ -1,5 +1,18 @@
 # Midjourney prompting — lessons from Lantern Keeper and Fairy Hills
 
+## 2026-11-24 用底图守住山形，用邻镜限定笔触
+
+Discord 用选中单图地址，编辑正文末尾接 `--edit <底图URL> --ar 91:51`；四宫格截图只用于指认。先检查宽幅原图中低圆丘、浅鞍部与右侧坡线，再改远近山面明度。OP02 平涂小样只供色块边界，BG01 只供云形；复核改动有没有连带重画屋顶、草纹或人物。远山黑线反复回来时，转到局部合成，把选好的天空与远山接回高清前景。底图相同山形时省去重复参考。
+
+本例编辑措辞节选：“Let broad, flat shapes of color meet directly, so each ridge is defined by a small change in tone.” 这是对话中准备的编辑词，单次实际 Bot 后台参数以可取得的消息为准。[初轮英文全文](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_background_cool_edit_r01.txt) · [ImageGen 云形编辑原词、返回图与合成记录](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_background_prompt_evidence_2026-11-24.md)。
+
+
+## 2026-11-23 默认在 Discord 试图
+
+本项目通常在 Discord 的 Midjourney Bot 私聊提交和迭代。网页版编辑器此前多次遇到本地外图上传、链接导入和局部编辑问题。需要网页版专有操作时再单独试，并记录入口、参数、实际提交和报错。此约定适用于负责人、制作人员与后续 Agent。
+
+[BG01 Discord 试修包](TechnicalArt/references/opening_review_2026-11-23/BG01_MJ_trial/README.md)记录四张图的分工和 Discord `--edit` 提交词。
+
 ## 2026-11-22 Fairy Hills OP03 two-character trial
 
 1. Review identity and motion separately. In r01 the chase read well while clothing crossed between the characters. The r02 paired side-view reference coincided with clearer clothing ownership and more upright strides. Keep the strongest motion reference and compare against the current model sheets.

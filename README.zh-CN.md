@@ -1,5 +1,8 @@
 # 妖精丘陵 The Fairy Hills · 设计仓库
 
+2026-11-24 · [五镜故事画与选定配乐 v9](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md) · [人读复盘](TechnicalArt/开场五镜制作复盘与Unity交接_v9.docx) · [Unity 执行任务](CommandForAgentToInitialRun/2026-11-24_Opening_Five_Scenes_v9_Unity.md)。
+
+
 **2026-11-18 当前试装：** 开场铺满与叠加字幕、按键下划线和红墙前B直接举高已放实际工程，离线C#检查通过；实机待验。任务从共享 `CommandForAgentToInitialRun/2026-11-18_Opening_Immersive_Cross_Raise_Unity_Validation.md` 读取，无需复制到对方工程。详见 `TechnicalArt/OPENING_IMMERSIVE_CROSS_RAISE_TRIAL_2026-11-18.md`。
 
 [English](README.md) | **简体中文**

@@ -1,5 +1,25 @@
 # HANDOFF — 《妖精丘陵 The Fairy Hills》
 
+**2026-11-24 · 当前交接**　[旁白 B 与原稿依据](TechnicalArt/OPENING_STORY_B_2026-11-24.md) · [Unity 工作站任务](CommandForAgentToInitialRun/2026-11-24_Opening_Story_B_Unity_Review.md)。本地完成设计样片；真实工程已接入 A，B 待对端应用和回报。
+
+2026-11-24 · 五页故事、试排 A 与 v9 已接入真实工程。运行时与开场重建工具离线编译通过；目标 Editor 实播和负责人试玩待验。[Unity 实施回报](<//haoxi-rtx/C/Users/Administrator/Documents/UnityProject/TheFairyHill2D/Docs/Opening_Five_Scenes_v9_Unity_Handoff.md>)
+
+## 2026-11-24 开场五镜联调交接
+
+正式接入输入为五张静帧与 v9 OGG。末镜延长，章节卡从 30.6 秒后另计。运行目标、字幕、素材位置及回报路径见[共享任务单](CommandForAgentToInitialRun/2026-11-24_Opening_Five_Scenes_v9_Unity.md)。可先看[设计复盘](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md)与[人读版](TechnicalArt/开场五镜制作复盘与Unity交接_v9.docx)。
+
+
+## 2026-11-24 开场背景原图归档
+
+[四张下载原图与来源对照](MJ_ref/Slideshow/Opening_v1/Opening_backgrounds_2026-11-24/README.md)。OP02 近草第三轮 U4 已归档，奥伊芯当前接续用[手调图层整理稿 v2](MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_Oisin_PhotoCraft_costume_organized_v2.psd)，已完成[OP02 分层合成稿](MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_Oisin_listening_composite_v1.psd)，负责人已确认此版静帧。BG02 两张 U4 为现有手调分层稿 v3_m 的来源。本批背景尚未更新五页 GIF 或进入 Unity 实机验收。
+
+## 2026-11-23 Midjourney 制作交接
+
+Midjourney 日常生图和迭代优先在 Discord 的 Midjourney Bot 私聊进行。此前网页版遇到本地外图上传、图片链接导入和局部编辑问题。只有操作确实需要网页功能时再使用网页版，并记下操作、错误与结果。
+
+[BG01 Discord 试修包](TechnicalArt/references/opening_review_2026-11-23/BG01_MJ_trial/README.md)列出底图、三张参照及提交词。负责人已选用第一轮右下 U4，看中画面的宁静、祥和感。[BG01 选定单图](MJ_ref/Slideshow/Opening_v1/Opening_backgrounds_2026-11-24/BG01_MJ_r01_U4_village_edit_v1.png)已归档。
+
+
 > **接手提示（2026-11-14）**：下方 2026-10-11 至 10-13 的阶段描述是概念期快照，其中“尚未开始任何代码”已过时。学生和 Agent 要先读本仓库 `README.zh-CN.md`、Unity 工程根目录 `AGENTS.md`，再用 Unity 工程实际文件、Git 状态及 `TechnicalArt/CH1_UNITY_PROGRESS.md` 判断当前实现。本文继续用于理解故事、Demo 范围与设计缘由。
 
 > 交接对象：后续负责游戏开发 / 程序架构的 Agent（如 Codex）。

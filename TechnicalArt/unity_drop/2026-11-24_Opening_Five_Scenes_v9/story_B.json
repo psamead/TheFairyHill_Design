@@ -1,0 +1,52 @@
+{
+  "revision": "B",
+  "base": "manifest.json (A, implemented baseline)",
+  "scope": "replace five captions only",
+  "music": "v9",
+  "total_seconds": 30.6,
+  "preview": "MJ_ref/Slideshow/Opening_v1/Opening_five_scene_story_B_v9.mp4",
+  "frames": [
+    {
+      "id": "BG01",
+      "transition_start": 0,
+      "lines": [
+        "At dusk in a little Irish village,",
+        "the elders told stories of the hills."
+      ]
+    },
+    {
+      "id": "BG02",
+      "transition_start": 4.6,
+      "lines": [
+        "A thin veil hid the Fair Folk.",
+        "“Never take their food,” the elders warned."
+      ]
+    },
+    {
+      "id": "OP01",
+      "transition_start": 9.2,
+      "lines": [
+        "Niamh and Oisín had played here",
+        "for as long as either could remember."
+      ]
+    },
+    {
+      "id": "OP02",
+      "transition_start": 14.8,
+      "lines": [
+        "That evening, Oisín stopped.",
+        "A whisper rose from the old mound.",
+        "Only she could hear it."
+      ]
+    },
+    {
+      "id": "OP03",
+      "transition_start": 21.4,
+      "lines": [
+        "Oisín ran towards the trees.",
+        "“Wait for me!” Niamh called,",
+        "and raced after her."
+      ]
+    }
+  ]
+}

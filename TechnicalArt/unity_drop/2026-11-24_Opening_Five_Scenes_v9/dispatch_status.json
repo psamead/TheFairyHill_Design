@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-24",
+  "target_project": "TheFairyHill2D",
+  "host": "Haoxi-RTX",
+  "receiver": "unity_opening",
+  "receipt": "acknowledged",
+  "assets_verified_against_sources": 6,
+  "selected_music": "v9",
+  "narrative_layout": "A, provisional pending owner playtest",
+  "implementation": "integrated in target Unity checkout",
+  "engine_report": "Docs/Opening_Five_Scenes_v9_Unity_Handoff.md",
+  "owner_playtest": "pending",
+  "offline_compile": "runtime and opening builder passed; 4 pre-existing warnings",
+  "static_validation": "5 page timings, scene assets and both layout resolutions checked",
+  "editor_play_mode": "pending; target editor control endpoint is host-local",
+  "evidence": {
+    "offline_compile": "Docs/References/Opening_Five_Scenes_v9/Unity_Trial/offline_compile.json",
+    "static_validation": "Docs/References/Opening_Five_Scenes_v9/Unity_Trial/static_validation.json"
+  },
+  "followup_story_B": {
+    "task": "CommandForAgentToInitialRun/2026-11-24_Opening_Story_B_Unity_Review.md",
+    "design_preview": "MJ_ref/Slideshow/Opening_v1/Opening_five_scene_story_B_v9.mp4",
+    "handoff": "published in shared task directory; UNC path checked on design workstation",
+    "workstation_acknowledgement": "pending",
+    "engine_changes_by_design_for_B": false,
+    "play_mode": "pending"
+  }
+}

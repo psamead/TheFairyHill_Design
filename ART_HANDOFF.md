@@ -1,5 +1,10 @@
 <!-- 美术交接文件：给新对话（美术宣传 + 技术美术）、Codex 和日后追踪用。2026-10-12 由故事框架对话拆出。 -->
 
+## 2026-11-24 开场故事画与 v9 音乐交付
+
+本轮交接 BG01 选定 U4、BG02 修边 v4、OP01 r04 U4、OP02 合成 v1、OP03 双人 v6；同批音频使用 v9。见[逐镜源文件与制作复盘](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md)、[校验清单](TechnicalArt/unity_drop/2026-11-24_Opening_Five_Scenes_v9/manifest.json)、[Unity 任务](CommandForAgentToInitialRun/2026-11-24_Opening_Five_Scenes_v9_Unity.md)。
+
+
 2026-11-23 · [五页开场故事画与 OP03 手调 v4 接续](STORYBOARD_RESUME.md)。
 
 **2026-11-20 故事画接续。** [本轮进度与经验](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md)与[人读汇总](TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.docx)为最新入口。BG01 r02 U4、OP02 r03 U4 优先保留；BG02 构图按 r03 U4，丘体与笔触仍待修。下一镜 OP03 为两人向右跑向树林。11 张环境及 OP02 下载图已存，最终画面验收继续按各条记录。图片与源稿列入本地待传清单，本次先同步文档。

@@ -1,0 +1,144 @@
+{
+  "version": 9,
+  "music_owner_selected": true,
+  "total_seconds": 30.6,
+  "dissolve_seconds": 0.4,
+  "preview": "MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v9.mp4",
+  "frames_and_audio": [
+    {
+      "design_source": "MJ_ref/Slideshow/Opening_v1/Opening_backgrounds_2026-11-24/BG01_MJ_r01_U4_village_edit_v1.png",
+      "unity_target": "Assets/_Project/Art/Storyboards/Opening_Five_Scenes/BG01_MJ_r01_U4_village_edit_v1.png",
+      "sha256": "157679991ae799ef5d5eb5ceebe7e9b154f224b63f544de1ed788b252263d179",
+      "bytes": 4315048,
+      "id": "BG01",
+      "caption": "Dusk settled over the village. The hills still held the light.",
+      "transition_start": 0,
+      "pixels": [
+        2912,
+        1632
+      ],
+      "music_preview_caption": "Our village lay among the hills.",
+      "layout_A": {
+        "lines": [
+          "Dusk settled over the village.",
+          "The hills still held the light."
+        ],
+        "anchor_top_left": [
+          0.56,
+          0.6
+        ],
+        "ink": "light"
+      }
+    },
+    {
+      "design_source": "TechnicalArt/references/opening_review_2026-11-23/BG02_MJ_trial/BG02_U4_PhotoCraft_foreshadow_v4.png",
+      "unity_target": "Assets/_Project/Art/Storyboards/Opening_Five_Scenes/BG02_U4_PhotoCraft_foreshadow_v4.png",
+      "sha256": "3e7f83f9c249e59a4aacbabfaad7064c4d51f761485ae92a5d7d5eb87d693f3d",
+      "bytes": 4869130,
+      "id": "BG02",
+      "caption": "People said another world lay just beneath those hills.",
+      "transition_start": 4.6,
+      "pixels": [
+        2912,
+        1632
+      ],
+      "music_preview_caption": "They said another world lay beneath them.",
+      "layout_A": {
+        "lines": [
+          "People said another world lay",
+          "just beneath those hills."
+        ],
+        "anchor_top_left": [
+          0.1,
+          0.12
+        ],
+        "ink": "dark"
+      }
+    },
+    {
+      "design_source": "MJ_ref/Slideshow/Opening_v1/OP01_MJ_r04_U4_upscale_candidate_v1.png",
+      "unity_target": "Assets/_Project/Art/Storyboards/Opening_Five_Scenes/OP01_MJ_r04_U4_upscale_candidate_v1.png",
+      "sha256": "556d74b13b65abc123ebc88020ab506aac11b4ab04c73398ca501cb0fdf26aa3",
+      "bytes": 6155635,
+      "id": "OP01",
+      "caption": "Niamh and Oisín knew these slopes by heart. There was always time for one more game.",
+      "transition_start": 9.2,
+      "pixels": [
+        2912,
+        1632
+      ],
+      "music_preview_caption": "At dusk, the hills were still a place to play.",
+      "layout_A": {
+        "lines": [
+          "Niamh and Oisín knew these slopes by heart.",
+          "There was always time for one more game."
+        ],
+        "anchor_top_left": [
+          0.1,
+          0.77
+        ],
+        "ink": "light"
+      }
+    },
+    {
+      "design_source": "MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_Oisin_listening_composite_v1.png",
+      "unity_target": "Assets/_Project/Art/Storyboards/Opening_Five_Scenes/OP02_Oisin_listening_composite_v1.png",
+      "sha256": "b5628c09583d4d366d0b7c52dec7a2ccd2f952ba2acc74e45d24f3925a99dbfb",
+      "bytes": 3434887,
+      "id": "OP02",
+      "caption": "Oisín stopped. Something was calling from the hill. Niamh listened, but heard only the wind.",
+      "transition_start": 14.8,
+      "pixels": [
+        2912,
+        1632
+      ],
+      "music_preview_caption": "Then Oisín heard something Niamh could not.",
+      "layout_A": {
+        "lines": [
+          "Oisín stopped. Something was calling",
+          "from the hill. Niamh listened,",
+          "but heard only the wind."
+        ],
+        "anchor_top_left": [
+          0.53,
+          0.15
+        ],
+        "ink": "dark"
+      }
+    },
+    {
+      "design_source": "MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_U1_duo_layout_v6.png",
+      "unity_target": "Assets/_Project/Art/Storyboards/Opening_Five_Scenes/OP03_U1_duo_layout_v6.png",
+      "sha256": "10cb3415cb1bcdfdcee4b0eb47562d8ca6278ec00e7cef5a743c210f93c1f3c2",
+      "bytes": 4299434,
+      "id": "OP03",
+      "caption": "Oisín ran towards the trees. Niamh called after her. When her friend kept running, Niamh followed.",
+      "transition_start": 21.4,
+      "pixels": [
+        2912,
+        1632
+      ],
+      "music_preview_caption": "Oisín ran towards the trees. Niamh followed.",
+      "layout_A": {
+        "lines": [
+          "Oisín ran towards the trees.",
+          "Niamh called after her. When her friend",
+          "kept running, Niamh followed."
+        ],
+        "anchor_top_left": [
+          0.19,
+          0.12
+        ],
+        "ink": "dark"
+      }
+    },
+    {
+      "design_source": "TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v9.ogg",
+      "unity_target": "Assets/_Project/Audio/Music/BGM_Opening_Five_Scenes_v9.ogg",
+      "sha256": "32f00b1ed80d3f24b75a11773e2629374aec531713248125192457ee4798cbe8",
+      "bytes": 602029
+    }
+  ],
+  "layout_preview": "MJ_ref/Slideshow/Opening_v1/Opening_five_scene_story_layout_A_v9.mp4",
+  "layout_status": "A • provisional, pending owner playtest"
+}

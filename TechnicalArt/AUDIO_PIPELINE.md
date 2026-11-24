@@ -1,5 +1,10 @@
 # 妖精丘陵 · 音频制作流程（v1，2026-10-26）
 
+## 2026-11-24 五镜 v9 已选用
+
+项目菜单的 Lyria 原曲提供听感参照。开场另作旋律，以 VSCO 2 CE 录音采样配器。听到“断”时以秒定位，分别检查吹奏起音、旧音衰减与伴奏空档；“沉下去”用下行线条与低弦回应。v9 将最后一个画面一起延长，WAV / OGG / 参照视频均为 30.6 秒。具体演奏、脚本、音乐交接见[五镜复盘](OPENING_FIVE_SCENES_2026-11-24.md)。
+
+
 > 原游戏计划没有音频部分，本文件补上。适用于 Claude / Codex / 人工。
 > 第一首成品：开始菜单 BGM `TechArtAsset/Audio/MENU_BGM_v1_loop.ogg`。
 
@@ -98,3 +103,7 @@ S1 黄昏村庄：场景 = golden dusk in a quiet Irish village, a whitewashed t
 
 ElevenLabs 的 Music 页面会把音效提示词当成整首歌（贵且不对）；最后改用 `TechnicalArt/tools/make_sfx.py` 用 numpy 合成四个音效（吱呀 = 黏滑调幅的谐波 + 带通噪声；木头敲击 = 衰减正弦；铃声 = D 大调上行琶音；湮灭 = 低通噪声呼啸 + 随机噼啪 + 高频嘶声 + 调幅低语，最后加简易混响）。输出 `TechArtAsset/Audio/SFX/*.wav` + `.ogg`，清单 `TechnicalArt/第一章音效_v1.xlsx`。好处：可以改参数重新生成，适合课堂讲解。
 
+
+## 开场五页配乐 v1 · 2026-11-24
+
+[有声预览与分镜时间](../STORYBOARD_RESUME.md) · [合成源](../TechArtAsset/Audio/Opening/_src/score_opening_v1.py)。参考 Lantern Keeper 的 Menu 与 Prologue 源程序，用加法合成竖琴、带气声的哨笛、开放五度低音与立体声混响，为 Fairy Hills 写新旋律。Python 与 NumPy 可重建 44.1 kHz 立体声 WAV，OGG 用 libvorbis Q6 转码；开场版本按 27.4 秒作一次播放。

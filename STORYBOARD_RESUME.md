@@ -1,5 +1,99 @@
 # 妖精丘陵：新对话接续入口
 
+**2026-11-24 · 当前交接**　[旁白 B 与原稿依据](TechnicalArt/OPENING_STORY_B_2026-11-24.md) · [Unity 工作站任务](CommandForAgentToInitialRun/2026-11-24_Opening_Story_B_Unity_Review.md)。本地完成设计样片；真实工程已接入 A，B 待对端应用和回报。
+
+2026-11-24 · 五页故事、试排 A 与 v9 已接入真实工程。运行时与开场重建工具离线编译通过；目标 Editor 实播和负责人试玩待验。[Unity 实施回报](<//haoxi-rtx/C/Users/Administrator/Documents/UnityProject/TheFairyHill2D/Docs/Opening_Five_Scenes_v9_Unity_Handoff.md>)
+
+**本轮试玩排版 A**　[五页英文、时间与参考](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md) · [有声试排](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_story_layout_A_v9.mp4)。配乐已选，文字和位置待试玩复核。
+
+## 2026-11-24 已选 v9，五镜交 Unity
+
+负责人选定 v9 配乐。以[五镜 30.6 秒有声版](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v9.mp4)为本次接入参照，[制作复盘](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md)、[人读图解](TechnicalArt/开场五镜制作复盘与Unity交接_v9.docx)、[Unity 执行单](CommandForAgentToInitialRun/2026-11-24_Opening_Five_Scenes_v9_Unity.md)与[派发记录](TechnicalArt/unity_drop/2026-11-24_Opening_Five_Scenes_v9/dispatch_status.json)为当前入口。下方“待试听”均为对应版本当时状态。
+
+
+## 2026-11-24 五页配乐 v9 · 延长末镜尾声
+
+[有声试听](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v9.mp4) · [WAV](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v9.wav) · [OGG](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v9.ogg) · [乐谱](TechArtAsset/Audio/Opening/_src/score_acoustic_opening_v9.py)。第五镜长笛在下行途中跃至高 E，再回落到较低的 F♯，大提琴落低 E。最后笛音持续约 3.4 秒，整体在末 2.8 秒淡出。末镜延长 3.2 秒，合计 30.6 秒。24.5–27.4 秒 WAV 的均方根电平比 v8 同段高 7.7 dB。待试听。
+
+
+## 2026-11-24 五页配乐 v8 · 奔向树林的下行乐句
+
+[有声试听](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v8.mp4) · [WAV](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v8.wav) · [OGG](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v8.ogg) · [乐谱](TechArtAsset/Audio/Opening/_src/score_acoustic_opening_v8.py)。第五镜长笛呼应召唤的高 D，再经 B、A、G 落到 F♯，大提琴沉至低 E，以未解决的二度收尾。前 21.48 秒与 v7 母带逐样本一致；保留最后 3.6 秒淡出。全长 27.4 秒，待试听。
+
+
+## 2026-11-24 五页配乐 v7 · 片尾淡出
+
+[有声试听](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v7.mp4) · [WAV](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v7.wav) · [OGG](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v7.ogg) · [乐谱](TechArtAsset/Audio/Opening/_src/score_acoustic_opening_v7.py)。前 23.8 秒的 WAV 与 v6 逐样本一致。最后 3.6 秒整体渐弱，长笛和大提琴尾音延到画面结束，末尾归零。全长 27.4 秒，待试听。
+
+
+## 2026-11-24 五页配乐 v6 · 双人玩耍处长音交接
+
+[有声试听](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v6.mp4) · [WAV](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v6.wav) · [OGG](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v6.ogg) · [乐谱](TechArtAsset/Audio/Opening/_src/score_acoustic_opening_v6.py)。按截图所指第 11 秒修改，长笛高音从 10.55 秒开始渐入 1.65 秒，前一个音持续到 12.23 秒；同时收柔附近竖琴起音。视频与音轨均为 27.4 秒，本版待试听。
+
+
+## 2026-11-24 五页配乐 v5 · 玩耍与召唤的渐变
+
+[有声试听](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v5.mp4) · [WAV](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v5.wav) · [OGG](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v5.ogg) · [乐谱](TechArtAsset/Audio/Opening/_src/score_acoustic_opening_v5.py)。8.32 秒的笛音延续到双人玩耍一页，压轻 9–10 秒竖琴起音，大提琴低音交叠换和声。14.54 秒起将召唤长音渐入约 1.6 秒，同时渐收友谊主题。全长 27.4 秒，待试听。
+
+
+## 2026-11-24 五页配乐 v4 · 乐句衔接
+
+[有声预览](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v4.mp4) · [WAV](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v4.wav) · [OGG](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v4.ogg) · [乐谱与采样合成](TechArtAsset/Audio/Opening/_src/score_acoustic_opening_v4.py)。沿用 v3 的主题与实录乐器。11–15 秒的长笛改为长音连奏，20 秒后用大提琴换弓衔接召唤与追赶，减少竖琴起音。片长 27.4 秒，待试听。
+
+
+## 2026-11-24 五页配乐 v3 · 原声采样新曲
+
+[五页有声预览](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v3.mp4) · [WAV](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v3.wav) · [OGG](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v3.ogg) · [音符、采样来源与再制作脚本](TechArtAsset/Audio/Opening/_src/score_acoustic_opening_v3.py)。
+
+负责人希望开场有独立旋律，并减轻电子感。v3 为五镜另谱 B–G–D–A 的开场乐句，以 VSCO 2 Community Edition 的竖琴、长笛和大提琴实录单音配器（CC0）。第四镜留出呼吸，用 D、A 两个笛音提示召唤；第五镜重新奏出主题。音画 27.4 秒，待试听。
+
+
+## 2026-11-24 开场配乐 v2 · 菜单主题剪辑
+
+[五页有声试听](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v2.mp4) · [配乐 WAV](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v2.wav) · [OGG](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v2.ogg)。负责人希望减少 v1 的电子感，参考开始菜单。v2 取菜单立体声母带 MENU_BGM_v1_loop.wav 的 34.5–61.9 秒连续乐句，原曲为 Google Lyria 的 Threshold of the Stone。第四张轻收 3.3 dB，第五张进场恢复，结尾渐收。[重做参数](TechArtAsset/Audio/Opening/_src/edit_opening_menu_v2.py)。五张画、字幕及 27.4 秒时序沿用 v1，候选配乐待试听。
+
+
+## 2026-11-24 五页开场配乐试听 v1
+
+[五页有声审片 MP4](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_music_preview_v1.mp4) 使用 BG01 村庄 U4、BG02 v4、OP01 r04 U4、OP02 合成 v1、OP03 双人 v6，沿用五句英文字幕及四次 0.4 秒叠化。全长 27.4 秒。转场分别从 4.6、9.2、14.8、21.4 秒开始。
+
+[WAV 母带](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v1.wav) · [OGG](TechArtAsset/Audio/Opening/BGM_Opening_Five_Scenes_v1.ogg) · [可重做的乐谱与合成脚本](TechArtAsset/Audio/Opening/_src/score_opening_v1.py)。参考 Lantern Keeper 的菜单与序章合成方法，为五页另写 D 多利亚器乐。玩耍段用竖琴与哨笛对答，召唤段留空并引入远处两音，追赶段缩短拨弦间隔，留开放尾音。一次播放。音画均为 27.4 秒，视频 AAC 实测 −15.4 LUFS、真峰值 −3.0 dBFS。待负责人试听。
+
+
+## 2026-11-24 OP03 横向云层试稿 v6
+
+以 BG01 选定村庄图的云形为参考，冷暮天空换用宽平云底和横向薄层。[双人静帧 v6](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_U1_duo_layout_v6.png) · [分层 PSD](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_U1_duo_layout_v6.psd) · [无人物背景 v2](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_BG_U1_cool_dusk_composite_v2.png)。双人沿用 v5，本版待审。
+
+
+## 2026-11-24 OP03 冷暮双人静帧 v5
+
+[双人静帧 PNG](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_U1_duo_layout_v5.png) · [分层 PSD](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_U1_duo_layout_v5.psd)。冷暮 U1 背景配手调 v4 的两组人物图层。两组边界与 v4 相同，PNG 与 PSD 合成像素一致，人物范围外与高清背景一致。此版待静帧审片。
+
+
+## 2026-11-24 OP03 高清背景与 BG02 上边缘修补
+
+OP03 已用 U1 高清前景与确认的圆云、色块远山合成[无人物背景 v1](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_BG_U1_cool_dusk_composite_v1.png)。BG02 手调静帧通过，顶部 8 px 已补齐，接续[分层稿 v4](TechnicalArt/references/opening_review_2026-11-23/BG02_MJ_trial/BG02_U4_PhotoCraft_foreshadow_v4.psd)及[背景 PNG](TechnicalArt/references/opening_review_2026-11-23/BG02_MJ_trial/BG02_U4_PhotoCraft_foreshadow_v4.png)。
+
+
+## 2026-11-24 接续 OP03 色调
+
+OP02「听见召唤」合成 v1 已通过静帧审片。OP03 从独立 U3 背景与手调 v4 构图接续，[冷色背景首轮 Discord 提示词](MJ_ref/Slideshow/Opening_v1/OP03_running_to_trees_2026-11-22/OP03_background_cool_edit_r01.txt)已准备。待回图比较，GIF 更新与 Unity 实机验收分别记录。
+
+## 2026-11-24 开场背景原图归档
+
+[四张下载原图与来源对照](MJ_ref/Slideshow/Opening_v1/Opening_backgrounds_2026-11-24/README.md)。OP02 近草第三轮 U4 已归档，奥伊芯当前接续用[手调图层整理稿 v2](MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_Oisin_PhotoCraft_costume_organized_v2.psd)，已完成[OP02 分层合成稿](MJ_ref/Slideshow/Opening_v1/OP02_listening_2026-11-20/OP02_Oisin_listening_composite_v1.psd)，负责人已确认此版静帧。BG02 两张 U4 为现有手调分层稿 v3_m 的来源。本批背景尚未更新五页 GIF 或进入 Unity 实机验收。
+
+## 2026-11-23 BG01 Midjourney 试修接续
+
+Midjourney 日常生图和迭代优先在 Discord 的 Midjourney Bot 私聊进行。此前网页版遇到本地外图上传、图片链接导入和局部编辑问题。只有操作确实需要网页功能时再使用网页版，并记下操作、错误与结果。
+
+[BG01 Discord 试修包](TechnicalArt/references/opening_review_2026-11-23/BG01_MJ_trial/README.md)列出底图、三张参照及提交词。负责人已选用第一轮右下 U4，看中画面的宁静、祥和感。[BG01 选定单图](MJ_ref/Slideshow/Opening_v1/Opening_backgrounds_2026-11-24/BG01_MJ_r01_U4_village_edit_v1.png)已归档。
+
+
+**BG02 当前采用图：** [r06 U2](MJ_ref/Slideshow/Opening_v1/Background_Proposal_2026-11-19/BG02_MJ_r06_U2_candidate_v1.png)。负责人选用此图。远景试修第一轮因山形和光影被重绘而退回。负责人已选第二轮右下 U4 接着修，只压低主丘背后红框窄带的绿感，U4 单图已归档。第三轮整图与局部回图已记录，伏笔版已由负责人手调，当前接续稿为 [v3_m](TechnicalArt/references/opening_review_2026-11-23/BG02_MJ_trial/BG02_U4_PhotoCraft_foreshadow_v3_m.psd)。见 [BG02 Discord 试修包](TechnicalArt/references/opening_review_2026-11-23/BG02_MJ_trial/README.md)。现有五页 GIF 的 BG02 仍为 r03 U4。
+
+[2026-11-23 五页并排审片与修图优先级](TechnicalArt/references/opening_review_2026-11-23/README.md) · 已审候选，待负责人讨论；修图、音乐、五页接入与实机验收待做。
+
 ## 2026-11-23 五页开场故事画交接
 
 从 [五页 GIF](MJ_ref/Slideshow/Opening_v1/Opening_five_scene_preview_v1.gif) 开始。当前五页都有候选图，按 BG01 黄昏村庄 r02 U4、BG02 丘陵传说 r03 U4、OP01 双人玩耍 r04 U4、OP02 听到召唤 r03 U4、OP03 追向树林 v4 播放。GIF 为无声预览，27.4 秒，四次 0.4 秒叠化。正式音乐、五页 Unity 接入与实机验收待做。

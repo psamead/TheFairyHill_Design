@@ -1,5 +1,18 @@
 # Agent 设计开发过程与准则
 
+**2026-11-24 · 设计端与 Unity 工作站分工**　设计端在 CommandForAgentToInitialRun 登记任务，写明已临时落到工程的修改、尚待执行的增量和回报路径。Unity 工作站 Codex 在自己的工程接单、实施、实机检查并回报；设计端收回证据并维护设计仓库。
+
+### 五镜开场交付与逐页排字（2026-11-24）
+
+先读[五镜制作记录](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md)与[Unity 接单入口](CommandForAgentToInitialRun/2026-11-24_Opening_Five_Scenes_v9_Unity.md)。文字以一页讲完一个事件为单位；先看成图的负空间，再定该页的色彩、行宽与位置。画面、配乐、文案试排、实机与负责人试玩各自记录状态。
+
+### Midjourney 的日常提交入口
+
+Midjourney 日常生图和迭代优先在 Discord 的 Midjourney Bot 私聊进行。此前网页版遇到本地外图上传、图片链接导入和局部编辑问题。只有操作确实需要网页功能时再使用网页版，并记下操作、错误与结果。
+
+[Midjourney 项目经验](MIDJOURNEY_PROJECT_LESSONS.md)记录参考图分工及实际提交留档方法。
+
+
 ### 2026-11-20 本轮生图接续补充
 
 故事画当前进度及已验证的失败边界见 TechnicalArt/OPENING_STORYBOARD_PROGRESS_2026-11-20.md。参考先写身份、构图、笔触的具体用途；从四宫格选到单图后再确认线条轻重。实际提交消息不可得时，参数继续记待核。大面积局部擦除未保住目标形状、外图上传失败、导稿参考导致的轮廓漂移，均按各次记录判断。当前媒体暂缓推送，接手先读待传清单。

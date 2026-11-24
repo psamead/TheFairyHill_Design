@@ -1,5 +1,26 @@
 # OP03 奥伊芯与妮芙跑向树林
 
+[本次山形、远景色块和云形编辑原词与回图](OP03_background_prompt_evidence_2026-11-24.md)。本轮 Unity 试装使用双人 v6。
+
+## 2026-11-24 OP03 横向云层试稿 v6
+
+以 BG01 选定村庄图的云形为参考，冷暮天空换用宽平云底和横向薄层。[双人静帧 v6](OP03_U1_duo_layout_v6.png) · [分层 PSD](OP03_U1_duo_layout_v6.psd) · [无人物背景 v2](OP03_BG_U1_cool_dusk_composite_v2.png)。双人沿用 v5，本版待审。
+
+
+## 2026-11-24 OP03 冷暮双人静帧 v5
+
+[双人静帧 PNG](OP03_U1_duo_layout_v5.png) · [分层 PSD](OP03_U1_duo_layout_v5.psd)。冷暮 U1 背景配手调 v4 的两组人物图层。两组边界与 v4 相同，PNG 与 PSD 合成像素一致，人物范围外与高清背景一致。此版待静帧审片。
+
+
+## 2026-11-24 高清冷暮背景
+[OP03 高清无人物背景](OP03_BG_U1_cool_dusk_composite_v1.png)（2912 × 1632）。小屋、树林和草地来自[负责人下载的冷暮 U1 放大图](OP03_BG_MJ_U1_cool_dusk_upscale_v1.png)，天空、圆云和色块远山来自[已确认的 ImageGen 第二版](references/OP03_BG_ImageGen_round_clouds_v2.png)。沿高清树冠、屋顶和林缘合成。双人排版接续 v4。
+原下载名为 `psamead_Recolor_this_illustrated_landscape_to_a_cool_dusk_palet_20e6102e-954e-40ce-b10f-dc82d479c603.png`，SHA-256 为 `369f679acea15ee47903511abb4344410da3b5ad30f1408ebfa4bf7ce4a1f40f`。
+
+
+## 2026-11-24 冷色背景首轮试调
+
+OP02 合成 v1 已通过负责人静帧审片，以中性暮色中的微冷斜坡暗示异常。OP03 中奥伊芯受到召唤，谜题正式开始。用[独立 U3 草地](OP03_BG_MJ_r02_U3_upscale_candidate_v1.png)作唯一编辑底图，把冷意从斜坡扩到天空、草场和右侧林缘，左端屋顶余温与上页连接。[Discord 编辑词](OP03_background_cool_edit_r01.txt)已准备，待负责人提交。回图放回[手调双人构图 v4](OP03_U3_duo_layout_v4.psd)，按实际显示尺寸看领跑与叫停的剪影、距离和方向。人物小纹样按可见性取舍。
+
 ## 村外草地与双人试排
 
 [U3](OP03_BG_MJ_r02_U3_upscale_candidate_v1.png) 用于试排，[U4](OP03_BG_MJ_r02_U4_upscale_candidate_v1.png) 留作构图备选。两份原图均为 2912 × 1632，下载名与 SHA-256 见[校验清单](background_r02_downloads.json)。

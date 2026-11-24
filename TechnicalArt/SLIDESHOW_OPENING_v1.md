@@ -1,5 +1,10 @@
 # 妖精丘陵开场故事画制作单 v1
 
+## 2026-11-24 当前实施版本
+
+旧三页是占位阶段。现在接入[五页、字幕与时刻表](OPENING_FIVE_SCENES_2026-11-24.md)，配乐选用 v9，章节卡另计。[Unity 执行单](../CommandForAgentToInitialRun/2026-11-24_Opening_Five_Scenes_v9_Unity.md)。
+
+
 **2026-11-20 最新制作状态。** BG01、BG02 的环境候选与 OP02 三轮放大图已归档，OP03 尚无专属成图。五张顺序、候选与待审项见 [本轮汇总](OPENING_STORYBOARD_PROGRESS_2026-11-20.md)，[人读版](OPENING_STORYBOARD_PROGRESS_2026-11-20.docx)附参考与提示词经验。下文 v1 三张制作单保留原始分镜及当时状态。
 
 

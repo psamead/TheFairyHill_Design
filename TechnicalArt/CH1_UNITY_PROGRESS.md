@@ -1,5 +1,11 @@
 # Chapter 1 Unity Progress — S1 Village and Forest Path
 
+2026-11-24 · 五页故事、试排 A 与 v9 已接入真实工程。运行时与开场重建工具离线编译通过；目标 Editor 实播和负责人试玩待验。[Unity 实施回报](<//haoxi-rtx/C/Users/Administrator/Documents/UnityProject/TheFairyHill2D/Docs/Opening_Five_Scenes_v9_Unity_Handoff.md>)
+
+## 2026-11-24 · 五镜与配乐 v9 接入
+
+[执行单](../CommandForAgentToInitialRun/2026-11-24_Opening_Five_Scenes_v9_Unity.md)、[五镜试排 A](OPENING_FIVE_SCENES_2026-11-24.md)和[实际执行状态](unity_drop/2026-11-24_Opening_Five_Scenes_v9/dispatch_status.json)。试玩入口为 MainMenu 的 Play，结束时从 Chapter I 进入 S1。
+
 Date: 2026-10-30
 Project: `C:\Users\Administrator\Documents\UnityProject\TheFairyHill2D`
 Shared design source: `TechnicalArt/CH1_UNITY_HANDOFF.md`, `CommandForAgentToInitialRun/2026-10-29_Ch1_S1_Forest_Scenes.md`, and `TechnicalArt/SCENE_SCALE_SPEC.md`.
