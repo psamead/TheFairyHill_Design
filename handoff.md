@@ -1,5 +1,10 @@
 # HANDOFF — 《妖精丘陵 The Fairy Hills》
 
+## 2026-11-26　Unity 试玩修订与设计侧下一步
+
+Unity 工作站从[本轮唯一执行单](CommandForAgentToInitialRun/2026-11-26_Prologue_and_Thorn_Wall_Unity.md)接手。目标场景名 `ch1_S0_prologue`，旧名 `Opening_Chapter1`。设计依据和示意见[人读图解](TechnicalArt/第一章序章转场与十字架首次破障_试玩修订_2026-11-26.docx)。等待 Unity 的有声回报；收件路径为其工程 `Docs/Prologue_and_Thorn_Wall_Unity_Review.md`。设计侧并行推进[小挎包](INVENTORY_SYSTEM_DESIGN.md)，优先做铁十字架从拾取到圣物页可见的完整过程。
+
+
 **2026-11-24 · 当前交接**　[旁白 B 与原稿依据](TechnicalArt/OPENING_STORY_B_2026-11-24.md) · [Unity 工作站任务](CommandForAgentToInitialRun/2026-11-24_Opening_Story_B_Unity_Review.md)。本地完成设计样片；真实工程已接入 A，B 待对端应用和回报。
 
 2026-11-24 · 五页故事、试排 A 与 v9 已接入真实工程。运行时与开场重建工具离线编译通过；目标 Editor 实播和负责人试玩待验。[Unity 实施回报](<//haoxi-rtx/C/Users/Administrator/Documents/UnityProject/TheFairyHill2D/Docs/Opening_Five_Scenes_v9_Unity_Handoff.md>)

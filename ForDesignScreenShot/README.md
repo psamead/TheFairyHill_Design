@@ -1,5 +1,14 @@
 # ForDesignScreenShot · 设计核对截图
 
+2026-11-26 · [负责人第三轮试玩标注与参考游戏](./2026-11-26_for-prologue-and-thorn-wall/README.md)，用于核对序章交互及荆棘墙演出。
+
+
+2026-11-26 · [开场 B 原字号实机回报与 16 张原生截图](2026-11-26_for-opening-caption-fixed-size/README.md)。11 月 25 日实测，26 日归档。
+
+2026-11-25 · [四页字幕红框、用户原图与排版预览](2026-11-25_for-opening-caption-red-boxes/README.md)。
+
+2026-11-25 · [开场 B 的工作站回报、共享反馈图与排版修订](2026-11-25_for-opening-story-b-review/README.md)。
+
 保存用户试玩反馈、Unity／Codex实机截图和录屏，按“哪一轮修改”分文件夹，文件夹名 = 日期 + 用途。红圈等批注若由用户绘制，应与未标注的原始截图区分。较早各轮的问题与改法见 `TechnicalArt/CH1_UNITY_REVISION_v2.md`、`v3.md`、`v3_fix.md`。
 
 | 文件夹 | 内容 | 对应修改 |

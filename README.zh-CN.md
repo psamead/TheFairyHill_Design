@@ -1,5 +1,8 @@
 # 妖精丘陵 The Fairy Hills · 设计仓库
 
+**2026-11-26 · 第一章试玩修订**　[给制作人员的图解与经验](TechnicalArt/第一章序章转场与十字架首次破障_试玩修订_2026-11-26.docx) · [Unity 执行单](CommandForAgentToInitialRun/2026-11-26_Prologue_and_Thorn_Wall_Unity.md) · [背包设计接续](INVENTORY_SYSTEM_DESIGN.md)。
+
+
 2026-11-24 · [五镜故事画与选定配乐 v9](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md) · [人读复盘](TechnicalArt/开场五镜制作复盘与Unity交接_v9.docx) · [Unity 执行任务](CommandForAgentToInitialRun/2026-11-24_Opening_Story_B_Unity_Review.md)。
 
 

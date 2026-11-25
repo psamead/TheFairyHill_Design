@@ -1,5 +1,14 @@
 # 妖精丘陵：新对话接续入口
 
+**2026-11-26 · 新一轮负责人试玩意见**　序章的目标场景名为 `ch1_S0_prologue`。五页与 v9 已接入，音量、转场、按键提示、章封面及铁十字架破障演出交 Unity 工作站实施。[当前任务](CommandForAgentToInitialRun/2026-11-26_Prologue_and_Thorn_Wall_Unity.md) · [反馈原图](ForDesignScreenShot/2026-11-26_for-prologue-and-thorn-wall/) · [设计侧下一步：背包](INVENTORY_SYSTEM_DESIGN.md)。
+
+
+**2026-11-26 · 原字号实机回报已归档**　BG01 33.8，其余四页 36。两种分辨率共十页截图均无溢出，各走到村庄一次。阅读节奏和听感待负责人反馈。[实机截图与回报](ForDesignScreenShot/2026-11-26_for-opening-caption-fixed-size/README.md)。
+
+**2026-11-25 · 红框排版**　已在 Unity 资产中重排 BG01、BG02、OP02 和 OP03。工作站上轮已完成音画、切场、Settings 和矮墙检查。 [复测任务](CommandForAgentToInitialRun/2026-11-25_Opening_Story_B_Caption_Red_Boxes_Unity_Check.md) · [用户红框与静态预览](ForDesignScreenShot/2026-11-25_for-opening-caption-red-boxes/README.md)。
+
+**2026-11-25 · B 版实机回报已收，试玩修订已写入共享 Unity 工程。** [回报与截图](ForDesignScreenShot/2026-11-25_for-opening-story-b-review/README.md) · [Unity 复测任务](CommandForAgentToInitialRun/2026-11-25_Opening_Story_B_Fixes_Unity_Check.md)。首屏红框、五页字色、Settings 编辑态隐藏、切场相机、音画与妮芙碰撞待复验。
+
 **2026-11-24 · 当前交接**　[旁白 B 与原稿依据](TechnicalArt/OPENING_STORY_B_2026-11-24.md) · [Unity 工作站任务](CommandForAgentToInitialRun/2026-11-24_Opening_Story_B_Unity_Review.md)。本地完成设计样片；真实工程已接入 A，B 待对端应用和回报。
 
 2026-11-24 · 五页故事、试排 A 与 v9 已接入真实工程。运行时与开场重建工具离线编译通过；目标 Editor 实播和负责人试玩待验。[Unity 实施回报](<//haoxi-rtx/C/Users/Administrator/Documents/UnityProject/TheFairyHill2D/Docs/Opening_Five_Scenes_v9_Unity_Handoff.md>)

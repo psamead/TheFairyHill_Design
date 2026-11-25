@@ -1,0 +1,72 @@
+{
+  "source_directory": "Docs/References/Opening_Story_B_Caption_Fixed_Size",
+  "source_report": "Docs/Opening_Story_B_Caption_Fixed_Size_Unity_Check.md",
+  "captured": "2026-11-25",
+  "archived": "2026-11-26",
+  "screenshots": {
+    "BG01_1920.png": {
+      "file": "01_BG01_1920.png",
+      "sha256": "8dc8dbb557e47ebe6ad660402b4833560e68b04cfb8153a9c0eecb68d5f484f4"
+    },
+    "BG01_1280.png": {
+      "file": "02_BG01_1280.png",
+      "sha256": "1b62dd5b28dbb137ad02ce073a89372bb5a187da6c45ad508bb2c70aa46ccc8b"
+    },
+    "BG02_1920.png": {
+      "file": "03_BG02_1920.png",
+      "sha256": "842b4010c1167a76de37ec5486fbfcc3a0bb51bbbdfd2ebea31474d7493ab46f"
+    },
+    "BG02_1280.png": {
+      "file": "04_BG02_1280.png",
+      "sha256": "caf4f0d17e686247b47104f1b11bd333c22c795babbfd8ecf82a167dd1eb2c33"
+    },
+    "OP01_1920.png": {
+      "file": "05_OP01_1920.png",
+      "sha256": "4f2c1e2d47b735c1db7831ce5a172eb3afb5f656d747e0faa0fcf20bd8ce6a1d"
+    },
+    "OP01_1280.png": {
+      "file": "06_OP01_1280.png",
+      "sha256": "2862b892e759dd81130b1ba8d39d5d9b4f2236fd54da03a0aa8d56c80f616d74"
+    },
+    "OP02_1920.png": {
+      "file": "07_OP02_1920.png",
+      "sha256": "362b9823ba0502a2662438fdf23a991e7f272dc6725620646a2bfe95afa2899e"
+    },
+    "OP02_1280.png": {
+      "file": "08_OP02_1280.png",
+      "sha256": "032ccd345981d2aea0cdf3b29eb9145cad60612e22ef32815cde8a4436fb1b47"
+    },
+    "OP03_1920.png": {
+      "file": "09_OP03_1920.png",
+      "sha256": "6ed25fcf1e9e709a000e812d602b096529614c57d76ca27b70c488e3ae7a5598"
+    },
+    "OP03_1280.png": {
+      "file": "10_OP03_1280.png",
+      "sha256": "0f6ba1ed2a0e242334808e7380b6af448f10634a41b3ef9e23f1c0202b6f92e4"
+    },
+    "Chapter_I_1920.png": {
+      "file": "11_Chapter_I_1920.png",
+      "sha256": "0f9bed3fb68bf272f481506c8c22836b11e880a29dd5f8356aa949796b50d98f"
+    },
+    "Chapter_I_1280.png": {
+      "file": "12_Chapter_I_1280.png",
+      "sha256": "3860ed9484739b1bd67c4ac06b6811bce079ed6f5174d8b0fac2d5407bf86ce8"
+    },
+    "black_1920.png": {
+      "file": "13_black_1920.png",
+      "sha256": "1889b0f9df5a4fc19b4b922680af5623bbaf464c658ba2da16a95482ca21efa0"
+    },
+    "black_1280.png": {
+      "file": "14_black_1280.png",
+      "sha256": "5caaf573ffc294827df39b5de5bf9f433ac2d1f443c29ff696d19fd12d36c47b"
+    },
+    "village_1920.png": {
+      "file": "15_village_1920.png",
+      "sha256": "e4cf0a0a7c91b7f30808621a32dda7d14150084df9924745aa847fad48c956fd"
+    },
+    "village_1280.png": {
+      "file": "16_village_1280.png",
+      "sha256": "490e581d0e9e516458918ada9c50bbe3905ec39c74c78f7948209ccb2187fd5c"
+    }
+  }
+}

@@ -1,5 +1,14 @@
 # Midjourney prompting — lessons from Lantern Keeper and Fairy Hills
 
+## 2026-11-26　根据手绘批注写光束与粒子的提示词
+
+先写标注图的图例。黄线标的是半透明白烟，橙线与绿线分别划出现有橙色粒子、橘黄火星的覆盖区；把笔触颜色直接当成效果颜色会画出绿火星。再写实际光色的空间顺序，从米黄芯到亮白光带、冷蓝外缘。若需要静帧，分别描述初闪、窄束、强束与消散各帧，并固定角色姿势、光源和命中点。3 秒照射与操作锁定另写进 Unity 任务，以游戏录屏核对。以下为待用措辞，本轮未提交生成：
+
+> A pale cream core surrounded by a bright white band and a soft cool-blue rim. Thin, translucent white smoke rises from the brambles, with individual twigs still visible through it.
+
+[负责人标注与区域说明](ForDesignScreenShot/2026-11-26_for-prologue-and-thorn-wall/README.md)。
+
+
 ## 2026-11-24 用底图守住山形，用邻镜限定笔触
 
 Discord 用选中单图地址，编辑正文末尾接 `--edit <底图URL> --ar 91:51`；四宫格截图只用于指认。先检查宽幅原图中低圆丘、浅鞍部与右侧坡线，再改远近山面明度。OP02 平涂小样只供色块边界，BG01 只供云形；复核改动有没有连带重画屋顶、草纹或人物。远山黑线反复回来时，转到局部合成，把选好的天空与远山接回高清前景。底图相同山形时省去重复参考。

@@ -1,5 +1,8 @@
 # The Fairy Hills · Design Repository
 
+**2026-11-26 · 第一章试玩修订**　[人读图解](TechnicalArt/第一章序章转场与十字架首次破障_试玩修订_2026-11-26.docx) · [序章与森林破障的 Unity 执行单](CommandForAgentToInitialRun/2026-11-26_Prologue_and_Thorn_Wall_Unity.md) · [下一项设计：妮芙的小挎包](INVENTORY_SYSTEM_DESIGN.md)。
+
+
 2026-11-24 · [五镜开场与 v9 已选配乐](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md) · [人读图解](TechnicalArt/开场五镜制作复盘与Unity交接_v9.docx) · [Unity 接入任务](CommandForAgentToInitialRun/2026-11-24_Opening_Story_B_Unity_Review.md)。
 
 

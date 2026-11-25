@@ -21,8 +21,27 @@
     "task": "CommandForAgentToInitialRun/2026-11-24_Opening_Story_B_Unity_Review.md",
     "design_preview": "MJ_ref/Slideshow/Opening_v1/Opening_five_scene_story_B_v9.mp4",
     "handoff": "published in shared task directory; UNC path checked on design workstation",
-    "workstation_acknowledgement": "pending",
+    "workstation_acknowledgement": "completed on 2026-11-24",
     "engine_changes_by_design_for_B": false,
-    "play_mode": "pending"
+    "play_mode": "five shots and village handoff observed at 1080p/720p before fixes",
+    "engine_report": "Docs/Opening_Story_B_Unity_Review.md",
+    "fixes_recheck_task": "CommandForAgentToInitialRun/2026-11-25_Opening_Story_B_Fixes_Unity_Check.md",
+    "fixes_recheck": "completed on 2026-11-25 in live Unity Editor",
+    "fixes_recheck_report": "Docs/Opening_Story_B_Fixes_Unity_Check.md",
+    "caption_red_boxes": {
+      "unity_asset_sha256": "d0442ac9ea9a8dc3a436aa406b85d1a11bad9c61fb1c437e38facc6d44376a6a",
+      "task": "CommandForAgentToInitialRun/2026-11-25_Opening_Story_B_Caption_Red_Boxes_Unity_Check.md",
+      "state": "smaller fonts dispatched and reviewed; superseded by owner instruction to retain original sizes",
+      "workstation_report": "Docs/Opening_Story_B_Caption_Red_Boxes_Unity_Check.md",
+      "fixed_size_revision": {
+        "asset_sha256": "636599698fcc636b39b394bcca2e98bfa5dfd82a4ffec9b5b2765a235489c272",
+        "task": "CommandForAgentToInitialRun/2026-11-25_Opening_Story_B_Caption_Red_Boxes_Unity_Check.md",
+        "state": "verified in live Unity Editor at 1920x1080 and 1280x720 on 2026-11-25",
+        "expected_report": "Docs/Opening_Story_B_Caption_Fixed_Size_Unity_Check.md",
+        "workstation_report": "Docs/Opening_Story_B_Caption_Fixed_Size_Unity_Check.md",
+        "screenshot_archive": "ForDesignScreenShot/2026-11-26_for-opening-caption-fixed-size",
+        "archived": "2026-11-26"
+      }
+    }
   }
 }
