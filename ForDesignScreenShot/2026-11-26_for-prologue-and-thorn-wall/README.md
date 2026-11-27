@@ -10,3 +10,5 @@
 | [04 首次举起十字架](04_raised_cross_beam.png) | 红线为光束方向，黄色笔触为淡白烟，橙色和绿色笔触分别标注现有橙色粒子和橘黄火星的扩散区域。 |
 
 [本轮 Unity 任务](../../CommandForAgentToInitialRun/2026-11-26_Prologue_and_Thorn_Wall_Unity.md)。
+
+2026-11-28 整理记录：根目录散图 `1.png`、`2.PNG`、`3.PNG`、`4.png` 依次对应上表 01–04。逐张核对 SHA-256 完全一致后，将根目录副本移至回收站。

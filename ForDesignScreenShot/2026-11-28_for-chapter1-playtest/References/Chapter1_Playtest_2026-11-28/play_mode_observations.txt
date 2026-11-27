@@ -1,0 +1,453 @@
+November 28, 2026, Unity 6000.3.24f1. Baseline, Natural and Keyboard timestamps use video frame time. Baseline video begins at log time 43.000 s. Direct, Return and Fallback use elapsed wall time.
+
+Baseline
+0.000 capture=1280x720 output=48000 speakerMode=Stereo master=1
+0.000 active MainMenu real=40.985
+0.000 black 0.000
+2.000 Start submitted
+12.208 active ch1_S0_prologue real=42.349
+12.208 black 1.000
+12.208 page 0 elapsed=0.000 black=1.000 dsp=2836.8000
+12.375 black 0.000
+17.000 page 1 elapsed=0.029 black=0.000 dsp=2841.5787
+21.583 page 2 elapsed=0.015 black=0.000 dsp=2846.1653
+27.167 page 3 elapsed=0.005 black=0.000 dsp=2851.7547
+33.792 page 4 elapsed=0.018 black=0.000 dsp=2858.3680
+43.000 page 5 elapsed=0.034 black=0.068 dsp=2867.5840
+43.042 black 0.153
+43.083 black 0.239
+43.125 black 0.324
+43.167 black 0.409
+43.208 black 0.495
+43.250 black 0.580
+43.292 black 0.665
+43.333 black 0.751
+43.375 black 0.836
+43.417 black 0.921
+43.542 black 0.823
+43.625 black 0.695
+43.667 black 0.609
+43.708 black 0.524
+43.750 black 0.439
+43.792 black 0.353
+43.833 black 0.268
+43.875 black 0.183
+43.917 black 0.097
+43.958 black 0.012
+44.000 black 0.000
+46.625 black 0.076
+46.750 black 0.156
+46.917 black 0.251
+47.042 black 0.329
+47.167 black 0.411
+47.292 black 0.486
+47.458 black 0.582
+47.625 black 0.680
+47.792 black 0.773
+47.958 black 0.869
+48.125 black 0.966
+48.208 black 1.000
+48.292 active Ch1_S1_Village real=47.898
+48.292 village music id=93198 gain=0.500 playing=True awake=True samples=0 listeners=DontDestroyOnLoad core=False
+48.542 village music id=93198 gain=0.000 playing=True awake=True samples=11289 listeners=Core_Persistent core=True
+48.625 village music id=93198 gain=0.028 playing=True awake=True samples=15052 listeners=Core_Persistent core=True
+48.667 black 0.917
+48.708 village music id=93198 gain=0.058 playing=True awake=True samples=18815 listeners=Core_Persistent core=True
+48.792 black 0.827
+48.792 village music id=93198 gain=0.087 playing=True awake=True samples=22579 listeners=Core_Persistent core=True
+48.875 village music id=93198 gain=0.115 playing=True awake=True samples=26342 listeners=Core_Persistent core=True
+48.917 black 0.740
+48.958 village music id=93198 gain=0.150 playing=True awake=True samples=29164 listeners=Core_Persistent core=True
+49.042 black 0.639
+49.042 village music id=93198 gain=0.181 playing=True awake=True samples=32927 listeners=Core_Persistent core=True
+49.125 village music id=93198 gain=0.210 playing=True awake=True samples=36691 listeners=Core_Persistent core=True
+49.167 black 0.549
+49.208 village music id=93198 gain=0.239 playing=True awake=True samples=40454 listeners=Core_Persistent core=True
+49.292 black 0.462
+49.292 village music id=93198 gain=0.269 playing=True awake=True samples=44217 listeners=Core_Persistent core=True
+49.375 village music id=93198 gain=0.298 playing=True awake=True samples=47980 listeners=Core_Persistent core=True
+49.417 black 0.373
+49.458 village music id=93198 gain=0.331 playing=True awake=True samples=51743 listeners=Core_Persistent core=True
+49.542 black 0.278
+49.542 village music id=93198 gain=0.361 playing=True awake=True samples=55507 listeners=Core_Persistent core=True
+49.625 village music id=93198 gain=0.388 playing=True awake=True samples=59270 listeners=Core_Persistent core=True
+49.667 black 0.193
+49.708 village music id=93198 gain=0.417 playing=True awake=True samples=63033 listeners=Core_Persistent core=True
+49.792 black 0.107
+49.792 village music id=93198 gain=0.446 playing=True awake=True samples=65855 listeners=Core_Persistent core=True
+49.875 village music id=93198 gain=0.477 playing=True awake=True samples=69619 listeners=Core_Persistent core=True
+49.917 black 0.019
+49.958 village music id=93198 gain=0.500 playing=True awake=True samples=73382 listeners=Core_Persistent core=True
+50.000 black 0.000
+50.000 Village control available x=3.500
+51.000 D down after handoff
+51.333 player x=4.460 after movement
+61.042 finished villageLoads=1 musicStarts=1 invalidCameraListenerFrames=0 finalGain=0.500 sample=562598
+
+Natural
+0.000 capture=1280x720 output=48000 speakerMode=Stereo master=1
+0.000 active MainMenu real=5.211
+0.000 black 0.000
+2.000 Start submitted
+2.042 black 0.098
+2.125 black 0.232
+2.208 black 0.351
+2.292 black 0.490
+2.375 black 0.606
+2.458 black 0.724
+2.542 black 0.847
+2.625 black 0.950
+2.667 black 1.000
+2.750 active ch1_S0_prologue real=7.894
+2.750 page 0 elapsed=0.000 black=1.000 dsp=2971.8400
+3.000 black 0.894
+3.083 black 0.809
+3.167 black 0.723
+3.250 black 0.638
+3.333 black 0.553
+3.417 black 0.467
+3.500 black 0.382
+3.625 black 0.275
+3.708 black 0.190
+3.792 black 0.105
+3.875 black 0.019
+3.917 black 0.000
+4.125 BG01_1280 ink=910.12,386.04..1132.88,471.98 font=33.8 lines=3 overflow=False hintLines=1 hintOverflow=False
+7.500 page 1 elapsed=0.007 black=0.000 dsp=2976.5973
+8.708 BG02_1280 ink=166.28,453.11..532.52,514.36 font=36.0 lines=2 overflow=False hintLines=1 hintOverflow=False
+12.125 page 2 elapsed=0.037 black=0.000 dsp=2981.2267
+13.292 OP01_1280 ink=836.39,586.31..1213.74,651.40 font=36.0 lines=2 overflow=False hintLines=1 hintOverflow=False
+17.708 page 3 elapsed=0.026 black=0.000 dsp=2986.8160
+18.917 OP02_1280 ink=848.52,391.19..1168.87,489.49 font=36.0 lines=3 overflow=False hintLines=1 hintOverflow=False
+24.333 page 4 elapsed=0.039 black=0.000 dsp=2993.4293
+25.500 OP03_1280 ink=890.72,397.67..1175.76,492.13 font=36.0 lines=3 overflow=False hintLines=1 hintOverflow=False
+33.500 page 5 elapsed=0.013 black=0.025 dsp=3002.6027
+33.542 black 0.111
+33.583 black 0.196
+33.625 black 0.281
+33.667 black 0.367
+33.708 black 0.452
+33.750 black 0.537
+33.833 black 0.665
+33.875 black 0.751
+33.917 black 0.836
+33.958 black 0.921
+34.083 black 0.823
+34.125 black 0.737
+34.167 black 0.652
+34.208 black 0.567
+34.250 black 0.481
+34.292 black 0.396
+34.333 black 0.311
+34.375 black 0.225
+34.417 black 0.140
+34.458 black 0.055
+34.500 black 0.000
+37.125 black 0.082
+37.250 black 0.164
+37.375 black 0.244
+37.500 black 0.322
+37.625 black 0.399
+37.750 black 0.480
+37.875 black 0.556
+38.000 black 0.633
+38.125 black 0.711
+38.250 black 0.787
+38.417 black 0.885
+38.542 black 0.962
+38.625 black 1.000
+38.708 active Ch1_S1_Village real=32.025
+38.708 village music id=94014 gain=0.500 playing=False awake=False samples=0 listeners=DontDestroyOnLoad core=False
+38.917 village music id=94014 gain=0.000 playing=True awake=False samples=0 listeners=Core_Persistent core=True
+39.000 village music id=94014 gain=0.025 playing=True awake=False samples=3763 listeners=Core_Persistent core=True
+39.083 black 0.902
+39.083 village music id=94014 gain=0.049 playing=True awake=False samples=7526 listeners=Core_Persistent core=True
+39.167 village music id=94014 gain=0.077 playing=True awake=False samples=10348 listeners=Core_Persistent core=True
+39.208 black 0.821
+39.250 village music id=94014 gain=0.101 playing=True awake=False samples=14111 listeners=Core_Persistent core=True
+39.333 village music id=94014 gain=0.126 playing=True awake=False samples=17875 listeners=Core_Persistent core=True
+39.375 black 0.723
+39.417 village music id=94014 gain=0.152 playing=True awake=False samples=21638 listeners=Core_Persistent core=True
+39.500 black 0.645
+39.500 village music id=94014 gain=0.178 playing=True awake=False samples=25401 listeners=Core_Persistent core=True
+39.583 village music id=94014 gain=0.205 playing=True awake=False samples=29164 listeners=Core_Persistent core=True
+39.625 black 0.563
+39.667 village music id=94014 gain=0.231 playing=True awake=False samples=32927 listeners=Core_Persistent core=True
+39.750 village music id=94014 gain=0.256 playing=True awake=False samples=36691 listeners=Core_Persistent core=True
+39.792 black 0.458
+39.833 village music id=94014 gain=0.284 playing=True awake=False samples=40454 listeners=Core_Persistent core=True
+39.917 black 0.377
+39.917 village music id=94014 gain=0.311 playing=True awake=False samples=44217 listeners=Core_Persistent core=True
+40.000 village music id=94014 gain=0.337 playing=True awake=False samples=47980 listeners=Core_Persistent core=True
+40.042 black 0.295
+40.083 village music id=94014 gain=0.366 playing=True awake=False samples=50803 listeners=Core_Persistent core=True
+40.167 black 0.214
+40.167 village music id=94014 gain=0.393 playing=True awake=False samples=54566 listeners=Core_Persistent core=True
+40.250 village music id=94014 gain=0.420 playing=True awake=False samples=58329 listeners=Core_Persistent core=True
+40.292 black 0.135
+40.333 village music id=94014 gain=0.445 playing=True awake=False samples=62092 listeners=Core_Persistent core=True
+40.417 black 0.052
+40.417 village music id=94014 gain=0.474 playing=True awake=False samples=65855 listeners=Core_Persistent core=True
+40.500 village music id=94014 gain=0.500 playing=True awake=False samples=69619 listeners=Core_Persistent core=True
+40.542 village music id=94014 gain=0.500 playing=True awake=False samples=71500 listeners=Core_Persistent core=True
+40.583 black 0.000
+40.583 Village control available x=3.500
+41.583 D down after handoff
+41.917 player x=4.460 after movement
+51.625 finished villageLoads=1 musicStarts=1 invalidCameraListenerFrames=0 finalGain=0.500 sample=559775
+
+Keyboard
+0.000 capture=1920x1080 output=48000 speakerMode=Stereo master=1
+0.000 active MainMenu real=52.036
+0.000 black 0.000
+2.000 Start submitted
+2.083 black 0.114
+2.125 black 0.228
+2.167 black 0.329
+2.208 black 0.433
+2.208 pointer raycast blocked by Black
+2.208 second Start click attempted
+2.250 black 0.543
+2.292 black 0.642
+2.333 black 0.740
+2.375 black 0.833
+2.417 black 0.931
+2.458 black 1.000
+2.542 active ch1_S0_prologue real=55.757
+2.542 page 0 elapsed=0.000 black=1.000 dsp=3034.6667
+2.792 black 0.915
+2.875 black 0.830
+2.958 black 0.745
+3.042 black 0.659
+3.042 held Enter plus Esc during reveal
+3.125 black 0.574
+3.208 black 0.489
+3.292 black 0.403
+3.375 black 0.318
+3.458 black 0.233
+3.542 black 0.147
+3.667 black 0.041
+3.708 black 0.000
+3.917 BG01_1920 ink=1365.18,579.07..1699.32,707.97 font=33.8 lines=3 overflow=False hintLines=1 hintOverflow=False
+4.083 menu keys released after reveal
+4.417 first ordinary-key advance
+4.458 page 1 elapsed=0.000 black=0.000 dsp=3036.5653
+5.667 BG02_1920 ink=249.42,679.66..798.78,771.54 font=36.0 lines=2 overflow=False hintLines=1 hintOverflow=False
+6.125 ordinary-key advance
+6.167 page 2 elapsed=0.000 black=0.000 dsp=3038.2933
+7.417 OP01_1920 ink=1254.58,879.46..1820.61,977.10 font=36.0 lines=2 overflow=False hintLines=1 hintOverflow=False
+7.833 ordinary-key advance
+7.875 page 3 elapsed=0.000 black=0.000 dsp=3040.0000
+9.125 OP02_1920 ink=1272.78,586.78..1753.31,734.24 font=36.0 lines=3 overflow=False hintLines=1 hintOverflow=False
+9.542 ordinary-key advance
+9.583 page 4 elapsed=0.000 black=0.000 dsp=3041.7067
+10.833 OP03_1920 ink=1336.08,596.50..1763.63,738.19 font=36.0 lines=3 overflow=False hintLines=1 hintOverflow=False
+11.250 Esc skip
+11.292 page 5 elapsed=0.000 black=0.000 dsp=3043.4133
+11.333 black 0.085
+11.375 black 0.171
+11.417 black 0.256
+11.458 black 0.341
+11.500 black 0.427
+11.542 black 0.512
+11.625 black 0.640
+11.667 black 0.725
+11.708 black 0.811
+11.750 black 0.896
+11.792 black 0.981
+11.875 black 0.848
+11.917 black 0.763
+11.958 black 0.677
+12.000 black 0.592
+12.042 black 0.507
+12.083 black 0.421
+12.125 black 0.336
+12.167 black 0.251
+12.208 black 0.165
+12.250 black 0.080
+12.292 black 0.000
+14.917 black 0.107
+15.000 black 0.239
+15.083 black 0.355
+15.167 black 0.459
+15.250 black 0.572
+15.333 black 0.671
+15.417 black 0.772
+15.500 black 0.867
+15.583 black 0.965
+15.625 black 1.000
+15.708 active Ch1_S1_Village real=73.761
+15.708 village music id=95038 gain=0.500 playing=False awake=False samples=0 listeners=DontDestroyOnLoad core=False
+15.917 village music id=95038 gain=0.000 playing=True awake=False samples=0 listeners=Core_Persistent core=True
+16.000 black 0.909
+16.000 village music id=95038 gain=0.045 playing=True awake=False samples=3763 listeners=Core_Persistent core=True
+16.042 village music id=95038 gain=0.073 playing=True awake=False samples=4703 listeners=Core_Persistent core=True
+16.083 black 0.800
+16.083 village music id=95038 gain=0.100 playing=True awake=False samples=6585 listeners=Core_Persistent core=True
+16.125 village music id=95038 gain=0.126 playing=True awake=False samples=8467 listeners=Core_Persistent core=True
+16.167 black 0.697
+16.167 village music id=95038 gain=0.151 playing=True awake=False samples=10348 listeners=Core_Persistent core=True
+16.208 village music id=95038 gain=0.177 playing=True awake=False samples=12230 listeners=Core_Persistent core=True
+16.250 black 0.599
+16.250 village music id=95038 gain=0.200 playing=True awake=False samples=14111 listeners=Core_Persistent core=True
+16.292 village music id=95038 gain=0.225 playing=True awake=False samples=15993 listeners=Core_Persistent core=True
+16.333 black 0.502
+16.333 village music id=95038 gain=0.249 playing=True awake=False samples=17875 listeners=Core_Persistent core=True
+16.375 village music id=95038 gain=0.275 playing=True awake=False samples=19756 listeners=Core_Persistent core=True
+16.417 black 0.392
+16.417 village music id=95038 gain=0.304 playing=True awake=False samples=21638 listeners=Core_Persistent core=True
+16.458 village music id=95038 gain=0.332 playing=True awake=False samples=23519 listeners=Core_Persistent core=True
+16.500 black 0.285
+16.500 village music id=95038 gain=0.357 playing=True awake=False samples=25401 listeners=Core_Persistent core=True
+16.542 village music id=95038 gain=0.388 playing=True awake=False samples=27283 listeners=Core_Persistent core=True
+16.583 black 0.175
+16.583 village music id=95038 gain=0.412 playing=True awake=False samples=29164 listeners=Core_Persistent core=True
+16.625 village music id=95038 gain=0.438 playing=True awake=False samples=31046 listeners=Core_Persistent core=True
+16.667 black 0.077
+16.667 village music id=95038 gain=0.462 playing=True awake=False samples=32927 listeners=Core_Persistent core=True
+16.708 village music id=95038 gain=0.487 playing=True awake=False samples=34809 listeners=Core_Persistent core=True
+16.750 village music id=95038 gain=0.500 playing=True awake=False samples=36691 listeners=Core_Persistent core=True
+16.792 black 0.000
+16.792 Village control available x=3.500
+17.792 D down after handoff
+18.125 player x=4.460 after movement
+27.833 finished villageLoads=1 musicStarts=1 invalidCameraListenerFrames=0 finalGain=0.500 sample=524966
+
+Direct
+0.000 capture=1280x720 output=48000 speakerMode=Stereo master=1
+0.635 active Ch1_S1_Village real=171.059
+0.636 black 0.000
+0.637 village music id=99410 gain=0.500 playing=False awake=False samples=0 listeners= core=False
+0.657 Village control available x=3.500
+0.663 village music id=99410 gain=0.000 playing=True awake=False samples=940 listeners=Core_Persistent core=True
+0.706 village music id=99410 gain=0.021 playing=True awake=False samples=2822 listeners=Core_Persistent core=True
+0.747 village music id=99410 gain=0.042 playing=True awake=False samples=4703 listeners=Core_Persistent core=True
+0.753 D down after handoff
+0.782 player x=3.628 after movement
+0.788 village music id=99410 gain=0.062 playing=True awake=False samples=6585 listeners=Core_Persistent core=True
+0.829 village music id=99410 gain=0.083 playing=True awake=False samples=8467 listeners=Core_Persistent core=True
+0.869 village music id=99410 gain=0.103 playing=True awake=False samples=10348 listeners=Core_Persistent core=True
+0.910 village music id=99410 gain=0.123 playing=True awake=False samples=12230 listeners=Core_Persistent core=True
+0.950 village music id=99410 gain=0.143 playing=True awake=False samples=14111 listeners=Core_Persistent core=True
+0.992 village music id=99410 gain=0.164 playing=True awake=False samples=15052 listeners=Core_Persistent core=True
+1.034 village music id=99410 gain=0.185 playing=True awake=False samples=16934 listeners=Core_Persistent core=True
+1.074 village music id=99410 gain=0.205 playing=True awake=False samples=18815 listeners=Core_Persistent core=True
+1.116 village music id=99410 gain=0.226 playing=True awake=False samples=20697 listeners=Core_Persistent core=True
+1.158 village music id=99410 gain=0.247 playing=True awake=False samples=22579 listeners=Core_Persistent core=True
+1.200 village music id=99410 gain=0.268 playing=True awake=False samples=25401 listeners=Core_Persistent core=True
+1.241 village music id=99410 gain=0.289 playing=True awake=False samples=27283 listeners=Core_Persistent core=True
+1.283 village music id=99410 gain=0.310 playing=True awake=False samples=28223 listeners=Core_Persistent core=True
+1.324 village music id=99410 gain=0.330 playing=True awake=False samples=30105 listeners=Core_Persistent core=True
+1.365 village music id=99410 gain=0.351 playing=True awake=False samples=31987 listeners=Core_Persistent core=True
+1.407 village music id=99410 gain=0.372 playing=True awake=False samples=33868 listeners=Core_Persistent core=True
+1.448 village music id=99410 gain=0.393 playing=True awake=False samples=35750 listeners=Core_Persistent core=True
+1.491 village music id=99410 gain=0.414 playing=True awake=False samples=37631 listeners=Core_Persistent core=True
+1.532 village music id=99410 gain=0.434 playing=True awake=False samples=39513 listeners=Core_Persistent core=True
+1.574 village music id=99410 gain=0.455 playing=True awake=False samples=41395 listeners=Core_Persistent core=True
+1.616 village music id=99410 gain=0.476 playing=True awake=False samples=42335 listeners=Core_Persistent core=True
+1.657 village music id=99410 gain=0.497 playing=True awake=False samples=44217 listeners=Core_Persistent core=True
+1.665 village music id=99410 gain=0.500 playing=True awake=False samples=45158 listeners=Core_Persistent core=True
+3.058 finished villageLoads=1 musicStarts=1 invalidCameraListenerFrames=0 finalGain=0.500 sample=106310
+
+Return
+0.000 capture=1280x720 output=48000 speakerMode=Stereo master=1
+0.003 active Ch1_S1b_ForestPath real=137.861
+0.004 black 0.000
+0.138 ChapterSceneLoader Forest -> Village
+0.376 active Ch1_S1_Village real=138.234
+0.377 village music id=98114 gain=0.500 playing=False awake=False samples=0 listeners=Core_Persistent core=True
+0.377 Village control available x=3.500
+0.395 village music id=98114 gain=0.000 playing=True awake=False samples=0 listeners=Core_Persistent core=True
+0.435 village music id=98114 gain=0.021 playing=True awake=False samples=940 listeners=Core_Persistent core=True
+0.477 village music id=98114 gain=0.041 playing=True awake=False samples=2822 listeners=Core_Persistent core=True
+0.485 D down after handoff
+0.514 player x=3.628 after movement
+0.517 village music id=98114 gain=0.061 playing=True awake=False samples=4703 listeners=Core_Persistent core=True
+0.557 village music id=98114 gain=0.082 playing=True awake=False samples=6585 listeners=Core_Persistent core=True
+0.599 village music id=98114 gain=0.103 playing=True awake=False samples=9407 listeners=Core_Persistent core=True
+0.641 village music id=98114 gain=0.124 playing=True awake=False samples=11289 listeners=Core_Persistent core=True
+0.682 village music id=98114 gain=0.144 playing=True awake=False samples=13171 listeners=Core_Persistent core=True
+0.723 village music id=98114 gain=0.164 playing=True awake=False samples=15052 listeners=Core_Persistent core=True
+0.765 village music id=98114 gain=0.185 playing=True awake=False samples=15993 listeners=Core_Persistent core=True
+0.807 village music id=98114 gain=0.206 playing=True awake=False samples=17875 listeners=Core_Persistent core=True
+0.849 village music id=98114 gain=0.227 playing=True awake=False samples=19756 listeners=Core_Persistent core=True
+0.889 village music id=98114 gain=0.248 playing=True awake=False samples=21638 listeners=Core_Persistent core=True
+0.931 village music id=98114 gain=0.269 playing=True awake=False samples=23519 listeners=Core_Persistent core=True
+0.974 village music id=98114 gain=0.290 playing=True awake=False samples=25401 listeners=Core_Persistent core=True
+1.016 village music id=98114 gain=0.311 playing=True awake=False samples=28223 listeners=Core_Persistent core=True
+1.056 village music id=98114 gain=0.331 playing=True awake=False samples=29164 listeners=Core_Persistent core=True
+1.099 village music id=98114 gain=0.352 playing=True awake=False samples=31046 listeners=Core_Persistent core=True
+1.140 village music id=98114 gain=0.373 playing=True awake=False samples=32927 listeners=Core_Persistent core=True
+1.181 village music id=98114 gain=0.394 playing=True awake=False samples=34809 listeners=Core_Persistent core=True
+1.221 village music id=98114 gain=0.414 playing=True awake=False samples=36691 listeners=Core_Persistent core=True
+1.262 village music id=98114 gain=0.434 playing=True awake=False samples=38572 listeners=Core_Persistent core=True
+1.304 village music id=98114 gain=0.455 playing=True awake=False samples=40454 listeners=Core_Persistent core=True
+1.345 village music id=98114 gain=0.475 playing=True awake=False samples=42335 listeners=Core_Persistent core=True
+1.386 village music id=98114 gain=0.496 playing=True awake=False samples=43276 listeners=Core_Persistent core=True
+1.397 village music id=98114 gain=0.500 playing=True awake=False samples=44217 listeners=Core_Persistent core=True
+2.778 finished villageLoads=1 musicStarts=1 invalidCameraListenerFrames=0 finalGain=0.500 sample=105369
+
+Fallback
+0.000 capture=1280x720 output=48000 speakerMode=Stereo master=1
+0.003 active MainMenu real=154.936
+0.004 black 0.000
+0.104 Start submitted
+0.139 black 0.075
+0.182 black 0.160
+0.220 black 0.236
+0.259 black 0.315
+0.298 black 0.393
+0.339 black 0.474
+0.377 black 0.550
+0.415 black 0.626
+0.452 black 0.701
+0.491 black 0.779
+0.530 black 0.857
+0.569 black 0.935
+0.794 black 1.000
+1.320 active Ch1_S1_Village real=156.254
+1.321 village music id=98790 gain=0.500 playing=False awake=False samples=0 listeners= core=False
+1.498 village music id=98790 gain=0.000 playing=True awake=False samples=940 listeners=Core_Persistent core=True
+1.531 village music id=98790 gain=0.021 playing=True awake=False samples=1881 listeners=Core_Persistent core=True
+1.567 black 0.922
+1.573 village music id=98790 gain=0.042 playing=True awake=False samples=3763 listeners=Core_Persistent core=True
+1.613 village music id=98790 gain=0.062 playing=True awake=False samples=5644 listeners=Core_Persistent core=True
+1.644 black 0.845
+1.656 village music id=98790 gain=0.083 playing=True awake=False samples=7526 listeners=Core_Persistent core=True
+1.696 village music id=98790 gain=0.103 playing=True awake=False samples=9407 listeners=Core_Persistent core=True
+1.722 black 0.767
+1.736 village music id=98790 gain=0.124 playing=True awake=False samples=10348 listeners=Core_Persistent core=True
+1.779 village music id=98790 gain=0.145 playing=True awake=False samples=13171 listeners=Core_Persistent core=True
+1.799 black 0.690
+1.822 village music id=98790 gain=0.166 playing=True awake=False samples=15052 listeners=Core_Persistent core=True
+1.862 village music id=98790 gain=0.186 playing=True awake=False samples=16934 listeners=Core_Persistent core=True
+1.874 black 0.615
+1.905 village music id=98790 gain=0.208 playing=True awake=False samples=17875 listeners=Core_Persistent core=True
+1.945 village music id=98790 gain=0.228 playing=True awake=False samples=19756 listeners=Core_Persistent core=True
+1.951 black 0.538
+1.986 village music id=98790 gain=0.248 playing=True awake=False samples=21638 listeners=Core_Persistent core=True
+2.027 black 0.463
+2.027 village music id=98790 gain=0.269 playing=True awake=False samples=23519 listeners=Core_Persistent core=True
+2.069 village music id=98790 gain=0.290 playing=True awake=False samples=25401 listeners=Core_Persistent core=True
+2.104 black 0.385
+2.111 village music id=98790 gain=0.311 playing=True awake=False samples=26342 listeners=Core_Persistent core=True
+2.152 village music id=98790 gain=0.332 playing=True awake=False samples=29164 listeners=Core_Persistent core=True
+2.181 black 0.308
+2.193 village music id=98790 gain=0.352 playing=True awake=False samples=31046 listeners=Core_Persistent core=True
+2.235 village music id=98790 gain=0.373 playing=True awake=False samples=32927 listeners=Core_Persistent core=True
+2.259 black 0.230
+2.276 village music id=98790 gain=0.393 playing=True awake=False samples=34809 listeners=Core_Persistent core=True
+2.317 village music id=98790 gain=0.414 playing=True awake=False samples=36691 listeners=Core_Persistent core=True
+2.336 black 0.154
+2.357 village music id=98790 gain=0.434 playing=True awake=False samples=38572 listeners=Core_Persistent core=True
+2.398 village music id=98790 gain=0.455 playing=True awake=False samples=39513 listeners=Core_Persistent core=True
+2.413 black 0.076
+2.439 village music id=98790 gain=0.475 playing=True awake=False samples=41395 listeners=Core_Persistent core=True
+2.480 village music id=98790 gain=0.495 playing=True awake=False samples=43276 listeners=Core_Persistent core=True
+2.489 black 0.000
+2.490 D released after fallback reveal
+2.490 village music id=98790 gain=0.500 playing=True awake=False samples=43276 listeners=Core_Persistent core=True
+2.494 Village control available x=3.500
+2.587 D down after handoff
+2.617 player x=3.564 after movement
+4.894 finished villageLoads=1 musicStarts=1 invalidCameraListenerFrames=3 finalGain=0.500 sample=150527

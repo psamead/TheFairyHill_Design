@@ -1,5 +1,13 @@
 # ForDesignScreenShot · 设计核对截图
 
+2026-11-28 · [小挎包金色接缝、HUD 外框与森林拾取教学](2026-11-28_for-satchel-unlock/README.md)。
+
+2026-11-28 · [小挎包与 Settings 金色结纹框反馈](2026-11-28_for-celtic-frame/README.md)。
+
+2026-11-28 · [村庄角色与跳跃手臂反馈](2026-11-28_for-jump-arm/README.md)。
+
+2026-11-28 · [第一章负责人试玩截图](2026-11-28_for-chapter1-playtest/README.md)，首图定位主菜单至序章淡变。
+
 2026-11-26 · [负责人第三轮试玩标注与参考游戏](./2026-11-26_for-prologue-and-thorn-wall/README.md)，用于核对序章交互及荆棘墙演出。
 
 

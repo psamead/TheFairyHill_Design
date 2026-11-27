@@ -1,8 +1,14 @@
 # HANDOFF — 《妖精丘陵 The Fairy Hills》
 
+## 2026-11-28　实机基线与下一轮接手
+
+工作站已复测主菜单淡变、BG01 / OP01 / OP02 / OP03 字幕与村庄音乐。菜单 0.5 秒淡出，BG01 用 1 秒淡入。村庄音乐由 LevelBootstrap 在揭幕时启动并渐入至 0.50。OP01 与 OP02 部分行尾略过手绘红框，实机保留字号和换行，位置与听感待负责人确认。[实机回报](ForDesignScreenShot/2026-11-28_for-chapter1-playtest/Chapter1_Playtest_2026-11-28_Unity_Review.md)
+
+下一批从共享任务文件接手。跳跃拇指在前，同款金框调细。第一次在第一章第二段森林取得铁十字架时，提示按 F 打开小挎包。背包读取 GameState.HasIronCross，沿用首次破障和场景交接的输入锁。[执行单](CommandForAgentToInitialRun/2026-11-28_Niamh_Jump_Arm_Unity.md) · [人读图解](TechnicalArt/妖精丘陵_第一章试玩与小挎包图解_2026-11-28.docx)
+
 ## 2026-11-26　Unity 试玩修订与设计侧下一步
 
-Unity 工作站从[本轮唯一执行单](CommandForAgentToInitialRun/2026-11-26_Prologue_and_Thorn_Wall_Unity.md)接手。目标场景名 `ch1_S0_prologue`，旧名 `Opening_Chapter1`。设计依据和示意见[人读图解](TechnicalArt/第一章序章转场与十字架首次破障_试玩修订_2026-11-26.docx)。等待 Unity 的有声回报；收件路径为其工程 `Docs/Prologue_and_Thorn_Wall_Unity_Review.md`。设计侧并行推进[小挎包](INVENTORY_SYSTEM_DESIGN.md)，优先做铁十字架从拾取到圣物页可见的完整过程。
+Unity 工作站从[本轮唯一执行单](CommandForAgentToInitialRun/2026-11-26_Prologue_and_Thorn_Wall_Unity.md)接手。目标场景名 `ch1_S0_prologue`，旧名 `Opening_Chapter1`。设计依据和示意见[人读图解](TechnicalArt/第一章序章转场与十字架首次破障_试玩修订_2026-11-26.docx)。工作站已完成 Editor 实测。[序章与荆棘墙回报](<//haoxi-rtx/C/Users/Administrator/Documents/UnityProject/TheFairyHill2D/Docs/Prologue_and_Thorn_Wall_Unity_Review.md>)。设计侧并行推进[小挎包](INVENTORY_SYSTEM_DESIGN.md)，优先做铁十字架从拾取到圣物页可见的完整过程。
 
 
 **2026-11-24 · 当前交接**　[旁白 B 与原稿依据](TechnicalArt/OPENING_STORY_B_2026-11-24.md) · [Unity 工作站任务](CommandForAgentToInitialRun/2026-11-24_Opening_Story_B_Unity_Review.md)。本地完成设计样片；真实工程已接入 A，B 待对端应用和回报。

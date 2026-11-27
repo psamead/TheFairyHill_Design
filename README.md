@@ -1,5 +1,9 @@
 # The Fairy Hills · Design Repository
 
+**2026-11-28 · 第一章试玩与小挎包**　[人读图解](TechnicalArt/妖精丘陵_第一章试玩与小挎包图解_2026-11-28.docx) · [工作站实机回报](ForDesignScreenShot/2026-11-28_for-chapter1-playtest/Chapter1_Playtest_2026-11-28_Unity_Review.md) · [下一批 Unity 执行单](CommandForAgentToInitialRun/2026-11-28_Niamh_Jump_Arm_Unity.md)。入口淡变、四页字幕和村庄音乐已在 Editor 复测。跳跃手型、同款细金框和小挎包待工作站回报。
+
+**2026-11-26 · 小挎包圣物页首轮可审阅**　[拾取前后交互原型](TechnicalArt/Satchel_v1/index.html) · [两页 Word 图解](TechnicalArt/妮芙的小挎包_圣物页首轮图解_2026-11-26.docx)。设计端已核对两种窗口的浏览器交互。此处 Word 为 11 月 26 日首轮试排，现行设计见上方 11 月 28 日图解。
+
 **2026-11-26 · 第一章试玩修订**　[人读图解](TechnicalArt/第一章序章转场与十字架首次破障_试玩修订_2026-11-26.docx) · [序章与森林破障的 Unity 执行单](CommandForAgentToInitialRun/2026-11-26_Prologue_and_Thorn_Wall_Unity.md) · [下一项设计：妮芙的小挎包](INVENTORY_SYSTEM_DESIGN.md)。
 
 

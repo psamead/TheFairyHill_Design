@@ -1,5 +1,9 @@
 <!-- 美术交接文件：给新对话（美术宣传 + 技术美术）、Codex 和日后追踪用。2026-10-12 由故事框架对话拆出。 -->
 
+## 2026-11-28　圣物页与跳跃手型
+
+圣物页复用森林十字架，绿内衬收在 HUD 细金框内。去掉虚线，圣物格六处拼接点以实心金圆收口。Settings 等同款结纹框缩细边条与角花。妮芙跳跃按红线局部翻折手腕，短拇指朝前，腕部试排仍需修顺边线与明暗。[人读图解](TechnicalArt/妖精丘陵_第一章试玩与小挎包图解_2026-11-28.docx) · [Unity 执行单](CommandForAgentToInitialRun/2026-11-28_Niamh_Jump_Arm_Unity.md)
+
 ## 2026-11-24 开场故事画与 v9 音乐交付
 
 本轮交接 BG01 选定 U4、BG02 修边 v4、OP01 r04 U4、OP02 合成 v1、OP03 双人 v6；同批音频使用 v9。见[逐镜源文件与制作复盘](TechnicalArt/OPENING_FIVE_SCENES_2026-11-24.md)、[校验清单](TechnicalArt/unity_drop/2026-11-24_Opening_Five_Scenes_v9/manifest.json)、[Unity 任务](CommandForAgentToInitialRun/2026-11-24_Opening_Five_Scenes_v9_Unity.md)。

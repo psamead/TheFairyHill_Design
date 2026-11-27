@@ -1,5 +1,7 @@
 # 妖精丘陵 The Fairy Hills · 设计仓库
 
+**2026-11-28 · 第一章试玩与小挎包**　[人读图解](TechnicalArt/妖精丘陵_第一章试玩与小挎包图解_2026-11-28.docx) · [工作站实机回报](ForDesignScreenShot/2026-11-28_for-chapter1-playtest/Chapter1_Playtest_2026-11-28_Unity_Review.md) · [下一批 Unity 执行单](CommandForAgentToInitialRun/2026-11-28_Niamh_Jump_Arm_Unity.md)。入口淡变、四页字幕和村庄音乐已在 Editor 复测。跳跃手型、同款细金框和小挎包待工作站回报。
+
 **2026-11-26 · 第一章试玩修订**　[给制作人员的图解与经验](TechnicalArt/第一章序章转场与十字架首次破障_试玩修订_2026-11-26.docx) · [Unity 执行单](CommandForAgentToInitialRun/2026-11-26_Prologue_and_Thorn_Wall_Unity.md) · [背包设计接续](INVENTORY_SYSTEM_DESIGN.md)。
 
 

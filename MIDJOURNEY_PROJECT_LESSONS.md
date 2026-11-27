@@ -1,5 +1,9 @@
 # Midjourney prompting — lessons from Lantern Keeper and Fairy Hills
 
+## 2026-11-28　局部手型与界面标注的写法
+
+先写观察方向、相对位置与修改范围。例如 “With Niamh facing screen right, place the short thumb on the leading, upper-right edge of the visible hand. Keep the shoulder angle, sleeve and forearm aligned to the source.” 原手绘层锁定身份和袖口，红线只定义拇指位置，腕部放大图核对接缝。界面编辑同样写到目标层和位置，例如六处接缝的小金圆与框内绿底。本轮以离线试排核对，这段英文供下次编辑时参考，未提交到 Midjourney。 [手型](ForDesignScreenShot/2026-11-28_for-jump-arm/02_thumb_forward_markup.png) · [界面](ForDesignScreenShot/2026-11-28_for-satchel-unlock/README.md)
+
 ## 2026-11-26　根据手绘批注写光束与粒子的提示词
 
 先写标注图的图例。黄线标的是半透明白烟，橙线与绿线分别划出现有橙色粒子、橘黄火星的覆盖区；把笔触颜色直接当成效果颜色会画出绿火星。再写实际光色的空间顺序，从米黄芯到亮白光带、冷蓝外缘。若需要静帧，分别描述初闪、窄束、强束与消散各帧，并固定角色姿势、光源和命中点。3 秒照射与操作锁定另写进 Unity 任务，以游戏录屏核对。以下为待用措辞，本轮未提交生成：

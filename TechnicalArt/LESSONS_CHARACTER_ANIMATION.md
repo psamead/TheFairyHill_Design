@@ -1,5 +1,9 @@
 # Character animation lessons — The Fairy Hills
 
+## 2026-11-28　先确认手型
+
+跳跃第一版试排将整个肩摆反向。负责人随后标出短拇指应在运动前侧。固定同一肩角，放大比较腕口、拇指和手掌方向。正式动作部件保持同画布和肩枢轴，腕部翻折后修顺轮廓和肤色，再用左右朝向与原游戏尺寸复验。当前为离线试排。[负责人标注](../ForDesignScreenShot/2026-11-28_for-jump-arm/02_thumb_forward_markup.png) · [执行单](../CommandForAgentToInitialRun/2026-11-28_Niamh_Jump_Arm_Unity.md)
+
 **2026-11-19 Unity反馈补记：** B直接举高接入现有红墙事件后，网络端的Editor工具检查确认左右朝向、触发、短暂停势、墙体消解和恢复路径均有证据。必须把“动作图已画”“Unity已接入”“工具模拟运行”“负责人实际游玩与审看”分开写。报告速度字段与最终Console日志冲突时不要沿用猜测值；按实际路线复测并保存日志。原始截图和报告入口见 `ForDesignScreenShot/2026-11-18_for-opening-cross-raise/README.md`。本轮未改变动作图、源PSD、Unity资源或代码。
 
 **2026-11-18 预览补充：** 两张持势 GIF 保留。idle 到胸前的网格中间帧出现袖口变形、手臂衔接不自然，不能当作有效连续动作；按用户备选提供 idle 直接切胸前原稿版。第二种继续做，用户指定用第一张胸前抱持原稿替换此前两个变形的中间姿势，因此当前顺序是 idle → 胸前抱持 → 举高。先提供原画关键姿势切换，等待用户判断节奏；不把它称为平滑骨骼动画，也不增加第三张独立动作图。当前文件入口见 `TechArtAsset/Characters/Niamh/Cross_Actions/README.md`。

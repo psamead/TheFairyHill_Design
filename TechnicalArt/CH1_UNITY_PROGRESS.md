@@ -1,5 +1,11 @@
 # Chapter 1 Unity Progress — S1 Village and Forest Path
 
+## 2026-11-28　第一章工作站回报
+
+从 MainMenu 用鼠标自然播放与键盘跳过均跑到村庄，两种分辨率的四页字幕无溢出。村庄音乐只启动一次，从零淡入 0.50，修后录屏保留恢复操作后超过 11 秒的稳定音量。工作站用 Unity Editor 的 EventSystem 与注入键盘输入复测，实际键盘体验、制作版和负责人验收仍待核对。[归档回报与有声证据](../ForDesignScreenShot/2026-11-28_for-chapter1-playtest/Chapter1_Playtest_2026-11-28_Unity_Review.md)
+
+跳跃拇指在前、同款细金框与森林拾取解锁的圣物页待实机回报。[当前任务](../CommandForAgentToInitialRun/2026-11-28_Niamh_Jump_Arm_Unity.md)
+
 2026-11-24 · 五页故事、试排 A 与 v9 已接入真实工程。运行时与开场重建工具离线编译通过；目标 Editor 实播和负责人试玩待验。[Unity 实施回报](<//haoxi-rtx/C/Users/Administrator/Documents/UnityProject/TheFairyHill2D/Docs/Opening_Five_Scenes_v9_Unity_Handoff.md>)
 
 ## 2026-11-24 · 五镜与配乐 v9 接入

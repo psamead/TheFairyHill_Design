@@ -1,5 +1,15 @@
 # 妖精丘陵 · 背包系统（妮芙的小挎包）设计 v1（2026-10-26）
 
+## 2026-11-28　森林拾取解锁与 F 键教学（现行）
+
+第一章第二段森林中首次取得铁十字架后，小挎包才解锁。拾取前隐藏入口，按 F 无效。首次拾取显示 “Iron Cross found. Press F to open your satchel.”，由玩家按 F 打开，重按 F 收回。持有状态随本次游玩跨场景保留；主菜单、设置、序章、加载与剧情锁定期间均禁开。新游戏重新等待拾取。
+
+圣物格六处边条接缝使用金色实心圆。包内同时包住图标和详情的大框复用村庄 HUD 的细金框。见[现行交互原型](TechnicalArt/Satchel_v1/index.html)、[设计草稿](TechnicalArt/Satchel_v1/Unity_implementation_draft.md)和[本轮标注](ForDesignScreenShot/2026-11-28_for-satchel-unlock/README.md)。[人读图解](TechnicalArt/妖精丘陵_第一章试玩与小挎包图解_2026-11-28.docx)与[执行单](CommandForAgentToInitialRun/2026-11-28_Niamh_Jump_Arm_Unity.md)已更新，待工作站实机回报。下方 11 月 26 日的拾取前空页和当日 Word 图解为历史试排。
+
+**2026-11-26 · 小挎包圣物页首轮可审阅**　[拾取前后交互原型](TechnicalArt/Satchel_v1/index.html) · [两页 Word 图解](TechnicalArt/妮芙的小挎包_圣物页首轮图解_2026-11-26.docx)。设计端已核对两种窗口的浏览器交互。背包继续在设计对话中完善，定稿后再派给 Unity。
+
+本次英文试排用 Empty pocket 对应拾取前，用 Iron Cross / Broken cord 对应拾取后。图标来自森林透明道具源图，保留原铁件与红绿缠饰；结局前一直显示断绳。关闭背包后的“走近”按钮模拟自动拾取。其余三页保留 Demo Must，首轮仅预留标签。
+
 ## 2026-11-26　第一轮制作从铁十字架开始
 
 背包在 10 月 26 日已列为 Demo 必做项。当前森林拾取由 `IronCrossPickup` 调用角色的 `CollectIronCross()`，`GameState.HasIronCross` 保存本次游玩中的持有状态。工作站进度记录尚未交付可打开的背包界面。原规格的圣物、石牌、记忆与妮芙四页继续作为 Demo 范围。
@@ -33,7 +43,7 @@
 
 ## 4. 什么时候能打开
 
-- 默认：任何时候按键（建议 Tab / I / 手柄 Select）打开，**游戏暂停**。
+- 现行：持有铁十字架后在可操作场景按 F 开关，打开时**游戏暂停**。
 - **禁用**：交易对话、过场动画、结尾卡、Boss 战、第五章原路返回逃脱段、场景切换加载中。
 - 实现：统一一个 `CanOpenInventory` 开关（由 GameState 根据当前状态给出），不在各处分别判断。
 

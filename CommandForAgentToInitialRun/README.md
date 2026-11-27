@@ -1,6 +1,12 @@
 # Agent 任务单索引与写法
 
-**2026-11-26 · 当前待执行**　[第一章序章、封面过渡与森林首次破障](./2026-11-26_Prologue_and_Thorn_Wall_Unity.md)。工作站从这一份任务开始。
+**2026-11-28 · 当前工作站任务**　[跳跃手型、同款细金框与小挎包圣物页](2026-11-28_Niamh_Jump_Arm_Unity.md)。三项共用一份执行单和一份实机回报，已供工作站取用。
+
+**2026-11-28 · 负责人试玩修订**　[本轮 Unity 任务](2026-11-28_Chapter1_Playtest_Unity.md)。三项已收到工作站实机回报，待负责人确认。包括主菜单进入序章的画面淡变、四页字幕位置与村庄入场音量。
+
+**2026-11-26 · 背包设计起点**　[背包规格](../INVENTORY_SYSTEM_DESIGN.md)记录首轮试排到拾取解锁的变化。实施见上方 11 月 28 日执行单。
+
+**2026-11-26 · 已有工作站回报**　[第一章序章、封面过渡与森林首次破障](./2026-11-26_Prologue_and_Thorn_Wall_Unity.md)。[序章与荆棘墙实机回报](<//haoxi-rtx/C/Users/Administrator/Documents/UnityProject/TheFairyHill2D/Docs/Prologue_and_Thorn_Wall_Unity_Review.md>)。
 
 
 **2026-11-26 · 原字号字幕复测已回报**　[原任务单](2026-11-25_Opening_Story_B_Caption_Red_Boxes_Unity_Check.md) · [实机结果与截图](../ForDesignScreenShot/2026-11-26_for-opening-caption-fixed-size/README.md)。
